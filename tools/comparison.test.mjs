@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {createServer} from 'node:http';
 import {readFile} from 'node:fs/promises';
 import {createApp} from '../server.mjs';
-import {generateGuidance,readConfig,buildRequest,parseResponse,validateInput} from '../server/guidance.mjs';
+import {generateGuidance,readConfig,buildRequest,parseResponse,validateInput} from '../comparison/guidance.mjs';
 import {analyzeFrames,compare,segmentReps,features,VERSION} from '../comparison/core.mjs';
 const image='data:image/jpeg;base64,/9j/2Q==';
 const input=()=>({report:{version:1,exerciseId:'cable-curl-with-bar',templateVersion:VERSION,duration:5,quality:{usable:true,coverage:.9},repCount:1,metrics:[{id:'elbowRange',value:90,reference:100,status:'similar',confidence:.9},{id:'armDrift',value:.5,reference:.1,status:'different',confidence:.9},{id:'torsoSway',value:5,reference:3,status:'similar',confidence:.9}],segments:[{start:0,peak:2,end:4,differences:['armDrift']}]},frames:[{time:2,dataUrl:image}]});
@@ -37,19 +37,19 @@ test('model response validates bounds, enums, length, refusal and truncation',()
  assert.throws(()=>parseResponse({choices:[{finish_reason:'stop',message:{refusal:'No'}}]},5));
  assert.throws(()=>parseResponse(response({...guidance,disagreements:[{metricId:'unknown',reason:'x'}]}),5));
 });
-test('real HTTP relay uses Bearer + /v1/chat/completions, keeps secrets off static routes',async()=>{
+test('browser client uses Bearer directly; static server has no model relay',async()=>{
  let recorded;
  const upstream=createServer(async(req,res)=>{let data='';for await(const chunk of req)data+=chunk;recorded={path:req.url,auth:req.headers.authorization,body:JSON.parse(data)};res.setHeader('Content-Type','application/json');res.end(JSON.stringify(response()));});
  const url=await listen(upstream);
  const app=createApp({config:{enabled:true,baseUrl:url+'/v1/',apiKey:'test-secret',model:'local-vision',timeoutMs:1000}});
  const base=await listen(app);
  try{
-  const result=await fetch(base+'/api/guidance',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify(input())});
-  assert.equal(result.status,200);assert.deepEqual((await result.json()).guidance,guidance);
+  const result=await generateGuidance(input(),{config:{enabled:true,baseUrl:url+'/v1/',apiKey:'test-secret',model:'local-vision'}});
+  assert.deepEqual(result.guidance,guidance);
   assert.equal(recorded.path,'/v1/chat/completions');assert.equal(recorded.auth,'Bearer test-secret');assert.equal(recorded.body.model,'local-vision');
   assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/server/guidance.mjs')).status,404);
   const status=await(await fetch(base+'/guidance-status.json')).text();assert.equal(status.includes('test-secret'),false);
-  assert.equal((await fetch(base+'/api/guidance',{method:'POST',headers:{Origin:'https://elsewhere.invalid','Content-Type':'application/json'},body:JSON.stringify(input())})).status,403);
+  assert.equal((await fetch(base+'/api/guidance',{method:'POST',headers:{Origin:'https://elsewhere.invalid','Content-Type':'application/json'},body:JSON.stringify(input())})).status,405);
   const range=await fetch(base+'/assets/cable-curl-with-bar.mp4',{headers:{Range:'bytes=0-99'}});assert.equal(range.status,206);assert.equal((await range.arrayBuffer()).byteLength,100);
  }finally{await close(app);await close(upstream);}
 });
@@ -75,4 +75,23 @@ test('landmark math respects aspect ratio and rejects hidden joints',()=>{
  for(const [id,x,y] of [[11,.5,.2],[13,.5,.4],[15,.7,.4],[23,.5,.6],[12,.52,.2]])points[id]={x,y,visibility:.99,presence:1};
  const sample=features([{time:0,width:960,height:480,points}])[0];assert.equal(sample.elbow,90);
  points[15].visibility=.1;assert.equal(features([{time:0,width:960,height:480,points}])[0],null);
+});
+
+// Browser-owned configuration never falls back to environment variables.
+test('browser configuration persists, validates endpoint and clears credentials',async()=>{
+ const {saveConfig,readConfig,clearConfig}=await import('../comparison/guidance.mjs');
+ const values=new Map();globalThis.localStorage={getItem:k=>values.get(k)||null,setItem:(k,v)=>values.set(k,v),removeItem:k=>values.delete(k)};
+ try{saveConfig({enabled:true,baseUrl:'https://example.com/v1',model:'vision',apiKey:'local-key'});assert.equal(readConfig().apiKey,'local-key');assert.throws(()=>saveConfig({enabled:true,baseUrl:'http://remote.example/v1',model:'vision',apiKey:'key'}));assert.throws(()=>saveConfig({enabled:true,baseUrl:'https://example.com/v1?key=secret',model:'vision',apiKey:'key'}));clearConfig();assert.equal(readConfig().enabled,false);assert.equal(values.size,0);}finally{delete globalThis.localStorage;}
+});
+test('exercise comparison rejects missing joints and mismatched camera views',async()=>{
+ const {analyzeExercise,compareExercise,profileFor}=await import('../comparison/exercises.mjs');
+ assert.equal(profileFor('leg-press').kind,'knee');assert.equal(profileFor('hip-abduction-machine').kind,'abduction');assert.equal(profileFor('calf-raise-in-leg-press').kind,'ankle');
+ assert.equal(analyzeExercise([],5,'leg-press').quality.usable,false);
+ const a={quality:{usable:true,coverage:1},duration:4,viewRatio:.1,reps:[{elbowRange:50,armDrift:2,torsoSway:3,start:0,peak:1,end:2,samples:[{time:0,elbow:100,torso:0},{time:1,elbow:50,torso:3},{time:2,elbow:100,torso:0}]}]};
+ assert.throws(()=>compareExercise(a,{...a,viewRatio:1},'leg-press'),/角度/);
+ assert.ok(compareExercise(a,a,'leg-press').metrics.every(m=>m.status==='similar'));
+});
+test('generic report retains exercise-specific units and tolerances in model payload',()=>{
+ const data=input();data.report.exerciseId='leg-press';data.report.templateVersion='exercise-projection-v1';data.report.metrics[1]={...data.report.metrics[1],label:'每次动作时长',unit:'秒',tolerance:1};
+ const report=validateInput(data).report;assert.equal(report.exerciseId,'leg-press');assert.equal(report.metrics[1].tolerance,1);assert.equal(report.metrics[1].unit,'秒');
 });

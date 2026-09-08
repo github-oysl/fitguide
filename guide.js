@@ -91,7 +91,7 @@
     pauseAll(); releaseMedia(document.getElementById('detail-content')); lastTrigger=trigger;
     document.getElementById('detail-content').innerHTML=`<div class="detail-heading"><p class="eyebrow">${escape(item.attachment)}</p><h2 id="detail-title">${escape(item.name)}</h2><p class="detail-cue">${escape(item.cue)}</p></div><div class="detail-grid"><div><div class="detail-media">${mediaMarkup(item)}</div><p class="media-note">循环演示 · 无配音 · 可随时暂停<br>动作轨迹示例，器械外观可能不同。</p><div class="muscle-panel"><b>主要训练</b><p>${escape(item.primary)}</p><b>辅助参与</b><p>${escape(item.secondary)}</p></div><div class="prescription"><span><b>${escape(item.sets)}</b>参考组次</span><span><b>${escape(item.rest)}</b>组间休息</span></div><p class="media-note">从轻重量、2 组开始。发力时呼气，回程控制速度；停止前保留约 2 次规范动作的余力。</p></div><div class="instructions"><h3>调节 → 发力 → 还原</h3><ol>${item.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol><div class="mistake"><b>容易做错</b><p>${escape(item.mistake)}</p></div><div class="source-links"><a href="assets/${item.id}.mp4" download>↓ 下载动作演示</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">图解原文 ↗</a>${item.video?`<a href="${escape(item.video)}" target="_blank" rel="noopener noreferrer">英文讲解视频 ↗</a><small>${escape(item.videoNote)}</small>`:''}</div></div></div>`;
     bindMedia(document.getElementById('detail-content'));
-    if (id === 'cable-curl-with-bar') {
+    if (item) {
       const compareButton = document.createElement('button');
       compareButton.type = 'button'; compareButton.className = 'compare-entry';
       compareButton.textContent = '对比我的动作 ↗';
@@ -102,7 +102,7 @@
           return;
         }
         compareButton.disabled = true;
-        try { const {openComparison} = await import('./comparison/ui.mjs'); await openComparison(compareButton); }
+        try { const {openComparison} = await import('./comparison/ui.mjs'); await openComparison(compareButton, item); }
         catch { compareButton.textContent = '加载失败，点击重试'; }
         finally { compareButton.disabled = false; }
       });

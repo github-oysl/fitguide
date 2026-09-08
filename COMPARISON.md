@@ -1,88 +1,47 @@
-# 动作对比与模型指导
+# 动作对比与浏览器模型设置
 
-当前支持 **直杆绳索弯举 / 侧面拍摄**，入口在该动作详情的“对比我的动作”。
+24 个动作详情均提供“对比我的动作”。上传视频后可分别播放、暂停和拖动自己的视频与该动作的参考示范。姿态模型与计算运行在浏览器 Worker 中，不上传完整视频，不自动打卡。
 
 ## 启动
 
-安装 Node.js 20+，在项目目录运行：
+运行 `node server.mjs`，打开 http://127.0.0.1:8766。也可使用支持 WASM 和 ES module 的静态网页托管。Node 服务只提供静态文件与视频分段读取，不执行模型调用。直接打开 index.html 可用教学和打卡；视频分析需要 HTTP 页面。
 
-```sh
-node server.mjs
-```
+视频限制：1–30 秒、50 MB，单人入镜、机位固定、全身及相关关节可见，录制 2–3 次完整往返。浏览器需支持 Module Worker、WASM SIMD 及视频编码。
 
-打开 http://127.0.0.1:8766。服务默认只监听本机。无 npm 安装步骤。
+## 模型配置仅存用户浏览器
 
-选择 1–30 秒、50 MB 以内的单人视频。姿态模型、WASM、参考模板均为本地文件，使用约 5 FPS 抽帧；分析仅在浏览器 Worker 中进行，关闭窗口或取消会终止分析。不会把分析自动记作训练打卡。
+在对比窗口展开“模型设置（仅存此浏览器）”，填写 OpenAI 兼容接口基础地址（例如 https://example.com/v1）、支持图片的模型名和 API 密钥，按需勾选 JSON 模式并保存。配置存于当前网站的 localStorage（`fitguide.model.v1`），刷新后保留，不同步至服务器或其他浏览器。可以一键清除配置与密钥；浏览器禁用存储时显示保存失败。
 
-浏览器需支持 WebAssembly SIMD、WebGL2、Module Worker 和所选视频编码。MP4 / WebM 是否可解码取决于浏览器；MOV 仅在浏览器支持时可用。直接以 file:// 打开仍可使用动作教学和打卡，视频分析请通过网页服务打开。
+默认关闭模型。只有用户点击“发送关键帧并生成指导”后，浏览器才直接向配置地址的 `/chat/completions` 发请求，携带最多 6 张 JPEG 关键帧、时间和对比报告，不发送音频、文件名或完整视频。不经过本站服务器，不使用服务器密钥、算力或额度。密钥保存在浏览器本地，仍会随 Authorization 请求头发送给用户指定的模型提供方。请在可信设备使用。
 
-## OpenAI 兼容接口（默认关闭）
+接口必须允许页面来源的 CORS 请求及 Authorization / Content-Type 请求头，并支持图片输入。接口地址要求 HTTPS（localhost 可用 HTTP）。跨域失败不会回退到服务器代理。30 秒模型超时；用户可取消，不自动重试。响应经过 JSON、指标、时间范围和长度校验后展示。
 
-复制 `.env.example` 为 `.env`，启用时配置：
+## 对比范围
 
-```dotenv
-GUIDANCE_ENABLED=true
-OPENAI_BASE_URL=https://你的兼容服务地址/v1
-OPENAI_API_KEY=你的密钥
-OPENAI_MODEL=支持图片输入的模型名
-OPENAI_JSON_MODE=true
-PORT=8766
-```
+直杆绳索弯举保留已提取的侧面模板和弯举专用指标：肘角幅度、上臂位移、躯干晃动。
 
-启动：
+其余动作首次分析时，在本机提取对应参考视频的姿态，当前窗口会话内缓存：
 
-```sh
-node --env-file=.env server.mjs
-```
+- 腿举、腿屈伸、腿弯举：膝关节幅度。
+- 直臂下压、侧平举：上臂与躯干夹角幅度。
+- 夹胸、反向飞鸟：双腕距离相对躯干长度的投影开合幅度（投影单位，不是关节角）。
+- 卷腹：躯干与大腿夹角幅度。
+- 髋外展：双腿开合角度。
+- 提踵：膝、踝、前脚掌构成的角度幅度。
+- 其他推、拉、屈伸动作：肘关节幅度。
 
-`OPENAI_BASE_URL` 是版本基础地址，程序追加 `/chat/completions`，不要填写完整的 completions 路径。兼容服务需支持 `messages` 中的 `image_url`。如果不支持 `response_format: {type: "json_object"}`，可设置 `OPENAI_JSON_MODE=false`，返回内容仍会进行 JSON 校验。密钥仅用于服务端 Bearer 请求，不发送到浏览器。
+同时比较每次往返时长和躯干角度变化。支持从伸展或收缩端开始的完整往返。只测可见的二维投影，不评价关节受力、疼痛或受伤风险。用户视频与示范角度明显不同时，不给数值结论。
 
-前端先读取 `GET /guidance-status.json`。关闭时返回 `{"enabled":false}`，不会调用模型。开启后，用户点击“发送关键帧并生成指导”，才调用同源 `POST /api/guidance`，发送 `{report, frames}`。`frames` 是最多 6 张 JPEG base64 图片及原视频时间（秒），不传完整视频、音频或视频文件名；界面在按钮旁说明发送范围。
+可通过“替换参考视频”选择同动作、同角度的 1–30 秒参考视频（50 MB 内），参考视频同样仅在浏览器分析，关闭窗口释放。
 
-服务端将代码报告与带时间的图片装入 Chat Completions 的 `system` / `user` 消息，`stream:false`，默认 `response_format: {type:"json_object"}`。不自动重试。超时 30 秒；取消操作中止 HTTP 请求。当前服务适合本机使用，未实现多用户登录或公网额度管理。
+本轮真实 Worker 检查中，18 个内置示范可生成报告；坐姿腿弯举、正握高位下拉、窄握坐姿划船、反向飞鸟、过顶臂屈伸、腿举机提踵未通过质量检查，可人工对照或替换参考视频。这些动作尚未完成可靠的内置数值对比。
 
-成功响应：
+不是所有示范都能通过姿态检测：遮挡、有效关键点少于 75%、幅度过小、没有完整往返等情况会提示无法量化，仍可使用双视频人工对照。接入入口不等于每个视频都能获得数值报告。阈值为试验参数，参考只有单个示例，尚未做人群验证，不提供合格率或安全评分。不同身材、机位和器械仍可能影响结果。
 
-```json
-{
-  "status": "completed",
-  "source": "model",
-  "guidance": {
-    "summary": "简短总结",
-    "tips": [
-      {"metricId":"armDrift","start":0.4,"end":1.2,"observation":"观察到的现象","adjustment":"具体调整建议"}
-    ],
-    "uncertainties": ["看不清或不能推断的事项"],
-    "disagreements": [
-      {"metricId":"armDrift","reason":"与代码判定不同的依据"}
-    ]
-  }
-}
-```
+## 验证
 
-`tips`、`uncertainties`、`disagreements` 最多各 3 项。指标限定 `elbowRange` / `armDrift` / `torsoSway`，时间必须落在视频范围内。非 JSON、截断、拒绝或不合格式的响应不作为指导展示。未启用返回 `{"status":"not_connected"}`；错误返回 HTTP 4xx/5xx 和 `{status:"error",code,message}`，不回显上游响应或密钥。
+`node --test tools/comparison.test.mjs tools/checkin-stats.test.cjs`
 
-格式依据：[OpenAI Chat Completions](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create)。兼容提供方的图片能力和 JSON 模式需分别确认。
+`node tools/verify-all-comparisons.cjs` 使用 Playwright + Chrome 逐个运行本地示范的真实 Worker 推理，检查可用报告自对比及浏览器配置保存/清除。不调用外部模型。
 
-## 对比方法与实际限制
-
-- 固定拍摄角度和选定动作；不进行通用动作识别。
-- 按可见性选取身体的一侧，检查肩、肘、腕、髋部覆盖率及粗略侧面特征。遮挡、多人、静止画面或未识别到完整往返时不给出对比结论。
-- 图像关键点换算回等比例像素坐标后计算肘角；上臂位移按躯干长度归一化。以弯举前后两个阶段归一化为 21 个点，保留原视频时间定位。
-- 比较每次动作的幅度、上臂位移、躯干晃动，多次动作取中位数；每次动作的差异仍在片段按钮中标出。
-- `curl-reference.json` 来自现有参考视频的真实姿态提取，记录模板版本。当前只有 1 个参考动作样本，差异阈值为试验参数（20° / 0.15 倍躯干长度 / 10°），尚未经过人群验证。只代表与示例的差异，不是动作准确率、医疗判断或安全评分。
-- 目前验证了参考视频自对比、静止视频、程序构造的变速/缺帧序列；尚未验证不同人群、现场器械遮挡和真实手机拍摄误差。姿态模型自身会输出部分初始化诊断日志。
-
-## 检查与更新
-
-```sh
-node --test tools/comparison.test.mjs tools/checkin-stats.test.cjs
-python tools/build-offline.py
-```
-
-浏览器脚本使用 Playwright，可通过 `NODE_PATH` 指向已安装的包，通过 `QA_CHROMIUM` 指定 Chromium。
-
-- `tools/build-reference.cjs`：从参考视频重新提取模板（本地服务需已启动，`QA_URL` 默认 8766）。
-- `tools/verify-comparison.cjs`：真实 Worker 推理、静止视频拒绝、取消、回放、模型失败重试/成功状态。静止视频由 `ffmpeg -loop 1 -i assets/cable-curl-with-bar.jpg -t 3 -vf format=yuv420p -c:v libx264 test-artifacts/static-curl.mp4` 生成。模型状态使用隔离的 HTTP mock，不调用外部模型。
-
-运行库：MediaPipe Tasks Vision 1.0.1，按需加载 ES module 的 SIMD WASM；来源与许可证见 `vendor/mediapipe/NOTICE.md` 和 `LICENSE`。
+运行库为本地 MediaPipe Tasks Vision，来源和许可证见 vendor/mediapipe。

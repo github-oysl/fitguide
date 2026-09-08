@@ -13,7 +13,7 @@ export async function openVideo(source, signal) {
   const video=document.createElement('video');video.muted=true;video.playsInline=true;video.preload='auto';
   try {
     await waitEvent(video,'loadeddata',signal,()=>{video.src=source;video.load();});
-    if(!Number.isFinite(video.duration)||video.duration<1||video.duration>30.1) throw new Error('请选择 1–30 秒的视频，包含 2–3 次完整弯举。');
+    if(!Number.isFinite(video.duration)||video.duration<1||video.duration>30.1) throw new Error('请选择 1–30 秒的视频，包含 2–3 次完整动作。');
     return video;
   } catch(error) { video.removeAttribute('src');video.load();throw error; }
 }
