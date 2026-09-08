@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-09-08",
+  "attribution": "StrengthLog，原作者保留版权；本地学习副本，原始动图转为 MP4 并提取封面。",
+  "media": [
+    {
+      "id": "cable-chest-fly",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/cable-chest-fly.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5537123,
+      "videoBytes": 98879,
+      "posterBytes": 49785,
+      "duration": 3
+    },
+    {
+      "id": "cable-crunch",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/cable-crunch.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5484469,
+      "videoBytes": 102907,
+      "posterBytes": 44648,
+      "duration": 2.9
+    },
+    {
+      "id": "cable-curl-with-bar",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/11/cable-curl-with-bar.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 9063214,
+      "videoBytes": 62298,
+      "posterBytes": 39400,
+      "duration": 2.8
+    },
+    {
+      "id": "cable-curl-with-rope",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/11/cable-curl-with-rope.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 10239930,
+      "videoBytes": 69097,
+      "posterBytes": 38903,
+      "duration": 3.1
+    },
+    {
+      "id": "cable-incline-chest-fly",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2026/02/cable-incline-chest-fly.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 2848722,
+      "videoBytes": 65817,
+      "posterBytes": 35016,
+      "duration": 3.2
+    },
+    {
+      "id": "cable-lateral-raise",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/11/cable-lateral-raise.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 12028575,
+      "videoBytes": 79865,
+      "posterBytes": 43110,
+      "duration": 4.1
+    },
+    {
+      "id": "cable-row-seated-narrow-grip",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/cable-row-seated-narrow-grip.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5896038,
+      "videoBytes": 99457,
+      "posterBytes": 46022,
+      "duration": 3.2
+    },
+    {
+      "id": "calf-raise-in-leg-press",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/10/calf-raise-in-leg-press.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 13741645,
+      "videoBytes": 83801,
+      "posterBytes": 54584,
+      "duration": 4.2
+    },
+    {
+      "id": "face-pull",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/05/face-pull.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 4604792,
+      "videoBytes": 73788,
+      "posterBytes": 42651,
+      "duration": 2.5
+    },
+    {
+      "id": "hip-abduction-machine",
+      "source": "https://www.strengthlog.com/abductor-exercises",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/hip-abduction-machine.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 3719912,
+      "videoBytes": 79976,
+      "posterBytes": 45043,
+      "duration": 2.1
+    },
+    {
+      "id": "lat-pulldown-with-pronated-grip",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/lat-pulldown-with-pronated-grip.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 3703938,
+      "videoBytes": 73695,
+      "posterBytes": 44875,
+      "duration": 2.2
+    },
+    {
+      "id": "lateral-raise-machine",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/04/lateral-raise-machine.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 4256632,
+      "videoBytes": 82654,
+      "posterBytes": 44568,
+      "duration": 2.4
+    },
+    {
+      "id": "leg-curl-seated",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/leg-curl-seated.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 3988214,
+      "videoBytes": 109036,
+      "posterBytes": 46155,
+      "duration": 2
+    },
+    {
+      "id": "leg-extension-seated",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/leg-extension-seated.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 3677780,
+      "videoBytes": 98183,
+      "posterBytes": 47899,
+      "duration": 1.9
+    },
+    {
+      "id": "leg-press",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/leg-press.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5564049,
+      "videoBytes": 107443,
+      "posterBytes": 53861,
+      "duration": 2.9
+    },
+    {
+      "id": "machine-chest-fly",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/machine-chest-fly.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 7872605,
+      "videoBytes": 183168,
+      "posterBytes": 56351,
+      "duration": 4.8
+    },
+    {
+      "id": "machine-chest-press",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/machine-chest-press.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 3487648,
+      "videoBytes": 68644,
+      "posterBytes": 44257,
+      "duration": 1.9
+    },
+    {
+      "id": "machine-shoulder-press",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/machine-shoulder-press.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 4577366,
+      "videoBytes": 85265,
+      "posterBytes": 48017,
+      "duration": 2.4
+    },
+    {
+      "id": "overhead-tricep-extension-lower-position",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/11/overhead-tricep-extension-lower-position.gif?resize=700%2C700&ssl=1",
+      "originalBytes": 9762249,
+      "videoBytes": 65616,
+      "posterBytes": 44496,
+      "duration": 3.3
+    },
+    {
+      "id": "pallof-press",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2025/10/pallof-press.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 6392655,
+      "videoBytes": 48382,
+      "posterBytes": 25836,
+      "duration": 4.3
+    },
+    {
+      "id": "reverse-cable-fly",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2023/08/Reverse-cable-fly.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5053376,
+      "videoBytes": 77299,
+      "posterBytes": 40164,
+      "duration": 3
+    },
+    {
+      "id": "seated-machine-row",
+      "source": "https://www.strengthlog.com/best-machine-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/04/seated-machine-row.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 5542767,
+      "videoBytes": 95383,
+      "posterBytes": 47850,
+      "duration": 3.1
+    },
+    {
+      "id": "straight-arm-lat-pulldown",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/12/Straight-arm-lat-pulldown.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 6343917,
+      "videoBytes": 109195,
+      "posterBytes": 42083,
+      "duration": 3.7
+    },
+    {
+      "id": "triceps-pushdown-with-rope",
+      "source": "https://www.strengthlog.com/best-cable-exercises/",
+      "originalUrl": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/triceps-pushdown-with-rope.gif?resize=600%2C600&ssl=1",
+      "originalBytes": 4143069,
+      "videoBytes": 76848,
+      "posterBytes": 49102,
+      "duration": 2.2
+    }
+  ]
+}

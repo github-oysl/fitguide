@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="按目标肌肉和器械筛选24个训练动作，查看本地视频、器械设置、发力要领和中文分步说明。内置按部位训练计划与本机打卡，不收集任何数据。">
+  <meta name="theme-color" content="#344c3b">
+  <title>练哪里，怎么练 · 器械训练手册</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23344c3b'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-size='24' fill='%23e3ebae'%3E练%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./index.html">▦ <span>器械入门</span><small>训练手册 / 03</small></a><span class="download">✓ 离线学习版</span></header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">选目标肌肉 · 找器械 · 跟着练</p><h1>今天，想练哪里？</h1><p class="lede">24 个动作，从器械调节到发力路线。先看图，再点播演示，动作说明全中文。</p></div>
+      <div class="local-note"><b>图片与演示已本地化</b><p>点一次持续循环，同一时间只播放一个动作。<br>下载后解压，打开 index.html 即可离线学习。</p><small>本地演示无配音；外部讲解与来源页仍需联网。</small></div>
+    </section>
+    <section class="plans" id="plans" aria-label="训练计划与打卡">
+      <div class="plans-head">
+        <p class="eyebrow">训练计划 · 本机打卡</p>
+        <h2>按部位排好的计划，练完一个打个勾</h2>
+        <p class="lede">从 4 套按部位划分的计划里选一套：推拉腿、新手全身、五分化增肌，或单部位专场。打卡记录只保存在当前这个浏览器里（localStorage），不会上传到任何服务器。</p>
+      </div>
+      <div class="plan-tabs" id="plan-tabs" role="tablist" aria-label="选择训练计划"></div>
+      <div class="plan-board">
+        <div class="plan-days" id="plan-days" role="tablist" aria-label="选择训练日"></div>
+        <p class="plan-note" id="plan-note"></p>
+        <p class="plan-tip" id="plan-tip"></p>
+        <div class="plan-progress-wrap"><span id="plan-progress" role="status" aria-live="polite"></span><div class="plan-progress-track"><i class="plan-bar" id="plan-bar"></i></div></div>
+        <ol class="plan-items" id="plan-items"></ol>
+        <div class="plan-actions"><button class="reset" id="plan-reset" type="button">重置本日打卡</button><small>打卡记录仅存本机，清除浏览器数据即删除。</small></div>
+        <details class="plan-history" id="plan-history">
+          <summary>▤ 查看历史打卡<small>按日期归档，练过的都在这里</small></summary>
+          <div id="plan-history-list"></div>
+        </details>
+      </div>
+    </section>
+    <section class="filters" aria-label="筛选训练动作">
+      <div class="filter-title"><b>先选训练部位</b><span>筛选按主要训练肌肉匹配</span></div>
+      <div class="part-buttons" id="categories" role="group" aria-label="训练部位"></div>
+      <div class="filter-fields">
+        <label>具体肌肉<select id="muscle" aria-label="具体肌肉"></select></label>
+        <details class="advanced-filters"><summary id="advanced-label">器械与搜索</summary><div class="advanced-fields"><label>现场器械<select id="equipment"><option value="all">全部器械</option><option value="cable-station">组合训练站／绳索器械</option><option value="pulldown">高位下拉工位</option><option value="row">低位划船工位</option><option value="cable">可调滑轮／龙门架</option><option value="machine">其他固定器械</option></select></label>
+        <label class="search-label">搜索动作或肌肉<input id="search" type="search" placeholder="例如：下拉、肩后束、股四头肌" autocomplete="off"></label>
+        <button class="reset" id="reset" type="button">清除筛选</button></div></details>
+      </div>
+    </section>
+    <details class="gym-reference" id="gym-reference">
+      <summary><span>▧ 认出你健身房里的工位</span><small>根据你提供的 3 张照片</small></summary>
+      <div class="gym-photos">
+        <article><img data-src="assets/gym-2.jpg" loading="lazy" width="480" height="640" alt="照片二：带长杆、座椅和压腿垫的高位下拉工位"><div><b>照片② · 高位下拉</b><p>右侧有长杆、红色坐垫与大腿压垫，可对应正握高位下拉。压腿垫要贴合大腿，防止身体被拉起。</p><button type="button" data-preset="pulldown">看下拉动作 →</button></div></article>
+        <article><img data-src="assets/gym-3.jpg" loading="lazy" width="480" height="640" alt="照片三：带长凳、脚踏板和低位出线口的划船工位"><div><b>照片①③ · 低位划船</b><p>长凳、踏板与低位出线口用于坐姿划船。确认 V 把手牢固连接，双脚踩稳踏板。</p><button type="button" data-preset="row">看划船动作 →</button></div></article>
+        <article><img data-src="assets/gym-1.jpg" loading="lazy" width="480" height="640" alt="照片一：组合训练站的配重片和滑轮结构"><div><b>组合训练站 · 滑轮与附件</b><p>照片可见配重与滑轮，不能确认所有工位均可调高低。练面拉、弯举等动作前，核对出线位置、锁扣和把手。</p><button type="button" data-preset="cable">看绳索动作 →</button></div></article>
+      </div>
+    </details>
+    <div class="result-bar"><h2>动作库 <span id="result-count" role="status" aria-live="polite"></span></h2><span>点“怎么练”，边看循环演示边练</span></div>
+    <div id="lessons" class="exercise-grid"></div>
+    <div id="empty" class="empty" hidden><b>暂时没有符合条件的动作</b><p>试试取消器械限制，或选择另一个主要肌肉。</p><button id="empty-reset" type="button">显示全部动作</button></div>
+    <div class="load-more"><button id="more" type="button">加载更多动作</button></div>
+    <section class="practice-note"><b>开始练之前</b><p>每个动作先用轻重量试做 1 组。卡片上的组次是一般参考，初学者可从 2 组起步，并在还能规范完成约 2 次时停止。一次选几个适合自己的动作，不用把整页都练完。关节疼痛或明显不适时停止，先检查器械设置。</p><p>动作可改变肌肉参与侧重，但不能完全隔离某一块肌肉，也不能局部减脂。器械品牌、阻力比和个体活动范围不同，不按配重片数字互相比较。</p></section>
+    <footer><b>看清楚，再慢慢做好。</b><p>教学演示与动作参考：StrengthLog；部分英文视频：Muscle &amp; Strength。已保存本地学习副本并保留来源，版权归原作者。演示是标准动作示例，不代表现场器械的精确型号。</p><a href="assets/sources.json" target="_blank" rel="noopener">素材来源清单 ↗</a><span>更新：2026-09-08 · 24 个动作</span></footer>
+  </main>
+  <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>动作分步指导</span><button type="button" id="close-detail" aria-label="关闭动作指导">✕</button></div><div id="detail-content"></div></dialog>
+  <noscript><p class="noscript">请启用 JavaScript 查看筛选和动作库。离线版请解压后使用浏览器打开 index.html。</p></noscript>
+  <script src="data.js"></script><script src="extra-data.js"></script><script src="training.js"></script><script src="guide.js"></script><script src="plans.js"></script>
+</body>
+</html>
