@@ -50,7 +50,6 @@
     if (!S.cleanActivities([r]).length) { status.textContent = '请检查记录内容与数字范围。'; return; }
     const next = editing ? records.map(old => old.id === editing ? r : old) : [...records, r];
     if (!save(next)) return;
-    if (!editing) window.GYM_GIFT.checkin(date);
     reset(); changed(); status.textContent = '自由运动已保存到此浏览器，已计入打卡日历。';
   });
   document.getElementById('activity-cancel').addEventListener('click', reset);

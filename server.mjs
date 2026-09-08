@@ -5,7 +5,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.wasm':'application/wasm','.task':'application/octet-stream','.jpg':'image/jpeg','.mp4':'video/mp4','.txt':'text/plain; charset=utf-8'};
-const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','activity-data.js','training.js','guide.js','plans.js','checkin-stats.js','dashboard.js','teachers-day.js','teachers-day.css','free-activity.js','activity-guides.js','guidance-status.json','使用说明.txt']);
+const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','activity-data.js','training.js','guide.js','plans.js','checkin-stats.js','dashboard.js','free-activity.js','activity-guides.js','guidance-status.json','使用说明.txt']);
 const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
 export function createApp(){
   return http.createServer(async(req,res)=>{

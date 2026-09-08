@@ -257,7 +257,6 @@
       if (!saved) { if (at >= 0) list.splice(at, 0, t); else list.pop(); }
       renderAll();
       planItems.querySelector(`[data-check="${id}"]`)?.focus({preventScroll: true});
-      if (saved && at < 0) window.GYM_GIFT.checkin(t);
     }));
     planItems.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', () => {
       if (window.GYM_UI && typeof window.GYM_UI.showDetail === 'function') {
