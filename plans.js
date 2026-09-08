@@ -174,8 +174,10 @@
     try {
       localStorage.setItem(STORE_KEY, JSON.stringify(state));
       status.textContent = '打卡已保存到此浏览器';
+      return true;
     } catch (error) {
       status.textContent = '无法保存记录，请允许浏览器本地存储后重试';
+      return false;
     }
   }
   function currentPlan() { return PLANS.find(plan => plan.id === state.plan) || PLANS[0]; }
@@ -251,8 +253,11 @@
       const list = done[id] || (done[id] = []);
       const at = list.indexOf(t);
       if (at >= 0) list.splice(at, 1); else list.push(t);
-      saveState(); renderAll();
+      const saved = saveState();
+      if (!saved) { if (at >= 0) list.splice(at, 0, t); else list.pop(); }
+      renderAll();
       planItems.querySelector(`[data-check="${id}"]`)?.focus({preventScroll: true});
+      if (saved && at < 0) window.GYM_GIFT.checkin(t);
     }));
     planItems.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', () => {
       if (window.GYM_UI && typeof window.GYM_UI.showDetail === 'function') {
@@ -283,7 +288,7 @@
     }
     const dates = Object.keys(byDate).sort().reverse();
     if (!dates.length) {
-      listEl.innerHTML = '<p class="hist-empty">还没有打卡记录。练完当天动作并打勾后，这里会按日期自动归档。</p>';
+      listEl.innerHTML = '<p class="hist-empty">还没有器械训练记录。练完当天动作并打勾后，这里会按日期自动归档。</p>';
       return;
     }
     listEl.innerHTML = dates.map(date => {

@@ -1,6 +1,6 @@
 // 筛选只匹配主要训练肌肉，避免辅助肌肉让结果失去针对性。
 (function (scope) {
-  const categories = {all:'全部部位', chest:'胸', back:'背', shoulders:'肩', arms:'手臂', legs:'臀腿', core:'核心'};
+  const categories = {all:'全部部位', chest:'胸', back:'背', shoulders:'肩', arms:'手臂', legs:'臀腿', core:'核心', cardio:'有氧'};
   const muscles = {
     chest:['胸大肌','chest'], 'upper-chest':['上胸侧重','chest'],
     lats:['背阔肌','back'], 'mid-back':['中背／菱形肌','back'],

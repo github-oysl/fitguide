@@ -48,7 +48,20 @@
     }
     return result;
   }
-  function aggregate(done, now = new Date(), allowedIds) {
+  function cleanActivities(value) {
+    if (!Array.isArray(value)) return [];
+    const seen = new Set();
+    return value.filter(r => {
+      if (!isRecord(r) || typeof r.id !== 'string' || !r.id || seen.has(r.id) || !parse(r.date) || typeof r.name !== 'string' || !r.name.trim() || r.name.length > 80) return false;
+      if (r.note != null && (typeof r.note !== 'string' || r.note.length > 500)) return false;
+      for (const [key, max, integer] of [['minutes',1440,false],['distance',1000,false],['sets',10000,true],['reps',100000,true]]) {
+        const v = r[key];
+        if (v != null && v !== '' && (!['number','string'].includes(typeof v) || !Number.isFinite(Number(v)) || Number(v) <= 0 || Number(v) > max || (integer && !Number.isInteger(Number(v))))) return false;
+      }
+      seen.add(r.id); return true;
+    });
+  }
+  function aggregate(done, now = new Date(), allowedIds, activities = []) {
     const dates = new Map(), current = key(now);
     for (const days of Object.values(cleanDone(done))) {
       for (const exercises of Object.values(days)) {
@@ -61,6 +74,11 @@
           }
         }
       }
+    }
+    for (const r of cleanActivities(activities)) {
+      if (r.date > current) continue;
+      if (!dates.has(r.date)) dates.set(r.date, new Set());
+      dates.get(r.date).add(`activity:${r.id}`);
     }
     return dates;
   }
@@ -81,7 +99,7 @@
     }
     return best;
   }
-  const api = { key, parse, addDays, range, shift, cleanDone, aggregate, summarize, longestStreak };
+  const api = { key, parse, addDays, range, shift, cleanDone, cleanActivities, aggregate, summarize, longestStreak };
   scope.GYM_STATS = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window === 'undefined' ? globalThis : window);

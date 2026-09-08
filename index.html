@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f7f8f4">
   <title>器械入门 · 让每一次训练都有迹可循</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23344c3b'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-size='24' fill='%23e3ebae'%3E练%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="teachers-day.css">
   <link rel="stylesheet" href="comparison/comparison.css">
 </head>
 <body>
@@ -23,12 +23,24 @@
   </header>
   <main id="main">
     <div id="view-today" class="view" aria-labelledby="today-title">
-      <section class="page-heading"><div><p class="eyebrow" id="today-date">今天，也为自己留一点时间</p><h1 id="today-title">每一次练习，都算数<span>。</span></h1><p class="lede">选好计划，跟着练。剩下的，交给坚持。</p></div><a class="text-link" href="#stats">看看我的坚持 <span aria-hidden="true">↗</span></a></section>
+      <section class="page-heading"><div><p class="eyebrow" id="today-date">今天，也为自己留一点时间</p><h1 id="today-title">每一次练习，都算数<span>。</span></h1><p class="lede">跟着计划练，或记录自己的运动。每一次都算数。</p></div><a class="text-link" href="#stats">看看我的坚持 <span aria-hidden="true">↗</span></a></section>
       <section class="today-banner" aria-label="今日训练进度">
         <div><span class="banner-kicker">TODAY'S WORKOUT</span><h2 id="today-plan-name">今日训练</h2><p id="today-plan-subtitle">从第一个动作开始。</p><a class="start-button" href="#plans">开始训练 <span aria-hidden="true">↗</span></a></div>
-        <div class="completion-ring" id="today-ring"><div><b id="today-completed">0<span> / 0</span></b><small>今日完成动作</small></div></div>
+        <div class="completion-ring" id="today-ring"><div><b id="today-completed">0<span> / 0</span></b><small>计划完成动作</small></div></div>
       </section>
+      <div class="training-mode" role="group" aria-label="选择打卡方式"><button type="button" data-mode="plans" aria-pressed="true">跟着计划练</button><button type="button" data-mode="free-activity" aria-pressed="false">自由运动 <span>随心打卡</span></button></div>
       <div class="training-layout">
+      <section class="free-activity" id="free-activity" hidden aria-labelledby="activity-title">
+        <div class="section-heading"><div><p class="eyebrow">YOUR OWN PACE</p><h2 id="activity-title">今天，随心动一动。</h2></div><span id="activity-today" role="status"></span></div>
+        <p>不用安排整套训练。给今天的一点运动，留个记号。</p>
+        <div class="activity-presets" role="group" aria-label="快捷填写运动"><button type="button" data-activity="跑步机快走／慢跑">跑步机</button><button type="button" data-activity="跑步机爬坡">爬坡</button><button type="button" data-activity="跳绳">跳绳</button><button type="button" data-activity="仰卧起坐／核心训练">核心训练</button><button type="button" data-activity="">其他／自填</button></div>
+        <form id="activity-form">
+          <div class="activity-fields"><label class="activity-name">运动名称<input name="name" required maxlength="80" placeholder="例如：仰卧起坐、户外散步"></label><label>日期<input name="date" type="date" required></label></div><details class="activity-optional" id="activity-optional"><summary>多记一点 <span>时长、距离、组次与心情 · 选填</span></summary><div class="activity-fields"><label>时长（分钟，选填）<input name="minutes" type="number" min="0.1" max="1440" step="0.1" placeholder="可留空"></label><label>距离（公里，选填）<input name="distance" type="number" min="0.01" max="1000" step="0.01" placeholder="可留空"></label><label>组数（选填）<input name="sets" type="number" min="1" max="10000" step="1" placeholder="可留空"></label><label>总次数（选填）<input name="reps" type="number" min="1" max="100000" step="1" placeholder="可留空"></label><label class="activity-name">备注（选填）<textarea name="note" maxlength="500" rows="2" placeholder="例如：坡度 5%，感觉轻松；或每组 20 次"></textarea></label></div></details>
+          <div class="activity-actions"><button type="submit" id="activity-submit">完成并打卡</button><button type="button" id="activity-cancel" hidden>取消编辑</button><a class="text-link" href="#library">怎么练 ↗</a></div>
+          <p id="activity-status" role="status">自动保存在此浏览器 · 可在统计页编辑</p>
+        </form>
+      </section>
+
     <section class="plans" id="plans" aria-label="训练计划与打卡">
       <div class="plans-head">
         <div><p class="eyebrow">YOUR PLAN</p><h2>今天，练什么？</h2></div><span class="section-hint">练完一项，勾选一项</span>
@@ -55,13 +67,15 @@
         <div id="stats-chart"></div>
         <p class="chart-caption" id="chart-caption"></p>
         <div id="selected-day" class="selected-day" aria-live="polite"></div>
-        <p class="stats-definition">当天完成至少 1 个动作计为 1 个打卡日；同一天、同一动作跨计划只计 1 次。每周从周一开始。</p>
+        <p class="stats-definition">当天完成器械动作或记录自由运动，均计为 1 个打卡日；同日两种都做也只计 1 天。器械动作同日跨计划去重，自由运动每条记录计 1 项。自由运动不改变器械计划进度。每周从周一开始。</p>
       </section>
-      <details class="plan-history" id="plan-history"><summary>历史打卡明细<small>按日期查看已完成动作</small></summary><div id="plan-history-list"></div></details>
+      <details class="plan-history" id="plan-history"><summary>器械训练明细<small>按日期查看已完成动作</small></summary><div id="plan-history-list"></div></details>
+      <section class="free-activity" aria-labelledby="activity-history-title"><h2 id="activity-history-title">自由运动明细</h2><p>按日期倒序排列，可以补充内容或删除误记。</p><ul id="activity-records" class="activity-records"></ul></section>
       <p class="storage-note">记录仅保存在当前浏览器，清除浏览器数据会删除记录。</p>
     </div>
     <div id="view-library" class="view" aria-labelledby="library-title" hidden>
       <section class="page-heading"><div><p class="eyebrow">MOVEMENT LIBRARY</p><h1 id="library-title">练哪里，怎么练<span>。</span></h1><p class="lede">24 个动作，器械调节、发力路线，一看就明白。</p></div><span class="section-hint">视频可离线播放</span></section>
+    <section class="activity-guides" aria-labelledby="activity-guides-title"><div class="plans-head"><div><p class="eyebrow">BEYOND THE MACHINES</p><h2 id="activity-guides-title">换一种方式，动起来。</h2></div><span class="section-hint">有氧与居家指南</span></div><p>中文要点与动作库演示可离线观看；外部原文需联网。核心训练也可打卡，但不等同于有氧运动。</p><div id="activity-guides"></div></section>
     <section class="filters" aria-label="筛选训练动作">
       <div class="filter-title"><b>先选训练部位</b><span>筛选按主要训练肌肉匹配</span></div>
       <div class="part-buttons" id="categories" role="group" aria-label="训练部位"></div>
@@ -90,6 +104,6 @@
   </main>
   <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>动作分步指导</span><button type="button" id="close-detail" aria-label="关闭动作指导">✕</button></div><div id="detail-content"></div></dialog>
   <noscript><p class="noscript">请启用 JavaScript 查看筛选和动作库。离线版请解压后使用浏览器打开 index.html。</p></noscript>
-  <script src="data.js"></script><script src="extra-data.js"></script><script src="training.js"></script><script src="checkin-stats.js"></script><script src="guide.js"></script><script src="dashboard.js"></script><script src="plans.js"></script>
+  <script src="data.js"></script><script src="activity-data.js"></script><script src="extra-data.js"></script><script src="training.js"></script><script src="checkin-stats.js"></script><script src="guide.js"></script><script src="activity-guides.js"></script><script src="teachers-day.js"></script><script src="free-activity.js"></script><script src="dashboard.js"></script><script src="plans.js"></script>
 </body>
 </html>

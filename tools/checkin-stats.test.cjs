@@ -37,3 +37,19 @@ test('empty and withdrawn checkins report zero', () => {
   assert.deepEqual(S.summarize(dates, S.range('year', new Date())), {days:0,exercises:0});
   assert.equal(S.longestStreak(dates, S.range('year', new Date())), 0);
 });
+
+test('free sessions merge with strength days without completing a plan', () => {
+  const done = {p:{d:{a:['2026-09-08']}}};
+  const before = JSON.stringify(done);
+  const records = [{id:'1',name:'跳绳',date:'2026-09-08'}, {id:'2',name:'散步',date:'2026-09-07'}, {id:'3',name:'散步',date:'2026-09-08'}];
+  const dates = S.aggregate(done, S.parse('2026-09-08'), new Set(['a']), records);
+  assert.deepEqual(S.summarize(dates,S.range('week',S.parse('2026-09-08'))), {days:2,exercises:4});
+  assert.equal(JSON.stringify(done), before);
+  assert.equal(S.aggregate({}, S.parse('2026-09-08'), new Set(), records.slice(1,2)).size, 1);
+  assert.equal(S.aggregate({}, S.parse('2026-09-08'), new Set(), []).size, 0);
+});
+test('free records reject invalid dates, duplicate IDs and invalid numeric fields', () => {
+  const good = {id:'1',name:'爬坡',date:'2026-09-08',minutes:'20',distance:'',note:'坡度 5%'};
+  assert.equal(S.cleanActivities([good,good,null,{...good,id:'2',date:'2026-02-30'},{...good,id:'3',minutes:-1},{...good,id:'4',sets:1.5},{...good,id:'5',name:' '}]).length,1);
+  assert.equal(S.aggregate({},S.parse('2026-09-07'),null,[good]).size,0);
+});

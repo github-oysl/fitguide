@@ -1,0 +1,30 @@
+[
+  {
+    "id": "treadmill-walk-jog",
+    "page": "https://fitnessprogramer.com/exercise/treadmill/",
+    "media": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Treadmill-.gif",
+    "credit": "FitnessProgramer",
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "treadmill-incline-walk",
+    "page": "https://fitnessprogramer.com/exercise/incline-treadmill/",
+    "media": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Incline-Treadmill.gif",
+    "credit": "FitnessProgramer",
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "jump-rope-basic",
+    "page": "https://fitnessprogramer.com/exercise/jump-rope/",
+    "media": "https://fitnessprogramer.com/wp-content/uploads/2023/10/Skip-Jump-Rope.gif",
+    "credit": "FitnessProgramer",
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "home-crunch",
+    "page": "https://fitnessprogramer.com/exercise/crunch/",
+    "media": "https://fitnessprogramer.com/wp-content/uploads/2015/11/Crunch.gif",
+    "credit": "FitnessProgramer",
+    "checked": "2026-09-08"
+  }
+]

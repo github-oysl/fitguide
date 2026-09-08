@@ -213,6 +213,12 @@ h2 { font-size: 20px; margin: 0; font-weight: 650; }
 .play:not(:disabled):active { transform: translateX(-50%); }
 .play span { font-size: 10px; }
 .play:hover { background: var(--lime); }
+.external-media { position:relative; background:var(--soft); display:flex; align-items:center; justify-content:center; }
+.external-poster { display:flex; flex-direction:column; align-items:center; gap:8px; text-align:center; padding:20px; color:var(--green); }
+.external-poster b { font-size:18px; font-weight:550; }
+.external-poster small { font-size:11px; color:var(--muted); }
+.external-mark { font-size:10px; letter-spacing:.18em; border:1px solid var(--green); padding:5px 8px; border-radius:3px; }
+.external-play { text-decoration:none; }
 .card-body { padding: 20px; display: flex; flex-direction: column; flex: 1; border-top: 1px solid var(--line); }
 .card-meta { display: flex; justify-content: space-between; gap: 8px; font-size: 10px; color: var(--muted); }
 .card-meta span:first-child { color: var(--green); }
@@ -417,3 +423,76 @@ dialog::backdrop { background: #14271bc0; }
   body { padding: 0; }
   .exercise-card { break-inside: avoid; }
 }
+
+/* Shared visual vocabulary for plan and free-session check-ins. */
+.training-mode {display:flex;gap:6px;border-bottom:1px solid var(--line);margin-top:26px}
+.training-mode button {position:relative;background:transparent;padding:12px 22px;font-size:14px;color:var(--muted)}
+.training-mode button:first-child {padding-left:0;padding-right:26px}
+.training-mode button[aria-pressed=true] {color:var(--green);font-weight:650}
+.training-mode button[aria-pressed=true]::after {content:'';height:2px;position:absolute;bottom:-1px;left:0;right:0;background:var(--green)}
+.training-mode button:hover {color:var(--green)}
+.training-mode span {font-size:10px;font-weight:400;margin-left:7px}
+.training-mode + .training-layout {margin-top:28px}
+.free-activity {min-width:0}
+.free-activity .eyebrow {font-size:10px;margin-bottom:5px}
+.free-activity .section-heading {margin-bottom:12px;align-items:flex-end}
+.free-activity>p {color:var(--muted);font-size:12px;margin:0 0 20px}
+#activity-today {font-size:10px;color:var(--muted);white-space:nowrap}
+.activity-presets {display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.activity-presets button {border:1px solid var(--line);border-radius:9px;background:transparent;font-size:12px;padding:8px 16px}
+.activity-presets button:hover {background:var(--soft);border-color:var(--green)}
+.activity-presets button[aria-pressed=true] {background:var(--green);border-color:var(--green);color:var(--white)}
+#activity-form {background:var(--white);border:1px solid var(--line);border-radius:16px;padding:22px}
+.activity-fields {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.activity-fields label {display:flex;flex-direction:column;gap:8px;font-size:11px;color:var(--muted);min-width:0}
+.activity-fields input,.activity-fields textarea {box-sizing:border-box;width:100%;min-width:0;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;font-size:14px;min-height:44px}
+.activity-fields input::placeholder,.activity-fields textarea::placeholder {color:var(--muted);font-size:12px}
+.activity-fields textarea {resize:vertical;font-family:inherit}
+.activity-fields input:hover,.activity-fields textarea:hover {border-color:var(--muted)}
+.activity-fields textarea:focus-visible {outline:3px solid var(--green);outline-offset:4px}
+.activity-fields .activity-name:has(textarea) {grid-column:1/-1}
+.activity-optional {border-top:1px solid var(--line);margin-top:20px}
+.activity-optional summary {min-height:48px;padding:12px 0;font-size:12px;color:var(--green)}
+.activity-optional summary span {font-size:10px;color:var(--muted);margin-left:12px}
+.activity-optional[open] .activity-fields {padding:4px 0 14px}
+.activity-actions {display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:8px}
+#activity-submit {border-radius:9px;padding:10px 20px;background:var(--green);color:var(--white);font-size:13px}
+#activity-submit:hover {background:var(--ink)}
+#activity-cancel {background:var(--soft);border-radius:9px;font-size:12px;padding:10px 16px}
+.activity-actions .text-link {font-size:12px;margin-left:auto}
+#activity-status {margin:16px 0 0;font-size:10px;color:var(--muted);line-height:1.7}
+.activity-records {list-style:none;padding:0;margin:0}
+#view-stats .free-activity {border:1px solid var(--line);border-radius:16px;padding:22px 26px;background:var(--white);margin-top:20px}
+#view-stats .free-activity h2 {font-size:16px;margin-bottom:6px}
+.activity-records li {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--line);font-size:12px;overflow-wrap:anywhere}
+.activity-records small {font-size:10px;color:var(--muted)}
+.activity-records p {margin:5px 0 0;white-space:pre-wrap}
+.activity-record-actions {display:flex;gap:12px;flex-shrink:0}
+.activity-record-actions button {background:transparent;color:var(--green);font-size:11px;padding:8px 0}
+.activity-record-actions button:hover {text-decoration:underline}
+.activity-guides {margin:0 0 28px}
+.activity-guides>.plans-head {margin-bottom:8px}
+.activity-guides>p {font-size:11px;color:var(--muted);margin:0 0 18px}
+#activity-guides {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;align-items:start}
+.activity-guide {border:1px solid var(--line);background:var(--white);border-radius:12px;overflow:hidden;min-width:0}
+.activity-guide summary {padding:16px 20px;min-height:80px;position:relative;list-style:none}
+.activity-guide summary::-webkit-details-marker {display:none}
+.activity-guide summary::after {content:'↗';position:absolute;right:18px;top:22px;font-size:15px;color:var(--green)}
+.activity-guide[open] summary::after {content:'−'}
+.activity-guide summary:hover {background:var(--soft)}
+.activity-guide summary b {font-size:14px;font-weight:550;display:block;padding-right:24px}
+.activity-guide summary small {font-size:10px;display:block;margin-top:5px;color:var(--muted)}
+.activity-guide ol {padding:16px 22px 0 42px;margin:0;border-top:1px solid var(--line)}
+.activity-guide li {font-size:13px;line-height:1.9;margin-bottom:12px;padding-left:4px}
+.guide-caution {font-size:11px;line-height:1.8;margin:16px 20px;padding:12px;background:var(--soft);border-radius:8px}
+.guide-sources {display:flex;flex-direction:column;gap:6px;margin:0 20px;font-size:10px}
+.guide-sources a {padding:6px 0;min-height:32px}
+.guide-resources {display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center;margin:16px 20px 4px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:10px}
+.guide-resources>span {color:var(--muted);white-space:nowrap}
+.guide-resources a {display:flex;align-items:center;gap:5px;color:var(--green);text-decoration:none;min-height:32px}
+.guide-resources a:hover {text-decoration:underline}
+.guide-resources i {font-style:normal;font-size:11px}
+.activity-guide>p:last-child {margin:8px 20px 14px}
+.activity-guide .text-link {font-size:11px}
+#activity-guides>.storage-note {grid-column:1/-1;margin:0;font-size:10px}
+@media(max-width:760px){.training-mode{margin-top:18px}.training-mode button{font-size:13px;padding:10px 16px}.training-mode span{font-size:9px}.free-activity .section-heading{align-items:flex-start;flex-direction:column;gap:8px}.free-activity>p{font-size:11px}.activity-presets{gap:6px}.activity-presets button{font-size:11px;padding:8px 12px}#activity-form{padding:16px}.activity-fields{gap:12px}.activity-fields input,.activity-fields textarea{font-size:16px}.activity-optional summary span{font-size:9px;margin-left:6px}#activity-submit{font-size:12px}#view-stats .free-activity{padding:18px 16px}.activity-records li{align-items:flex-start;flex-direction:column;gap:4px}#activity-guides{grid-template-columns:1fr}.activity-guide summary{min-height:76px;padding:16px}.activity-guides>.plans-head .section-hint{display:none}.guide-resources{grid-template-columns:1fr 1fr}.guide-resources>span{grid-column:1/-1}}

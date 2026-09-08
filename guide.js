@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const {categories, muscles, filterExercises} = window.GYM_TRAINING;
-  const priority = ['lat-pulldown-with-pronated-grip','cable-row-seated-narrow-grip','cable-chest-fly','machine-chest-press','leg-press','leg-extension-seated','cable-lateral-raise','triceps-pushdown-with-rope'];
+  const priority = ['treadmill-walk-jog','treadmill-incline-walk','jump-rope-basic','home-crunch','lat-pulldown-with-pronated-grip','cable-row-seated-narrow-grip','cable-chest-fly','machine-chest-press','leg-press','leg-extension-seated','cable-lateral-raise','triceps-pushdown-with-rope'];
   const items = [...window.GYM_DATA].sort((a,b) => (priority.indexOf(a.id)<0?99:priority.indexOf(a.id))-(priority.indexOf(b.id)<0?99:priority.indexOf(b.id)));
   const state = {category:'all', muscle:'all', equipment:'all', query:'', limit:8};
   const root = document.getElementById('lessons');
@@ -28,6 +28,7 @@
   document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseAll();});
   window.addEventListener('pagehide',pauseAll);
   function mediaMarkup(item) {
+    if (item.externalVideo) return `<div class="media external-media"><div class="external-poster"><span class="external-mark">CARDIO</span><b>${escape(item.name)}</b><small>示范视频／动作图</small></div><a class="play external-play" href="${escape(item.video)}" target="_blank" rel="noopener noreferrer" aria-label="打开${escape(item.name)}示范视频"><span>▶</span> 播放示范</a></div>`;
     return `<div class="media" data-media="${item.id}"><img src="assets/${item.id}.jpg" alt="${escape(item.name)}动作起始姿势" width="480" height="480" loading="lazy" decoding="async"><button class="play" type="button" aria-label="播放${escape(item.name)}本地动作演示"><span>▶</span> 播放动作</button></div>`;
   }
   function bindMedia(container) {
@@ -71,7 +72,7 @@
     document.getElementById('advanced-label').textContent=(state.equipment!=='all'||state.query.trim())?'器械与搜索 · 已设置筛选':'器械与搜索';
   }
   function cardMarkup(item) {
-    const label=item.equipment==='machine'?'固定器械':item.equipment==='row'?'低位划船':item.equipment==='pulldown'?'高位下拉':'绳索器械';
+    const label=item.equipmentLabel || (item.equipment==='machine'?'固定器械':item.equipment==='row'?'低位划船':item.equipment==='pulldown'?'高位下拉':'绳索器械');
     return `<article class="exercise-card" data-id="${item.id}">${mediaMarkup(item)}<div class="card-body"><div class="card-meta"><span>${label}</span><span>${escape(item.availability)}</span></div><h3>${escape(item.name)}</h3><p class="primary">${escape(item.primary)}</p><p class="cue">${escape(item.cue)}</p><p class="attachment">${escape(item.attachment)}</p><div class="card-bottom"><span>${escape(item.sets)}</span><button class="detail-button" data-detail="${item.id}" type="button" aria-label="查看${escape(item.name)}的分步指导">怎么练 ↗</button></div></div></article>`;
   }
   function render() {
@@ -89,7 +90,7 @@
   function showDetail(id, trigger) {
     const item=items.find(item=>item.id===id);if(!item)return;
     pauseAll(); releaseMedia(document.getElementById('detail-content')); lastTrigger=trigger;
-    document.getElementById('detail-content').innerHTML=`<div class="detail-heading"><p class="eyebrow">${escape(item.attachment)}</p><h2 id="detail-title">${escape(item.name)}</h2><p class="detail-cue">${escape(item.cue)}</p></div><div class="detail-grid"><div><div class="detail-media">${mediaMarkup(item)}</div><p class="media-note">循环演示 · 无配音 · 可随时暂停<br>动作轨迹示例，器械外观可能不同。</p><div class="muscle-panel"><b>主要训练</b><p>${escape(item.primary)}</p><b>辅助参与</b><p>${escape(item.secondary)}</p></div><div class="prescription"><span><b>${escape(item.sets)}</b>参考组次</span><span><b>${escape(item.rest)}</b>组间休息</span></div><p class="media-note">从轻重量、2 组开始。发力时呼气，回程控制速度；停止前保留约 2 次规范动作的余力。</p></div><div class="instructions"><h3>调节 → 发力 → 还原</h3><ol>${item.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol><div class="mistake"><b>容易做错</b><p>${escape(item.mistake)}</p></div><div class="source-links"><a href="assets/${item.id}.mp4" download>↓ 下载动作演示</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">图解原文 ↗</a>${item.video?`<a href="${escape(item.video)}" target="_blank" rel="noopener noreferrer">英文讲解视频 ↗</a><small>${escape(item.videoNote)}</small>`:''}</div></div></div>`;
+    document.getElementById('detail-content').innerHTML=`<div class="detail-heading"><p class="eyebrow">${escape(item.attachment)}</p><h2 id="detail-title">${escape(item.name)}</h2><p class="detail-cue">${escape(item.cue)}</p></div><div class="detail-grid"><div><div class="detail-media">${mediaMarkup(item)}</div><p class="media-note">循环演示 · 无配音 · 可随时暂停<br>${escape(item.demoNote || '动作轨迹示例，器械外观可能不同。')}${item.mediaCredit ? `<br>示范来源：${escape(item.mediaCredit)}` : ''}</p><div class="muscle-panel"><b>主要训练</b><p>${escape(item.primary)}</p><b>辅助参与</b><p>${escape(item.secondary)}</p></div><div class="prescription"><span><b>${escape(item.sets)}</b>${item.practiceNote ? '练习记录' : '参考组次'}</span><span><b>${escape(item.rest)}</b>${item.practiceNote ? '恢复方式' : '组间休息'}</span></div><p class="media-note">${escape(item.practiceNote || '从轻重量、2 组开始。发力时呼气，回程控制速度；停止前保留约 2 次规范动作的余力。')}</p></div><div class="instructions"><h3>${escape(item.instructionTitle || '调节 → 发力 → 还原')}</h3><ol>${item.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol><div class="mistake"><b>容易做错</b><p>${escape(item.mistake)}</p></div><div class="source-links"><a href="assets/${item.id}.mp4" download>↓ 下载动作演示</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">${item.mediaCredit ? '示范来源 · ' + escape(item.mediaCredit) : '图解原文'} ↗</a>${(item.references || []).map(ref => `<a href="${escape(ref.url)}" target="_blank" rel="noopener noreferrer">${escape(ref.label)} ↗</a>`).join('')}${item.video?`<a href="${escape(item.video)}" target="_blank" rel="noopener noreferrer">英文讲解视频 ↗</a><small>${escape(item.videoNote)}</small>`:''}</div></div></div>`;
     bindMedia(document.getElementById('detail-content'));
     if (item) {
       const compareButton = document.createElement('button');
