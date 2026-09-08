@@ -1,0 +1,9 @@
+{
+  "LICENSE": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+  "NOTICE.md": "1723e6a40fdd1595293b1ae33e23d9d93a415ab2bb5dd191e263d89789d5c0d0",
+  "package.json": "f685301c07427e1d19a53b08afa586e5699aa1dfc2dd8c641887cc2c821b245e",
+  "pose_landmarker_lite.task": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+  "vision_bundle.mjs": "d885630c297c0b20b1fe86096cb06291c4c8080876f27852e724f24ac603713f",
+  "wasm/vision_wasm_module_internal.js": "da8934057f147b622e82cfb4c0dbd85461c598e268588b5a8ba9ca963a8ff82d",
+  "wasm/vision_wasm_module_internal.wasm": "2dabd8e23c60984628beb7bb338764c81a08e6837145273f59578684b5d53c1b"
+}

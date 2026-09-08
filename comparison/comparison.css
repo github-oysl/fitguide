@@ -1,0 +1,44 @@
+/* Comparison follows the existing warm-white and forest-green visual system. */
+#comparison-dialog{width:min(720px,calc(100vw - 32px))}
+.comparison-body{padding:28px}
+.comparison-body h2{font-size:25px;margin:0 0 10px}
+.comparison-lede{font-size:13px;color:var(--muted);margin:0 0 22px}
+.capture-note{padding:18px 20px;background:var(--soft);border-radius:12px;font-size:14px}
+.capture-note p{margin:8px 0;font-size:13px}
+.capture-note small{font-size:11px;color:var(--muted)}
+.compare-upload{display:flex;align-items:center;gap:14px;margin:22px 0;flex-wrap:wrap}
+.upload-button{position:relative;padding:11px 18px;min-height:44px;display:inline-flex;align-items:center;overflow:hidden;border:1px solid var(--green);border-radius:9px;font-size:14px;cursor:pointer}
+.upload-button:focus-within{outline:3px solid var(--green);outline-offset:3px}
+.upload-button input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}
+#compare-file-name{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.playback-tabs{display:flex;gap:6px;margin:0 0 12px}
+.playback-tabs button{background:var(--soft);padding:10px 18px;border-radius:9px;font-size:13px}
+.playback-tabs button[aria-pressed=true]{background:var(--green);color:var(--white)}
+#compare-player{width:100%;max-height:380px;background:var(--bg);border-radius:12px;display:block}
+.compare-actions{display:flex;gap:22px;align-items:baseline}
+.compare-actions .start-button,.model-guidance .start-button{border:0;margin-top:18px}
+.analysis-status{font-size:13px;color:var(--muted);margin:14px 0 24px}
+.analysis-status progress{width:100%;height:8px;accent-color:var(--green)}
+#compare-results .section-heading{margin:24px 0 10px}
+#compare-results h3{font-size:18px;margin:0}
+#compare-reps,#guidance-badge{font-size:12px;color:var(--muted)}
+.comparison-disclaimer{font-size:12px;color:var(--muted);margin:0 0 16px}
+.metric-row{display:flex;align-items:center;gap:12px;justify-content:space-between;border-top:1px solid var(--line);padding:16px 0}
+.metric-row b{font-size:15px;font-weight:550}
+.metric-row small{display:block;font-size:11px;color:var(--muted);margin-top:5px}
+.metric-status{font-size:12px;flex-shrink:0;border-radius:7px;padding:6px 10px;background:var(--soft)}
+.metric-status.different{border:1px solid var(--green);background:var(--white)}
+.segment-button{display:flex;width:100%;gap:12px;justify-content:space-between;padding:12px 0;min-height:48px;background:transparent;border-top:1px solid var(--line);font-size:12px;text-align:left}
+.basic-guidance{background:var(--soft);padding:18px 20px;border-radius:12px;margin-top:18px;font-size:14px}
+.basic-guidance small{font-size:10px;font-weight:400;margin-left:8px;color:var(--muted)}
+.basic-guidance ul{padding-left:18px;margin:10px 0 0;font-size:13px}
+.basic-guidance li+li{margin-top:8px}
+.model-guidance{border-top:1px solid var(--line);margin-top:24px;padding-top:2px}
+#guidance-status{font-size:13px;color:var(--muted)}
+#guidance-content{font-size:14px}
+.guidance-tip{padding:10px 0 18px;border-bottom:1px solid var(--line)}
+.guidance-tip p{margin:4px 0 8px}
+.guidance-tip b{font-weight:550}
+.guidance-uncertain{font-size:12px;color:var(--muted)}
+.compare-entry{margin-top:18px;display:block;width:100%;padding:12px 18px;border:1px solid var(--green);border-radius:9px;background:var(--soft);font-size:14px}
+@media(max-width:760px){#comparison-dialog{width:100%;max-height:94dvh;border-radius:20px 20px 0 0}.comparison-body{padding:22px 18px}.comparison-body h2{font-size:22px}.capture-note{padding:16px}.metric-row{gap:8px}.metric-row small{font-size:10px}.metric-status{font-size:11px;padding:6px 8px}.basic-guidance{padding:16px}.model-guidance .start-button{font-size:12px}}

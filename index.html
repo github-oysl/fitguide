@@ -4,38 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="description" content="按目标肌肉和器械筛选24个训练动作，查看本地视频、器械设置、发力要领和中文分步说明。内置按部位训练计划与本机打卡，不收集任何数据。">
-  <meta name="theme-color" content="#344c3b">
-  <title>练哪里，怎么练 · 器械训练手册</title>
+  <meta name="theme-color" content="#f7f8f4">
+  <title>器械入门 · 让每一次训练都有迹可循</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23344c3b'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-size='24' fill='%23e3ebae'%3E练%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="comparison/comparison.css">
 </head>
 <body>
-  <header><a class="brand" href="./index.html">▦ <span>器械入门</span><small>训练手册 / 03</small></a><span class="download">✓ 离线学习版</span></header>
-  <main>
-    <section class="intro">
-      <div><p class="eyebrow">选目标肌肉 · 找器械 · 跟着练</p><h1>今天，想练哪里？</h1><p class="lede">24 个动作，从器械调节到发力路线。先看图，再点播演示，动作说明全中文。</p></div>
-      <div class="local-note"><b>图片与演示已本地化</b><p>点一次持续循环，同一时间只播放一个动作。<br>下载后解压，打开 index.html 即可离线学习。</p><small>本地演示无配音；外部讲解与来源页仍需联网。</small></div>
-    </section>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#today"><span class="brand-mark" aria-hidden="true">练</span><span>器械入门<small>一步一步，练成习惯。</small></span></a>
+    <nav class="app-nav" aria-label="主导航">
+      <a href="#today" data-view="today" aria-current="page">今日训练</a>
+      <a href="#stats" data-view="stats">打卡统计</a>
+      <a href="#library" data-view="library">动作库</a>
+    </nav>
+    <span class="local-badge"><i aria-hidden="true"></i>离线可用</span>
+  </header>
+  <main id="main">
+    <div id="view-today" class="view" aria-labelledby="today-title">
+      <section class="page-heading"><div><p class="eyebrow" id="today-date">今天，也为自己留一点时间</p><h1 id="today-title">每一次练习，都算数<span>。</span></h1><p class="lede">选好计划，跟着练。剩下的，交给坚持。</p></div><a class="text-link" href="#stats">看看我的坚持 <span aria-hidden="true">↗</span></a></section>
+      <section class="today-banner" aria-label="今日训练进度">
+        <div><span class="banner-kicker">TODAY'S WORKOUT</span><h2 id="today-plan-name">今日训练</h2><p id="today-plan-subtitle">从第一个动作开始。</p><a class="start-button" href="#plans">开始训练 <span aria-hidden="true">↗</span></a></div>
+        <div class="completion-ring" id="today-ring"><div><b id="today-completed">0<span> / 0</span></b><small>今日完成动作</small></div></div>
+      </section>
+      <div class="training-layout">
     <section class="plans" id="plans" aria-label="训练计划与打卡">
       <div class="plans-head">
-        <p class="eyebrow">训练计划 · 本机打卡</p>
-        <h2>按部位排好的计划，练完一个打个勾</h2>
-        <p class="lede">从 4 套按部位划分的计划里选一套：推拉腿、新手全身、五分化增肌，或单部位专场。打卡记录只保存在当前这个浏览器里（localStorage），不会上传到任何服务器。</p>
+        <div><p class="eyebrow">YOUR PLAN</p><h2>今天，练什么？</h2></div><span class="section-hint">练完一项，勾选一项</span>
       </div>
-      <div class="plan-tabs" id="plan-tabs" role="tablist" aria-label="选择训练计划"></div>
+      <div class="plan-tabs" id="plan-tabs" role="group" aria-label="选择训练计划"></div>
       <div class="plan-board">
-        <div class="plan-days" id="plan-days" role="tablist" aria-label="选择训练日"></div>
-        <p class="plan-note" id="plan-note"></p>
-        <p class="plan-tip" id="plan-tip"></p>
+        <div class="plan-days" id="plan-days" role="group" aria-label="选择训练日"></div>
+        <details class="plan-guidance"><summary>计划说明与训练提示</summary><p class="plan-note" id="plan-note"></p><p class="plan-tip" id="plan-tip"></p></details>
         <div class="plan-progress-wrap"><span id="plan-progress" role="status" aria-live="polite"></span><div class="plan-progress-track"><i class="plan-bar" id="plan-bar"></i></div></div>
         <ol class="plan-items" id="plan-items"></ol>
-        <div class="plan-actions"><button class="reset" id="plan-reset" type="button">重置本日打卡</button><small>打卡记录仅存本机，清除浏览器数据即删除。</small></div>
-        <details class="plan-history" id="plan-history">
-          <summary>▤ 查看历史打卡<small>按日期归档，练过的都在这里</small></summary>
-          <div id="plan-history-list"></div>
-        </details>
+        <div class="plan-actions"><small id="save-status" role="status">打卡自动保存到此浏览器</small><button class="reset" id="plan-reset" type="button" aria-label="清空当前训练组今天的勾选">清空本组勾选</button></div>
       </div>
     </section>
+    <aside class="weekly-aside"><div class="section-heading"><h2>本周足迹</h2><a class="text-link" href="#stats">全部统计 ↗</a></div><p class="weekly-total"><b id="week-total">0</b><span>天训练 / 本周</span></p><div class="week-strip" id="week-strip"></div><p class="week-caption" id="week-caption">第一次打卡，就是一个好开始。</p><div class="aside-note"><span class="eyebrow">ONE STEP AT A TIME</span><h3>不必一次练很多，<br>只要一次次来。</h3><p>跟随自己的节奏，也给恢复留一点时间。</p></div><a class="library-shortcut" href="#library"><span><b>动作不会？看看这里</b><small>24 个动作 · 视频与分步指导</small></span><span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </div>
+    <div id="view-stats" class="view" aria-labelledby="stats-title" hidden>
+      <section class="page-heading"><div><p class="eyebrow">YOUR CONSISTENCY</p><h1 id="stats-title">坚持，看得见<span>。</span></h1><p class="lede">每一个有记录的日子，都是向前的一小步。</p></div></section>
+      <div class="stats-overview" id="stats-overview"></div>
+      <section class="stats-panel" aria-label="按周期查看打卡统计">
+        <div class="section-heading"><h2>打卡日历</h2><div class="period-tabs" role="group" aria-label="统计周期"><button type="button" data-period="week" aria-pressed="true">每周</button><button type="button" data-period="month" aria-pressed="false">每月</button><button type="button" data-period="year" aria-pressed="false">每年</button></div></div>
+        <div class="period-toolbar"><div class="period-pager"><button type="button" id="period-prev" aria-label="上一个周期">‹</button><h3 id="period-title"></h3><button type="button" id="period-next" aria-label="下一个周期">›</button></div><button class="text-link" type="button" id="period-current">回到本周</button></div>
+        <div class="period-summary" id="period-summary" role="status" aria-live="polite"></div>
+        <div id="stats-chart"></div>
+        <p class="chart-caption" id="chart-caption"></p>
+        <div id="selected-day" class="selected-day" aria-live="polite"></div>
+        <p class="stats-definition">当天完成至少 1 个动作计为 1 个打卡日；同一天、同一动作跨计划只计 1 次。每周从周一开始。</p>
+      </section>
+      <details class="plan-history" id="plan-history"><summary>历史打卡明细<small>按日期查看已完成动作</small></summary><div id="plan-history-list"></div></details>
+      <p class="storage-note">记录仅保存在当前浏览器，清除浏览器数据会删除记录。</p>
+    </div>
+    <div id="view-library" class="view" aria-labelledby="library-title" hidden>
+      <section class="page-heading"><div><p class="eyebrow">MOVEMENT LIBRARY</p><h1 id="library-title">练哪里，怎么练<span>。</span></h1><p class="lede">24 个动作，器械调节、发力路线，一看就明白。</p></div><span class="section-hint">视频可离线播放</span></section>
     <section class="filters" aria-label="筛选训练动作">
       <div class="filter-title"><b>先选训练部位</b><span>筛选按主要训练肌肉匹配</span></div>
       <div class="part-buttons" id="categories" role="group" aria-label="训练部位"></div>
@@ -59,10 +85,11 @@
     <div id="empty" class="empty" hidden><b>暂时没有符合条件的动作</b><p>试试取消器械限制，或选择另一个主要肌肉。</p><button id="empty-reset" type="button">显示全部动作</button></div>
     <div class="load-more"><button id="more" type="button">加载更多动作</button></div>
     <section class="practice-note"><b>开始练之前</b><p>每个动作先用轻重量试做 1 组。卡片上的组次是一般参考，初学者可从 2 组起步，并在还能规范完成约 2 次时停止。一次选几个适合自己的动作，不用把整页都练完。关节疼痛或明显不适时停止，先检查器械设置。</p><p>动作可改变肌肉参与侧重，但不能完全隔离某一块肌肉，也不能局部减脂。器械品牌、阻力比和个体活动范围不同，不按配重片数字互相比较。</p></section>
+    </div>
     <footer><b>看清楚，再慢慢做好。</b><p>教学演示与动作参考：StrengthLog；部分英文视频：Muscle &amp; Strength。已保存本地学习副本并保留来源，版权归原作者。演示是标准动作示例，不代表现场器械的精确型号。</p><a href="assets/sources.json" target="_blank" rel="noopener">素材来源清单 ↗</a><span>更新：2026-09-08 · 24 个动作</span></footer>
   </main>
   <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>动作分步指导</span><button type="button" id="close-detail" aria-label="关闭动作指导">✕</button></div><div id="detail-content"></div></dialog>
   <noscript><p class="noscript">请启用 JavaScript 查看筛选和动作库。离线版请解压后使用浏览器打开 index.html。</p></noscript>
-  <script src="data.js"></script><script src="extra-data.js"></script><script src="training.js"></script><script src="guide.js"></script><script src="plans.js"></script>
+  <script src="data.js"></script><script src="extra-data.js"></script><script src="training.js"></script><script src="checkin-stats.js"></script><script src="guide.js"></script><script src="dashboard.js"></script><script src="plans.js"></script>
 </body>
 </html>

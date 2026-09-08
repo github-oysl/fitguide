@@ -164,13 +164,19 @@
   function loadState() {
     try {
       const raw = JSON.parse(localStorage.getItem(STORE_KEY));
-      if (raw && typeof raw === 'object' && raw.plan && raw.day && raw.done) return raw;
+      if (raw && typeof raw === 'object' && raw.plan && raw.day && raw.done) return { plan: raw.plan, day: raw.day, done: window.GYM_STATS.cleanDone(raw.done) };
     } catch (error) { /* 损坏数据则回到默认 */ }
     return { plan: PLANS[0].id, day: PLANS[0].days[0].id, done: {} };
   }
   const state = loadState();
   function saveState() {
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (error) { /* 隐私模式等情况下静默 */ }
+    const status = document.getElementById('save-status');
+    try {
+      localStorage.setItem(STORE_KEY, JSON.stringify(state));
+      status.textContent = '打卡已保存到此浏览器';
+    } catch (error) {
+      status.textContent = '无法保存记录，请允许浏览器本地存储后重试';
+    }
   }
   function currentPlan() { return PLANS.find(plan => plan.id === state.plan) || PLANS[0]; }
   function currentDay() { return currentPlan().days.find(day => day.id === state.day) || currentPlan().days[0]; }
@@ -198,6 +204,7 @@
       const plan = currentPlan();
       state.day = plan.id === 'single' ? 'chest' : plan.days[0].id;
       saveState(); renderAll();
+      planTabs.querySelector(`[data-plan="${state.plan}"]`)?.focus({preventScroll: true});
     }));
   }
 
@@ -207,6 +214,7 @@
     ).join('');
     dayTabs.querySelectorAll('[data-day]').forEach(button => button.addEventListener('click', () => {
       state.day = button.dataset.day; saveState(); renderAll();
+      dayTabs.querySelector(`[data-day="${state.day}"]`)?.focus({preventScroll: true});
     }));
   }
 
@@ -215,19 +223,25 @@
     const total = day.items.length;
     // “本日打卡”= 该训练日动作列表中包含今天日期的个数
     const finished = day.items.filter(item => (done[item[0]] || []).includes(t)).length;
-    const complete = total > 0 && finished === total ? ' ✅ 今日全部完成' : '';
+    const complete = total > 0 && finished === total ? ' · 今日全部完成' : '';
     planProgress.textContent = `本日打卡 ${finished} / ${total}${complete}`;
     planBar.style.width = total ? `${(finished / total) * 100}%` : '0%';
+    document.getElementById('today-completed').innerHTML = `${finished}<span> / ${total}</span>`;
+    document.getElementById('today-ring').style.setProperty('--progress', `${total ? finished / total * 100 : 0}%`);
+    document.getElementById('today-plan-name').textContent = `${currentPlan().name} · ${day.label}`;
+    document.getElementById('today-plan-subtitle').textContent = finished === total ? '今天的计划完成了，好好恢复。' : `${day.part} · ${total} 个动作`;
+    document.querySelector('.start-button').innerHTML = `${finished === total ? '查看今日训练' : finished ? '继续训练' : '开始训练'} <span aria-hidden="true">↗</span>`;
+    document.getElementById('plan-reset').disabled = finished === 0;
   }
 
   function renderItems() {
     const day = currentDay(), done = doneMap(), t = today();
-    planItems.innerHTML = day.items.map(([id, sets, rest]) => {
+    planItems.innerHTML = day.items.map(([id, sets, rest], index) => {
       const item = byId.get(id); if (!item) return '';
       const marked = (done[id] || []).includes(t);
       return `<li class="plan-item${marked ? ' is-done' : ''}">
-        <button class="plan-check" type="button" data-check="${id}" aria-pressed="${marked}" aria-label="打卡：${escape(item.name)}">${marked ? '✓' : '○'}</button>
-        <div class="plan-item-text"><b>${escape(item.name)}</b><span>${escape(item.primary)} · ${escape(sets)} · 休 ${escape(rest)}</span></div>
+        <button class="plan-check" type="button" data-check="${id}" aria-pressed="${marked}" aria-label="打卡：${escape(item.name)}">${marked ? '✓' : String(index + 1).padStart(2, '0')}</button>
+        <div class="plan-item-text"><b>${escape(item.name)}</b><span>${escape(sets)} · 休息 ${escape(rest)}</span></div>
         <button class="detail-button plan-detail" type="button" data-detail="${id}">怎么练 ↗</button>
       </li>`;
     }).join('');
@@ -238,6 +252,7 @@
       const at = list.indexOf(t);
       if (at >= 0) list.splice(at, 1); else list.push(t);
       saveState(); renderAll();
+      planItems.querySelector(`[data-check="${id}"]`)?.focus({preventScroll: true});
     }));
     planItems.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', () => {
       if (window.GYM_UI && typeof window.GYM_UI.showDetail === 'function') {
@@ -284,7 +299,7 @@
         const total = first.day.items.length;
         const full = total > 0 && list.length >= total;
         const exercises = list.map(entry => `${escape(entry.item.name)}${entry.spec ? ` · ${escape(entry.spec[1])}` : ''}`).join('，');
-        return `<div class="hist-block"><div class="hist-block-head"><b>${escape(first.plan.name)} · ${escape(first.day.label)} ${escape(first.day.part)}</b><span class="hist-note">${full ? '✅ 全部完成' : `已完成 ${list.length} / ${total}`}</span></div><p>${exercises}</p></div>`;
+        return `<div class="hist-block"><div class="hist-block-head"><b>${escape(first.plan.name)} · ${escape(first.day.label)} ${escape(first.day.part)}</b><span class="hist-note">${full ? '全部完成' : `已完成 ${list.length} / ${total}`}</span></div><p>${exercises}</p></div>`;
       }).join('');
       return `<div class="hist-date"><b>${escape(formatDate(date))}</b>${blocksHtml}</div>`;
     }).join('');
@@ -295,6 +310,7 @@
     planNote.textContent = plan.note;
     planTip.innerHTML = `<b>${escape(day.label)} · ${escape(day.part)}</b> ${escape(day.tip)}`;
     renderPlanTabs(); renderDayTabs(); renderProgress(); renderItems(); renderHistory();
+    window.GYM_DASHBOARD.update(state.done);
   }
 
   document.getElementById('plan-reset').addEventListener('click', () => {
@@ -307,5 +323,15 @@
     saveState(); renderAll();
   });
 
+  let renderedDate = today();
+  function refreshDate() {
+    if (today() !== renderedDate) { renderedDate = today(); renderAll(); }
+  }
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshDate(); });
+  setInterval(refreshDate, 30000);
+  window.addEventListener('storage', event => {
+    if (event.key !== STORE_KEY && event.key !== null) return;
+    Object.assign(state, loadState()); renderAll();
+  });
   renderAll();
 })();

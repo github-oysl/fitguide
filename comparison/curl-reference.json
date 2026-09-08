@@ -1,0 +1,125 @@
+{
+  "exerciseId": "cable-curl-with-bar",
+  "version": "curl-side-v1",
+  "view": "side",
+  "source": "assets/cable-curl-with-bar.mp4",
+  "sampleFps": 5,
+  "referenceReps": 1,
+  "metrics": {
+    "elbowRange": 108.1,
+    "armDrift": 0.15,
+    "torsoSway": 3.09
+  },
+  "trajectory": [
+    {
+      "phase": 0,
+      "elbow": 152.6,
+      "torso": 1.32
+    },
+    {
+      "phase": 0.05,
+      "elbow": 141.17,
+      "torso": 1.28
+    },
+    {
+      "phase": 0.1,
+      "elbow": 129.75,
+      "torso": 1.23
+    },
+    {
+      "phase": 0.15,
+      "elbow": 118.7,
+      "torso": 1.55
+    },
+    {
+      "phase": 0.2,
+      "elbow": 108.02,
+      "torso": 2.24
+    },
+    {
+      "phase": 0.25,
+      "elbow": 97.35,
+      "torso": 2.92
+    },
+    {
+      "phase": 0.3,
+      "elbow": 86.79,
+      "torso": 3.28
+    },
+    {
+      "phase": 0.35,
+      "elbow": 76.22,
+      "torso": 3.63
+    },
+    {
+      "phase": 0.4,
+      "elbow": 65.65,
+      "torso": 3.25
+    },
+    {
+      "phase": 0.45,
+      "elbow": 55.08,
+      "torso": 2.15
+    },
+    {
+      "phase": 0.5,
+      "elbow": 44.5,
+      "torso": 1.05
+    },
+    {
+      "phase": 0.55,
+      "elbow": 44.5,
+      "torso": 0.87
+    },
+    {
+      "phase": 0.6,
+      "elbow": 50.56,
+      "torso": 1.55
+    },
+    {
+      "phase": 0.65,
+      "elbow": 60.44,
+      "torso": 2.09
+    },
+    {
+      "phase": 0.7,
+      "elbow": 73.24,
+      "torso": 2.2
+    },
+    {
+      "phase": 0.75,
+      "elbow": 89.34,
+      "torso": 2.35
+    },
+    {
+      "phase": 0.8,
+      "elbow": 101.44,
+      "torso": 1.89
+    },
+    {
+      "phase": 0.85,
+      "elbow": 114.21,
+      "torso": 1.33
+    },
+    {
+      "phase": 0.9,
+      "elbow": 126.25,
+      "torso": 0.9
+    },
+    {
+      "phase": 0.95,
+      "elbow": 134.57,
+      "torso": 0.82
+    },
+    {
+      "phase": 1,
+      "elbow": 134.57,
+      "torso": 1.22
+    }
+  ],
+  "quality": {
+    "usable": true,
+    "coverage": 1,
+    "reason": ""
+  }
+}
