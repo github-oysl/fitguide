@@ -2,3 +2,12 @@ test-artifacts/
 .env
 .env.*
 !.env.example
+
+# 本地媒体素材：版权归原作者，不随仓库分发。
+# 请按 assets/sources.json 与 assets/cardio-sources.json 自行获取，放入 assets/（保持文件名一致）。
+assets/*.jpg
+assets/*.jpeg
+assets/*.png
+assets/*.gif
+assets/*.webm
+assets/*.mp4
