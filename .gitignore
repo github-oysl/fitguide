@@ -11,3 +11,7 @@ assets/*.png
 assets/*.gif
 assets/*.webm
 assets/*.mp4
+
+# 本地保留的教师节彩蛋资源（含个人内容，不随仓库分发；线上 /var/www 有独立副本）
+teachers-day.js
+teachers-day.css
