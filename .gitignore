@@ -18,3 +18,12 @@ teachers-day.css
 
 # Local verification contains personal Easter egg assertions.
 /tools/verify-teachers-day.cjs
+
+# 健身房实拍原图及其裁切产物：含个人场所信息，且本仓库为公开仓库，不随仓库分发。
+# 整理结论（docs/equipment-review/ 下的 md、json、脚本与 AI 生成示意图）正常纳入版本管理。
+健身房器械图片/
+docs/equipment-review/photo-audit/contact-*.jpg
+docs/equipment-review/photo-audit/detail-*.jpg
+
+# 智能体本地工作记忆（含本机环境信息），不随仓库分发
+.workbuddy/
