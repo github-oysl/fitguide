@@ -121,9 +121,25 @@ function renderGuidance(data){
   root.innerHTML=`<p>${escape(data.summary)}</p>${data.tips.map(t=>`<article class="guidance-tip"><button type="button" class="text-link" data-guidance-time="${Number(t.start)}">${seconds(t.start)}–${seconds(t.end)} ↗</button><p>${escape(t.observation)}</p><b>${escape(t.adjustment)}</b></article>`).join('')}${data.uncertainties.length?`<p class="guidance-uncertain">尚不能判断：${data.uncertainties.map(escape).join('；')}</p>`:''}${data.disagreements.map(d=>`<p class="guidance-uncertain">与代码判断不同（${escape(report.metrics.find(m=>m.id===d.metricId)?.label||d.metricId)}）：${escape(d.reason)}</p>`).join('')}`;
   root.querySelectorAll('[data-guidance-time]').forEach(button=>button.onclick=()=>{setPlayback('user',Number(button.dataset.guidanceTime));dialog.scrollTop=el('compare-player-wrap').offsetTop-80;});
 }
+// 对比是纯按需入口（打开详情弹窗时才会 import 本模块），样式也随之加载，
+// 不占用首屏的渲染阻塞请求。
+const STYLE_HREF=new URL('./comparison.css',import.meta.url).href;
+let stylesReady=null;
+function ensureStyles(){
+  if(stylesReady)return stylesReady;
+  if(document.querySelector('link[data-comparison-style]'))return stylesReady=Promise.resolve();
+  stylesReady=new Promise(resolve=>{
+    const link=document.createElement('link');
+    link.rel='stylesheet';link.href=STYLE_HREF;link.dataset.comparisonStyle='';
+    // 样式加载失败也不该挡住功能，这里始终 resolve。
+    link.onload=()=>resolve();link.onerror=()=>resolve();
+    document.head.append(link);
+  });
+  return stylesReady;
+}
 export async function openComparison(origin,item){
   if(item)exercise=item;
-  if(!dialog)shell();trigger=origin;stop();clearReport();
+  if(!dialog){await ensureStyles();shell();}trigger=origin;stop();clearReport();
   el('compare-reference-file').value='';el('reference-status').textContent='内置示范识别不可靠时，可选择同角度、完整往返的参考视频，仅在本机使用。';
   el('compare-file').value='';el('compare-file-name').textContent='支持浏览器可播放的 MP4 / WebM';el('compare-player-wrap').hidden=true;el('compare-analyze').disabled=true;el('compare-analyze').textContent='开始分析';el('compare-cancel').hidden=true;
   el('compare-status').textContent='选择视频后开始。结果只表示与参考示例的差异。';

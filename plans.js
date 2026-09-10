@@ -197,28 +197,41 @@
   const planBar = document.getElementById('plan-bar');
   const planItems = document.getElementById('plan-items');
 
+  // 统计视图默认 hidden；它里面的历史明细只在真正可见时才需要重建。
+  function statsVisible() {
+    const view = document.getElementById('view-stats');
+    return !!view && !view.hidden;
+  }
+
   function renderPlanTabs() {
     planTabs.innerHTML = PLANS.map(plan =>
       `<button type="button" data-plan="${plan.id}" aria-pressed="${plan.id === state.plan}"><b>${escape(plan.name)}</b><small>${escape(plan.tag)}</small></button>`
     ).join('');
-    planTabs.querySelectorAll('[data-plan]').forEach(button => button.addEventListener('click', () => {
-      state.plan = button.dataset.plan;
-      const plan = currentPlan();
-      state.day = plan.id === 'single' ? 'chest' : plan.days[0].id;
-      saveState(); renderAll();
-      planTabs.querySelector(`[data-plan="${state.plan}"]`)?.focus({preventScroll: true});
-    }));
   }
 
   function renderDayTabs() {
     dayTabs.innerHTML = currentPlan().days.map(day =>
       `<button type="button" data-day="${day.id}" aria-pressed="${day.id === state.day}">${escape(day.label)}<small>${escape(day.part)}</small></button>`
     ).join('');
-    dayTabs.querySelectorAll('[data-day]').forEach(button => button.addEventListener('click', () => {
-      state.day = button.dataset.day; saveState(); renderAll();
-      dayTabs.querySelector(`[data-day="${state.day}"]`)?.focus({preventScroll: true});
-    }));
   }
+
+  // 标签是纯按钮列表：用事件委托绑定一次，避免每次重渲染都重建一批监听器。
+  planTabs.addEventListener('click', event => {
+    const button = event.target.closest('[data-plan]');
+    if (!button) return;
+    state.plan = button.dataset.plan;
+    const plan = currentPlan();
+    state.day = plan.id === 'single' ? 'chest' : plan.days[0].id;
+    saveState(); renderAll();
+    planTabs.querySelector(`[data-plan="${state.plan}"]`)?.focus({preventScroll: true});
+  });
+
+  dayTabs.addEventListener('click', event => {
+    const button = event.target.closest('[data-day]');
+    if (!button) return;
+    state.day = button.dataset.day; saveState(); renderAll();
+    dayTabs.querySelector(`[data-day="${state.day}"]`)?.focus({preventScroll: true});
+  });
 
   function renderProgress() {
     const day = currentDay(), done = doneMap(), t = today();
@@ -242,31 +255,51 @@
       const item = byId.get(id); if (!item) return '';
       const marked = (done[id] || []).includes(t);
       return `<li class="plan-item${marked ? ' is-done' : ''}">
-        <button class="plan-check" type="button" data-check="${id}" aria-pressed="${marked}" aria-label="打卡：${escape(item.name)}">${marked ? '✓' : String(index + 1).padStart(2, '0')}</button>
+        <button class="plan-check" type="button" data-check="${id}" data-index="${String(index + 1).padStart(2, '0')}" aria-pressed="${marked}" aria-label="打卡：${escape(item.name)}">${marked ? '✓' : String(index + 1).padStart(2, '0')}</button>
         <div class="plan-item-text"><b>${escape(item.name)}</b><span>${escape(sets)} · 休息 ${escape(rest)}</span></div>
         <button class="detail-button plan-detail" type="button" data-detail="${id}">怎么练 ↗</button>
       </li>`;
     }).join('');
-    planItems.querySelectorAll('[data-check]').forEach(button => button.addEventListener('click', () => {
-      const done = doneMap(), id = button.dataset.check, t = today();
-      // 点一下：把今天日期加入该动作的日期列表；再点一下：移除今天（撤销今天这一勾）
-      const list = done[id] || (done[id] = []);
-      const at = list.indexOf(t);
-      if (at >= 0) list.splice(at, 1); else list.push(t);
-      const saved = saveState();
-      if (!saved) { if (at >= 0) list.splice(at, 0, t); else list.pop(); }
-      renderAll();
-      planItems.querySelector(`[data-check="${id}"]`)?.focus({preventScroll: true});
-    }));
-    planItems.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', () => {
-      if (window.GYM_UI && typeof window.GYM_UI.showDetail === 'function') {
-        window.GYM_UI.showDetail(button.dataset.detail, button);
-      }
-    }));
   }
 
+  // 勾选只影响这一个按钮：就地改状态，不重建整个列表。
+  function paintItem(button) {
+    const marked = (doneMap()[button.dataset.check] || []).includes(today());
+    button.setAttribute('aria-pressed', String(marked));
+    button.textContent = marked ? '✓' : button.dataset.index;
+    button.closest('.plan-item')?.classList.toggle('is-done', marked);
+  }
+
+  function toggleCheck(button) {
+    const done = doneMap(), id = button.dataset.check, t = today();
+    // 点一下：把今天日期加入该动作的日期列表；再点一下：移除今天（撤销今天这一勾）
+    const list = done[id] || (done[id] = []);
+    const at = list.indexOf(t);
+    if (at >= 0) list.splice(at, 1); else list.push(t);
+    const saved = saveState();
+    if (!saved) { if (at >= 0) list.splice(at, 0, t); else list.pop(); }
+    paintItem(button);
+    renderProgress();
+    if (statsVisible()) renderHistory();
+    window.GYM_DASHBOARD.update(state.done);
+    button.focus({preventScroll: true});
+    if (saved && at < 0) window.GYM_GIFT.checkin(t);
+  }
+
+  // 打卡按钮与「怎么练」用委托绑定一次；列表重建不会叠加监听器。
+  planItems.addEventListener('click', event => {
+    const button = event.target.closest('[data-check]');
+    if (button) { toggleCheck(button); return; }
+    const detail = event.target.closest('[data-detail]');
+    if (detail && window.GYM_UI && typeof window.GYM_UI.showDetail === 'function') {
+      window.GYM_UI.showDetail(detail.dataset.detail, detail);
+    }
+  });
+
   // 历史打卡：把所有动作的日期列表按日期归档，倒序展示。
-  function renderHistory() {
+  // 历史明细要遍历全部打卡数据，只在统计视图可见时才值得重建。
+  function renderHistory(force) {
+    if (!force && !statsVisible()) return;
     const listEl = document.getElementById('plan-history-list');
     if (!listEl) return;
     const byDate = {};
@@ -324,8 +357,14 @@
       const at = (list || []).indexOf(t);
       if (at >= 0) list.splice(at, 1);
     });
-    saveState(); renderAll();
+    saveState();
+    // 计划与训练日没变，只需刷新勾选状态与进度，不必重建标签。
+    renderItems(); renderProgress(); renderHistory();
+    window.GYM_DASHBOARD.update(state.done);
   });
+
+  // 切到统计视图时补建历史明细（默认视图下它是 hidden，无需提前渲染）。
+  window.addEventListener('hashchange', () => { if (statsVisible()) renderHistory(); });
 
   let renderedDate = today();
   function refreshDate() {

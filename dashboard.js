@@ -3,6 +3,8 @@
   const stats = window.GYM_STATS;
   const byId = new Map(window.GYM_DATA.map(item => [item.id, item]));
   const weekdays = ['一', '二', '三', '四', '五', '六', '日'];
+  // 格式化器复用同一个实例，避免每次渲染都重新构造 Intl 对象。
+  const DATE_FORMAT = new Intl.DateTimeFormat('zh-CN', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'});
   const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   let done = {}, period = 'week', cursor = new Date(), selected = null;
   function setMode(mode) {
@@ -23,9 +25,10 @@
     document.querySelectorAll('video').forEach(video => video.pause());
     if (['plans', 'free-activity'].includes(hash)) { setMode(hash); const target = document.querySelector('.training-mode'); window.scrollTo({top:window.scrollY + target.getBoundingClientRect().top - 20, behavior:'instant'}); }
     if (!['plans', 'main', 'free-activity'].includes(hash)) window.scrollTo({ top: 0, behavior: 'instant' });
+    // 统计视图刚显示出来时，补渲染切走期间攒下的变更。
+    flushIfVisible();
   }
   window.addEventListener('hashchange', navigate);
-  navigate();
 
   function renderDay(date, dates, now, className = '') {
     const value = stats.key(date), count = dates.get(value)?.size || 0, future = value > stats.key(now);
@@ -38,25 +41,31 @@
     const ids = [...(dates.get(selected) || [])];
     root.innerHTML = `<b>${escape(selected)} · ${ids.length ? `完成 ${ids.length} 项运动` : '没有打卡记录'}</b>${ids.length ? `<p>${ids.map(id => escape(byId.get(id)?.name || id)).join('、')}</p>` : '<p>休息也是训练的一部分。</p>'}`;
   }
-  function render() {
-    const activities = window.GYM_ACTIVITIES.list();
-    for (const id of byId.keys()) if (id.startsWith('activity:')) byId.delete(id);
-    for (const r of activities) byId.set(`activity:${r.id}`, {name:`自由运动：${window.GYM_ACTIVITIES.description(r)}`});
-    const now = new Date(), dates = stats.aggregate(done, now, new Set(window.GYM_DATA.map(r => r.id)), activities);
-    const currentKey = stats.key(now);
-    document.getElementById('today-date').textContent = now.toLocaleDateString('zh-CN', {year:'numeric', month:'long', day:'numeric', weekday:'long'});
+
+  // 统计视图默认 hidden，重建日历/年柱的开销不该由「今日训练」页承担。
+  function statsVisible() {
+    const view = document.getElementById('view-stats');
+    return !!view && !view.hidden;
+  }
+  let statsDirty = false;
+
+  // 今日训练页的周足迹：只在真正可见时更新，开销很小。
+  function renderTodayPanel(now, dates, currentKey) {
     const week = stats.range('week', now), weekCount = stats.summarize(dates, week).days;
+    document.getElementById('today-date').textContent = DATE_FORMAT.format(now);
     document.getElementById('week-total').textContent = weekCount;
     document.getElementById('week-strip').innerHTML = weekdays.map((label, index) => {
       const value = stats.key(stats.addDays(week.start, index)), checked = dates.has(value);
       return `<div class="week-day ${checked ? 'checked' : ''} ${value === currentKey ? 'today' : ''}"><span>${label}</span><b aria-label="${value} ${checked ? '已打卡' : '未打卡'}">${checked ? '✓' : stats.parse(value).getDate()}</b></div>`;
     }).join('');
     document.getElementById('week-caption').textContent = weekCount ? `本周已留下 ${weekCount} 天训练记录，按自己的节奏继续。` : '第一次打卡，就是一个好开始。';
+  }
+
+  function renderStatsPanel(now, dates, currentKey) {
     document.getElementById('stats-overview').innerHTML = [['week', '本周'], ['month', '本月'], ['year', '今年']].map(([type, label], index) => {
       const count = stats.summarize(dates, stats.range(type, now));
       return `<button type="button" class="overview-card" data-overview="${type}"><span>${label}打卡<span aria-hidden="true">↗</span></span><strong>${count.days}<small>天</small></strong><span class="overview-caption">${count.exercises} 次运动完成<span class="overview-index" aria-hidden="true">0${index + 1}</span></span></button>`;
     }).join('');
-    document.querySelectorAll('[data-overview]').forEach(button => button.addEventListener('click', () => { period = button.dataset.overview; cursor = new Date(); selected = null; render(); }));
     document.querySelectorAll('[data-period]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.period === period)));
     const bounds = stats.range(period, cursor), counts = stats.summarize(dates, bounds);
     const shortDate = date => `${date.getMonth() + 1}月${date.getDate()}日`;
@@ -82,14 +91,46 @@
       }).join('')}</div>`;
     }
     document.getElementById('chart-caption').textContent = period === 'year' ? '柱高表示当月打卡天数占比 · 点击月份查看月历' : counts.days ? '绿色表示已打卡 · 点击日期查看当天运动' : '这段时间还没有打卡。记录运动后，这里会自动留下记录。';
-    chart.querySelectorAll('[data-date]').forEach(button => button.addEventListener('click', () => { selected = button.dataset.date; render(); document.querySelector(`[data-date="${selected}"]`)?.focus({preventScroll:true}); }));
-    chart.querySelectorAll('[data-month]').forEach(button => button.addEventListener('click', () => { cursor = new Date(cursor.getFullYear(), Number(button.dataset.month), 1, 12); period = 'month'; selected = null; render(); }));
     renderSelection(dates);
   }
+
+  // 日历/年柱内部的按钮随视图重建，所以用委托绑定一次即可。
+  document.getElementById('stats-overview').addEventListener('click', event => {
+    const button = event.target.closest('[data-overview]');
+    if (!button) return;
+    period = button.dataset.overview; cursor = new Date(); selected = null; render();
+  });
+  document.getElementById('stats-chart').addEventListener('click', event => {
+    const day = event.target.closest('[data-date]');
+    if (day) {
+      selected = day.dataset.date; render();
+      document.querySelector(`[data-date="${selected}"]`)?.focus({preventScroll: true});
+      return;
+    }
+    const month = event.target.closest('[data-month]');
+    if (month) { cursor = new Date(cursor.getFullYear(), Number(month.dataset.month), 1, 12); period = 'month'; selected = null; render(); }
+  });
+
+  function render() {
+    const activities = window.GYM_ACTIVITIES.list();
+    for (const id of byId.keys()) if (id.startsWith('activity:')) byId.delete(id);
+    for (const r of activities) byId.set(`activity:${r.id}`, {name:`自由运动：${window.GYM_ACTIVITIES.description(r)}`});
+    const now = new Date(), dates = stats.aggregate(done, now, new Set(window.GYM_DATA.map(r => r.id)), activities);
+    const currentKey = stats.key(now);
+    renderTodayPanel(now, dates, currentKey);
+    if (!statsVisible()) { statsDirty = true; return; }
+    statsDirty = false;
+    renderStatsPanel(now, dates, currentKey);
+  }
+
+  // 回到统计视图时，把切走期间攒下的变更补渲染。
+  function flushIfVisible() { if (statsDirty && statsVisible()) render(); }
   document.querySelectorAll('[data-period]').forEach(button => button.addEventListener('click', () => { period = button.dataset.period; cursor = new Date(); selected = null; render(); }));
   document.getElementById('period-prev').addEventListener('click', () => { cursor = stats.shift(period, cursor, -1); selected = null; render(); });
   document.getElementById('period-next').addEventListener('click', () => { cursor = stats.shift(period, cursor, 1); selected = null; render(); });
   document.getElementById('period-current').addEventListener('click', () => { cursor = new Date(); selected = null; render(); });
   window.GYM_DASHBOARD = { update(value) { done = value; render(); } };
   window.addEventListener('activitieschange', render);
+  // 放在最后：navigate() 会读 statsDirty，必须等声明执行完再首跑。
+  navigate();
 })();

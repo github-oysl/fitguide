@@ -15,3 +15,6 @@ assets/*.mp4
 # 本地保留的教师节彩蛋资源（含个人内容，不随仓库分发；线上 /var/www 有独立副本）
 teachers-day.js
 teachers-day.css
+
+# Local verification contains personal Easter egg assertions.
+/tools/verify-teachers-day.cjs
