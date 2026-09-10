@@ -60,6 +60,15 @@ const INSTRUMENT = () => {
   await page.evaluate(() => localStorage.clear());
   await page.reload({waitUntil: 'load'});
 
+  // 本机可能挂着日期触发的教师节彩蛋（teachers-day.js 未随仓库分发）：
+  // 9 月 10 日首次打卡会 showModal 弹出模态框，从而挡住后续点击。
+  // 这里把它换成空实现，让用例只针对应用主体流程做断言。
+  const neutralizeGift = () => page.evaluate(() => {
+    window.GYM_GIFT = {checkin() {}};
+    document.getElementById('teachers-day-gift')?.close();
+  });
+  await neutralizeGift();
+
   // hashchange 是异步派发的：切视图后必须等视图真正显示，不能立刻断言。
   const gotoView = async view => {
     await page.click(`[data-view="${view}"]`);
