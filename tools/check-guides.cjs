@@ -1,2 +1,0 @@
-const {chromium}=require('playwright');
-(async()=>{const b=await chromium.launch({headless:true,executablePath:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'});const p=await b.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:8765/#library');await p.locator('.activity-guide').first().waitFor();console.log('guides',await p.locator('.activity-guide').count(),'resources',await p.locator('.guide-resources a').count(),'errors',errors.length);await b.close()})().catch(e=>{console.error(e);process.exit(1)})

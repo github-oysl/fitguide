@@ -60,13 +60,7 @@ const assert = require('node:assert/strict');
   }
   await page.setViewportSize({width:390,height:844});
   await page.locator('#free-activity').screenshot({path:'test-artifacts/free-activity-mobile.png'});
-  await page.locator('[data-view=library]').click();
-  assert.equal(await page.locator('.activity-guide').count(),4);
-  await page.locator('.activity-guide summary').first().click();
-  await page.locator('.activity-guides').screenshot({path:'test-artifacts/activity-guides-mobile.png'});
-  await page.locator('.activity-guide a[href="#free-activity"]').first().click();
-  await page.locator('#free-activity').waitFor({state:'visible'});
   assert.deepEqual(errors,[]);
   await browser.close();
-  console.log('PASS: free-only/mixed dates, persistence, edit/delete, escaped text, failed storage, cross-tab sync, guides, mobile layouts.');
+  console.log('PASS: free-only/mixed dates, persistence, edit/delete, escaped text, failed storage, cross-tab sync, mobile layouts.');
 })().catch(e=>{console.error(e);process.exit(1)});

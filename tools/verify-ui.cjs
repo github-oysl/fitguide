@@ -71,7 +71,12 @@ fs.mkdirSync(output, {recursive:true});
   await page.locator('#search').fill('不存在的动作');
   assert.equal(await page.locator('#empty').isVisible(), true);
   await page.locator('#empty-reset').click();
-  assert.equal(await page.locator('#result-count').innerText(), '24 个动作');
+  const total = await page.evaluate(() => window.GYM_DATA.length);
+  assert.equal(await page.locator('#result-count').innerText(), `${total} 个动作`);
+  // 页面文案里的动作数量必须跟随动作库数据，不能在 HTML 里写死。
+  for (const selector of ['footer > span [data-exercise-count]', '.library-shortcut [data-exercise-count]', '#view-library .lede [data-exercise-count]']) {
+    assert.equal(await page.locator(selector).innerText(), String(total), `${selector} 与动作库数量不一致`);
+  }
   await page.locator('[data-view="today"]').click();
   await page.locator('.plan-detail').first().click();
   assert.equal(await page.locator('#detail').isVisible(), true);

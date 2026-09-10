@@ -4,6 +4,8 @@
   const {categories, muscles, filterExercises} = window.GYM_TRAINING;
   const priority = ['treadmill-walk-jog','treadmill-incline-walk','jump-rope-basic','home-crunch','lat-pulldown-with-pronated-grip','cable-row-seated-narrow-grip','cable-chest-fly','machine-chest-press','leg-press','leg-extension-seated','cable-lateral-raise','triceps-pushdown-with-rope'];
   const items = [...window.GYM_DATA].sort((a,b) => (priority.indexOf(a.id)<0?99:priority.indexOf(a.id))-(priority.indexOf(b.id)<0?99:priority.indexOf(b.id)));
+  // 页面文案里的动作数量一律取自动作库本身，不在 HTML 里写死，避免数据增删后文案失真。
+  document.querySelectorAll('[data-exercise-count]').forEach(el => { el.textContent = String(items.length); });
   const state = {category:'all', muscle:'all', equipment:'all', query:'', limit:8};
   const root = document.getElementById('lessons');
   const dialog = document.getElementById('detail');
