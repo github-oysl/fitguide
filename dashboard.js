@@ -75,7 +75,10 @@
     const isCurrent = stats.key(bounds.start) === stats.key(stats.range(period, now).start);
     document.getElementById('period-current').textContent = {week:'回到本周', month:'回到本月', year:'回到今年'}[period];
     document.getElementById('period-current').disabled = isCurrent;
-    document.getElementById('period-summary').innerHTML = `<div><b>${counts.days}</b><span>打卡天数</span></div><div><b>${counts.exercises}</b><span>运动完成次数</span></div><div><b>${stats.longestStreak(dates, bounds)}</b><span>周期内最长连续天数</span></div>`;
+    // 连续天数是「势头」，用行动色点出来；但没有连续记录时不着色，
+    // 否则一个橙色的 0 会被读成警告。
+    const streak = stats.longestStreak(dates, bounds);
+    document.getElementById('period-summary').innerHTML = `<div><b>${counts.days}</b><span>打卡天数</span></div><div><b>${counts.exercises}</b><span>运动完成次数</span></div><div${streak ? ' class="is-streak"' : ''}><b>${streak}</b><span>周期内最长连续天数</span></div>`;
     const chart = document.getElementById('stats-chart');
     chart.className = `stats-chart ${period}-chart`;
     if (period === 'week') {

@@ -25,6 +25,12 @@
   --accent: #6f8f55;     /* 大字号装饰色，3.7:1 */
   --lime: #ddecbb;
 
+  /* 行动色：四档绿同属一个色相，「今天 / 连续天数 / 下一步」只能靠明度区分，
+     缺一个真正的落点。暖陶土同属低饱和自然色系，不会破坏克制的基调。
+     只用于这三类语义，面积控制在 5% 以内。 */
+  --action: #a85a26;     /* 4.7:1 on --bg · 5.1:1 on --surface，正文可用 */
+  --action-soft: #fbf3ec; /* 行动色浅底：只做「今天」的衬底，--action 在其上 4.6:1 */
+
   /* 间距 */
   --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
   --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 40px; --sp-9: 56px;
@@ -360,9 +366,11 @@ h2 { font-size: var(--fs-xl); }
 .weekly-aside h2 { font-size: var(--fs-lg); }
 .weekly-aside .section-heading { margin: 0; }
 .weekly-aside .text-link { font-size: var(--fs-xs); }
-.weekly-total { display: flex; gap: 13px; align-items: baseline; margin: var(--sp-3) 0 var(--sp-5); }
+/* 数字与单位属于同一套排版：50–52px 的数字旁边挂 12–13px 的单位，
+   差 4 倍会让单位读成数字的脚注，所以单位统一提到 15–16px。 */
+.weekly-total { display: flex; gap: 11px; align-items: baseline; margin: var(--sp-3) 0 var(--sp-5); }
 .weekly-total b { font-size: 52px; font-weight: 500; line-height: 1.15; }
-.weekly-total span { font-size: var(--fs-xs); color: var(--ink-2); }
+.weekly-total span { font-size: 15px; color: var(--ink-2); }
 .week-strip { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px; }
 .week-day { display: flex; flex-direction: column; align-items: center; gap: 9px; }
 .week-day span { font-size: var(--fs-2xs); color: var(--muted); }
@@ -372,7 +380,10 @@ h2 { font-size: var(--fs-xl); }
   font-size: var(--fs-2xs); font-weight: 400;
 }
 .week-day.checked b { background: var(--green); color: var(--surface); }
-.week-day.today b { outline: 1px solid var(--green); outline-offset: 3px; }
+/* 「今天」是这一屏唯一需要被一眼找到的点：用行动色描边，
+   未打卡时再补一层暖底；已打卡仍保持绿色的「完成」语义，只留描边。 */
+.week-day.today b { outline: 2px solid var(--action); outline-offset: 3px; }
+.week-day.today:not(.checked) b { background: var(--action-soft); }
 .week-caption { margin: var(--sp-5) 0 var(--sp-7); font-size: var(--fs-xs); color: var(--muted); }
 .aside-note { padding: var(--sp-7) var(--sp-6); background: var(--soft); border-radius: var(--r-lg); }
 .aside-note .eyebrow { font-size: var(--fs-2xs); margin-bottom: 0; }
@@ -436,7 +447,7 @@ h2 { font-size: var(--fs-xl); }
 .overview-card:hover { background: var(--soft); border-color: var(--green); }
 .overview-card > span { display: flex; justify-content: space-between; align-items: center; font-size: var(--fs-sm); color: var(--ink-2); }
 .overview-card strong { display: block; margin: 12px 0; font-size: 50px; font-weight: 500; line-height: 1.25; }
-.overview-card strong small { margin-left: 9px; font-size: var(--fs-sm); font-weight: 400; color: var(--muted); }
+.overview-card strong small { margin-left: 7px; font-size: 16px; font-weight: 400; color: var(--muted); }
 .overview-card .overview-caption { font-size: var(--fs-xs); color: var(--muted); }
 .overview-index { font-size: var(--fs-xs); color: var(--muted); }
 
@@ -460,7 +471,9 @@ h2 { font-size: var(--fs-xl); }
 .period-summary { display: flex; gap: var(--sp-9); margin: var(--sp-6) 0 var(--sp-7); }
 .period-summary > div { display: flex; align-items: baseline; gap: 9px; }
 .period-summary b { font-size: 30px; font-weight: 500; line-height: 1.2; }
-.period-summary span { font-size: var(--fs-xs); color: var(--ink-2); }
+.period-summary span { font-size: 14px; color: var(--ink-2); }
+/* 连续天数＝势头，是这一屏唯一用行动色的数字 */
+.period-summary .is-streak b { color: var(--action); }
 
 /* 日历 */
 .calendar-labels, .calendar-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
@@ -474,14 +487,19 @@ h2 { font-size: var(--fs-xl); }
 }
 .calendar-day i { height: 16px; font-size: var(--fs-xs); font-style: normal; line-height: 16px; }
 .calendar-day.has-checkin { background: var(--green); color: var(--surface); font-weight: 500; }
-.calendar-day.is-today { border-color: var(--green); }
+/* 「今天」用行动色标记，与绿色的「已完成」是两种语义，不再共用一个色 */
+.calendar-day.is-today { border-color: var(--action); }
+.calendar-day.is-today:not(.has-checkin) { background: var(--action-soft); }
 .calendar-day[aria-pressed=true] { border-width: 2px; border-color: var(--green); }
 .calendar-day.has-checkin[aria-pressed=true] { border-color: var(--lime); }
 .calendar-day:not(:disabled):not(.has-checkin):hover { background: var(--lime); border-color: var(--green); }
 .calendar-day.has-checkin:not(:disabled):hover { border-color: var(--lime); }
 .calendar-day:disabled { opacity: .55; }
 .calendar-blank { display: block; }
-.week-chart .calendar-day { min-height: 106px; font-size: 22px; }
+.week-chart .calendar-day { min-height: 88px; font-size: 22px; }
+/* 周视图格子高，没有记录时下半截是空的，看起来像没做完。
+   补一个安静的破折号占位：空状态是有意为之，而不是缺内容。 */
+.week-chart .calendar-day i:empty::before { content: '—'; color: var(--line-strong); }
 .month-chart { max-width: 720px; margin: 0 auto; }
 .year-bars { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--sp-4); padding-top: 10px; }
 .month-bar {
@@ -594,7 +612,7 @@ h2 { font-size: var(--fs-xl); }
 }
 .result-bar > span { font-size: var(--fs-xs); color: var(--muted); }
 
-.exercise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--sp-5); }
+.exercise-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--sp-5); }
 .exercise-card {
   display: flex; flex-direction: column; overflow: hidden;
   border: 1px solid var(--line); border-radius: var(--r-lg);
@@ -602,7 +620,11 @@ h2 { font-size: var(--fs-xl); }
   transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease), border-color var(--dur) var(--ease);
 }
 .exercise-card:hover { transform: translateY(-2px); box-shadow: var(--sh-2); border-color: var(--line-strong); }
-.media { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: linear-gradient(180deg, #fdfdfb, #f3f6f0); }
+/* 画框做成 1:1：所有动作图本来就是正方形（24 张 480×480 + 4 张 360×360），
+   4:3 的框配 object-fit: contain 会让每一张都在左右留边，
+   深色实拍看起来就像被硬塞进浅色边框里——这才是「三种画风不齐」的真正来源。
+   改成方形后，线稿、彩绘、实拍都变成「同一块底板上的一枚方图」。 */
+.media { position: relative; aspect-ratio: 1 / 1; overflow: hidden; background: var(--tint); }
 .media img, .media video { display: block; width: 100%; height: 100%; object-fit: contain; }
 .media img { padding: 14px; transition: transform .3s var(--ease); }
 .exercise-card:hover .media img { transform: scale(1.02); }
@@ -676,12 +698,17 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
 .detail-heading { padding: var(--sp-6) 28px 0; }
 .detail-heading h2 { font-size: 27px; }
 .detail-cue { margin: 10px 0 0; font-size: 14px; color: var(--green); }
+/* 「对比我的动作」是可选的进阶功能，而且按 COMPARISON.md 多数动作给不出数值报告。
+   它原来用「全宽 + 描边 + 浅绿底」的规格排在正文之前，视觉权重高于
+   「调节 → 发力 → 还原」——这是这一屏真正的主内容。降级为紧凑 chip：
+   仍在标题下方第一屏内，可发现性不变，但不再抢主内容的位置。 */
 .compare-entry {
-  display: block; width: 100%; margin-top: var(--sp-5);
-  padding: 12px 18px; border: 1px solid var(--green); border-radius: var(--r-sm);
-  background: var(--soft); color: var(--green); font-size: 14px; font-weight: 500;
+  display: inline-flex; align-items: center;
+  margin-top: var(--sp-4); padding: 9px 14px;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: transparent; color: var(--green); font-size: var(--fs-xs); font-weight: 500;
 }
-.compare-entry:hover:not(:disabled) { background: var(--lime); }
+.compare-entry:hover:not(:disabled) { background: var(--soft); border-color: var(--green); }
 .detail-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: var(--sp-7); padding: 22px 28px 30px; }
 .detail-media { border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
 .media-note { font-size: var(--fs-2xs); color: var(--muted); margin: 10px 0; }
@@ -729,6 +756,11 @@ footer a { color: var(--green); }
 footer > span { float: right; }
 
 /* ── ⑥ 响应式 ─────────────────────────────────────────────── */
+/* 方形画框在窄列里会显得小，4 列提前退回 3 列 */
+@media (max-width: 1180px) {
+  .exercise-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
 @media (max-width: 1000px) {
   :root { --pad-inline: 28px; }
   .site-header { padding: 20px var(--pad-inline); }
@@ -740,7 +772,6 @@ footer > span { float: right; }
   .plan-tabs button { padding: 11px 8px; text-align: center; }
   .plan-item { gap: 10px; }
   .plan-items { padding: 0 var(--sp-4); }
-  .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gym-photos { grid-template-columns: 1fr; }
   .period-summary { gap: var(--sp-5); }
   .period-summary > div { flex-direction: column; gap: 0; }
@@ -826,7 +857,7 @@ footer > span { float: right; }
   .overview-card { padding: 14px 12px; border-radius: var(--r-md); }
   .overview-card > span { font-size: var(--fs-2xs); }
   .overview-card strong { margin: 12px 0; font-size: 34px; }
-  .overview-card strong small { margin-left: 5px; font-size: var(--fs-2xs); }
+  .overview-card strong small { margin-left: 5px; font-size: 13px; }
   .overview-card .overview-caption { font-size: var(--fs-2xs); }
   .overview-index { display: none; }
 
@@ -842,7 +873,7 @@ footer > span { float: right; }
   .period-toolbar > .text-link { margin-left: auto; font-size: var(--fs-2xs); }
   .period-summary { display: grid; grid-template-columns: 1fr 1fr 1.2fr; gap: var(--sp-3); margin: 10px 0 var(--sp-6); }
   .period-summary b { font-size: 28px; }
-  .period-summary span { font-size: var(--fs-2xs); }
+  .period-summary span { font-size: 12px; }
   .calendar-labels, .calendar-grid { gap: 4px; }
   .calendar-labels { margin-bottom: var(--sp-2); }
   .calendar-labels > span { font-size: var(--fs-2xs); }
@@ -872,7 +903,8 @@ footer > span { float: right; }
   .gym-reference small, .result-bar > span { display: none; }
   .result-bar { padding: var(--sp-5) 0 var(--sp-4); }
   .exercise-grid { grid-template-columns: minmax(0, 1fr); gap: var(--sp-4); }
-  .exercise-card .media { max-height: 300px; }
+  /* 这里原来有 max-height: 300px，它会盖掉 aspect-ratio，
+     方图又被 letterbox 回来，所以去掉——单列下方图正好铺满卡片宽度。 */
   .card-body { padding: 18px; }
   .card-body h3 { font-size: 19px; }
   .card-meta { font-size: var(--fs-2xs); }
