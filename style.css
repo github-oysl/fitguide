@@ -712,6 +712,7 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
 .detail-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: var(--sp-7); padding: 22px 28px 30px; }
 .detail-media { border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
 .media-note { font-size: var(--fs-2xs); color: var(--muted); margin: 10px 0; }
+.quick-title { margin: var(--sp-5) 0 var(--sp-3); font-size: var(--fs-md); }
 .muscle-panel { padding: var(--sp-4); border-radius: var(--r-md); background: var(--soft); font-size: var(--fs-sm); }
 .muscle-panel b { display: block; font-size: var(--fs-2xs); color: var(--green); letter-spacing: .06em; }
 .muscle-panel p { margin: 4px 0 10px; }
@@ -905,10 +906,19 @@ footer > span { float: right; }
   .exercise-grid { grid-template-columns: minmax(0, 1fr); gap: var(--sp-4); }
   /* 这里原来有 max-height: 300px，它会盖掉 aspect-ratio，
      方图又被 letterbox 回来，所以去掉——单列下方图正好铺满卡片宽度。 */
-  .card-body { padding: 18px; }
-  .card-body h3 { font-size: 19px; }
-  .card-meta { font-size: var(--fs-2xs); }
-  .cue { font-size: 14px; }
+  .exercise-card { border-radius: var(--r-lg); }
+  .media img { padding: 10px; }
+  .play { bottom: 10px; padding: 8px 14px; }
+  .card-body { padding: 15px 16px 14px; }
+  .card-meta { align-items: center; font-size: var(--fs-2xs); }
+  .card-meta span:first-child {
+    padding: 3px 8px; border-radius: var(--r-pill);
+    background: var(--soft);
+  }
+  .card-body h3 { margin: 8px 0 4px; font-size: 19px; line-height: 1.25; }
+  .primary { margin-bottom: 7px; }
+  .cue { margin-bottom: 10px; font-size: 14px; line-height: 1.55; }
+  .card-bottom { padding-top: 10px; }
   .practice-note { padding: 18px 18px 18px 16px; }
 
   footer { margin-top: var(--sp-7); padding-bottom: 22px; font-size: var(--fs-2xs); }
@@ -926,11 +936,24 @@ footer > span { float: right; }
   .detail-grid { display: flex; flex-direction: column; gap: 18px; padding: 18px var(--sp-5) var(--sp-6); }
   .detail-grid > div:first-child { display: contents; }
   .detail-media { order: 0; width: 100%; max-width: 400px; margin: auto; }
-  .instructions { order: 1; }
-  .muscle-panel { order: 2; }
-  .prescription { order: 3; }
-  .detail-grid .media-note { order: 4; margin: 0; }
+  .media-credit { order: 1; margin: -8px 0 0; }
+  .quick-title { order: 2; margin: 0; font-size: var(--fs-lg); }
+  .muscle-panel {
+    order: 3; display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4);
+    padding: 14px;
+  }
+  .muscle-panel p { margin: 4px 0 0; }
+  .prescription { order: 4; display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-3); margin: 0; }
+  .prescription span { padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-md); }
+  .prescription b { font-size: var(--fs-sm); }
+  .practice-guidance {
+    order: 5; margin: 0; padding: 12px 14px;
+    border-left: 3px solid var(--accent); border-radius: var(--r-sm);
+    background: var(--tint); color: var(--ink-2); font-size: var(--fs-xs);
+  }
+  .instructions { order: 6; padding-top: var(--sp-2); }
   .instructions li { font-size: var(--fs-md); }
+  .mistake { padding: var(--sp-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--action-soft); }
 }
 
 @media (max-width: 360px) {

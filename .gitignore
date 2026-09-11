@@ -19,9 +19,10 @@ teachers-day.css
 # Local verification contains personal Easter egg assertions.
 /tools/verify-teachers-day.cjs
 
-# 健身房实拍原图及其裁切产物：含个人场所信息，且本仓库为公开仓库，不随仓库分发。
+# 健身房器械 JPG 原图按用户要求纳入版本管理；裁切产物仍仅本地保留。
 # 整理结论（docs/equipment-review/ 下的 md、json、脚本与 AI 生成示意图）正常纳入版本管理。
-健身房器械图片/
+健身房器械图片/*
+!健身房器械图片/*.jpg
 docs/equipment-review/photo-audit/contact-*.jpg
 docs/equipment-review/photo-audit/detail-*.jpg
 

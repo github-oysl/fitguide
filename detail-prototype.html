@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>动作教学详情 · 临时设计原型</title>
+  <style>
+    /* THROWAWAY PROTOTYPE: 三种动作详情方案，通过 ?variant=A|B|C 切换。 */
+    :root {
+      --bg:#f6f7f3; --surface:#fff; --soft:#eef3ea; --tint:#f4f7f0;
+      --line:#e3e9de; --ink:#1f3329; --ink-2:#4d5c52; --muted:#5c6b61;
+      --green:#2c533e; --accent:#6f8f55; --lime:#ddecbb;
+      --bad:#a14e40; --bad-soft:#fbefec;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#dfe5dc; color:var(--ink); font:15px/1.55 system-ui,"Microsoft YaHei",sans-serif; }
+    button { min-height:44px; border:0; font:inherit; color:inherit; cursor:pointer; }
+    .phone { width:min(100%,430px); min-height:100dvh; margin:auto; padding-bottom:92px; background:var(--bg); }
+    .top { position:sticky; top:0; z-index:5; display:flex; justify-content:space-between; align-items:center; padding:10px 16px; border-bottom:1px solid var(--line); background:rgba(246,247,243,.96); }
+    .top small { color:var(--muted); }
+    .close { width:44px; border-radius:10px; background:var(--soft); font-size:20px; }
+    .intro { padding:20px 18px 16px; }
+    .eyebrow { margin:0 0 6px; color:var(--green); font-size:11px; font-weight:700; letter-spacing:.08em; }
+    h1 { margin:0; font-size:25px; line-height:1.3; }
+    h2 { margin:0; font-size:18px; }
+    h3 { margin:0; font-size:15px; }
+    p { margin:0; }
+    .cue { margin-top:8px; color:var(--green); }
+    .media { position:relative; aspect-ratio:1; overflow:hidden; background:var(--surface); }
+    .media img { width:100%; height:100%; object-fit:contain; display:block; }
+    .badge { display:inline-flex; align-items:center; min-height:28px; padding:3px 9px; border-radius:999px; background:var(--soft); color:var(--green); font-size:11px; font-weight:700; }
+    .badge.bad { background:var(--bad-soft); color:var(--bad); }
+    .panel { margin:14px 16px; padding:15px; border:1px solid var(--line); border-radius:14px; background:var(--surface); }
+    .facts { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .fact { padding:12px; border-radius:11px; background:var(--soft); }
+    .fact small { display:block; color:var(--muted); font-size:11px; }
+    .fact b { display:block; margin-top:3px; font-size:13px; }
+    .steps { padding:0; list-style:none; counter-reset:step; }
+    .steps li { display:flex; gap:10px; margin:14px 0; }
+    .steps li::before { content:'0' counter(step); counter-increment:step; color:var(--green); font-size:12px; font-weight:700; }
+    .thumbs { display:flex; gap:9px; overflow:auto; padding:0 16px 4px; }
+    .thumb { flex:0 0 112px; padding:0; overflow:hidden; border:2px solid transparent; border-radius:12px; background:var(--surface); text-align:left; }
+    .thumb.active { border-color:var(--green); }
+    .thumb img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+    .thumb span { display:block; padding:7px 8px; font-size:11px; }
+    .caption { display:flex; justify-content:space-between; gap:12px; padding:12px 16px 0; }
+    .caption p { color:var(--ink-2); font-size:13px; }
+    .video-play { position:absolute; inset:auto 16px 16px; min-height:48px; border-radius:12px; background:rgba(31,51,41,.92); color:white; font-weight:700; }
+    .wrong-mark { position:absolute; top:14px; left:14px; }
+    .segmented { display:grid; grid-template-columns:repeat(3,1fr); gap:4px; margin:0 16px 14px; padding:4px; border:1px solid var(--line); border-radius:13px; background:var(--surface); }
+    .segmented button { min-height:40px; border-radius:9px; background:transparent; font-size:12px; }
+    .segmented button.active { background:var(--green); color:white; }
+    .swipe-hint { margin:-7px 16px 10px; color:var(--muted); font-size:11px; text-align:center; }
+    .b-slide { display:none; }
+    .b-slide.active { display:block; }
+    .image-carousel { overflow:hidden; touch-action:pan-y; user-select:none; }
+    .image-carousel img { -webkit-user-drag:none; user-select:none; }
+    .image-track { display:flex; align-items:flex-start; transition:transform .22s ease; }
+    .image-frame { flex:0 0 100%; min-width:0; }
+    .frame-copy { min-height:86px; padding:13px 16px; border-top:1px solid var(--line); background:var(--surface); }
+    .frame-copy b { display:block; margin-bottom:4px; }
+    .frame-copy p { color:var(--ink-2); font-size:13px; }
+    .carousel-nav { display:grid; grid-template-columns:44px 1fr 44px; align-items:center; gap:8px; margin:10px 16px 14px; }
+    .carousel-nav button { border:1px solid var(--line); border-radius:10px; background:var(--surface); font-size:18px; }
+    .carousel-status { text-align:center; }
+    .carousel-status b { display:block; font-size:12px; }
+    .carousel-status small { color:var(--muted); font-size:11px; }
+    .error-example { margin:0 16px; overflow:hidden; border:1px solid #efd9d3; border-radius:14px; background:var(--surface); }
+    .error-example .media { aspect-ratio:1; }
+    .error-example .frame-copy { border-top-color:#efd9d3; background:var(--bad-soft); }
+    .error-example .frame-copy b { color:var(--bad); }
+    .section-label { margin:14px 16px 8px; color:var(--green); font-size:12px; font-weight:700; }
+    .focus-copy { padding:16px; border-top:1px solid var(--line); background:var(--surface); }
+    .focus-copy b { display:block; margin-bottom:4px; }
+    .focus-copy p { color:var(--ink-2); font-size:13px; }
+    .error { border-color:#efd9d3; background:var(--bad-soft); }
+    .error h3 { color:var(--bad); }
+    .hero-note { position:absolute; inset:auto 12px 12px; padding:10px 12px; border-radius:10px; background:rgba(255,255,255,.92); font-size:12px; }
+    details { margin:10px 16px; overflow:hidden; border:1px solid var(--line); border-radius:13px; background:var(--surface); }
+    summary { min-height:54px; display:flex; align-items:center; justify-content:space-between; padding:0 14px; font-weight:700; cursor:pointer; }
+    summary::after { content:'＋'; color:var(--green); }
+    details[open] summary::after { content:'－'; }
+    .details-body { padding:0 14px 14px; }
+    .wrong-row { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .wrong-card { overflow:hidden; border:1px solid var(--line); border-radius:11px; background:var(--tint); }
+    .wrong-card img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+    .wrong-card p { padding:8px; font-size:11px; }
+    .sticky-cue { position:sticky; bottom:76px; z-index:3; margin:14px 16px; padding:13px 15px; border-radius:13px; background:var(--green); color:white; }
+    .sticky-cue small { display:block; opacity:.76; }
+    .switcher { position:fixed; z-index:20; left:50%; bottom:14px; transform:translateX(-50%); display:grid; grid-template-columns:46px minmax(190px,1fr) 46px; align-items:center; width:min(calc(100% - 28px),400px); padding:5px; border-radius:999px; background:#17271f; color:#fff; box-shadow:0 12px 30px rgba(0,0,0,.28); }
+    .switcher button { border-radius:999px; background:transparent; color:white; font-size:20px; }
+    .switcher strong { text-align:center; font-size:12px; }
+    .variant { display:none; }
+    .variant.active { display:block; }
+    .prototype-note { padding:8px 16px; background:#fff4ce; color:#684f00; font-size:11px; text-align:center; }
+  </style>
+</head>
+<body>
+  <main class="phone">
+    <div class="prototype-note">临时设计原型 · 不属于正式页面</div>
+    <header class="top"><small>动作分步指导</small><button class="close" aria-label="关闭">×</button></header>
+
+    <section class="variant" data-variant="A">
+      <div class="intro"><p class="eyebrow">方案 A · 关键帧分镜</p><h1>正握高位下拉</h1><p class="cue">想象肘部向肋骨两侧下沉。</p></div>
+      <div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="动作关键帧"><div class="hero-note"><b>02 · 下拉</b><br>胸口微抬，手肘垂直向下</div></div>
+      <div class="caption"><p>左右滑动关键帧；点击可放大查看。</p><span class="badge">4 张图</span></div>
+      <div class="thumbs">
+        <button class="thumb"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="准备"><span>01 准备</span></button>
+        <button class="thumb active"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="下拉"><span>02 下拉</span></button>
+        <button class="thumb"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="还原"><span>03 还原</span></button>
+        <button class="thumb"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="错误"><span>错误示例</span></button>
+      </div>
+      <div class="panel facts"><div class="fact"><small>主要训练</small><b>背阔肌</b></div><div class="fact"><small>参考组次</small><b>2–3 × 8–12</b></div></div>
+      <div class="panel"><h2>动作顺序</h2><ol class="steps"><li>坐稳并固定大腿，双手略宽于肩。</li><li>肘部向下，拉杆靠近锁骨上方。</li><li>控制回程，不耸肩、不后仰借力。</li></ol></div>
+      <div class="panel error"><h3>错误示例：身体大幅后仰</h3><p>重量过重时常见。降低重量，让躯干基本稳定。</p></div>
+      <details><summary>观看连续视频（可选）</summary><div class="details-body"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="视频封面"><button class="video-play">▶ 播放 12 秒动作演示</button></div></div></details>
+    </section>
+
+    <section class="variant" data-variant="B">
+      <div class="intro"><p class="eyebrow">方案 B · 分类点击，图片内滑动</p><h1>正握高位下拉</h1><p class="cue">顶部只切换内容类型；左右滑动只切换当前类型中的图片。</p></div>
+      <nav class="segmented" id="b-tabs" role="tablist" aria-label="教学内容">
+        <button class="active" role="tab" aria-selected="true" data-b-panel="0">正确动作</button>
+        <button role="tab" aria-selected="false" data-b-panel="1">错误对比</button>
+        <button role="tab" aria-selected="false" data-b-panel="2">视频</button>
+      </nav>
+      <div id="b-panels">
+          <article class="b-slide active" data-b-slide="0">
+            <p class="swipe-hint">在图片上左右滑动，查看 3 张正确关键图</p>
+            <div class="image-carousel" data-carousel="correct">
+              <div class="image-track">
+                <figure class="image-frame" style="margin:0"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="正确动作 1：准备姿势"><span class="badge" style="position:absolute;top:14px;left:14px">正确 01</span></div><figcaption class="frame-copy"><b>准备姿势</b><p>坐稳并固定大腿，握距略宽于肩，手臂自然伸直。</p></figcaption></figure>
+                <figure class="image-frame" style="margin:0"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="正确动作 2：向下发力"><span class="badge" style="position:absolute;top:14px;left:14px">正确 02</span></div><figcaption class="frame-copy"><b>向下发力</b><p>胸口微抬，沉肩后让手肘向身体两侧下沉。</p></figcaption></figure>
+                <figure class="image-frame" style="margin:0"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="正确动作 3：控制还原"><span class="badge" style="position:absolute;top:14px;left:14px">正确 03</span></div><figcaption class="frame-copy"><b>控制还原</b><p>用约 2 秒伸直手臂，保持躯干稳定且肩膀不耸起。</p></figcaption></figure>
+              </div>
+              <div class="carousel-nav"><button data-carousel-prev aria-label="上一张正确动作图">‹</button><div class="carousel-status"><b data-carousel-count>1 / 3</b><small data-carousel-label>准备姿势</small></div><button data-carousel-next aria-label="下一张正确动作图">›</button></div>
+            </div>
+            <div class="focus-copy"><b>如何进行训练</b><p>依次查看准备、发力和还原三张关键图；图片切换时，下面的动作说明同步更新。</p></div>
+            <div class="panel facts"><div class="fact"><small>主练</small><b>背阔肌</b></div><div class="fact"><small>组次</small><b>2–3 × 8–12</b></div><div class="fact"><small>下拉</small><b>约 1 秒</b></div><div class="fact"><small>回程</small><b>约 2 秒</b></div></div>
+            <div class="panel"><h2>动作注意事项</h2><ol class="steps"><li>握距略宽于肩，手腕保持自然。</li><li>躯干基本稳定，不用后仰甩动重量。</li><li>回程不要耸肩，也不要让配重片撞击。</li></ol></div>
+          </article>
+          <article class="b-slide" data-b-slide="1">
+            <p class="swipe-hint">在图片上左右滑动，逐个查看错误与纠正方法</p>
+            <div class="image-carousel error-example" data-carousel="error">
+              <div class="image-track">
+                <figure class="image-frame" style="margin:0"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="错误示例 1：身体大幅后仰"><span class="badge bad wrong-mark">错误 01</span></div><figcaption class="frame-copy"><b>身体大幅后仰</b><p>通常说明重量过重。降低重量，让胸口微抬但躯干基本保持稳定。</p></figcaption></figure>
+                <figure class="image-frame" style="margin:0"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="错误示例 2：耸肩拉动"><span class="badge bad wrong-mark">错误 02</span></div><figcaption class="frame-copy"><b>耸肩拉动</b><p>先让肩膀远离耳朵，再开始弯曲手肘；回程仍保持肩部受控。</p></figcaption></figure>
+              </div>
+              <div class="carousel-nav"><button data-carousel-prev aria-label="上一张错误示例图">‹</button><div class="carousel-status"><b data-carousel-count>1 / 2</b><small data-carousel-label>身体大幅后仰</small></div><button data-carousel-next aria-label="下一张错误示例图">›</button></div>
+            </div>
+          </article>
+          <article class="b-slide" data-b-slide="2">
+            <div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="正握高位下拉视频封面"><button class="video-play">▶ 播放正确动作演示</button></div>
+            <div class="focus-copy"><b>视频同步提示</b><p>沉肩 → 手肘向下 → 拉到锁骨附近 → 控制 2 秒还原。</p></div>
+            <div class="panel"><h2>播放时看这三点</h2><ol class="steps"><li>躯干是否保持稳定。</li><li>肘部是否朝下而不是朝后。</li><li>回程是否缓慢、没有耸肩。</li></ol></div>
+          </article>
+      </div>
+    </section>
+
+    <section class="variant" data-variant="C">
+      <div class="intro"><p class="eyebrow">方案 C · 训练现场速查</p><h1>正握高位下拉</h1><p class="cue">先看口令和错误，需要时再展开素材。</p></div>
+      <div class="panel facts"><div class="fact"><small>主练</small><b>背阔肌</b></div><div class="fact"><small>组次</small><b>2–3 × 8–12</b></div></div>
+      <div class="panel error"><span class="badge bad">先避开</span><h2 style="margin-top:8px">不要后仰甩动重量</h2><p style="margin-top:5px;color:var(--ink-2)">如果必须借力才能拉下，先降低重量。</p></div>
+      <details open><summary>关键动作图 · 3 张</summary><div class="details-body"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="关键动作图"><div class="hero-note">肘部朝下，不要向后拉</div></div></div></details>
+      <details><summary>错误示例 · 2 张</summary><div class="details-body wrong-row"><article class="wrong-card"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="错误：后仰"><p>× 身体大幅后仰</p></article><article class="wrong-card"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="错误：耸肩"><p>× 耸肩拉动</p></article></div></details>
+      <details><summary>连续视频 · 12 秒（可选）</summary><div class="details-body"><div class="media"><img src="assets/lat-pulldown-with-pronated-grip.jpg" alt="视频封面"><button class="video-play">▶ 播放动作演示</button></div></div></details>
+      <details><summary>完整分步说明</summary><div class="details-body"><ol class="steps"><li>坐稳并固定大腿。</li><li>沉肩，下拉到锁骨附近。</li><li>缓慢还原，避免配重撞击。</li></ol></div></details>
+      <div class="sticky-cue"><small>训练中记住一句</small>肘部向下，胸口微抬。</div>
+    </section>
+  </main>
+
+  <nav class="switcher" aria-label="切换原型方案">
+    <button id="prev" aria-label="上一个方案">←</button>
+    <strong id="variant-label"></strong>
+    <button id="next" aria-label="下一个方案">→</button>
+  </nav>
+  <script>
+    const variants = [
+      { key: 'A', name: '关键帧分镜' },
+      { key: 'B', name: '模式切换' },
+      { key: 'C', name: '训练现场速查' }
+    ];
+    const params = new URLSearchParams(location.search);
+    let index = Math.max(0, variants.findIndex(item => item.key === (params.get('variant') || 'A').toUpperCase()));
+    let bPanelIndex = 0;
+    function renderBPanel() {
+      document.querySelectorAll('[data-b-panel]').forEach((button, buttonIndex) => {
+        const active = buttonIndex === bPanelIndex;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-selected', String(active));
+      });
+      document.querySelectorAll('[data-b-slide]').forEach((slide, slideIndex) => slide.classList.toggle('active', slideIndex === bPanelIndex));
+    }
+    function render() {
+      const current = variants[index];
+      document.querySelectorAll('.variant').forEach(el => el.classList.toggle('active', el.dataset.variant === current.key));
+      document.getElementById('variant-label').textContent = `${current.key} · ${current.name}`;
+      params.set('variant', current.key);
+      history.replaceState(null, '', `${location.pathname}?${params}`);
+      scrollTo({ top: 0, behavior: 'instant' });
+    }
+    function cycle(delta) { index = (index + delta + variants.length) % variants.length; render(); }
+    document.getElementById('prev').addEventListener('click', () => cycle(-1));
+    document.getElementById('next').addEventListener('click', () => cycle(1));
+    document.querySelectorAll('[data-b-panel]').forEach(button => button.addEventListener('click', () => {
+      bPanelIndex = Number(button.dataset.bPanel);
+      renderBPanel();
+    }));
+    document.querySelectorAll('.image-carousel').forEach(carousel => {
+      const track = carousel.querySelector('.image-track');
+      const frames = [...carousel.querySelectorAll('.image-frame')];
+      const count = carousel.querySelector('[data-carousel-count]');
+      const label = carousel.querySelector('[data-carousel-label]');
+      let imageIndex = 0;
+      let swipeStartX = 0;
+      function showImage(nextIndex) {
+        imageIndex = (nextIndex + frames.length) % frames.length;
+        track.style.transform = `translateX(${-100 * imageIndex}%)`;
+        count.textContent = `${imageIndex + 1} / ${frames.length}`;
+        label.textContent = frames[imageIndex].querySelector('.frame-copy b').textContent;
+      }
+      carousel.querySelector('[data-carousel-prev]').addEventListener('click', () => showImage(imageIndex - 1));
+      carousel.querySelector('[data-carousel-next]').addEventListener('click', () => showImage(imageIndex + 1));
+      carousel.addEventListener('mousedown', event => { swipeStartX = event.clientX; });
+      carousel.addEventListener('mouseup', event => {
+        const delta = event.clientX - swipeStartX;
+        if (Math.abs(delta) >= 45) showImage(imageIndex + (delta < 0 ? 1 : -1));
+      });
+      carousel.addEventListener('touchstart', event => { swipeStartX = event.changedTouches[0].clientX; }, { passive:true });
+      carousel.addEventListener('touchend', event => {
+        const delta = event.changedTouches[0].clientX - swipeStartX;
+        if (Math.abs(delta) >= 45) showImage(imageIndex + (delta < 0 ? 1 : -1));
+      }, { passive:true });
+      showImage(0);
+    });
+    addEventListener('keydown', event => {
+      if (/INPUT|TEXTAREA/.test(document.activeElement.tagName) || document.activeElement.isContentEditable) return;
+      if (event.key === 'ArrowLeft') cycle(-1);
+      if (event.key === 'ArrowRight') cycle(1);
+    });
+    renderBPanel();
+    render();
+  </script>
+</body>
+</html>
