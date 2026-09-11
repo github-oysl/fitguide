@@ -4,6 +4,8 @@
 
 ## 常用命令
 
+动作图片生成、提示词迁移或恢复出图任务时，先读 `docs/image-generation-workflow.md`；模板、逐动作计划与校验门槛均从该入口进入。文档结构校验运行 `node tools/verify-image-workflow.cjs`，不依赖本地实拍文件。
+
 ```bash
 node server.mjs                                   # 预览，默认 http://127.0.0.1:8766（PORT 可覆盖）
 node --test tools/comparison.test.mjs tools/checkin-stats.test.cjs   # 纯 Node 单测，无依赖
