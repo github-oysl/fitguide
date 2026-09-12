@@ -2,12 +2,22 @@
 
 本文件是 FitGuide 后续动作出图的执行入口。适用于固定器械、组合绳索工位、自由重量、自重和有氧动作；执行者负责生成、视觉校验、修正和交付，全程无需用户逐张批准。新指令覆盖旧文档中“正确 01 先确认”和“禁止全部图内指导”的规则。
 
-**当前仅执行提示词迁移、实拍核对和文档校验，暂不生成图片。** 全量迁移结果、逐配置证据状态见[计划](image-generation-plan.md)、[核对报告](image-generation-audit.md)和[配置目录](equipment-review/action-prompts/_catalog.json)。下文生成步骤供用户恢复出图后执行，不因提示词通过校验而自动启动。
+**出图已恢复（2026-09-12）**：使用本机 `local-image-gen` CLI（订阅登录态，不消耗内置 image_gen 额度）。全量迁移结果、逐配置证据状态见[计划](image-generation-plan.md)、[核对报告](image-generation-audit.md)和[配置目录](equipment-review/action-prompts/_catalog.json)。
 
 - 编写或迁移提示词：读 [模板](equipment-review/action-prompts/_TEMPLATE.md) 和 [单配置样例](equipment-review/action-prompts/cable-row-seated-narrow-grip.md)；[高位下拉](equipment-review/action-prompts/lat-pulldown-with-pronated-grip.md)保留关键证据阻塞。
 - 排队、恢复任务：读 [工作计划](image-generation-plan.md)。
 - 查阅评分、错误案例、证据不足和重试处理：读 [注意事项](image-generation-notes.md)。
 - 页面展示与图形规格：读 [素材规范](image-generation-prompts.md)。
+
+## 0. 出图工具与 provider 路由（2026-09-12 起）
+
+统一调用本机 `local-image-gen` CLI（`~/.local/bin/local-image-gen`）。用户已确认的路由规则：
+
+1. **首选 `--provider codex --model gpt-image-2`**：本机 codex 登录态，画面内中文口令渲染可靠。该后端忽略 `--aspect-ratio`，必须用 `--size 1024x1024` 显式画布，脚本会校验实际输出尺寸。
+2. codex 调用失败（实验性路径，可能失效）：该次记 technical-error 并按第 5 步重试一次；仍失败回退 `--provider grok`（grok-imagine-image-2.0，稳定登录态），**但 Grok 画面内中文不可靠**，回退时口令文字改为无字图 + 记录待后期叠加，且整套人物风格以 force 锚点图为准保持一致。
+3. 一致性续图：force 首图通过后，其余角色用 `-i <force 选定图>` 走编辑端点锁定人物/器械/机位；equipment 角色可叠加实拍照片参考（参考图总数不超过该 provider 上限，Grok ≤3）。
+4. 内置 image_gen 工具额度独立于上述订阅，2026-09-12 曾因全局 429 阻塞（重置 2026-09-15）；新流程不再依赖它。
+5. 分批执行：多个动作按工位分组交给子代理串行处理，同批并行子代理不超过 2–3 个，避免触发速率限制（CLI 对 429 无自动重试）。
 
 ## 1. 建立动作与器械证据包
 

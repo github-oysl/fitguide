@@ -250,7 +250,7 @@
 
 ## 五、缺项与下一步
 
-- angled-permission-pending：blocked-evidence；安全挡、释放与挂回方法、完整侧景未确认；不写精确45度；未获原机允许提踵证据。
-- horizontal-permission-pending：blocked-evidence；整机侧景、移动部件、进出方式与限位未确认；未获原机允许提踵证据。
+- angled-permission-pending：blocked-evidence；照片27能确认E09机型、斜轨、大踏板与座靠垫，但不能证明原机允许提踵：无厂家许可证据、踏板前掌防滑与限位区域未核实；安全挡、释放与挂回方法、完整侧景未确认；不写精确45度。需补证：原机说明或现场许可记录，以及踏板防滑纹与前掌限位近景。
+- horizontal-permission-pending：blocked-evidence；照片23仅见配重塔铭牌Squat Press与红色靠垫一角，全机被裁；缺整机侧景、踏板位置、移动部件、进出方式与限位；同样未获原机允许提踵证据，且E09许可不能移用。需补拍：不裁切整机侧全景与踏板近景。
 
 提示词迁移、证据核对、图片完成分别维护。补证必须回写具体来源、访问日期和受影响角色，不能只把blocked-evidence改成ready。用户当前要求暂停生成；后续恢复按[工作计划](../../image-generation-plan.md)执行。正式页面接入另列任务。
