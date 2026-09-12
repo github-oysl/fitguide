@@ -23,15 +23,16 @@
 
 ## 当前轮次任务（父代理会明确告知做哪一轮）
 - 轮次1：从 docs/equipment-review/action-prompts/{ACTION_ID}.md 的 ready 配置提取全部角色卡 ```text 块，逐字写入 /tmp/lig/{ACTION_ID}-<role>.txt；并行生成 force-attempt-0 与 equipment-attempt-0（equipment 无人；若提示词引用实拍照片加 -i 健身房器械图片/<对应文件>）。
-- 轮次2（父代理告知 force 已通过并给出选定图路径后）：用 -i <force 选定图> 并行生成 start/end/error-01/error-02/muscles（grok 参考图 ≤3 张；若该动作已有 codex 生成的合格人物图，继续用 grok + 该 force 参考图保持风格接近）。
+- 轮次2（父代理告知 force 已通过并给出选定图路径后）：用 -i <force 选定图> 并行生成 start/end/error-01/error-02/muscles（每角色最多 1 张 -i；force 参考图用于锁定人物/器械/机位风格）。
 - 修正轮（父代理转发某角色 fail 的验收 JSON 后）：分析 hard_fails/deductions，只针对问题改对应 /tmp/lig/{ACTION_ID}-<role>.txt（保留正确部分），生成该角色下一个 attempt；每角色最多 0/1/2 共 3 次，已用尽则跳过并在报告标注 failed-limit。
 
 ## CLI 格式
-local-image-gen -p /tmp/lig/{ACTION_ID}-<role>.txt --provider grok --model grok-imagine-image-2.0 --aspect-ratio 1:1 --resolution 2k --quality medium [-i 参考图] -o output/imagegen/20260912-codex-1/{ACTION_ID}/<role>-attempt-<N>.png
-（每次调用间隔 sleep 3；grok 路由实测 2048×2048 精确 1:1、中文口令逐字正确。codex 禁用：上游忽略 --size 输出随机比例。）
+local-image-gen -p /tmp/lig/{ACTION_ID}-<role>.txt --provider codex --model gpt-image-2 --size 1024x1024 --quality medium [-i 参考图] -o output/imagegen/20260912-codex-1/{ACTION_ID}/<role>-attempt-<N>.png
+（每次调用间隔 sleep 3；2026-09-13 复测：系统代理下 codex 实测返回精确 1:1（1254×1254）、中文口令逐字正确。grok 禁用：用户人工判定 grok 生成质量不合格。）
+**重要限制：本 CLI 传 2 张及以上 -i 会构造互斥的 image/images 字段报 HTTP 400——每角色最多用 1 张 -i 参考图；equipment 若提示词引用多张实拍照片，只传最主要 1 张，其余靠提示词文字描述，并在 audit 注明。**
 
 ## 每轮结束
-- 更新该动作的 manifest.json（参照 output/imagegen/20260912-codex-1/plank/manifest.json 字段；generation_tool "local-image-gen grok-imagine-image-2.0"；run_id "20260912-codex-1"）与 audit.md（本轮 attempt 记录）；
+- 更新该动作的 manifest.json（参照 output/imagegen/20260912-codex-1/plank/manifest.json 字段；generation_tool "local-image-gen codex/gpt-image-2"；run_id "20260912-codex-1"）与 audit.md（本轮 attempt 记录）；
 - 返回纯文字报告：本轮生成的角色/attempt 路径、当前各角色状态。**不要贴图、不要自行验收、不要起子代理。**
 
 ## 约束

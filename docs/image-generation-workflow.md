@@ -13,9 +13,9 @@
 
 统一调用本机 `local-image-gen` CLI（`~/.local/bin/local-image-gen`）。网络由用户在系统级代理处理，**直接调用 CLI，不要设置任何代理环境变量**。路由规则（2026-09-13 实测修订）：
 
-1. **唯一可用路由 `--provider grok --model grok-imagine-image-2.0 --aspect-ratio 1:1 --resolution 2k --quality medium`**：实测 2048×2048 精确 1:1，画面内中文口令逐字正确、390px 可读，人形体正常。
-2. `--provider codex --model gpt-image-2` **禁用**：上游忽略 `--size`，输出随机比例（1024×1536 / 1536×1024），不满足 1:1 硬要求；且其 SSE 流经代理不稳定。
-3. 一致性续图：force 首图通过后，其余角色用 `-i <force 选定图>` 走编辑端点锁定人物/器械/机位（grok 参考图 ≤3 张）；equipment 角色可叠加实拍照片参考。
+1. **唯一可用路由 `--provider codex --model gpt-image-2 --size 1024x1024 --quality medium`**（2026-09-13 复测）：系统代理下实测返回精确 1:1（1254×1254），画面内中文口令逐字正确、390px 可读，人形体正常。
+2. `--provider grok --model grok-imagine-image-2.0` **禁用**：用户人工检查判定 grok 生成质量不合格，全量替换为 codex。
+3. 一致性续图：force 首图通过后，其余角色用 `-i <force 选定图>` 走编辑端点锁定人物/器械/机位（每角色最多 1 张 -i 参考图）；equipment 角色可叠加实拍照片参考。
 4. 内置 image_gen 工具额度独立于上述订阅，2026-09-12 曾因全局 429 阻塞；新流程不依赖它。
 5. 分批执行：一动作一个生成代理，同批并行生成代理 ≤3 个（CLI 对 429 无自动重试）。
 6. **子代理上下文纪律**：长会话禁止 Read 图片；生成与看图分离——生成代理只跑 CLI 不读图、不起子代理；验收用短命子代理（缩 768/390 JPEG 后同一轮并行读、只返回 JSON）；父代理编排循环、只经手文字。完整模板见[子代理执行手册](imagegen-agent-playbook.md)。
