@@ -2,7 +2,9 @@
 
 本文件是 FitGuide 后续动作出图的执行入口。适用于固定器械、组合绳索工位、自由重量、自重和有氧动作；执行者负责生成、视觉校验、修正和交付，全程无需用户逐张批准。新指令覆盖旧文档中“正确 01 先确认”和“禁止全部图内指导”的规则。
 
-- 编写或迁移提示词：读 [模板](equipment-review/action-prompts/_TEMPLATE.md) 和 [完整样例](equipment-review/action-prompts/lat-pulldown-with-pronated-grip.md)。
+**当前仅执行提示词迁移、实拍核对和文档校验，暂不生成图片。** 全量迁移结果、逐配置证据状态见[计划](image-generation-plan.md)、[核对报告](image-generation-audit.md)和[配置目录](equipment-review/action-prompts/_catalog.json)。下文生成步骤供用户恢复出图后执行，不因提示词通过校验而自动启动。
+
+- 编写或迁移提示词：读 [模板](equipment-review/action-prompts/_TEMPLATE.md) 和 [单配置样例](equipment-review/action-prompts/cable-row-seated-narrow-grip.md)；[高位下拉](equipment-review/action-prompts/lat-pulldown-with-pronated-grip.md)保留关键证据阻塞。
 - 排队、恢复任务：读 [工作计划](image-generation-plan.md)。
 - 查阅评分、错误案例、证据不足和重试处理：读 [注意事项](image-generation-notes.md)。
 - 页面展示与图形规格：读 [素材规范](image-generation-prompts.md)。

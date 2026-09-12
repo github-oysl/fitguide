@@ -22,3 +22,8 @@ docs/equipment-review/photo-audit/detail-*.jpg
 
 # 智能体本地工作记忆（含本机环境信息），不随仓库分发
 .workbuddy/
+
+# 出图中间产物：attempt 图只保留本地，入库的是每动作最终入选的 7 张角色图。
+output/imagegen/*/*-attempt-*.png
+output/.DS_Store
+.DS_Store

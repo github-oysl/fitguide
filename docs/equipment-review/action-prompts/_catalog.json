@@ -1,0 +1,3599 @@
+{
+  "schema_version": 2,
+  "review_date": "2026-09-12",
+  "generation_enabled": false,
+  "actions": [
+    {
+      "action_id": "assisted-dip",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E11-standard-assisted-dip",
+          "equipment_id": "E11",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "29",
+              "path": "健身房器械图片/微信图片_20260909201831_29_32.jpg"
+            }
+          ],
+          "gap": "承托为跪式还是站式、平台机械连接和进入顺序未明",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "assisted-pull-up",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E11-standard-assisted-pull-up",
+          "equipment_id": "E11",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "29",
+              "path": "健身房器械图片/微信图片_20260909201831_29_32.jpg"
+            }
+          ],
+          "gap": "承托为跪式还是站式、平台机械连接和进入顺序未明",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "barbell-bench-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B03-standard-barbell-bench-press",
+          "equipment_id": "B03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "实际使用的自由杠、配套保护架、站位空间和凳型待核；目标自由杠身份、凳型、承托与安全杠高度、全景待核；平凳、原支脚与承重缺证据；不得使用下斜腹肌凳替代",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "barbell-overhead-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B03-standard-barbell-overhead-press",
+          "equipment_id": "B03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "实际使用的自由杠、配套保护架、站位空间和凳型待核",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "barbell-romanian-deadlift",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B03-standard-barbell-romanian-deadlift",
+          "equipment_id": "B03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "实际使用的自由杠、配套保护架、站位空间和凳型待核",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "barbell-row",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B03-standard-barbell-row",
+          "equipment_id": "B03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "实际使用的自由杠、配套保护架、站位空间和凳型待核",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "barbell-squat",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B03-standard-barbell-squat",
+          "equipment_id": "B03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "实际使用的自由杠、配套保护架、站位空间和凳型待核",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-chest-fly",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-chest-fly",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-crunch",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-crunch",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-curl-with-bar",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-curl-with-bar",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-curl-with-rope",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-curl-with-rope",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-hip-extension",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-hip-extension",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据；右踝带及锁扣实拍缺失；旧稿固定“接近髋高”不作为终点要求",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-incline-chest-fly",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-incline-chest-fly",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据；独立稳定平凳/上斜凳、调节锁定和承重缺证据；B02独立上斜凳、稳定锁定和侧面角度未确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-lateral-raise",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-lateral-raise",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-pull-through",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-pull-through",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-row-seated-narrow-grip",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E01-standard-cable-row-seated-narrow-grip",
+          "equipment_id": "E01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "18",
+              "path": "健身房器械图片/微信图片_20260909201822_18_32.jpg"
+            }
+          ],
+          "gap": "额定载荷和锁扣认证未核；画面可见连接与窄握配置已足够定位，不在图中标公斤数或认证",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-single-arm-row",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-single-arm-row",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "cable-standing-chest-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-cable-standing-chest-press",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "calf-raise-in-leg-press",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "angled-permission-pending",
+          "station_key": "E09-angled-permission-pending-calf-raise-in-leg-press",
+          "equipment_id": "E09",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "27",
+              "path": "健身房器械图片/微信图片_20260909201829_27_32.jpg"
+            }
+          ],
+          "gap": "安全挡、释放与挂回方法、完整侧景未确认；不写精确45度；未获原机允许提踵证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        },
+        {
+          "variant_id": "horizontal-permission-pending",
+          "station_key": "E04-horizontal-permission-pending-calf-raise-in-leg-press",
+          "equipment_id": "E04",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "23",
+              "path": "健身房器械图片/微信图片_20260909201826_23_32.jpg"
+            }
+          ],
+          "gap": "整机侧景、移动部件、进出方式与限位未确认；未获原机允许提踵证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dead-bug",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "none-standard-dead-bug",
+          "equipment_id": "none",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [],
+          "gap": "无现场机型证据需求；训练垫不单独生成空机图",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "not-applicable"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "decline-bench-crunch",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E06-standard-decline-bench-crunch",
+          "equipment_id": "E06",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "24",
+              "path": "健身房器械图片/微信图片_20260909201827_24_32.jpg"
+            }
+          ],
+          "gap": "腿部具体勾靠位置、完整低端垫及支脚被裁；不可认作上斜卧推凳",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-bench-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-bench-press",
+          "equipment_id": "B01",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记；独立稳定平凳/上斜凳、调节锁定和承重缺证据；平凳、原支脚与承重缺证据；不得使用下斜腹肌凳替代",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-curl",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-curl",
+          "equipment_id": "B01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-hammer-curl",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-hammer-curl",
+          "equipment_id": "B01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-lateral-raise",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-lateral-raise",
+          "equipment_id": "B01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-one-arm-row",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-one-arm-row",
+          "equipment_id": "B01",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "36",
+              "path": "健身房器械图片/微信图片_20260909201836_36_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记；独立稳定平凳/上斜凳、调节锁定和承重缺证据；合格平凳与支撑面未确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "dumbbell-rdl",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-dumbbell-rdl",
+          "equipment_id": "B01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "face-pull",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-face-pull",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "glute-bridge",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "none-standard-glute-bridge",
+          "equipment_id": "none",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [],
+          "gap": "无现场机型证据需求；训练垫不单独生成空机图",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "not-applicable"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "goblet-squat",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "B01-standard-goblet-squat",
+          "equipment_id": "B01",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            },
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            }
+          ],
+          "gap": "哑铃公斤数不可读；不写负重数值，画面不补品牌标记",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "hack-squat",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E10-standard-hack-squat",
+          "equipment_id": "E10",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "28",
+              "path": "健身房器械图片/微信图片_20260909201830_28_32.jpg"
+            }
+          ],
+          "gap": "安全限位、挂回位置与进入方式缺近景",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "hip-abduction-machine",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "abduction-mode",
+          "station_key": "E23-abduction-mode-hip-abduction-machine",
+          "equipment_id": "E23",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            },
+            {
+              "photo": "43",
+              "path": "健身房器械图片/微信图片_20260909201841_43_32.jpg"
+            }
+          ],
+          "gap": "外展/内收模式的垫朝向和原机调节路径未确认；不能只翻转人物膝盖",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "hip-adduction-machine",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "adduction-mode",
+          "station_key": "E23-adduction-mode-hip-adduction-machine",
+          "equipment_id": "E23",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "44",
+              "path": "健身房器械图片/微信图片_20260909201842_44_32.jpg"
+            },
+            {
+              "photo": "43",
+              "path": "健身房器械图片/微信图片_20260909201841_43_32.jpg"
+            }
+          ],
+          "gap": "外展/内收模式的垫朝向和原机调节路径未确认；不能只翻转人物膝盖",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "lat-pulldown-with-pronated-grip",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "historical-unreviewed",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E02-standard-lat-pulldown-with-pronated-grip",
+          "equipment_id": "E02",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "19",
+              "path": "健身房器械图片/微信图片_20260909201823_19_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "目标塔顶滑轮至真实长杆的连续路径、实际握杆与握位仍未证实",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "lateral-raise-machine",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "unmatched-lateral-raise",
+          "equipment_id": "unconfirmed",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [],
+          "gap": "需要专用侧平举机整机、铭牌、接触垫及工作方向证据；无现场专用侧平举机照片；equipment是待补证角色，不是not-applicable",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "leg-curl-seated",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "a-seated-curl",
+          "station_key": "E25-A-a-seated-curl-leg-curl-seated",
+          "equipment_id": "E25-A",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "48",
+              "path": "健身房器械图片/微信图片_20260909201845_48_32.jpg"
+            }
+          ],
+          "gap": "伸膝与坐姿屈膝的原机调节、上固定垫位置、完整侧景缺证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        },
+        {
+          "variant_id": "b-seated-curl",
+          "station_key": "E25-B-b-seated-curl-leg-curl-seated",
+          "equipment_id": "E25-B",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "49",
+              "path": "健身房器械图片/微信图片_20260909201845_49_32.jpg"
+            },
+            {
+              "photo": "50",
+              "path": "健身房器械图片/微信图片_20260909201846_50_32.jpg"
+            }
+          ],
+          "gap": "B实例屈膝究竟坐姿还是其他摆位、伸膝模式和支撑关系待核；B实例屈膝姿势未定，不允许直接套入A的坐姿教学",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "leg-extension-seated",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "a-extension",
+          "station_key": "E25-A-a-extension-leg-extension-seated",
+          "equipment_id": "E25-A",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "48",
+              "path": "健身房器械图片/微信图片_20260909201845_48_32.jpg"
+            }
+          ],
+          "gap": "伸膝与坐姿屈膝的原机调节、上固定垫位置、完整侧景缺证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        },
+        {
+          "variant_id": "b-extension",
+          "station_key": "E25-B-b-extension-leg-extension-seated",
+          "equipment_id": "E25-B",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "49",
+              "path": "健身房器械图片/微信图片_20260909201845_49_32.jpg"
+            },
+            {
+              "photo": "50",
+              "path": "健身房器械图片/微信图片_20260909201846_50_32.jpg"
+            }
+          ],
+          "gap": "B实例屈膝究竟坐姿还是其他摆位、伸膝模式和支撑关系待核；B实例伸膝配置未核实",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "leg-press",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "angled-plate-loaded",
+          "station_key": "E09-angled-plate-loaded-leg-press",
+          "equipment_id": "E09",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "27",
+              "path": "健身房器械图片/微信图片_20260909201829_27_32.jpg"
+            }
+          ],
+          "gap": "安全挡、释放与挂回方法、完整侧景未确认；不写精确45度",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        },
+        {
+          "variant_id": "horizontal-selectorized",
+          "station_key": "E04-horizontal-selectorized-leg-press",
+          "equipment_id": "E04",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "23",
+              "path": "健身房器械图片/微信图片_20260909201826_23_32.jpg"
+            }
+          ],
+          "gap": "整机侧景、移动部件、进出方式与限位未确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "machine-chest-fly",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E19-standard-machine-chest-fly",
+          "equipment_id": "E19",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "38",
+              "path": "健身房器械图片/微信图片_20260909201837_38_32.jpg"
+            }
+          ],
+          "gap": "起始档位编号和精确型号未知；基础长把夹胸可按可见结构设计，后束模式未被证实",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "machine-chest-press",
+      "data_source": "data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E15-standard-machine-chest-press",
+          "equipment_id": "E15",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "34",
+              "path": "健身房器械图片/微信图片_20260909201834_34_32.jpg"
+            },
+            {
+              "photo": "33",
+              "path": "健身房器械图片/微信图片_20260909201834_33_32.jpg"
+            },
+            {
+              "photo": "41",
+              "path": "健身房器械图片/微信图片_20260909201840_41_32.jpg"
+            },
+            {
+              "photo": "46",
+              "path": "健身房器械图片/微信图片_20260909201843_46_32.jpg"
+            }
+          ],
+          "gap": "清晰动作铭牌、握把运动平面和坐向缺证据；不得指定为推胸或推肩成品；上斜推胸与推肩子型待铭牌/原机动作图确认；E15/E21只是候选，未确认前不选定任一为正式机型",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "machine-glute-extension",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E26-standard-machine-glute-extension",
+          "equipment_id": "E26",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "51",
+              "path": "健身房器械图片/微信图片_20260909201847_51_32.jpg"
+            },
+            {
+              "photo": "52",
+              "path": "健身房器械图片/微信图片_20260909201848_52_32.jpg"
+            },
+            {
+              "photo": "53",
+              "path": "健身房器械图片/微信图片_20260909201848_53_32.jpg"
+            }
+          ],
+          "gap": "工作腿与支撑腿的接触面、跪/站摆位、完整原机动作图待核",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "machine-reverse-fly",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E19-standard-machine-reverse-fly",
+          "equipment_id": "E19",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "38",
+              "path": "健身房器械图片/微信图片_20260909201837_38_32.jpg"
+            }
+          ],
+          "gap": "起始档位编号和精确型号未知；基础长把夹胸可按可见结构设计，后束模式未被证实；照片38未证明后束模式，不能借夹胸的ready状态放行",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "machine-shoulder-press",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E15-standard-machine-shoulder-press",
+          "equipment_id": "E15",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "34",
+              "path": "健身房器械图片/微信图片_20260909201834_34_32.jpg"
+            },
+            {
+              "photo": "33",
+              "path": "健身房器械图片/微信图片_20260909201834_33_32.jpg"
+            },
+            {
+              "photo": "41",
+              "path": "健身房器械图片/微信图片_20260909201840_41_32.jpg"
+            },
+            {
+              "photo": "46",
+              "path": "健身房器械图片/微信图片_20260909201843_46_32.jpg"
+            }
+          ],
+          "gap": "清晰动作铭牌、握把运动平面和坐向缺证据；不得指定为推胸或推肩成品；上斜推胸与推肩子型待铭牌/原机动作图确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "overhead-tricep-extension-lower-position",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-overhead-tricep-extension-lower-position",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "pallof-press",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-pallof-press",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "plank",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "none-standard-plank",
+          "equipment_id": "none",
+          "evidence_status": "ready",
+          "mode": "static",
+          "photos": [],
+          "gap": "无现场机型证据需求；训练垫不单独生成空机图",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "not-applicable"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "plate-loaded-incline-chest-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E21-standard-plate-loaded-incline-chest-press",
+          "equipment_id": "E21",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "41",
+              "path": "健身房器械图片/微信图片_20260909201840_41_32.jpg"
+            },
+            {
+              "photo": "46",
+              "path": "健身房器械图片/微信图片_20260909201843_46_32.jpg"
+            }
+          ],
+          "gap": "上斜推胸与推肩子型待铭牌/原机动作图确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "plate-loaded-lat-pulldown",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E14-standard-plate-loaded-lat-pulldown",
+          "equipment_id": "E14",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "32",
+              "path": "健身房器械图片/微信图片_20260909201833_32_32.jpg"
+            }
+          ],
+          "gap": "远侧握位、完整工作臂连接与坐向示意仍缺清晰证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "plate-loaded-lying-chest-press",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E22-standard-plate-loaded-lying-chest-press",
+          "equipment_id": "E22",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "42",
+              "path": "健身房器械图片/微信图片_20260909201840_42_32.jpg"
+            }
+          ],
+          "gap": "完整侧景、躺卧头脚方向、起始握位和结束归位缺证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "plate-loaded-seated-row",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E20-standard-plate-loaded-seated-row",
+          "equipment_id": "E20",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "40",
+              "path": "健身房器械图片/微信图片_20260909201839_40_32.jpg"
+            },
+            {
+              "photo": "39",
+              "path": "健身房器械图片/微信图片_20260909201838_39_32.jpg"
+            }
+          ],
+          "gap": "小黑垫究竟接触胸/腹何处、坐姿距离和全行程待原机示意补证；分动不代表已放行单臂版本",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "prone-leg-curl",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E24-standard-prone-leg-curl",
+          "equipment_id": "E24",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "45",
+              "path": "健身房器械图片/微信图片_20260909201843_45_32.jpg"
+            },
+            {
+              "photo": "47",
+              "path": "健身房器械图片/微信图片_20260909201844_47_32.jpg"
+            }
+          ],
+          "gap": "具体档位编号未读清，不编写调节顺序；两视角已支持俯卧屈膝的支撑关系",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "reverse-cable-fly",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-reverse-cable-fly",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "reverse-hyper",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E07-standard-reverse-hyper",
+          "equipment_id": "E07",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "25",
+              "path": "健身房器械图片/微信图片_20260909201827_25_32.jpg"
+            },
+            {
+              "photo": "26",
+              "path": "健身房器械图片/微信图片_20260909201828_26_32.jpg"
+            }
+          ],
+          "gap": "倾角和承重未实测；基础自重姿势可据两视角定位，不写固定45度或允许额外负重；E07原机是否允许反向摆位及承重未知，禁止由基础背伸展推定",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "roman-chair-hip-extension",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E07-standard-roman-chair-hip-extension",
+          "equipment_id": "E07",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "25",
+              "path": "健身房器械图片/微信图片_20260909201827_25_32.jpg"
+            },
+            {
+              "photo": "26",
+              "path": "健身房器械图片/微信图片_20260909201828_26_32.jpg"
+            }
+          ],
+          "gap": "倾角和承重未实测；基础自重姿势可据两视角定位，不写固定45度或允许额外负重；无关键图示缺项；仅限基础髋主导自重",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "seated-dip-machine",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E12-standard-seated-dip-machine",
+          "equipment_id": "E12",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "30",
+              "path": "健身房器械图片/微信图片_20260909201831_30_32.jpg"
+            }
+          ],
+          "gap": "坐姿下压身份、原装握把、工作方向和人体支撑未确认",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "seated-machine-row",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E20-standard-seated-machine-row",
+          "equipment_id": "E20",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "40",
+              "path": "健身房器械图片/微信图片_20260909201839_40_32.jpg"
+            },
+            {
+              "photo": "39",
+              "path": "健身房器械图片/微信图片_20260909201838_39_32.jpg"
+            }
+          ],
+          "gap": "小黑垫究竟接触胸/腹何处、坐姿距离和全行程待原机示意补证；现有网页胸托描述只有在本机小黑垫用途被证实后才可关联",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "stair-climber",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E05-standard-stair-climber",
+          "equipment_id": "E05",
+          "evidence_status": "blocked-evidence",
+          "mode": "cyclic",
+          "photos": [
+            {
+              "photo": "24",
+              "path": "健身房器械图片/微信图片_20260909201827_24_32.jpg"
+            }
+          ],
+          "gap": "该实例控制台、启停/急停、踏阶深度和回卷边界缺近景",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "straight-arm-lat-pulldown",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-straight-arm-lat-pulldown",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "t-bar-row-unsupported",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E08-standard-t-bar-row-unsupported",
+          "equipment_id": "E08",
+          "evidence_status": "ready",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "26",
+              "path": "健身房器械图片/微信图片_20260909201828_26_32.jpg"
+            }
+          ],
+          "gap": "负载公斤数、是否可拆接地雷管未知；只用图示双手划船握位",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "triceps-pushdown-with-rope",
+      "data_source": "extra-data.js",
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E03-standard-triceps-pushdown-with-rope",
+          "equipment_id": "E03",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "22",
+              "path": "健身房器械图片/微信图片_20260909201825_22_32.jpg"
+            },
+            {
+              "photo": "20",
+              "path": "健身房器械图片/微信图片_20260909201824_20_32.jpg"
+            },
+            {
+              "photo": "21",
+              "path": "健身房器械图片/微信图片_20260909201824_21_32.jpg"
+            }
+          ],
+          "gap": "20/22物理实例关系未定；需目标22实例在所需高度的附件连接及完整行程证据",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action_id": "weighted-back-extension",
+      "data_source": null,
+      "prompt_status": "migrated-v2",
+      "image_status": "unproduced",
+      "variants": [
+        {
+          "variant_id": "standard",
+          "station_key": "E07-standard-weighted-back-extension",
+          "equipment_id": "E07",
+          "evidence_status": "blocked-evidence",
+          "mode": "dynamic",
+          "photos": [
+            {
+              "photo": "25",
+              "path": "健身房器械图片/微信图片_20260909201827_25_32.jpg"
+            },
+            {
+              "photo": "26",
+              "path": "健身房器械图片/微信图片_20260909201828_26_32.jpg"
+            }
+          ],
+          "gap": "倾角和承重未实测；基础自重姿势可据两视角定位，不写固定45度或允许额外负重；原凳额外承重及目标负重实拍未核，不从基础自重ready继承放行",
+          "roles": [
+            {
+              "role": "force",
+              "status": "unproduced"
+            },
+            {
+              "role": "equipment",
+              "status": "unproduced"
+            },
+            {
+              "role": "start",
+              "status": "unproduced"
+            },
+            {
+              "role": "end",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-01",
+              "status": "unproduced"
+            },
+            {
+              "role": "error-02",
+              "status": "unproduced"
+            },
+            {
+              "role": "muscles",
+              "status": "unproduced"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
