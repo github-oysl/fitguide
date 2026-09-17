@@ -813,13 +813,13 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
 .gym-note-add:hover { color: var(--green); }
 
 /* 动作库筛选中的"只看我的健身房" */
-.gym-filter {
-  display: flex; align-items: center; gap: var(--sp-2);
-  min-height: 44px; padding: var(--sp-2) 0;
+.filter-fields .gym-filter {
+  flex-direction: row; align-items: center; gap: 8px;
+  min-height: 44px; padding: 4px 0;
   font-size: var(--fs-sm); color: var(--ink-2); cursor: pointer;
 }
 .gym-filter input[type=checkbox] {
-  width: 20px; height: 20px; accent-color: var(--green); cursor: pointer;
+  width: 18px; height: 18px; margin: 0; accent-color: var(--green); cursor: pointer;
 }
 
 /* 页脚 */
