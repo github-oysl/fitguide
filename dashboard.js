@@ -16,7 +16,7 @@
   }));
   function navigate() {
     const hash = location.hash.slice(1);
-    const view = ['stats', 'library'].includes(hash) ? hash : 'today';
+    const view = ['stats', 'library', 'settings'].includes(hash) ? hash : 'today';
     document.querySelectorAll('.view').forEach(el => { el.hidden = el.id !== `view-${view}`; });
     document.querySelectorAll('[data-view]').forEach(link => {
       if (link.dataset.view === view) link.setAttribute('aria-current', 'page');

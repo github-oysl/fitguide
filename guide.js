@@ -6,10 +6,11 @@
   const items = [...window.GYM_DATA].sort((a,b) => (priority.indexOf(a.id)<0?99:priority.indexOf(a.id))-(priority.indexOf(b.id)<0?99:priority.indexOf(b.id)));
   // 页面文案里的动作数量一律取自动作库本身，不在 HTML 里写死，避免数据增删后文案失真。
   document.querySelectorAll('[data-exercise-count]').forEach(el => { el.textContent = String(items.length); });
-  const state = {category:'all', muscle:'all', equipment:'all', query:'', limit:8};
+  const state = {category:'all', muscle:'all', equipment:'all', query:'', gymOnly:false, limit:8};
   const root = document.getElementById('lessons');
   const dialog = document.getElementById('detail');
   const muscleSelect = document.getElementById('muscle');
+  const gymOnlyCheckbox = document.getElementById('gym-only');
   let activeVideo = null;
   let lastTrigger = null;
   const escape = value => String(value).replace(/[&<>"']/g, char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -72,6 +73,7 @@
     document.getElementById('equipment').value=state.equipment;
     document.getElementById('search').value=state.query;
     document.getElementById('advanced-label').textContent=(state.equipment!=='all'||state.query.trim())?'器械与搜索 · 已设置筛选':'器械与搜索';
+    if (gymOnlyCheckbox) gymOnlyCheckbox.checked = state.gymOnly;
   }
   function cardMarkup(item) {
     const label=item.equipmentLabel || (item.equipment==='machine'?'固定器械':item.equipment==='row'?'低位划船':item.equipment==='pulldown'?'高位下拉':'绳索器械');
@@ -79,7 +81,8 @@
   }
   function render() {
     releaseMedia(root);
-    const results=filterExercises(items,state);
+    let results=filterExercises(items,state);
+    if (state.gymOnly && window.GYM_SETTINGS) results = results.filter(item => window.GYM_SETTINGS.canDo(item));
     root.innerHTML=results.slice(0,state.limit).map(cardMarkup).join('');
     document.getElementById('result-count').textContent=`${results.length} 个动作`;
     document.getElementById('empty').hidden=results.length>0;
@@ -111,12 +114,43 @@
       });
       document.querySelector('.detail-heading').append(compareButton);
     }
+    // 健身房备注：显示用户自定义的器械设置备注，支持内联编辑
+    if (window.GYM_SETTINGS) {
+      const note = window.GYM_SETTINGS.getNote(id);
+      const wrap = document.createElement('div');
+      wrap.className = 'gym-note-wrap';
+      function renderNote() {
+        const current = window.GYM_SETTINGS.getNote(id);
+        wrap.innerHTML = current
+          ? `<b>我的备注</b><p>${escape(current)}</p><button type="button" class="gym-note-add">编辑</button>`
+          : `<button type="button" class="gym-note-add">+ 添加健身房备注</button>`;
+      }
+      renderNote();
+      wrap.addEventListener('click', e => {
+        if (!e.target.closest('.gym-note-add')) return;
+        const current = window.GYM_SETTINGS.getNote(id);
+        wrap.innerHTML = '<b>我的备注</b>';
+        const ta = Object.assign(document.createElement('textarea'), {
+          value: current, maxLength: 200, rows: 2,
+          placeholder: '座椅档位、配重起点…'
+        });
+        wrap.append(ta); ta.focus();
+        ta.addEventListener('blur', () => {
+          window.GYM_SETTINGS.setNote(id, ta.value);
+          renderNote();
+        });
+        ta.addEventListener('keydown', ev => {
+          if (ev.key === 'Enter' && !ev.shiftKey) { ev.preventDefault(); ta.blur(); }
+        });
+      });
+      document.querySelector('.detail-heading').append(wrap);
+    }
     if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
-    // “怎么练”本身就是开始观看的操作，不要求再点击一次播放。
+    // "怎么练"本身就是开始观看的操作，不要求再点击一次播放。
     document.getElementById('detail-content').querySelector('.play')?.click();
   }
   function reset() {
-    Object.assign(state,{category:'all',muscle:'all',equipment:'all',query:'',limit:8});refreshMuscles();render();
+    Object.assign(state,{category:'all',muscle:'all',equipment:'all',query:'',gymOnly:false,limit:8});refreshMuscles();render();
   }
   document.getElementById('categories').innerHTML=Object.entries(categories).map(([id,label])=>`<button type="button" data-category="${id}" aria-pressed="${id==='all'}">${label}</button>`).join('');
   document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{
@@ -125,6 +159,7 @@
   muscleSelect.addEventListener('change',()=>{state.muscle=muscleSelect.value;state.limit=8;render();});
   document.getElementById('equipment').addEventListener('change',event=>{state.equipment=event.target.value;state.limit=8;render();});
   document.getElementById('search').addEventListener('input',event=>{state.query=event.target.value;state.limit=8;render();});
+  if (gymOnlyCheckbox) gymOnlyCheckbox.addEventListener('change',()=>{state.gymOnly=gymOnlyCheckbox.checked;state.limit=8;render();});
   document.getElementById('reset').addEventListener('click',reset);
   document.getElementById('empty-reset').addEventListener('click',reset);
   document.getElementById('more').addEventListener('click',()=>{state.limit+=8;render();});

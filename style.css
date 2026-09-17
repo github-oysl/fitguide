@@ -745,6 +745,83 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
 }
 .media-error a { color: var(--green); }
 
+/* ── ④-4 视图：健身房设置 ──────────────────────────────── */
+.settings-block { margin-bottom: var(--sp-7); }
+.settings-block .eyebrow { margin-bottom: 6px; }
+.settings-block > h2 { margin-bottom: var(--sp-2); }
+.settings-hint { margin: 0 0 var(--sp-5); font-size: var(--fs-sm); color: var(--ink-2); }
+.settings-field {
+  display: flex; flex-direction: column; gap: 7px;
+  font-size: var(--fs-2xs); color: var(--ink-2);
+}
+.equip-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-3); }
+.equip-card {
+  position: relative; display: flex; flex-direction: column; gap: 4px;
+  padding: var(--sp-4); border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--surface); cursor: pointer;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+.equip-card input[type=checkbox] { position: absolute; opacity: 0; width: 0; height: 0; }
+.equip-card b { font-size: var(--fs-sm); font-weight: 500; }
+.equip-card small { font-size: var(--fs-2xs); color: var(--muted); }
+.equip-count { font-size: var(--fs-2xs); color: var(--green); font-weight: 500; }
+.equip-card:hover { border-color: var(--line-strong); background: var(--tint); }
+.equip-card.is-on { border-color: var(--green); background: var(--soft); }
+.equip-card.is-on b { color: var(--green-deep); }
+
+.notes-list { margin-top: var(--sp-2); }
+.notes-group { border: 1px solid var(--line); border-radius: var(--r-md); margin-bottom: var(--sp-3); }
+.notes-group summary {
+  min-height: 44px; padding: var(--sp-3) var(--sp-4);
+  font-size: var(--fs-sm); font-weight: 500;
+}
+.notes-group summary small { margin-left: var(--sp-2); font-weight: 400; color: var(--muted); font-size: var(--fs-2xs); }
+.notes-items { padding: 0 var(--sp-4) var(--sp-4); }
+.note-row {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: var(--sp-3) 0; border-top: 1px solid var(--line);
+}
+.note-row span { font-size: var(--fs-sm); font-weight: 500; }
+.note-row textarea {
+  width: 100%; min-height: 36px; padding: 8px 10px;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: var(--tint); font-size: var(--fs-xs); resize: vertical;
+}
+.note-row textarea:focus-visible { background: var(--surface); border-color: var(--green); }
+
+.settings-actions-row { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
+.settings-status { margin-top: var(--sp-3); font-size: var(--fs-2xs); color: var(--muted); }
+
+/* 动作详情中的健身房备注 */
+.gym-note-wrap {
+  margin: var(--sp-4) 0 0; padding: var(--sp-3) var(--sp-4);
+  border: 1px solid var(--lime); border-radius: var(--r-sm);
+  background: var(--soft); font-size: var(--fs-sm);
+}
+.gym-note-wrap b { font-size: var(--fs-2xs); color: var(--green); display: block; margin-bottom: 4px; }
+.gym-note-wrap p { color: var(--ink-2); margin: 0; }
+.gym-note-wrap textarea {
+  display: block; width: 100%; margin-top: var(--sp-2); padding: 8px;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: var(--tint); font-size: var(--fs-xs); resize: vertical; min-height: 36px;
+}
+.gym-note-wrap textarea:focus-visible { background: var(--surface); border-color: var(--green); }
+.gym-note-add {
+  margin-top: var(--sp-2); padding: 6px 0; min-height: 36px;
+  background: transparent; color: var(--muted); font-size: var(--fs-xs);
+}
+.gym-note-add:hover { color: var(--green); }
+
+/* 动作库筛选中的"只看我的健身房" */
+.gym-filter {
+  display: flex; align-items: center; gap: var(--sp-2);
+  min-height: 44px; padding: var(--sp-2) 0;
+  font-size: var(--fs-sm); color: var(--ink-2); cursor: pointer;
+}
+.gym-filter input[type=checkbox] {
+  width: 20px; height: 20px; accent-color: var(--green); cursor: pointer;
+}
+
 /* 页脚 */
 footer {
   margin-top: var(--sp-8); padding: var(--sp-6) 0 var(--sp-7);
@@ -792,7 +869,7 @@ footer > span { float: right; }
   .local-badge { font-size: var(--fs-2xs); }
   .app-nav {
     position: fixed; bottom: 0; left: 0; right: 0; z-index: 10;
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px;
     padding: 10px 18px; padding-bottom: max(12px, env(safe-area-inset-bottom));
     background: var(--surface); border-top: 1px solid var(--line);
     box-shadow: 0 -6px 22px -12px rgba(31, 51, 41, .28);
@@ -954,6 +1031,13 @@ footer > span { float: right; }
   .instructions { order: 6; padding-top: var(--sp-2); }
   .instructions li { font-size: var(--fs-md); }
   .mistake { padding: var(--sp-4); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--action-soft); }
+
+  .equip-grid { grid-template-columns: 1fr; }
+  .equip-card { padding: var(--sp-3) var(--sp-4); }
+  .settings-block { margin-bottom: var(--sp-6); }
+  .settings-hint { font-size: var(--fs-xs); }
+  .note-row textarea { font-size: 16px; }
+  .gym-note-wrap { margin-top: var(--sp-3); padding: var(--sp-2) var(--sp-3); }
 }
 
 @media (max-width: 360px) {
