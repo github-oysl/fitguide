@@ -1,0 +1,33 @@
+{
+  "id": "inline-bench-french-press",
+  "url": "https://www.muscleandstrength.com/exercises/inline-bench-french-press.html",
+  "title": "Inline Bench French Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the incline bench french press by loading the appropriate weight onto an EZ-Bar or barbell and sitting with your back flat against an incline bench.",
+    "Grasp the bar with a close grip (just inside shoulder width) using an overhand grip (palms facing forward).",
+    "Raise the bar straight above your head until your arms are nearly fully extended (keep a slight bend in your elbows). This is the starting position.",
+    "Slowly lower the bar down behind you by bending at the elbows. The bar should come down as far as comfortably possible or when it is about even with your head.",
+    "Slowly raise the bar back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Focus on moving the weight with your triceps, keeping control of the weight as you slowly lower and raise the bar.",
+    "Keep your body as still as possible, moving only your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784372?h=7a380d4055&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

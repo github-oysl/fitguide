@@ -1,0 +1,34 @@
+{
+  "id": "one-arm-standing-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html",
+  "title": "One-Arm Standing Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Set up by grasping a dumbbell and standing straight up with the dumbbell by your side.",
+    "You should be using a neutral grip, meaning the palm of your hand is facing your body. You can use your other arm to stabilize the body.",
+    "Take up the \"slack\" by bending your arm slightly. This is the starting position.",
+    "Slowly curl the dumbbell up as far as possible.",
+    "Squeeze the bicep at the top of the movement, and then slowly lower the dumbbell back to the starting position.",
+    "Repeat this movement with the other arm."
+  ],
+  "tips": [
+    "Keep the tension on the bicep muscle throughout the set. Do not rest at the top of the movement or allow your arm to hang at the bottom of the movement.",
+    "Keep your back straight and your body fixed throughout the set.",
+    "Keep your elbow in at your side."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794136?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

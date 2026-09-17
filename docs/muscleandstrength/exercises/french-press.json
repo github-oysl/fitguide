@@ -1,0 +1,36 @@
+{
+  "id": "french-press",
+  "url": "https://www.muscleandstrength.com/exercises/french-press.html",
+  "title": "French Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the french press by loading a barbell or EZ-bar with the appropriate amount of weight and placing it on the floor in front of you.",
+    "Bend only at the knees and grasp the barbell with an overhand grip (palms facing down) with your hands about 8-12 inches apart.",
+    "Stand up straight with the bar with your feet around shoulder-width apart and a slight bend in your knees.",
+    "Lift the bar above your head and bend at your elbows slightly to take the tension onto your triceps. Your palms are now facing upward. This is the starting position for the exercise.",
+    "Keeping your elbows fixed and pointing straight up toward the ceiling, slowly lower the bar down behind your head as far as comfortably possible.",
+    "Pause, and then slowly raise the bar back to the starting position.",
+    "Don't lock your elbows out, and then repeat the movement."
+  ],
+  "tips": [
+    "Technique is really important! Don't let your elbows flare out as you move the barbell, and keep the rep timing slow and controlled.",
+    "Don't lock your elbows out at the top of the movement and take the tension off of your triceps.",
+    "Focus on keeping your body as still as possible, moving only your forearms.",
+    "Keep your head up and your eyes facing forward through the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784267?h=924a444ae5&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

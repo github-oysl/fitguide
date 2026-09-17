@@ -1,0 +1,34 @@
+{
+  "id": "single-bench-dip",
+  "url": "https://www.muscleandstrength.com/exercises/single-bench-dip.html",
+  "title": "Single Bench Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "To perform this exercise all you need is a flat bench and some space. Position your hands shoulder width apart on the flat bench.",
+    "Move your feet out until your legs are straight.",
+    "Straighten out your arms and keep a little bend in your elbows in order to always keep tension on your triceps and off of your elbow joints.",
+    "Slowly lower your upper body down towards the floor with your elbows tucked in at your sides until your elbows are level with your shoulders.",
+    "Pause, and then slowly press off with your hands and push yourself back up to the starting position with your triceps.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "It's important that you do not dip down too low. Your shoulders should go no lower than your elbows. Dipping lower than this places a lot of stress on your shoulder joints.",
+    "Keep your elbows tucked in at your sides as your dip down.",
+    "Squeeze the triceps at the top of the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783927?h=6a62d96eda&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

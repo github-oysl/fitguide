@@ -1,0 +1,39 @@
+{
+  "id": "machine-lateral-raise",
+  "url": "https://www.muscleandstrength.com/exercises/machine-lateral-raise.html",
+  "title": "Lateral Raise Machine",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Sit on the machine with your back straight and feet flat on the floor.",
+    "Adjust the seat so your shoulders are aligned with the machine’s pivot point.",
+    "Place your arms against the pads or hold the handles, depending on the machine design.",
+    "Keep your elbows slightly bent and grip relaxed. This is the starting position.",
+    "Lift your arms out to the sides until they are at shoulder height.",
+    "Pause briefly at the top.",
+    "Lower your arms slowly back to the starting position. This is one rep.",
+    "Repeat for the desired number of reps."
+  ],
+  "tips": [
+    "Start light to focus on proper form before increasing weight.",
+    "Avoid using momentum, lift and lower with control.",
+    "Keep your shoulders down and relaxed to avoid shrugging.",
+    "Keep a slight bend in your elbow to protect your joints.",
+    "Pause briefly at the top to increase muscle engagement.",
+    "Exhale as you lift, inhale as you lower the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/1082966892?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

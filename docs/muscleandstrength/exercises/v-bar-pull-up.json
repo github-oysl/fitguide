@@ -1,0 +1,34 @@
+{
+  "id": "v-bar-pull-up",
+  "url": "https://www.muscleandstrength.com/exercises/v-bar-pull-up.html",
+  "title": "V-Bar Pull Up",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Middle Back, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Place the V-Bar over the top of the pull up bar and grip the bar with a neutral grip (palms facing each other).",
+    "Let your body hang straight down with your arms extended. This is the starting position.",
+    "Engage your back and arms to pull your chest up towards the bar as close as possible. Keep your elbows close to your body.",
+    "Slowly lower your body back down to the starting position, fully extending your arms. This is one rep.",
+    "Do the desired number of reps with smooth and controlled movements."
+  ],
+  "tips": [
+    "Use a full range of motion on every rep.",
+    "Avoid using momentum by swinging to pull your body up.",
+    "Control your body throughout the movement.",
+    "Weight can be added for extra intensity."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881231?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

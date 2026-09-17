@@ -1,0 +1,34 @@
+{
+  "id": "smith-machine-shoulder-press-behind-neck",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-shoulder-press-behind-neck.html",
+  "title": "Smith Machine Behind the Neck Shoulder Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Triceps",
+  "overview": [],
+  "instructions": [
+    "Place an adjustable bench beneath the bar in an upright position.",
+    "Adjust the barbell to just below shoulder height while standing then load the desired weight onto the bar.",
+    "Sit down on the bench and unrack the bar using a pronated grip.",
+    "Inhale, brace, tuck the chin, then lower the bar to the back of your neck.",
+    "Exhale and press the bar back to lockout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Use a lighter weight than you would on a regular barbell press.",
+    "Use slow and controlled movement, both when pressing and when lowering the weight.",
+    "If your shoulders are bothering you during the movement, consider experimenting with a wider grip or utilizing some of the vertical pressing progressions listed on the site."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881633?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "frog-sit-up",
+  "url": "https://www.muscleandstrength.com/exercises/frog-sit-up",
+  "title": "Frog Sit Up",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The frog sit up is an exercise used to target the muscles of the core. It is a flexion based exercise and may not be suitable for those with low back pain.The frog sit up is a variation of thesit up. The main difference in the frog sit up is the foot positioning, which as a result, encourages you to open up your hips more than a standard sit up would."
+  ],
+  "instructions": [
+    "Lay supine in a relaxed position with your arms crossed, feet together, legs open, and knees pushed outwards.",
+    "Exhale and squeeze your abs as you raise your upper back off the floor.",
+    "Once your abs are fully contracted, slowly lower yourself back to the starting position and complete for the assigned number of repetitions."
+  ],
+  "tips": [
+    "Exhale hard like you’re blowing out candles on a cake and hold the contraction for a second in order to improve mind muscle connection.",
+    "If your lower back bothers you during this exercise, choose more anti extension and anti rotation based movements.",
+    "Avoid putting the hands behind the head as this can lead to excess strain upon the neck."
+  ],
+  "video_url": "https://www.youtube.com/embed/BFBjfwAkhhY?rel=0",
+  "youtube_id": "BFBjfwAkhhY",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

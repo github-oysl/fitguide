@@ -1,0 +1,35 @@
+{
+  "id": "overhead-barbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/overhead-barbell-extension.html",
+  "title": "Seated French Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the seated french press by loading a barbell or EZ bar with the appropriate amount of weight and placing it in front of a 90 degree angle bench.",
+    "Sit with your back flat against the bench with your feet flat on the floor and the barbell resting on your thighs.",
+    "Grasp the barbell with an overhand grip (palms facing down) with your hands about 8-12 inches apart.",
+    "Lift the bar above your head and bend at your elbows slightly to take the tension onto your triceps. Your palms are now facing upward. This is the starting position for the exercise.",
+    "Keeping your elbows fixed and pointing straight up toward the ceiling, slowly lower the bar down behind your head as far as comfortably possible.",
+    "Pause, and then slowly raise the bar back to the starting position.",
+    "Don't lock your elbows out, and then repeat the movement."
+  ],
+  "tips": [
+    "Technique is really important! Don't let your elbows flare out as you move the barbell, and keep the rep timing slow and controlled.",
+    "Don't lock your elbows out at the top of the movement and take the tension off of your triceps.",
+    "Focus on keeping your body as still as possible, moving only your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784303?h=4f581ad0d9&badge=0&autopause=0&player_id=0&app_id=58479/embed",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

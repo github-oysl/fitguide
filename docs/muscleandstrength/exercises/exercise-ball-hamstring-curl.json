@@ -1,0 +1,36 @@
+{
+  "id": "exercise-ball-hamstring-curl",
+  "url": "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl",
+  "title": "Exercise Ball Leg Curl (SHELC)",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Calves, Glutes",
+  "overview": [
+    "The exercise ball hamstring curl is aleg curlvariation used to build and strengthen the muscles of the hamstring complex.The exercise ball hamstring curl provides several unique challenges. For example, it challenges the core to stabilize the spine as you contract your hamstrings to bring the exercise ball towards the body.Also, as abodyweight exercisethat requires a lot of core stability, it is a self-limiting exercise. This means, you’re less likely to cheat as you would if trying to increase weight used in a weighted exercise. Instead, your goal should be to execute the exercise with perfect form before progressing to a more challenging single leg variation."
+  ],
+  "instructions": [
+    "Setup in a supine position with your feet elevated on a physioball and your arms extended out to the sides.",
+    "Initiate the movement by flexing your glutes and extending the hips until you have a straight line from your heels through your head.",
+    "While keeping your hips extended, curl your heels towards your butt by flexing your hamstrings.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "SHELC = Supine Hip Extension Leg Curl",
+    "When extending the glutes, you shouldn’t feel any pressure or contraction through the lower back. If you find yourself getting a pump through your spinal erectors then you’re likely substituting spinal extension for hip extension.",
+    "If you can’t seem to feel your glutes activating, palpate the musculature with your hands and focus on pausing the movement at the peak of contraction.",
+    "If you want to improve activation of your abs and hamstrings within the movement, consider squeezing something like a foam roller or yoga block in between your knees. Keep the hips up but also press into the roller/block as you curl the legs in.",
+    "Don’t allow the hips to swivel as you curl the legs in."
+  ],
+  "video_url": "https://www.youtube.com/embed/OOUtV11bSa8?rel=0",
+  "youtube_id": "OOUtV11bSa8",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "two-arm-cable-tricep-kickback",
+  "url": "https://www.muscleandstrength.com/exercises/two-arm-cable-tricep-kickback.html",
+  "title": "Two-Arm Cable Tricep Kickback",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Attach either a long rope, or two single grip handles to a low pulley cable and select the weight you want to use on the stack.",
+    "Grasp the rope with a neutral grip (thumbs facing the pulled machine) and step away from the machine.",
+    "With your knees bent slightly and elbows tucked in at your sides, bend down until your torso is around parallel to the floor. This is the starting position for the exercise.",
+    "Slowly extend your arms as far as possible.",
+    "Squeeze the triceps, and then slowly lower back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows positioned as high as possible throughout the set, and don't move them as you extend your arms.",
+    "Pause and squeeze the triceps at the top of the movement.",
+    "Keep the rep timing slow and control the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881415?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

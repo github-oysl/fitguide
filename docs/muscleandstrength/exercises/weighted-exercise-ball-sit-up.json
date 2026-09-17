@@ -1,0 +1,32 @@
+{
+  "id": "weighted-exercise-ball-sit-up",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-exercise-ball-sit-up.html",
+  "title": "Exercise Ball Weighted Sit up",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Get the desired weight plate and sit on the exercise ball.",
+    "Place your feet under, or up against something for support.",
+    "Hold the weight above your head. Keep it close to your head.",
+    "Slowly lower yourself down until your shoulder blades start to touch the exercise ball.",
+    "Pause, then raise yourself back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Start with a lighter weight and increase with experience."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881103?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

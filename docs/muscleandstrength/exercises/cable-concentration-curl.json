@@ -1,0 +1,37 @@
+{
+  "id": "cable-concentration-curl",
+  "url": "https://www.muscleandstrength.com/exercises/cable-concentration-curl.html",
+  "title": "Cable Concentration Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the cable concentration curl by grabbing a flat bench and positioning it in front of a low pulley cable machine.",
+    "Attach a straight bar to the low pulley cable and select the weight you want to use on the stack.",
+    "Sit on the end of the bench with your feet at around shoulder width apart.",
+    "Grasp the bar with an underhand grip (palms facing up).",
+    "Rest your elbows on the inner part of the knee. Hold your elbows in place by pushing out with your elbows and in with your knees. This should lock them in throughout the set.",
+    "Take the slack off the cable so the tension is on the biceps. This is the starting position.",
+    "Slowly curl the bar up as far as possible.",
+    "Pause and squeeze the biceps, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your rep timing slow and controlled. This is a true isolation exercise and the focus should be on making the muscle work, not moving heavy weight.",
+    "Squeeze the biceps hard at the top of the movement.",
+    "Keep your body fixed throughout the movement. Do not lean or swing back as you curl the weight up."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001654?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

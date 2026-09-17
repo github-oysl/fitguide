@@ -1,0 +1,35 @@
+{
+  "id": "lying-pallof-press",
+  "url": "https://www.muscleandstrength.com/exercises/lying-pallof-press",
+  "title": "Lying Pallof Press",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The lying pallof press is a variation of thepallof pressand an exercise used to strengthen the muscle of the core.The pallof press, in general, works the core by placing isometric tension on the muscle groups as you move a weight from the cable stack through a slight range of motion.The lying pallof press is an excellent variations for true beginners looking to build their core strength prior to moving on to more advanced variations of the exercise."
+  ],
+  "instructions": [
+    "Assume a supine position and attach a handle to a cable stack at chest height.",
+    "Hold the handle to your chest and allow the knees to remain bent with the feet flat.",
+    "Press the handle vertically to extension as you exhale.",
+    "Return to the starting position and repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Don’t allow the hips to rotate as you press the handle to extension.",
+    "Ensure that you exhale as you press to use the breath to drive more abdominal activation.",
+    "If you find you can’t maintain a neutral spinal position during this variation, regress to a supine version and then progress into a half kneeling and tall kneeling version once you gain the requisite lumbo-pelvic control.",
+    "Do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath."
+  ],
+  "video_url": "https://www.youtube.com/embed/VKc1NQv4wlw?rel=0",
+  "youtube_id": "VKc1NQv4wlw",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

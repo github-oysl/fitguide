@@ -1,0 +1,36 @@
+{
+  "id": "bench-supported-dumbbell-external-rotation",
+  "url": "https://www.muscleandstrength.com/exercises/bench-supported-dumbbell-external-rotation",
+  "title": "Bench Supported Dumbbell External Rotation",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Upper Back",
+  "overview": [
+    "The bench supported dumbbell external rotation exercise is a great prehab exercise to perform to promote rotator cuff health.Rotator cuffs are one of the more common injuries, especially as lifters get older. Performing prehab exercises such as bench supported dumbbell external rotation can help prevent injury and increase your longevity in the gym."
+  ],
+  "instructions": [
+    "Assume a standing position behind an adjustable bench with the bench completely upright.",
+    "Position the elbow on the bench with the forearm parallel to the body.",
+    "Externally rotate at the shoulder until the forearm is almost completely upright.",
+    "Slowly lower the dumbbell back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow your spine to laterally flex during the movement to compensate. Keep your spine straight and let your rotator cuff do the work.",
+    "The range of motion won’t be drastic, you’re just looking to feel all of the musculature in posterior shoulder turn on. There should realistically be around 90 degrees of motion throughout the movement baring there are no other anatomical abnormalities at play.",
+    "All of the movement should come through the shoulder, don’t allow the elbow to move.",
+    "Keep the forearm parallel to the body."
+  ],
+  "video_url": "https://www.youtube.com/embed/a7NbRLsPuMk?rel=0",
+  "youtube_id": "a7NbRLsPuMk",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

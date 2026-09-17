@@ -1,0 +1,38 @@
+{
+  "id": "band-pull-apart",
+  "url": "https://www.muscleandstrength.com/exercises/band-pull-apart",
+  "title": "Band Pull Apart",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Activation",
+  "equipment": "Bands",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The band pull apart is an exercise that targets the muscles of the upper body including the shoulders (rear delts), upper back, and traps.People typically use the band pull apart as a prehab/warm up exercise, but it can also be used to strengthen the rear deltoids."
+  ],
+  "instructions": [
+    "Set up in an athletic position with a band in both hands and your palms facing down.",
+    "Lift the hands to shoulder height with the elbows extended.",
+    "Exhale and pull the band apart until it nearly touches your chest.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Ensure that you exhale as you pull the band apart, this will help to maintain a neutral spine position and prevent you from compensating via hyperextension as you go through repetitions.",
+    "If you want to enhance the exercise even further, focus on pushing the hands apart once the band is fully pulled apart at chest height. This will help to activate a small muscle known as your serratus anterior right beneath your armpit.",
+    "Don’t allow the head to jut forward as you pull the band apart.",
+    "Keep a slight bend in the elbows, this will allow you to target more of the upper back.",
+    "There are actually 2 correct ways to perform pull aparts, utilize both and program accordingly:Movement from both the humerus and the shoulder blade (i.e. retraction)Movement from just the humerus (i.e horizontal abduction)",
+    "Movement from both the humerus and the shoulder blade (i.e. retraction)",
+    "Movement from just the humerus (i.e horizontal abduction)"
+  ],
+  "video_url": "https://www.youtube.com/embed/nMB_zabRo74?rel=0",
+  "youtube_id": "nMB_zabRo74",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

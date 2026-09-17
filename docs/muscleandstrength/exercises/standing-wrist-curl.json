@@ -1,0 +1,34 @@
+{
+  "id": "standing-wrist-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-wrist-curl.html",
+  "title": "Behind-The-Back Barbell Wrist Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Begin the exercise by selecting a barbell weight and holding it behind your back using an underhand grip (palms facing out). Your hands should be placed around shoulder-width apart.",
+    "Stand straight up with your feet shoulder-width apart. Bending only at the wrists, let the barbell drop as far as possible. This is the starting position for the exercise.",
+    "Slowly raise the barbell as far as possible squeezing the forearm muscles at the top of the movement. Only your wrists should be moving.",
+    "Pause and slowly lower the barbell back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Prioritize using lighter weight to focus on proper technique. It doesn't take heavy weight to make this exercise effective.",
+    "For added intensity: Keep the rep timing slow, and pause/squeeze the forearms for a count of two at the top of the movement.",
+    "Use a full range of motion by allowing the weight to drop as far as possible at the bottom of the movement.",
+    "When finished, lower the bar to a rack or bend at the knees and lower it to the floor."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001952?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+[
+  {
+    "id": "anti-gravity-press",
+    "url": "https://www.muscleandstrength.com/exercises/anti-gravity-press",
+    "title": "Anti-Gravity Press",
+    "target_muscle": "Shoulders",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Compound",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Intermediate",
+    "secondary_muscles": "Traps, Triceps",
+    "overview": [
+      "The anti-gravity press with ez bar is an exercise used to strengthen the muscles of the shoulder.The exercise primarily works because you must fight gravity through the range of motion. This targets the rear delts extremely well and can be a great exercise selection when trying to work onshoulder stability."
+    ],
+    "instructions": [
+      "Adjust an incline bench to roughly 45 degrees and lay down facing the pad.",
+      "Reverse curl an EZ curl bar to your chest and press diagonally while keeping your chest and hips on the pad.",
+      "Slowly lower the EZ bar back to the starting position but don’t allow the bar path to change due to the influence of gravity on the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "You probably won’t need much weight for this exercise given the setup and execution of the movement.",
+      "Reach tall at the top and don’t worry about keeping the shoulders packed down and back.",
+      "Keep momentum out of the movement and don’t add any additional leg drive by flexing and extending the knees.",
+      "Squeeze your glutes and brace your abs as you press. You shouldn’t be leaning back excessively as you press.",
+      "If your shoulders are bothering you during the movement, consider experimenting with a wider grip or utilizing some of the vertical pressing progressions listed on the site.",
+      "Don’t allow the lower back to arch as you press overhead."
+    ],
+    "video_url": "https://www.youtube.com/embed/NveB9Ovyj2g?rel=0&showinfo=0",
+    "youtube_id": "NveB9Ovyj2g",
+    "images": [
+      {
+        "alt": "Shoulders Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+      }
+    ]
+  },
+  {
+    "id": "california-skullcrusher",
+    "url": "https://www.muscleandstrength.com/exercises/california-skullcrusher",
+    "title": "California Skullcrusher",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The California skullcrusher is a variation of theEZ bar skullcrusher. To perform a California skullcrusher, you do a combo movement that is one half skullcrusher and one halfpullover.The additional stretch provides a greater range of motion and longer time under tension for the triceps. The California skullcrusher is an effective tricep builder and should be included in yourworkout programs, at least for a mesocycle."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on the edge of a flat bench.",
+      "To get into position, lay back and keep the bar close to your chest using a neutral grip. Once you are supine, press the weight to lockout.",
+      "Unlock the elbows and allow the ez bar to drop toward your forehead or just above.",
+      "Once your forearms reach parallel or just below, allow the upper arms to extend overhead (similar to a pullover).",
+      "As the arms reach full extension, pull the elbows back to the starting position and then extend the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine, keep your ribcage down by maintaining tension through the abs and glutes.",
+      "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+      "Keep the head in a fairly neutral position, don’t allow the neck to jut forward as this may place excessive pressure on the cervical spine.",
+      "In order to keep tension on the triceps, don’t lock out the elbows completely.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out).",
+      "You may slightly reduce tension through the ligamentous portions of the triceps during the movement by keeping the bar just above your head and not locking out directly over your line of sight."
+    ],
+    "video_url": "https://www.youtube.com/embed/iYd36-rreNU?rel=0",
+    "youtube_id": "iYd36-rreNU",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "close-grip-ez-bar-curl",
+    "url": "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html",
+    "title": "Close Grip EZ Bar Curl",
+    "target_muscle": "Biceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Pull",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [],
+    "instructions": [
+      "Grasp an EZ Bar with an underhand grip (palms facing up). Your hands should be about 6-8 inches apart.",
+      "Stand straight up, with your feet firmly on the floor at around shoulder width apart. You may find it more comfortable to take one foot back.",
+      "Keeping your body completely still and eyes facing forward, slowly curl the bar up as far as possible.",
+      "Squeeze your biceps at the top of the movement, and then slowly lower the weight back down.",
+      "Repeat for desired reps."
+    ],
+    "tips": [
+      "The EZ Bar is often preferred for close grip curls because the shape of the bar takes some of the strain off your wrists.",
+      "When you curl the bar up, do not lean backward. Keep your body fixed and use your biceps to move the weight."
+    ],
+    "video_url": "https://player.vimeo.com/video/756794039?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Biceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "close-grip-ez-bar-press",
+    "url": "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-press",
+    "title": "Close Grip EZ Bar Press",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The close grip EZ bar press is a tricep exercise and a variation of theclose grip bench press.One may prefer to perform the close grip EZ bar press over the barbell variation as the slight switch in hand placement can alleviate some wrist and elbow pain."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on the edge of a flat bench.",
+      "To get into position, lay back and keep the bar close to your chest using a neutral grip. Once you are supine, press the weight to lockout.",
+      "Unlock the elbows and extend the shoulders to lower the weight to your chest.",
+      "Once the bar touches your chest, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine as you lower the weight, keep some tension through the abdominals.",
+      "Exhale as you extend the elbows and lockout the weight.",
+      "Keep the head in a fairly neutral position, focus on a spot on the ceiling and complete all of the assigned repetitions.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out)."
+    ],
+    "video_url": "https://www.youtube.com/embed/LduzOtuJ3uA?rel=0",
+    "youtube_id": "LduzOtuJ3uA",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "decline-lying-tricep-extension-skullcrusher",
+    "url": "https://www.muscleandstrength.com/exercises/decline-lying-tricep-extension-skullcrusher.html",
+    "title": "Decline Lying Tricep Extension (Skullcrusher)",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The decline skullcrusher is a variation of theskullcrusherand an exercise used to isolate the muscles of the triceps.The decline provides a different angle in which to hit the tricep muscle and increase the range of motion of the exercise.Tricep isolation exercises such as the decline skullcrusher can help you build bigger arms and improve your strength on lifts that require stronger triceps (such as thebench pressandoverhead press)."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on the edge of an decline bench at roughly 20-30 degrees.",
+      "To get into position, lay back and keep the bar close to your chest. Once you are supine, press the weight to lockout.",
+      "Unlock the elbows and allow the ez bar to drop toward your forehead or just above.",
+      "Once your forearms reach parallel or just below, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine as you lower the weight, keep some tension through the abdominals.",
+      "Exhale as you extend the elbows and lockout the weight overhead.",
+      "Keep the head in a fairly neutral position, focus on a spot on the ceiling and complete all of the assigned repetitions.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out).",
+      "You may slightly reduce tension through the ligamentous portions of the triceps during the movement by keeping the bar just above your head and not locking out directly over your line of sight."
+    ],
+    "video_url": "https://www.youtube.com/embed/kVJrVTEt1gE?rel=0",
+    "youtube_id": "kVJrVTEt1gE",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-back-of-the-head-lying-tricep-extension",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-back-of-the-head-lying-tricep-extension.html",
+    "title": "45 Degree Lying Tricep Extension (EZ Bar)",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push",
+    "experience_level": "Intermediate",
+    "secondary_muscles": "None",
+    "overview": [],
+    "instructions": [
+      "Sit on the end of a flat bench width a barbell on your thighs.",
+      "Grip the EZ-bar on the inner grips. Bring the bar up to your chest and lay down on your back.",
+      "Extend your arms straight up above your chest.",
+      "Keeping your arms straight move the bar back so it is angled out past your head.",
+      "Keeping your elbows fixed in place and not pointing out, slowly lower the bar until it is almost touching the top of your head or bench behind your head.",
+      "Pause, and then slowly extend your arms back to the starting position.",
+      "Do not lock your elbows out, and then repeat for desired reps."
+    ],
+    "tips": [
+      "Keep the rep timing slow and control the weight throughout the set.",
+      "Keep the tension on your triceps by never extending your arms fully.",
+      "Your elbows should be pointing down and not flaring out as you move the weight."
+    ],
+    "video_url": "https://player.vimeo.com/video/756784245?h=41ce7d3c22&badge=0&autopause=0&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-incline-skullcrusher",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-incline-skullcrusher.html",
+    "title": "EZ Bar Incline Skullcrusher",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The incline EZ bar skullcrusher is a variation of theskullcrusherand an exercise used to strengthen the muscles of the triceps.The triceps can be trained in many different ways to promote growth and overhead extensions, such as the incline EZ bar skullcrusher, are an effective way to target the long head of the tricep.Having bigger and stronger triceps are not only important from an aesthetic standpoint but can also help contribute to better performance on pressing motions such as thebench press."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on the edge of an adjustable bench set at 20-30 degrees.",
+      "To get into position, lay back and keep the bar close to your chest. Once you are supine, press the weight to lockout.",
+      "Unlock the elbows and allow the ez bar to drop toward your forehead or just above.",
+      "Once your forearms reach parallel or just below, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine as you lower the weight, keep some tension through the abdominals.",
+      "Exhale as you extend the elbows and lockout the weight overhead.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out).",
+      "You may slightly reduce tension through the ligamentous portions of the triceps during the movement by keeping the bar just above your head and not locking out directly over your line of sight."
+    ],
+    "video_url": "https://www.youtube.com/embed/Bt3k2C9uwbs?rel=0",
+    "youtube_id": "Bt3k2C9uwbs",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-reverse-grip-barbell-curl",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-barbell-curl.html",
+    "title": "Reverse Grip Barbell Curl (EZ Bar)",
+    "target_muscle": "Forearms",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Pull",
+    "experience_level": "Beginner",
+    "secondary_muscles": "Biceps",
+    "overview": [
+      "The reverse grip barbell curl is a variation of thebarbell curland an exercise used to target the muscles of the biceps.The reverse grip hand positioning will naturally make the biceps more involved in the exercise.Barbell curls can be performed during yourbicep workouts, upper body workouts, orfull body workouts."
+    ],
+    "instructions": [
+      "Grasp an EZ bar with a pronated grip (palms facing down) and position your hands around shoulder width apart. The bar should not be touching your body. This is the starting position.",
+      "Slowly curl the bar while looking forward and keeping your elbows tucked in at your sides.",
+      "Do not pause, and slowly lower the weight back to the starting position.",
+      "Repeat for desired reps."
+    ],
+    "tips": [
+      "Use a full range of motion for this exercise, and focus on slow and controlled rep timing.",
+      "Focus on moving only at the elbows - keeping your upper arms completely still."
+    ],
+    "video_url": "https://player.vimeo.com/video/760002555?badge=0&autopause=0&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Forearms Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-reverse-grip-bent-over-row",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-bent-over-row.html",
+    "title": "Reverse Grip Bent-Over Row (EZ Bar)",
+    "target_muscle": "Upper Back",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Compound",
+    "force_type": "Pull",
+    "experience_level": "Beginner",
+    "secondary_muscles": "Biceps, Lats, Shoulders",
+    "overview": [],
+    "instructions": [
+      "Grab an EZ bar, load on your required weight, and set the bar down in front of you.",
+      "Stand with your feet around shoulder width, bend at the knees, and squat down to grip the bar with a reverse grip (thumbs at the top of the bar) and your hands wider than shoulder width apart.",
+      "Keeping your back straight, stand straight up so you're holding the bar in front of you against your waist.",
+      "To get into the starting position bend your knees slightly, and while keeping your back straight let the barbell slide down your thighs until it drops just below knee level. This is the stance that should not change throughout the set.",
+      "Now pull the bar up to just below your chest.",
+      "Squeeze your shoulder blades together at the top of the movement.",
+      "Then slowly lower the bar back to the start position.",
+      "Repeat for desired reps."
+    ],
+    "tips": [
+      "Keep your elbows tucked in at your sides.",
+      "Keep your back straight.",
+      "For maximum results, do the exercise slowly and control the weight.",
+      "Squeeze your shoulder blades together at the top of the movement."
+    ],
+    "video_url": "https://player.vimeo.com/video/756788498?badge=0&autopause=0&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Upper Back Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-reverse-grip-preacher-curl",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-preacher-curl.html",
+    "title": "Reverse Grip Preacher Curl (EZ Bar)",
+    "target_muscle": "Forearms",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Pull",
+    "experience_level": "Beginner",
+    "secondary_muscles": "Biceps",
+    "overview": [
+      "The reverse grip preacher curl with EZ bar is a variation of thepreacher curland an exercise used to isolate the biceps.The angle used when performing preacher curl variations allows for a more focused concentric portion of the curl. This is especially helpful when trying to build bicep peaks and promote a pump in the biceps. The reverse grip hand positioning will naturally make the biceps more involved in the exercise.The dumbbell preacher curl would be an exercise primarily used by bodybuilders to help build bigger biceps. It is an isolation movement that is best used towards the end of yourworkoutsif your goal is building a more aesthetic physique."
+    ],
+    "instructions": [
+      "Setup for the exercise by adjusting the seat height of the preacher bench so that the back of your upper arms rest flat on the pads.",
+      "Select an EZ bar, grasp it using a pronated grip (palms facing down), and sit on the bench.",
+      "Keeping your arms fixed, curl the weight until your forearms are around 90 degrees to the floor.",
+      "Do not pause, and slowly lower the weight back to the starting position.",
+      "Repeat for desired reps."
+    ],
+    "tips": [
+      "Keep the rep timing slow and control the weight throughout the movement.",
+      "Keep your wrists straight - do not allow them to sag forward."
+    ],
+    "video_url": "https://player.vimeo.com/video/760002570?badge=0&autopause=0&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Forearms Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ez-bar-skullcrusher",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+    "title": "EZ Bar Skullcrusher",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The EZ bar skullcrusher is a variation of theskullcrusherand an exercise used to strengthen the muscles of the triceps.The triceps can be trained in many different ways to promote growth and overhead extensions, such as the EZ bar skullcrusher, are an effective way to target the long head of the tricep.Having bigger and stronger triceps are not only important from an aesthetic standpoint but can also help contribute to better performance on pressing motions such as thebench press."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on the edge of a flat bench.",
+      "To get into position, lay back and keep the bar close to your chest. Once you are supine, press the weight to lockout.",
+      "Lower the weights towards your head by unlocking the elbows and allowing the ez bar to drop toward your forehead or just above.",
+      "Once your forearms reach parallel or just below, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine as you lower the weight, keep some tension through the abdominals.",
+      "Exhale as you extend the elbows and lockout the weight overhead.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out).",
+      "You may slightly reduce tension through the ligamentous portions of the triceps during the movement by keeping the bar just above your head and not locking out directly over your line of sight."
+    ],
+    "video_url": "https://www.youtube.com/embed/K6MSN4hCDM4?rel=0",
+    "youtube_id": "K6MSN4hCDM4",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "seated-ez-bar-french-press",
+    "url": "https://www.muscleandstrength.com/exercises/seated-ez-bar-french-press",
+    "title": "Seated EZ Bar French Press",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [
+      "The seated EZ bar French press is a variation of theFrench pressand an exercise used to strengthen the muscles of the triceps.The triceps can be trained in many different ways to promote growth and overhead extensions, such as the seated EZ bar french press, are an effective way to target the long head of the tricep.Having bigger and stronger triceps are not only important from an aesthetic standpoint but can also help contribute to better performance on pressing motions such as thebench press."
+    ],
+    "instructions": [
+      "Select your desired weight and sit on an upright bench.",
+      "To get into position, reverse curl the bar to your chest and then press it straight overhead by locking out the triceps.",
+      "Lower the weights towards your shoulders by unlocking the elbows and allowing the ez bar to drop behind your head.",
+      "Once your forearms reach parallel or just below, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine as you lower the weight, keep some tension through the abdominals.",
+      "Exhale as you extend the elbows and lockout the weight overhead.",
+      "Keep the head in a fairly neutral position, focus on a spot on the floor and complete all of the assigned repetitions.",
+      "If you experience elbow pain during the movement, consider implementing a slight angle (incline or decline) or adjust elbow position (in versus out).",
+      "You may slightly reduce tension through the ligamentous portions of the triceps during the movement by keeping the bar just above your head and not locking out directly over your line of sight."
+    ],
+    "video_url": "https://www.youtube.com/embed/9agrvvcUsNM?rel=0",
+    "youtube_id": "9agrvvcUsNM",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "standing-overhead-ez-bar-tricep-extension",
+    "url": "https://www.muscleandstrength.com/exercises/standing-overhead-ez-bar-tricep-extension",
+    "title": "Standing Overhead EZ Bar Tricep Extension",
+    "target_muscle": "Triceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Push (Bilateral)",
+    "experience_level": "Beginner",
+    "secondary_muscles": "Abs",
+    "overview": [
+      "The standing overhead EZ bar tricep extension is an exercise used to build bigger triceps. Since it is performed standing, it also indirectly targets the muscles of the core as well.Standing overhead EZ bar tricep extensions are a great tricep exercise for those looking to add size to their arms. The overhead nature of the exercise provides a great range of motion and stretch on the tricep.The EZ bar used to perform the overhead EZ bar tricep extension also provides an option for the overhead press motion to those who experience wrist pain."
+    ],
+    "instructions": [
+      "Select the desired weight from the rack and stand in an open area.",
+      "To get into position, reverse curl the bar to your chest and then press it straight overhead by locking out the triceps.",
+      "Lower the weights towards your shoulders by unlocking the elbows and allowing the ez bar to drop behind your head.",
+      "Once your forearms reach parallel or just below, reverse the movement by extending the elbows while flexing the triceps to lockout the weight.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "tips": [
+      "Don’t overextend through the lumbar spine, keep your ribcage down by maintaining tension through the abs and glutes.",
+      "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+      "Keep the head in a fairly neutral position, don’t allow the neck to jut forward as this may place excessive pressure on the cervical spine."
+    ],
+    "video_url": "https://www.youtube.com/embed/n56dZh2YBbM?rel=0",
+    "youtube_id": "n56dZh2YBbM",
+    "images": [
+      {
+        "alt": "Triceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+      }
+    ]
+  },
+  {
+    "id": "wide-grip-ez-bar-curl",
+    "url": "https://www.muscleandstrength.com/exercises/wide-grip-ez-bar-curl.html",
+    "title": "Wide Grip EZ Bar Curl",
+    "target_muscle": "Biceps",
+    "exercise_type": "Strength",
+    "equipment": "EZ Bar",
+    "mechanics": "Isolation",
+    "force_type": "Pull",
+    "experience_level": "Beginner",
+    "secondary_muscles": "None",
+    "overview": [],
+    "instructions": [
+      "Grasp an EZ Bar with your hands at a wider than shoulder width using an underhand grip (palms facing up).",
+      "Your feet should be firmly on the floor, about shoulder-width apart. If you prefer, you can place one foot back. This is the starting position.",
+      "Keeping your body fixed (do not swing!), slowly curl the weight up as far as possible.",
+      "Squeeze the biceps, and then slowly lower the weight back to the starting position.",
+      "Repeat for desired reps."
+    ],
+    "tips": [
+      "The EZ Bar bar is preferred for wide grip curls because the shape of the bar takes some of the strain off the wrists.",
+      "When curling up the EZ Bar do not lean back or \"swing\" the weight up! Using the rest of your body and momentum to move the weight when your biceps should be doing the work, is a form of cheating.",
+      "Control the weight from start to finish. Do not allow the bar to drop too fast.",
+      "Focus on keeping all movement in your forearms."
+    ],
+    "video_url": "https://player.vimeo.com/video/756794030?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+    "youtube_id": "",
+    "images": [
+      {
+        "alt": "Biceps Muscle Anatomy Diagram",
+        "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+      }
+    ]
+  }
+]

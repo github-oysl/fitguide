@@ -1,0 +1,35 @@
+{
+  "id": "inchworm",
+  "url": "https://www.muscleandstrength.com/exercises/inchworm",
+  "title": "Inchworm",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Warmup",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Dynamic Stretching",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Calves, Shoulders",
+  "overview": [
+    "The inchworm is a form of dynamic stretching and a warm up drill that promotes total body muscle activation.The inchworm begins by stretching the muscles of the legs as you reach toward the floor. From there, it activates the muscles of the upper body and core as you walk your hands out into a pushup plank position.Dynamic stretching is an important part of any solid warm up routine and should be included in yourworkout programs."
+  ],
+  "instructions": [
+    "In an upright position, reach forward and touch the floor with your fingertips.",
+    "Walk your hands forward until you’re in a pushup position.",
+    "While keeping your knees locked out, tuck your chin to look at your shoes and tip-toe your feet up towards your hands as far as possible.",
+    "Walk your hands back out to a pushup position and repeat the process for desired number of repetitions."
+  ],
+  "tips": [
+    "Push your hands into the floor as you walk your feet up, you should feel your traps engage. Remember though, it’s a push not a deliberate shrug.",
+    "Look at your shoelaces as you walk your feet up. Tucking the chin helps to improve the overhead position.",
+    "Don’t let the hips sag when you’re walking the hands out.",
+    "Start pushing the floor away when you’re in the pushup position."
+  ],
+  "video_url": "https://www.youtube.com/embed/FRiUEJqvB6A?rel=0",
+  "youtube_id": "FRiUEJqvB6A",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

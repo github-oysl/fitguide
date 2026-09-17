@@ -1,0 +1,32 @@
+{
+  "id": "dumbbell-jumping-squat",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-jumping-squat.html",
+  "title": "Dumbbell Squat Jump",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Grab a set of dumbbells and hold them down by your side with a neutral grip.",
+    "With your feet around shoulder-width apart, this is your starting position.",
+    "Lower down into a squat by bending the knees until your thighs are parallel to the floor or as far as comfortably possible.",
+    "At the bottom of the squat, begin to push through your heels and explode up. Your feet should be off the ground and flexed at the top.",
+    "Land back on your toes, then immediately shift your weight to your heels. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Use caution when performing this exercise if you have had any previous back or knee problems. This is a high-impact exercise. Begin by using little to no weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/877880574?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

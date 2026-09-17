@@ -1,0 +1,34 @@
+{
+  "id": "decline-cable-knee-raise",
+  "url": "https://www.muscleandstrength.com/exercises/decline-cable-knee-raise.html",
+  "title": "Decline Bench Cable Knee Raise",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Place a decline bench in front of a low pulley cable machine. Place the low end of the decline bench closest to the cables.",
+    "Attach the ankle strap to the low pulley cable and select the desired weight.",
+    "Attach the ankle straps to your ankles.",
+    "Lay down on the decline bench with your head up the high end and grip the pads at the top of the bench for support.",
+    "Pull your knees up slightly to take the weight off the stack. Slowly pull your knees up as high as possible.",
+    "Pause, then slowly lower back down to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "For extra intensity, hold for 2-5 seconds at the top of the movement (with your knees up).",
+    "Use slow and controlled movements."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881446?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dumbbell-split-squat",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-split-squat",
+  "title": "Dumbbell Split Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings",
+  "overview": [
+    "The dumbbell split squat is adumbbell lungevariation and an exercise used to target the muscles of the quads, as well as the rest of the muscles of the leg.The split squat looks very similar to a lunge. However, the feet stay in one place for the most part during this exercise. Thus, some may refer to the dumbbell split squat as a static lunge."
+  ],
+  "instructions": [
+    "Set up in a split stance position while gripping dumbbells by your side with a neutral grip.",
+    "Descend by flexing both knees simultaneously and continue until the back knee touches the ground directly beneath the hip.",
+    "Drive through the front foot and extend the knee as you return to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to emphasize the quads during the split squat, focus on taking a slightly smaller split stance and drive up through the ball of the foot.",
+    "If you want to emphasize the glutes and hamstrings during the split squat, focus on taking a slightly larger split stance and drive up through the heel of the foot.",
+    "If you’re an overextended athlete then you may find it more beneficial to allow for slightly more torso lean throughout the drill as this will help to keep your neutral and load the front leg more effectively.",
+    "If the front leg keeps diving in excessively as you reverse from the eccentric to concentric, attach a band to a rack, loop one end around your knee, and allow it to pull you into a valgus position (not excessively, just slightly). From here, push out against the band to engage the glute and keep yourself in a more neutral position.",
+    "You don’t need to feel like you have to be completely upright as you complete the movement. On the contrary, you should have a slight forward lean and focus on keeping your lumbar spine neutral."
+  ],
+  "video_url": "https://www.youtube.com/embed/EByFmf2LfY8?rel=0",
+  "youtube_id": "EByFmf2LfY8",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

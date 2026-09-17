@@ -1,0 +1,34 @@
+{
+  "id": "one-arm-seated-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-seated-hammer-curl.html",
+  "title": "One-Arm Seated Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Grab a dumbbell with a neutral grip and sit on the end of a bench with your feet around shoulder width apart.",
+    "Bend the arm slightly to keep tension in the bicep. This is the starting position for the exercise.",
+    "With your elbows tucked in at your sides, slowly curl up the dumbbell up as far as possible while maintaining a neutral grip.",
+    "Contract the bicep muscle at the top of the movement, and then slowly lower the dumbbell back to the starting position.",
+    "Squeeze the bicep muscle hard, and then slowly lower the dumbbell back to the starting position.",
+    "Repeat for desired reps, and then repeat on the other arm."
+  ],
+  "tips": [
+    "As a general rule, always work the weakest part of your body first. For most people, this will mean doing the left arm before the right.",
+    "Keep your body fixed throughout the movement. Do not swing back. Only your forearm should be moving.",
+    "The rep timing should be slow and the weight should be controlled on the way down."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794243?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

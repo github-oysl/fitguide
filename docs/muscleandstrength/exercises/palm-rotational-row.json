@@ -1,0 +1,33 @@
+{
+  "id": "palm-rotational-row",
+  "url": "https://www.muscleandstrength.com/exercises/palm-rotational-row.html",
+  "title": "Palm Rotational Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [],
+  "instructions": [
+    "Select the appropriate dumbbells and place them on the floor in front of you.",
+    "Bending at the knees and keeping your back straight, squat down and pick up the dumbbells with an overhand grip (palms facing the floor).",
+    "Get into the starting position by keeping your back straight and bending at the knees. Let the dumbbells slide down your thighs until they're just below knee height.",
+    "Pull the dumbbells up towards your stomach. While pulling the dumbbells up, twist at the wrist from an over hand to an under hand position.",
+    "As you lower the dumbbells, reverse this twist so you end the rep within the overhand position."
+  ],
+  "tips": [
+    "Keep your head up and your eyes looking straight to ensure that your back does not arch.",
+    "Keep your elbows in at your sides.",
+    "Squeeze your shoulder blades together at the top of the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788451?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

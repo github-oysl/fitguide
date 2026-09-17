@@ -1,0 +1,37 @@
+{
+  "id": "serrano-press",
+  "url": "https://www.muscleandstrength.com/exercises/serrano-press",
+  "title": "Serrano Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Advanced",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The Serrano press is a variation of thedumbbell pressand an exercise used to strengthen the muscles of the shoulder.The Serrano press combines a high row and an external rotation with the overhead press. It is a very effective movement one can use to strengthen the rear delts and rotator cuffs."
+  ],
+  "instructions": [
+    "Assume a prone position on an incline bench with your chin tucked and arms straight.",
+    "Reach down, inhale, and grab the dumbbells. Externally rotate at the shoulders and ensure the hands are facing forward.",
+    "Take a deep breath and press the dumbbells overhead by extending the elbows and contracting the deltoids.",
+    "Slowly lower the dumbbells back to the starting position (the arms should be roughly 90 degrees or slightly lower depending upon limb lengths).",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Focus on keeping the wrist in line with the elbow as you press.",
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead then it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/u50tIftZhOk?rel=0",
+  "youtube_id": "u50tIftZhOk",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

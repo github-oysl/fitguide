@@ -1,0 +1,36 @@
+{
+  "id": "tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/tricep-extension.html",
+  "title": "Straight Bar Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The straight bar tricep extension is a variation of the cable tricep extension and an exercise used to build the muscles of the triceps.Well-built triceps also have a lot of positive carryover into your pressing movements such asbench pressvariations andshoulder pressvariations.The straight bar tricep extension can be included in yourtricep workouts, upper body workouts, push workouts, andfull body workouts."
+  ],
+  "instructions": [
+    "Attach a straight bar to a cable stack as high as possible and assume a standing position.",
+    "Grasp the straight bar with a pronated grip (palms facing down) and lean forward slightly by hinging at the hips.",
+    "Initiate the movement by extending the elbows and flexing the triceps.",
+    "Pull the handle downward until the elbows are almost locked out and then slowly lower under control back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension in the triceps, don’t lock the elbows out entirely.",
+    "Imagine there’s a screw running through your elbow and don’t allow them to move in front of the body as you extend at the bottom of the movement.",
+    "Experiment with static elbow positioning throughout the lift - some may find that they get a better stretch in the bottom portion of the movement by allowing their elbows to drift behind the body during the eccentric portion of the movement (similar to a drag curl).",
+    "Ensure the shoulder blades don’t tilt forward as you extend the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/mpZ9VRisAyw?rel=0",
+  "youtube_id": "mpZ9VRisAyw",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

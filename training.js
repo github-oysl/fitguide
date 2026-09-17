@@ -1,4 +1,4 @@
-// 筛选只匹配主要训练肌肉，避免辅助肌肉让结果失去针对性。
+// 筛选只匹配主要训练肌肉与具体器械，避免辅助肌肉让结果失去针对性。
 (function (scope) {
   const categories = {all:'全部部位', chest:'胸', back:'背', shoulders:'肩', arms:'手臂', legs:'臀腿', core:'核心', cardio:'有氧'};
   const muscles = {
@@ -11,12 +11,22 @@
   };
   function filterExercises(items, state) {
     const query=(state.query||'').trim().toLowerCase();
-    return items.filter(item =>
-      (state.category==='all'||item.category===state.category||item.muscles.some(id=>muscles[id]?.[1]===state.category)) &&
-      (state.muscle==='all'||item.muscles.includes(state.muscle)||(state.muscle==='triceps'&&item.muscles.includes('triceps-long'))||(state.muscle==='chest'&&item.muscles.includes('upper-chest'))) &&
-      (state.equipment==='all'||(state.equipment==='cable-station'?['cable','pulldown','row'].includes(item.equipment):item.equipment===state.equipment)) &&
-      (!query||[item.name,item.primary,item.secondary,item.attachment,item.cue,item.en,...item.muscles.map(id=>muscles[id]?.[0]||'')].join(' ').toLowerCase().includes(query))
-    );
+    return items.filter(item => {
+      if (state.category!=='all' && item.category!==state.category && !item.muscles.some(id=>muscles[id]?.[1]===state.category)) return false;
+      if (state.muscle!=='all' && !item.muscles.includes(state.muscle) && !(state.muscle==='triceps'&&item.muscles.includes('triceps-long')) && !(state.muscle==='chest'&&item.muscles.includes('upper-chest'))) return false;
+      if (state.equipment!=='all') {
+        const equipId = scope.GYM_SETTINGS?.EXERCISE_MAP?.[item.id] || item.equipmentId;
+        const matches = (equipId && equipId === state.equipment) ||
+          (item.equipment === state.equipment) ||
+          (state.equipment === 'cable-station' && ['cable','pulldown','row'].includes(item.equipment));
+        if (!matches) return false;
+      }
+      if (query) {
+        const text = [item.name,item.primary,item.secondary,item.attachment,item.cue,item.en,...item.muscles.map(id=>muscles[id]?.[0]||'')].join(' ').toLowerCase();
+        if (!text.includes(query)) return false;
+      }
+      return true;
+    });
   }
   scope.GYM_TRAINING={categories,muscles,filterExercises};
 })(typeof window==='undefined'?globalThis:window);

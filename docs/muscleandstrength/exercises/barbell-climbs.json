@@ -1,0 +1,35 @@
+{
+  "id": "barbell-climbs",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-climbs",
+  "title": "Barbell Climbs",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Advanced",
+  "secondary_muscles": "None",
+  "overview": [
+    "The barbell climb is an abdominal and core exercise and an advanced variation of theplankandbarbell rollout.Barbell climbs are very advanced and should not be attempted until serious prerequisite strength has already been established."
+  ],
+  "instructions": [
+    "Assume a wider than shoulder width stance with your hands on a barbell overhead.",
+    "Walk your hands down the barbell until your arms are overhead and your body is parallel to the floor.",
+    "Walk your hands back up the barbell to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "This is one of the most advanced anti-extension core movement, make sure you’ve worked the requisite progressions before moving to this variation.",
+    "Ensure the rib cage stays down and the lower back doesn't arch as you reach overhead.",
+    "If you find you can’t maintain a neutral spinal position during the exercise then choose other variations such as wall press heel tap and hip extension which provide more stability and shorten the lever arm.",
+    "Do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath. Exhale as you reach overhead."
+  ],
+  "video_url": "https://www.youtube.com/embed/c1B8DXLaSKA?rel=0",
+  "youtube_id": "c1B8DXLaSKA",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "guillotine-press",
+  "url": "https://www.muscleandstrength.com/exercises/guillotine-press.html",
+  "title": "Guillotine Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the Guillotine Press by loading the weight you want to use on the barbell.",
+    "Lay down on the bench and grasp the bar with an overhand grip (palms facing forward) with your hands wider than shoulder-width. Take the bar off the rack.",
+    "Slowly lower the bar as far as possible towards your neck.",
+    "Pause, then raise the bar straight back up without locking the elbows at the top of the movement.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "This exercise can be very dangerous. As such, you should use lighter weights and ensure you have a spotter.",
+    "Lower the bar slowly and control the weight during the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783627?h=a8eaf13e19&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

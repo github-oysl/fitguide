@@ -1,0 +1,38 @@
+{
+  "id": "box-jump",
+  "url": "https://www.muscleandstrength.com/exercises/box-jump",
+  "title": "Box Jump",
+  "target_muscle": "Quads",
+  "exercise_type": "Plyometrics",
+  "equipment": "Box",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Hip Flexors",
+  "overview": [
+    "The box jump is an exercise used to increase lower body explosiveness.Plyometric exercises, such as the box jump, are not only important for athletes – but also the general population as well to maintain elasticity in your tendons as you age. They can also be used as a form of conditioning to aid in fat loss."
+  ],
+  "instructions": [
+    "Setup in an athletic base position with your knees slightly bent and your arms hanging loosely by your sides.",
+    "Squat down with a countermovement to slightly above 90 degrees, swing your arms back, and explode up towards the box by driving off both legs.",
+    "Generate triple extension and then land with both feet on a box and absorb the impact with your legs."
+  ],
+  "tips": [
+    "Triple extension = extension of the hips, knees, and ankles.",
+    "The goal of box jumps is to generate full extension before landing on the box. Most folks focus on pulling their legs up as high as they can to jump onto higher boxes. Forget about the box height and focus on fully extending your hips.Jumping to a higher box doesn’t correlate to an improvement in vertical jump, it may mean that one can just pull their legs into hip flexion faster than someone else. Don’t mistake compensation for improvement.",
+    "Jumping to a higher box doesn’t correlate to an improvement in vertical jump, it may mean that one can just pull their legs into hip flexion faster than someone else. Don’t mistake compensation for improvement.",
+    "You can use these drills as “fillers” in between your large compound movements or you can implement them within your warm up as a method of potentiating your central nervous system for heavier strength based work in your accompanying training session.",
+    "Unilateral versions should only be incorporated once someone demonstrates substantial levels of lower body strength and stability.",
+    "The arms drive the legs, don’t forget to incorporate the arm swing.",
+    "Make sure you step down from the box, don’t jump down.",
+    "Land softly - use the cue “extend (as in the hips), absorb”."
+  ],
+  "video_url": "https://www.youtube.com/embed/MX-NHcqEqQk?rel=0",
+  "youtube_id": "MX-NHcqEqQk",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

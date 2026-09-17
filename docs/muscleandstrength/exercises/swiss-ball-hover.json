@@ -1,0 +1,31 @@
+{
+  "id": "swiss-ball-hover",
+  "url": "https://www.muscleandstrength.com/exercises/swiss-ball-hover.html",
+  "title": "Exercise Ball Plank",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Compound",
+  "force_type": "Static",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Lower Back",
+  "overview": [],
+  "instructions": [
+    "Grab an exercise ball and place your forearms on the top of the ball.",
+    "Extend your legs so that only your toes are touching the floor.",
+    "Straighten your body out. Hold this position for as long as possible.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Make the exercise ball plank harder by resting one foot on top of the other and only leaving one foot on the floor.",
+    "You can also do this exercise with your hand on the ball instead of elbows/forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881065?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "weighted-chin-up-hang",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-chin-up-hang",
+  "title": "Weighted Chin Up Hang",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Chains",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Shoulders, Upper Back",
+  "overview": [
+    "The weighted chin up hang is an isometric exercise used to build your lats, forearms, core, and biceps.The weighted chin up hang is also an excellent way to strengthen the muscles needed to perform achin upand/or weighted chin up."
+  ],
+  "instructions": [
+    "Load a weight belt with the desired weight and loop it around your waist.",
+    "Using a supinated grip, grasp the bar with a shoulder width grip.",
+    "Take a deep breath, squeeze your glutes and brace your abs. Depress the shoulder blades and maintain an active shoulder position.",
+    "Hold for the assigned time frame and repeat for as many repetitions as desired."
+  ],
+  "tips": [
+    "To decrease bicep involvement, use a false (thumbless grip).",
+    "Try to keep a neutral head position (looking straight ahead or slightly up) as hyperextending the neck can lead to compensations throughout the spine.",
+    "If the bar is high enough, keep the legs straight and in front of the body.",
+    "Avoid falling into overextension of the lumbar spine by squeezing your glutes and bracing your abs.",
+    "The chin up is completed when the lats are fully flexed, don’t continue pulling and compensate with the pecs.",
+    "Keep your shoulders down and back, if they round forward at the top then you’ve pulled too far.",
+    "A lifter’s segment length will determine whether or not they can actually get their chin over the bar, it’s not an absolute for everyone.",
+    "Lower to almost full extension of the elbow but avoid locking out completely as this can place excessive strain on the ligamentous structures within the elbow and shoulder.",
+    "If you can’t complete a single bodyweight chin up, start with slow negatives or flexed arm hangs at the top position.",
+    "Ditch the straps and kips, neither one is necessary or recommended."
+  ],
+  "video_url": "https://www.youtube.com/embed/M_IhfavGIOA?rel=0",
+  "youtube_id": "M_IhfavGIOA",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

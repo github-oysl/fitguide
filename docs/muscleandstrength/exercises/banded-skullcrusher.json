@@ -1,0 +1,36 @@
+{
+  "id": "banded-skullcrusher",
+  "url": "https://www.muscleandstrength.com/exercises/banded-skullcrusher",
+  "title": "Banded Skullcrusher",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The banded skullcrusher is a variation of theskullcrusherand an exercise used to build the muscles of the triceps.The band used during the banded skullcrusher provides accommodating resistance, meaning more resistance is put on the targeted muscle group as you move through the exercise’s range of motion."
+  ],
+  "instructions": [
+    "Wrap a band around a flat bench and assume a seated position.",
+    "Grasp the handle with a pronated grip (palm facing down) and lay back to a supine position with the bar positioned at chest height.",
+    "Press the band to extension and begin the movement by flexing the elbows and allowing the band to drop over your head while the triceps stretch.",
+    "Extend the elbows and flex the triceps to bring the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension in the triceps, don’t lock the elbows out entirely.",
+    "If these bother your elbows, consider using the dumbbell version, and don’t come to complete lockout.",
+    "Ensure the shoulder blades don’t tilt forward as you extend the elbows.",
+    "Keep some tension through the abs and don’t allow the lower back to arch excessively as the band goes overhead."
+  ],
+  "video_url": "https://www.youtube.com/embed/iKJepwpreLo?rel=0",
+  "youtube_id": "iKJepwpreLo",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

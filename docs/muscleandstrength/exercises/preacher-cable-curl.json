@@ -1,0 +1,33 @@
+{
+  "id": "preacher-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/preacher-cable-curl.html",
+  "title": "Cable Preacher Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the cable preacher curl by grabbing a preacher bench and placing it in front of a low pulley cable machine. There should be about a 1-2 ft gap.",
+    "Attach a straight bar to the low pulley cable and select the weight you want to use on the stack.",
+    "Sit on the bench with your upper arms on the pads and grasp the bar with an underhand grip (palms facing up) at about shoulder width.",
+    "Bend the arms slightly to apply tension to the biceps. This is the starting position.",
+    "Slowly curl the bar up as far as possible, squeeze the biceps at the top, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps.",
+    "Control the weight during the set, especially on the way down.",
+    "Keep your upper arms fixed on the pads, and don't lean back as you curl the weight up.",
+    "Keep your wrists straight."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/760008192?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

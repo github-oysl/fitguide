@@ -1,0 +1,38 @@
+{
+  "id": "weighted-inverted-row",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-inverted-row",
+  "title": "Weighted Inverted Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Rings",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders, Traps",
+  "overview": [
+    "The weighted inverted row is a variation of theinverted rowand an exercise used to target the muscles of the upper back. It will also indirectly work the muscles of the traps, biceps, and core.The weighted inverted row incorporates the use of weight as a form of progression from the inverted row. It is an excellent selection for those looking to continue to build their strength once they’ve mastered the bodyweight variation."
+  ],
+  "instructions": [
+    "Adjust a set of rings to roughly chest height.",
+    "Sit down beneath the rings with your legs straight and place a plate on your chest before reaching up to grasp the rings.",
+    "Drive your heels into the ground, extend your hips, and keep your arms locked out. Your body should be in a straight line with your arms perpendicular to your torso.",
+    "Pull the rings towards your face while keeping your elbows high.",
+    "Slowly lower yourself back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "To scale the movement, one may have to lower or raise the height of the rings. The closer you are to perpendicular with the floor, the tougher the movement will be.",
+    "If no access to plates, utilize a weight vest. You can also use an old bookbag if you have it lying around but you should load this on the front of the body instead of the back as that can pull you into excessive extension.",
+    "For other forms of progression, you can add fat grips or utilize single arm versions but just remember, this is about movement quality. Just because an exercise is hard doesn’t mean it’s better, work within your wheelhouse and don’t force progression if you haven’t mastered the fundamentals.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Keep the ribcage down and don’t focus on arching the back or forcing the chest up excessively.",
+    "Make a straight line from your head to your heels."
+  ],
+  "video_url": "https://www.youtube.com/embed/vH4e0VHGJZc?rel=0",
+  "youtube_id": "vH4e0VHGJZc",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dante-row",
+  "url": "https://www.muscleandstrength.com/exercises/dante-row",
+  "title": "Dante Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The Dante row is a variation of thebent over rowand is an exercise used to target the muscles of the back.The Dante row utilizes a machine to better isolate the back muscles. By using a machine, you also eliminate some of the need for stability, potentially allowing one to train the movement pattern with a greater amount of weight than they could otherwise."
+  ],
+  "instructions": [
+    "Utilize a split stance and hinge forward until the torso is almost parallel to the floor.",
+    "Grasp the handles of the machine and initiate the movement by driving the elbows behind the body while retracting the shoulder blades.",
+    "Pull the handles towards your body until the elbows are at (or just past) the midline and then slowly lower the handles back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/O2t7Vho7EpY?rel=0",
+  "youtube_id": "O2t7Vho7EpY",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

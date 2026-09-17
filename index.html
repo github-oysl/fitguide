@@ -81,19 +81,11 @@
       <div class="filter-fields">
         <label>具体肌肉<select id="muscle" aria-label="具体肌肉"></select></label>
         <label class="gym-filter"><input type="checkbox" id="gym-only"> 只看我的健身房</label>
-        <details class="advanced-filters"><summary id="advanced-label">器械与搜索</summary><div class="advanced-fields"><label>现场器械<select id="equipment"><option value="all">全部器械</option><option value="cable-station">组合训练站／绳索器械</option><option value="pulldown">高位下拉工位</option><option value="row">低位划船工位</option><option value="cable">可调滑轮／龙门架</option><option value="machine">其他固定器械</option></select></label>
+        <details class="advanced-filters"><summary id="advanced-label">器械与搜索</summary><div class="advanced-fields"><label>现场器械<select id="equipment"><option value="all">全部器械</option><option value="cable_crossover">双侧可调滑轮／龙门架 (E03)</option><option value="lat_pulldown">高位下拉工位 (E02)</option><option value="seated_cable_row">低位坐姿绳索划船工位 (E01)</option><option value="chest_press_machine">坐姿推胸机 (E21)</option><option value="pec_fly_machine">蝴蝶机／长臂夹胸机 (E19)</option><option value="shoulder_press_machine">坐姿推肩机 (E15)</option><option value="seated_row_machine">胸垫式固定划船机 (E20)</option><option value="lateral_raise_machine">固定器械侧平举机 (B06)</option><option value="leg_press_machine">斜轨挂片腿举机／倒蹬机 (E09)</option><option value="leg_extension_machine">坐姿腿屈伸机 (E25)</option><option value="leg_curl_machine">坐姿腿弯举机 (E25)</option><option value="hip_abduction_machine">坐姿髋内收／外展机 (E23)</option><option value="bodyweight_free">垫上与自由体能区 (FREE)</option><option value="hack_squat">斜轨哈克深蹲机 (E10)</option><option value="assisted_chin_dip">辅助引体／双杠臂屈伸机 (E11)</option><option value="decline_bench">下斜腹肌训练凳 (E06)</option><option value="roman_chair">背伸展凳／罗马椅 (E07)</option><option value="t_bar_row">无胸托 T 杠划船器 (E08)</option><option value="prone_leg_curl">俯卧腿弯举机 (E24)</option><option value="dumbbell_rack">哑铃架与可调训练凳 (B01/B02)</option><option value="barbell_rack">杠铃与深蹲架工位 (B03/E17)</option></select></label>
         <label class="search-label">搜索动作或肌肉<input id="search" type="search" placeholder="例如：下拉、肩后束、股四头肌" autocomplete="off"></label>
         <button class="reset" id="reset" type="button">清除筛选</button></div></details>
       </div>
     </section>
-    <details class="gym-reference" id="gym-reference">
-      <summary><span>▧ 认出你健身房里的工位</span><small>根据你提供的 3 张照片</small></summary>
-      <div class="gym-photos">
-        <article><img data-src="assets/gym-2.jpg" loading="lazy" width="480" height="640" alt="照片二：带长杆、座椅和压腿垫的高位下拉工位"><div><b>照片② · 高位下拉</b><p>右侧有长杆、红色坐垫与大腿压垫，可对应正握高位下拉。压腿垫要贴合大腿，防止身体被拉起。</p><button type="button" data-preset="pulldown">看下拉动作 →</button></div></article>
-        <article><img data-src="assets/gym-3.jpg" loading="lazy" width="480" height="640" alt="照片三：带长凳、脚踏板和低位出线口的划船工位"><div><b>照片①③ · 低位划船</b><p>长凳、踏板与低位出线口用于坐姿划船。确认 V 把手牢固连接，双脚踩稳踏板。</p><button type="button" data-preset="row">看划船动作 →</button></div></article>
-        <article><img data-src="assets/gym-1.jpg" loading="lazy" width="480" height="640" alt="照片一：组合训练站的配重片和滑轮结构"><div><b>组合训练站 · 滑轮与附件</b><p>照片可见配重与滑轮，不能确认所有工位均可调高低。练面拉、弯举等动作前，核对出线位置、锁扣和把手。</p><button type="button" data-preset="cable">看绳索动作 →</button></div></article>
-      </div>
-    </details>
     <div class="result-bar"><h2>动作库 <span id="result-count" role="status" aria-live="polite"></span></h2><span>点“怎么练”，边看循环演示边练</span></div>
     <div id="lessons" class="exercise-grid"></div>
     <div id="empty" class="empty" hidden><b>暂时没有符合条件的动作</b><p>试试取消器械限制，或选择另一个主要肌肉。</p><button id="empty-reset" type="button">显示全部动作</button></div>
@@ -104,7 +96,7 @@
       <section class="page-heading"><div><p class="eyebrow">SETTINGS</p><h1 id="settings-title">健身房设置<span>。</span></h1><p class="lede">配置你的健身房器械，让训练更有针对性。</p></div></section>
       <div id="settings-content"></div>
     </div>
-    <footer><b>看清楚，再慢慢做好。</b><p>教学演示与动作参考：StrengthLog；部分英文视频：Muscle &amp; Strength。已保存本地学习副本并保留来源，版权归原作者。演示是标准动作示例，不代表现场器械的精确型号。</p><a href="assets/sources.json" target="_blank" rel="noopener">素材来源清单 ↗</a><span>更新：2026-09-17 · 健身房设置 · <span data-exercise-count>28</span> 个动作</span></footer>
+    <footer><b>看清楚，再慢慢做好。</b><p>教学演示与动作参考：StrengthLog 与 Muscle &amp; Strength 720p 视频教程。已保存本地学习副本并保留来源，版权归原作者。演示是标准动作示例，不代表现场器械的精确型号。</p><a href="assets/sources.json" target="_blank" rel="noopener">素材来源清单 ↗</a><span>更新：2026-09-17 · 动作库全面升级 · <span data-exercise-count>60</span> 个动作</span></footer>
   </main>
   <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>动作分步指导</span><button type="button" id="close-detail" aria-label="关闭动作指导">✕</button></div><div id="detail-content"></div></dialog>
   <noscript><p class="noscript">请启用 JavaScript 查看筛选和动作库。离线版请解压后使用浏览器打开 index.html。</p></noscript>

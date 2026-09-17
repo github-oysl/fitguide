@@ -1,0 +1,34 @@
+{
+  "id": "reverse-grip-bent-over-row",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-row.html",
+  "title": "Reverse Grip Bent Over Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Biceps, Lats, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Load the barbell with your desired weight and place it on the floor in front of you.",
+    "Stand with your feet shoulder-width apart. Bend your knees slightly and hinge at the hips to lower your torso. Grab the bar with a reverse grip (palms facing up), hands slightly wider than shoulder-width.",
+    "With the bar in your hands, keep your knees bent, push your hips back, and hinge forward until your torso is at about a 45-degree angle. Keep your back flat and core braced. The bar should hang just below your knees.",
+    "Pull the barbell up toward your lower chest or upper stomach. Keep your elbows close to your body and squeeze your shoulder blades together at the top.",
+    "Slowly lower the bar back down to the starting position, maintaining control and keeping your back flat. This is one rep.",
+    "Perform for the desired number of reps, maintaining the same hip-hinged position throughout the set."
+  ],
+  "tips": [
+    "Avoid rounding your back. Keep your spine neutral throughout.",
+    "Use your lats and upper back to drive the movement, not your arms.",
+    "Don’t jerk the weight; move in a smooth, controlled motion."
+  ],
+  "video_url": "https://player.vimeo.com/video/1082967592?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "hover",
+  "url": "https://www.muscleandstrength.com/exercises/hover.html",
+  "title": "Plank",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Static",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Lower Back",
+  "overview": [
+    "The plank is a core-strengthening exercise that targets the abdominals, lower back, shoulders, and glutes.Planks help build endurance, enhance balance, and prevent injuries by strengthening the muscles that support the spine. They also promote better posture and can improve athletic performance.With no equipment needed, planks are a versatile and efficient exercise for developing core strength and stability, making them a must-have in any fitness routine."
+  ],
+  "instructions": [
+    "Start by lying face down on the floor. Place your forearms on the ground, elbows directly below your shoulders.",
+    "Position your feet hip-width apart with your toes tucked under.",
+    "Push through your forearms and toes to lift your body off the floor.",
+    "Your body should form a straight line from your head to your heels. Keep your neck neutral by looking straight down, not forward.",
+    "Tighten your core (imagine pulling your belly button toward your spine) and squeeze your glutes to prevent your hips from sagging or rising.",
+    "Hold the position for as long as you can while maintaining good form."
+  ],
+  "tips": [
+    "If you're new to planks, it's important to build strength and endurance gradually. Here’s a beginner progression to help you work up to a full plank:Wall Plank: Stand facing a wall and place your hands on it at shoulder height. Step your feet back slightly and bend your elbows to create a straight line from your head to your heels. Hold for 30 seconds, focusing on keeping your core tight.Incline Plank: Use a bench or sturdy surface. Place your forearms on the bench and your feet on the floor, forming a straight line from head to heels. Engage your core and hold for 30 seconds.Knee Plank: Start in a standard plank position but with your knees on the ground instead of your toes. Keep your body in a straight line from head to knees, engaging your core. Hold for 30 seconds.",
+    "Wall Plank: Stand facing a wall and place your hands on it at shoulder height. Step your feet back slightly and bend your elbows to create a straight line from your head to your heels. Hold for 30 seconds, focusing on keeping your core tight.",
+    "Incline Plank: Use a bench or sturdy surface. Place your forearms on the bench and your feet on the floor, forming a straight line from head to heels. Engage your core and hold for 30 seconds.",
+    "Knee Plank: Start in a standard plank position but with your knees on the ground instead of your toes. Keep your body in a straight line from head to knees, engaging your core. Hold for 30 seconds.",
+    "Keep breathing steadily through the nose and mouth.",
+    "Keep your body in a straight line, and avoid letting your hips sag or rise.",
+    "Gradually increase your hold time by 5-10 seconds as you build strength.",
+    "If holding for longer is too difficult, try breaking it into shorter sets (e.g., 2 sets of 20 seconds)."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881002?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "alternate-seated-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-curl.html",
+  "title": "Alternating Seated Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the alternating seated dumbbell curl by grabbing a flat bench or adjustable bench and placing a set of dumbbells at one end.",
+    "Sit on the end of the bench with your feet out in front of you and your knees together.",
+    "Pick up the dumbbells from the floor and let them hang by your sides with your palms facing up.",
+    "Bend the arms slightly to take the tension into the biceps. This is the starting position for the exercise.",
+    "With your back straight and your elbows tucked in at your sides, slowly curl the dumbbell up with one arm.",
+    "Squeeze the bicep hard, then slowly lower the weight back to the starting position.",
+    "Repeat for the other arm, and then repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your body fixed throughout the set. Do not lean back when curling the dumbbells up.",
+    "Keep your elbows tucked in at your sides.",
+    "Keep the tension on the bicep throughout the set, even in the arm that is not curling the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794216?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

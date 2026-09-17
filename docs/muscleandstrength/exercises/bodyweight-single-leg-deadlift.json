@@ -1,0 +1,34 @@
+{
+  "id": "bodyweight-single-leg-deadlift",
+  "url": "https://www.muscleandstrength.com/exercises/bodyweight-single-leg-deadlift",
+  "title": "Bodyweight Single Leg Deadlift",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Warmup",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [
+    "The bodyweight single leg deadlift is a variation of thedeadliftand an exercise used to strengthen the muscles of the hamstrings.Generally, the bodyweight single leg deadlift is used as an activation exercise and/or warm up exercise. It can also be an excellent variation for those looking to work the hip hinge in a non-weighted fashion.The bodyweight single leg deadlift helps build proprioception, balance, and unilateral strength."
+  ],
+  "instructions": [
+    "Set up in a standing position with your hands at your side and thumbs facing outward.",
+    "Keep a slight bend in the plant leg and hinge forward from the hip while keeping the chest tall and thumbs pointing up.",
+    "Hinge to 90 degrees (if possible) and allow the hamstrings to stretch while keeping the head neutral.",
+    "Repeat on the opposite side for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t look up, keep the head neutral and allow the chin to follow your chest.",
+    "Keep the toes of the extended leg pointing straight down and don’t allow the hips to rotate open.",
+    "Imagine you’re trying to touch the wall behind you with your heel. Ideally your heel will lead the movement as you hinge forward from the hip and don’t just drop the chest."
+  ],
+  "video_url": "https://www.youtube.com/embed/fZNiG7c7r8U?rel=0",
+  "youtube_id": "fZNiG7c7r8U",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

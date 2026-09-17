@@ -1,0 +1,35 @@
+{
+  "id": "seated-row",
+  "url": "https://www.muscleandstrength.com/exercises/seated-row.html",
+  "title": "Seated Cable Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set the appropriate weight on the weight stack and attach a close-grip bar or V-bar to the seated row machine.",
+    "Grasp the bar with a neutral grip (palms facing in).",
+    "Keeping your legs slightly bent and your back straight, pull the weight up slightly off the stack. You should be sitting straight upright with your shoulders back. This is the starting position.",
+    "Keeping your body in position, pull the handle into your stomach.",
+    "Pull your shoulder blades back, squeeze, pause, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Your back must remain straight at all times. Your torso should be kept still throughout the entire set.",
+    "Don't let your shoulders hunch over when your arms are extended.",
+    "Use the back muscles to move the weight - do not lean forward and use momentum to swing the weight back.",
+    "Pausing and squeezing at the top of the movement for a 1-2 count will increase intensity and results."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788734?h=145dc3923d",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

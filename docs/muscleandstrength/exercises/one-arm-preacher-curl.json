@@ -1,0 +1,35 @@
+{
+  "id": "one-arm-preacher-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-preacher-curl.html",
+  "title": "One-Arm Dumbbell Preacher Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Adjust the height of the seat on the preacher bench so that when you sit on it, the back of your upper arms sit comfortably flat on the padding.",
+    "Grab a dumbbell with your left hand and sit on the preacher bench.",
+    "The back of your left arm should rest flat on the padding with your arm fully extended.",
+    "Place your right forearm on the padding for support.",
+    "Execute the exercise by slowly raising the dumbbell and squeezing the bicep at the top of the movement.",
+    "Slowly lower the dumbbell until your arm is fully extended.",
+    "Repeat for desired reps, and then repeat the same for the right arm."
+  ],
+  "tips": [
+    "As a general rule, always hit the weakest arm first. In most cases, this is the left arm.",
+    "Keep the rep timing slow, and control the weight on the way down.",
+    "Focus on only moving your forearm."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793927?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

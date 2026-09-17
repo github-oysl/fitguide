@@ -1,0 +1,34 @@
+{
+  "id": "side-crunch",
+  "url": "https://www.muscleandstrength.com/exercises/side-crunch.html",
+  "title": "Side Crunch (AKA Oblique Crunch)",
+  "target_muscle": "Obliques",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs",
+  "overview": [
+    "The side crunch, aka the oblique crunch, is a variation of theabdominal crunch.The exercise is used to isolate the obliques - which is critical in building a complete mid-section."
+  ],
+  "instructions": [
+    "Lay supine in a relaxed position with your knees stacked to one side.",
+    "Place your contralateral hand behind your head for support and use your free hand to palpate your abdominals.",
+    "Initiate the movement by squeezing your abs to raise your torso off the floor, slowly lower yourself back to the starting position and complete the assigned number of repetitions.",
+    "Repeat on the opposite side."
+  ],
+  "tips": [
+    "Exhale hard like you’re blowing out candles on a cake and hold the contraction for a second in order to improve mind muscle connection.",
+    "If your lower back bothers you during this exercise, choose more anti extension and anti rotation based movements.",
+    "Avoid putting the hands behind the head as this can lead to excess strain upon the neck."
+  ],
+  "video_url": "https://www.youtube.com/embed/dRhloYXeE3E?rel=0",
+  "youtube_id": "dRhloYXeE3E",
+  "images": [
+    {
+      "alt": "Obliques Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Obliques.jpg"
+    }
+  ]
+}

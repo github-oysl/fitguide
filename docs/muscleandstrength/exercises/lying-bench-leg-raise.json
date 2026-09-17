@@ -1,0 +1,33 @@
+{
+  "id": "lying-bench-leg-raise",
+  "url": "https://www.muscleandstrength.com/exercises/lying-bench-leg-raise.html",
+  "title": "Lying Leg Raise (On Bench)",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Lie flat on a bench, facing up, with your legs extended and hands gripping the bench near your head for support.",
+    "Engage your core and keep your lower back pressed gently into the bench.",
+    "Lift your legs together, keeping them straight, until they form a 90-degree angle with your torso.",
+    "Pause briefly at the top of the movement.",
+    "Slowly lower your legs back down with control, stopping just before they touch the bench.",
+    "Repeat for the desired number of reps, keeping tension in your core throughout."
+  ],
+  "tips": [
+    "Do not swing your legs. Use your abs to move your legs and not momentum.",
+    "Keep your legs and knees together, and don't let your feet drop below the height of the bench."
+  ],
+  "video_url": "https://player.vimeo.com/video/877885227?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bench-jack-knife",
+  "url": "https://www.muscleandstrength.com/exercises/bench-jack-knife.html",
+  "title": "Jackknife (On Bench)",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Lay down on a flat bench with your legs hanging off one end.",
+    "Extend your arms above your head and straighten your legs. This is the start of the exercise.",
+    "In one motion, while keeping your hands and feet together, raise your legs and arms as if trying to touch them together.",
+    "Lower back to the starting position. Repeat for desired reps."
+  ],
+  "tips": [
+    "For an added challenge, use slow and controlled motion. The slower you do it, the harder it is.",
+    "Your legs should be approximately 35-45 degrees from the floor. Your arms should be extended and parallel to your legs at the top of the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877880975?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

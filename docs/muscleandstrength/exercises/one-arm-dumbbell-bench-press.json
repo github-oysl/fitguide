@@ -1,0 +1,32 @@
+{
+  "id": "one-arm-dumbbell-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-bench-press.html",
+  "title": "One-Arm Dumbbell Bench Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the one-arm dumbbell bench press by grabbing the required dumbbell and sitting it at the end of a flat bench.Note: use a lighter weight than you would normally use for adumbbell bench press.",
+    "Grab the dumbbell with your left hand and rest it on your left thigh. Using your right hand for stability, rock back and push the dumbbell straight up. You can use your right hand to grasp the bench for stability. This is the starting position for the movement.",
+    "Slowly lower the dumbbell until your chest muscle is fully outstretched.",
+    "Pause, then squeeze the chest muscle as you raise the dumbbell back to the starting position.",
+    "Repeat for desired reps, and do the same with your right arm."
+  ],
+  "tips": [
+    "Start the exercise off with your weakest side. For most people this is the left.",
+    "Use slow and controlled movement. Lowering the weight should typically take twice as long as raising it."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783437?h=7e10ff00ed&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

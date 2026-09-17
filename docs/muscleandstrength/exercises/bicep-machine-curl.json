@@ -1,0 +1,35 @@
+{
+  "id": "bicep-machine-curl",
+  "url": "https://www.muscleandstrength.com/exercises/bicep-machine-curl.html",
+  "title": "Machine Bicep Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the machine bicep curl by setting the seat height and selecting the weight you want to use on the stack.",
+    "Adjust the seat height so your upper arms rest comfortably on the padding.",
+    "Grasp the bar with an underhand grip around shoulder width apart.",
+    "Bend the elbows slightly to take the weight up and place tension on the biceps.",
+    "Slowly curl the weight up as far as possible, squeezing the biceps at the top of the movement.",
+    "Pause, and then slowly lower the weight.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Make sure you use a full range of motion by allowing the weight to go as far as possible without hitting the stack.",
+    "Keep the rep timing slow, and control the weight.",
+    "If you have a training partner, the bicep machine is good forheavy negativecurls."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001918?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

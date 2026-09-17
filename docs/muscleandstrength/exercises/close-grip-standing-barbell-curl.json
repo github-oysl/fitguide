@@ -1,0 +1,35 @@
+{
+  "id": "close-grip-standing-barbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html",
+  "title": "Close Grip Standing Barbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [
+    "The close grip barbell curl is a variation of thebarbell curland an exercise used to target the muscles of the biceps.This variation will help hit the outer portion of the biceps. Just like any muscle group, when aesthetics are the goal, using several different angles and hand grips can lead to optimal muscle growth.Barbell curls can be performed during yourbicep workouts, upper body workouts, orfull body workouts."
+  ],
+  "instructions": [
+    "Select the desired weight, load it onto the bar, and assume a narrower than shoulder width grip.",
+    "Using a supinated (palms up) grip, take a deep breath and curl the barbell towards your shoulders.",
+    "Once the biceps are fully shortened, slowly lower the weight back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the elbows to shift behind the body. Similarly, make sure the shoulder doesn’t shift forward in the socket as you lower the weight.",
+    "Maintain a slight bend in the elbow at the bottom of the movement to keep tension through the biceps.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+    "If you experience forearm or wrist discomfort while using a barbell, switch to an EZ curl bar or dumbbells."
+  ],
+  "video_url": "https://www.youtube.com/embed/exqx_2Uyopw?rel=0",
+  "youtube_id": "exqx_2Uyopw",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

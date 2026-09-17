@@ -1,0 +1,37 @@
+{
+  "id": "rolling-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/rolling-dumbbell-extension",
+  "title": "Rolling Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The rolling dumbbell extension is a tricep exercise and a variation of thelying dumbbell extension.The additional pullover performed when executing the rolling dumbbell extension increases the range of motion and overall stretch on the tricep muscle leading to a potential for additional muscle growth."
+  ],
+  "instructions": [
+    "Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on the bench.",
+    "To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, then press the dumbbells to lockout at the top.",
+    "Lower the weights towards your shoulders by unlocking the elbows while maintaining a neutral grip.",
+    "Once your forearms reach parallel or just below, allow the upper arms to extend overhead (similar to a pullover).",
+    "As the arms reach full extension, pull the elbows back to the starting position and then extend the elbows while flexing the triceps to lockout the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t overextend through the lumbar spine, keep your ribcage down by maintaining tension through the abs and glutes.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+    "Keep the head in a fairly neutral position, don’t allow the neck to jut forward as this may place excessive pressure on the cervical spine.",
+    "In order to keep tension on the triceps, don’t lock out the elbows completely."
+  ],
+  "video_url": "https://www.youtube.com/embed/WhguIAUOBAQ?rel=0",
+  "youtube_id": "WhguIAUOBAQ",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "banded-lateral-raise",
+  "url": "https://www.muscleandstrength.com/exercises/banded-lateral-raise",
+  "title": "Banded Lateral Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The banded lateral raise is a variation of thedumbbell lateral raiseand an exercise used to strengthen the muscles of the shoulders.The banded lateral raise utilizes bands to provide accommodating resistance during the exercise. As you get closer to the full contraction, the more resistance is applied to the target muscle groups."
+  ],
+  "instructions": [
+    "Stand on a band with a shoulder width stance and your arms hanging at your sides.",
+    "Inhale and raise the arms laterally to shoulder height using a pronated grip (palms facing down) while keeping the elbows slightly bent.",
+    "Slowly lower the band back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension through the side delts, control the eccentric (lowering) portion of the movement.",
+    "Keep the abs braced and don’t lean back or arch the back at the top of the movement.",
+    "Allow the arms to move freely but don’t lock out the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/7_bIc8s_YDY?rel=0",
+  "youtube_id": "7_bIc8s_YDY",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

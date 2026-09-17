@@ -1,0 +1,44 @@
+{
+  "id": "anderson-squat",
+  "url": "https://www.muscleandstrength.com/exercises/anderson-squat",
+  "title": "Anderson Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Hip Flexors, Lower Back",
+  "overview": [
+    "The Anderson squat is asquatvariation and an exercise used to target the muscles of the legs.The Anderson squat utilizes pins to limit the range of motion. This allows one to focus on the top portion of the squat and can be especially helpful if you struggle to lock out at the top of the squat.It can also allow you to utilize more weight than you would typically use during a full squat range of motion."
+  ],
+  "instructions": [
+    "Position the safety stops at roughly waist height and then place the bar .",
+    "Place your pinkies on the smooth ring of the barbell.",
+    "Get under the bar and position on your traps at the base of your neck.",
+    "Take a deep breath and keep your elbows in line with your torso.",
+    "Keep your abs braced and drive your feet through the floor.",
+    "Finish the lift by exhaling as you fully extend the hips and knees.",
+    "Return the bar to the starting position on the pins."
+  ],
+  "tips": [
+    "Toe angle is highly individual - experiment to see what feels best for you.",
+    "Bend the bar over your back by pulling it down into your traps.",
+    "Experiment with a “false” (i.e. thumbless) grip as this helps to eliminate elbow and wrist issues in some folks.",
+    "Drive through the whole foot - you want 3 points of contact: big toe, little toe, and heel.",
+    "Imagine you’re trying to drop your back pockets straight towards your heels. Down, not back.",
+    "Some forward translation of the knees over the toes is alright provided that the knees don’t deviate excessively inward or outward. Those with longer femurs will have to allow their knees to come farther forward if they want to remain upright.",
+    "Drive your traps into the bar and try to squeeze your elbows in towards your body as you reverse the movement out of the hole.",
+    "Neck position is highly individual as well - some prefer a neutral neck position (i.e. keeping the chin tucked throughout the lift) while others do well with looking straight ahead. Experiment with each and see which one works best for your anatomy.",
+    "Low bar positioning will require the lifter to sit back into the hips with more forward lean at the torso to recruit the posterior chain more effectively.",
+    "Don’t push the knees out excessively but ensure they track roughly over or slightly outside the 2nd toe."
+  ],
+  "video_url": "https://www.youtube.com/embed/GkY-ld8oWDs?rel=0",
+  "youtube_id": "GkY-ld8oWDs",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

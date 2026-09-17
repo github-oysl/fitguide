@@ -1,0 +1,33 @@
+{
+  "id": "incline-bench-barbell-row",
+  "url": "https://www.muscleandstrength.com/exercises/incline-bench-barbell-row.html",
+  "title": "Incline Bench Barbell Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [],
+  "instructions": [
+    "Set up an incline bench at around a 30-degree angle. You can also use a propped up flat bench. Grab a barbell and place it at the end of the incline bench.",
+    "Lay down on the bench in a prone (facing down) position with your legs at the lower end of the bench. If it's more comfortable, you can put your feet on the floor. This also adds stability.",
+    "Grip the barbell with a wide overhand grip.",
+    "Keeping your head up, eyes looking forward, slowly raise the bar up towards your chest.",
+    "Raise the bar as far as possible, pause, and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows in.",
+    "Squeeze your shoulder blades together and hold at the top of the movement to get the maximum results from this exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788753?h=0910e55832",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

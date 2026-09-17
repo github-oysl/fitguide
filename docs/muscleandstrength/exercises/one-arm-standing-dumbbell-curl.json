@@ -1,0 +1,35 @@
+{
+  "id": "one-arm-standing-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-standing-dumbbell-curl.html",
+  "title": "One-Arm Standing Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by grasping a set of dumbbells and standing straight up with the dumbbells by your side.",
+    "Your palms should be facing up, and the dumbbells should not touch your body.",
+    "Before starting the set, take up the slack by lifting the weight slightly so the tension is in your biceps.",
+    "Starting with your weakest arm (usually the left), curl the dumbbell up as far as possible.",
+    "Squeeze the bicep at the top of the exercise, and then slowly lower the weight down without it touching your body or taking the tension off your bicep.",
+    "Repeat for desired reps, and then repeat on your other arm."
+  ],
+  "tips": [
+    "Keep your body fixed throughout the set. Only your forearms should be moving.",
+    "Don't let the dumbbell touch your body.",
+    "Keep the tension on the bicep at all times. Don't let the weight \"hang\" at the bottom of the exercise or \"rest\" at the top of the movement.",
+    "Always work your weakest side first."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794117?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

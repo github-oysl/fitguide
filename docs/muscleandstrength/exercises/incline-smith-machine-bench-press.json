@@ -1,0 +1,35 @@
+{
+  "id": "incline-smith-machine-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/incline-smith-machine-bench-press.html",
+  "title": "Smith Machine Incline Bench Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set an adjustable bench to an angle of around 30 to 45 degrees and place it in the smith machine.",
+    "Before you add the weight, lay on the bench and lower the bar to your chest. Adjust the position of the bench so the bar is lowered to the upper part of your chest.",
+    "Add the weight, and then lay back down on the bench.",
+    "Grip the bar with a slightly wider than shoulder-width grip, and take the weight off the hooks. This is the starting position for the exercise.",
+    "Slowly lower the bar down until it's about 1 inch off your chest.",
+    "Pause, then raise the bar back up without locking your elbows at the top of the movement.",
+    "Repeat this movement for desired reps."
+  ],
+  "tips": [
+    "Positioning is important. Make sure you adjust the position of the bench so that the bar lowers to the right position on your chest.",
+    "The smith machine is a good option to move some heavier weights because you can always lock it out if you can't complete the rep.",
+    "The smith machine is a valid and safe option if a spotter is not available."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783757?h=9e03c89f9b&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "snatch-balance",
+  "url": "https://www.muscleandstrength.com/exercises/snatch-balance",
+  "title": "Snatch Balance",
+  "target_muscle": "Quads",
+  "exercise_type": "Olympic Weightlifting",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The snatch balance is a full body exercise and is typically performed in Olympic style weightlifting facilities.The snatch is a pushing movement pattern that works both the pushing muscles of the lower body (quads) and upper body (shoulders and triceps)Olympic lifts, such as the snatch balance, are very technically demanding and require a lot of practice prior to performing with any sort of significant weight."
+  ],
+  "instructions": [
+    "Setup with the bar on your traps as you would for a back squat.",
+    "Drop straight into a squat as you simultaneously press the bar overhead.",
+    "Catch the bar overhead with arms locked out in a deep squat position.",
+    "Stand tall by extending the hips and knees.",
+    "Allow the bar to descend to the traps and bend the knees to absorb the impact from the bar.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Olympic lifting is about efficiency, not just brute strength.",
+    "This move is also referred to as a “drop snatch”.",
+    "Remember, it’s a simultaneous press as you drop into the bottom of the squat. You can almost think about pressing yourself underneath the bar by utilizing the actual weight of the bar to drive your body down."
+  ],
+  "video_url": "https://www.youtube.com/embed/iGH2zTQ5IKk?rel=0",
+  "youtube_id": "iGH2zTQ5IKk",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

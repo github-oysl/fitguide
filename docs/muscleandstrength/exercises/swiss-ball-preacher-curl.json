@@ -1,0 +1,33 @@
+{
+  "id": "swiss-ball-preacher-curl",
+  "url": "https://www.muscleandstrength.com/exercises/swiss-ball-preacher-curl.html",
+  "title": "Exercise Ball Preacher Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Load the desired weight on the barbell and kneel in front of an exercise ball.",
+    "Grasp the barbell with a supinated grip (palms facing up.) Your chest should be on one side of the ball and your upper arms on the other.",
+    "Extend your arms until your biceps are fully lengthened. This is the starting position.",
+    "Take a deep breath and curl the weight by bending at the elbows until the bar is at shoulder height.",
+    "Squeeze the biceps at the top of the movement and slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Keep the motion slow and controlled throughout the set.",
+    "Always use a full range of motion to get the most out of this exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/760007942?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

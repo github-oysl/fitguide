@@ -1,0 +1,35 @@
+{
+  "id": "twisting-dumbbell-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/twisting-dumbbell-bench-press.html",
+  "title": "Twisting Dumbbell Bench Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "To set up for the twisting dumbbell bench press choose a pair of dumbbells, rest them on your thighs, and lie down flat on a flat bench.",
+    "You can use your thighs to help you push the dumbbells above your body fully extending your arms at shoulder-width apart.",
+    "At this point, your palms should be facing inward towards one another and the dumbbells should be nearly touching. This is the starting position.",
+    "Begin slowly lowering the dumbbells while twisting at the wrists. Continue turning your wrists so that when you reach the bottom of the movement (when your upper arms are around parallel to the ground) your palms are facing forward.",
+    "Pause for a moment and push the dumbbells back to the starting position, twisting at the wrists in the opposite direction than when lowering the weight.",
+    "Repeat this movement for desired reps."
+  ],
+  "tips": [
+    "Make sure you use the longest range of motion possible, this ensures the muscle is getting a good stretch and contraction.",
+    "Don't drop the dumbbells at the end of the set. You can safely use the weight of the dumbbells to rock up to a seated position.",
+    "Focus on moving the weight with your triceps, maintaining complete control of the dumbbells as you slowly raise them back to the starting position.",
+    "It should take around twice as long to lower the dumbbells as it does to raise them."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783391?h=8d6ec28cc7&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

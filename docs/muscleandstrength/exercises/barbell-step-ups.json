@@ -1,0 +1,37 @@
+{
+  "id": "barbell-step-ups",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-step-ups.html",
+  "title": "Barbell Step Ups",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Unilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The barbell step up is an exercise used to target the muscles of the legs with an emphasis on the quads.The barbell step up is a variation of the lunge movement pattern and a progression to thedumbbell step upandbodyweight step up. People often progress to the barbell step up to utilize more weight than they could holding dumbbells."
+  ],
+  "instructions": [
+    "Set up in front of a riser which is 8-12” off the ground.",
+    "Position a barbell across your traps and initiate the exercise by stepping on to the riser with one leg.",
+    "Drive through the front foot and extend the knee as you stand up fully.",
+    "Slowly lower back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you’re having trouble with only driving off the front leg, then consider pulling up the toes on the back foot. This will shift the weight onto your heel and prevent you from driving off the ball of your foot.",
+    "If you haven’t already, utilize the DB version first as the barbell version is a more advanced progression and you should master the basics first and foremost.",
+    "Take care when utilizing a barbell variation (especially if training in an open area with others) as this version is a bit more dangerous and requires a larger area to work effectively.",
+    "If you want to emphasize more of a pump through one leg versus another, complete all of the repetitions on one side before switching to the other.",
+    "Do not rock forward to initiate the movement. Lean forward over the front leg, drive off the forefoot, control the eccentric, step off, and repeat."
+  ],
+  "video_url": "https://www.youtube.com/embed/_uzlVEERPyM?rel=0",
+  "youtube_id": "_uzlVEERPyM",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

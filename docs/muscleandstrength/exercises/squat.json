@@ -1,0 +1,50 @@
+{
+  "id": "squat",
+  "url": "https://www.muscleandstrength.com/exercises/squat.html",
+  "title": "Barbell Back Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings, Lower Back",
+  "overview": [
+    "Bodyweight Squat",
+    "Goblet Squat",
+    "Landmine Squat",
+    "Front Squat",
+    "Dumbbell Squat",
+    "Machine Hack Squat",
+    "Smith Machine Squat"
+  ],
+  "instructions": [
+    "Set up for the exercise by setting the barbell to just below shoulder height and loading the weight you want to use.",
+    "Stand under the bar with your feet at about shoulder width apart.",
+    "Position the bar so that it is resting on the muscles on the top of your back, not on the back of your neck. The bar should feel comfortable. If it doesn't, try adding some padding to the bar.",
+    "Now take your hands over the back and grip the bar with a wide grip for stability.",
+    "You should now bend at the knees and straighten your back in preparation to take the weight off the rack.",
+    "Keeping your back straight and eyes up, push up through the legs and take the weight off the rack.",
+    "Take a small step back and stabilize yourself.",
+    "Keeping your eyes facing forward slowly lower your body down. Don't lean forward as you come down. Your buttocks should come out and drop straight down.",
+    "Squat down until your thighs are parallel with the floor, and then slowly raise your body back up by pushing through your heels.",
+    "Do not lock the knees out when you stand up, and then repeat the movement."
+  ],
+  "tips": [
+    "Rounding the lower back:It's crucially important that you keep a straight back when you squat! You can ensure your back is straight by keeping your eyes facing forward, chest out, shoulder blades back, and back arched. Keep your core muscles tensed throughout the movement to help hold your back in place.",
+    "Pushing from the balls of your feet:This puts unnecessary strain on joints and tendons. Always push up through your heels. Curling up your toes can help you get the technique right.",
+    "Leaning forward:This happens when your hips move up faster than your shoulders. To prevent this keep the rep timing slow and controlled and stick your buttocks out as you go down.",
+    "Knees come too far forward:When you squat down, your hips should be dropping straight down, not coming forward. Using a light weight, perfect your form standing side on to a mirror. Your knees should never track out and over your toes.",
+    "Not squatting deep enough:Using squats to their full potential requires squatting down at least until your thighs are around parallel to the floor.",
+    "Knees in or out:Don't point your knees in or out when you're lowering or pushing the weight. This puts unnecessary strain on the knee joints.",
+    "Looking down:As soon as you look down your back rounds, simple as that."
+  ],
+  "video_url": "https://www.youtube.com/embed/R2dMsNhN3DE?rel=0",
+  "youtube_id": "R2dMsNhN3DE",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "lying-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/lying-dumbbell-curl.html",
+  "title": "Lying Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the lying dumbbell curl by grabbing a set of dumbbells (you should use a lighter weight than you're used to) and laying down on a flat bench.",
+    "Your arms should be straight and by your sides, and you should be holding the dumbbells in an underhand position (palms facing up).",
+    "Starting the movement with your arms fully extended, curl the dumbbells up towards your shoulders.",
+    "Squeeze the biceps and lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows fixed throughout the set. Don't allow them to come up as you curl the dumbbells. Only your forearms should be moving."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794309?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

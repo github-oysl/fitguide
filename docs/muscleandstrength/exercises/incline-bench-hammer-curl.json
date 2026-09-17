@@ -1,0 +1,34 @@
+{
+  "id": "incline-bench-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/incline-bench-hammer-curl.html",
+  "title": "Incline Bench Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Set an adjustable bench to an angle of around 45 degrees.",
+    "Grab a dumbbell and position yourself at the highest end of the bench.",
+    "Rest the back of your upper arm on the bench padding and allow your arm to fully extend until the dumbbell is almost touching the bench. You should be holding the dumbbell using a neutral grip, thumb facing towards you.",
+    "Use your other arm for support by holding the bench.",
+    "Tense your bicep and slowly curl it up as far as possible.",
+    "Squeeze the muscle, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps, and then repeat for the other arm."
+  ],
+  "tips": [
+    "Don't let the dumbbell touch the bench throughout the set.",
+    "Keep the rep timing slow and control the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794393?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

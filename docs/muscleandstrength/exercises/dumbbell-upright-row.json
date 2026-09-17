@@ -1,0 +1,36 @@
+{
+  "id": "dumbbell-upright-row",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-upright-row.html",
+  "title": "Dumbbell Upright Row",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Traps, Upper Back",
+  "overview": [
+    "The dumbbell upright row is an exercise used to build the muscles of the shoulder. It is a variation of thebarbell upright rowand mimics a lateral raise movement pattern.Upright rows are met with some controversy as many professionals view it as an exercise that promotes shoulder impingement. However, if performed appropriately it can be beneficial in targeting the shoulders to promotelean muscle growth."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack and assume a shoulder width stance with a slightly narrower grip.",
+    "Take a deep breath then pull the dumbbells directly up the front of your body to chest height, keeping them as close as possible.",
+    "Slowly lower the dumbbells back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Keep the elbows high but don’t allow the upper arm to go past parallel as this may increase the risk of impingement.",
+    "If you experience pain in the shoulders during the movement than it may require a slight squeeze of the traps to elevate the shoulders and open up some of the subacromial space.",
+    "Don’t allow your back to arch as you pull the dumbbells up.",
+    "Extra momentum used during the movement can potentially shift the load to other compensatory muscles so try to limit excessive movement if possible.",
+    "As you drive the elbows high, ensure the head doesn’t jut forward."
+  ],
+  "video_url": "https://www.youtube.com/embed/Cxrmdrq1s3E?rel=0",
+  "youtube_id": "Cxrmdrq1s3E",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

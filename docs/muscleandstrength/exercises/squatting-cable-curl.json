@@ -1,0 +1,32 @@
+{
+  "id": "squatting-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html",
+  "title": "Squatting Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by attaching a straight bar to the low pulley cable and selecting the weight you want to use on the stack.",
+    "Stand facing the cable machine and grasp the bar using an underhand grip (palms facing up) with your hands around shoulder width apart.",
+    "Squat down and rest the back of your arms (just behind the elbows) on your knees. Your knees will act as padding to isolate the biceps.",
+    "Slowly curl the bar up towards your body as far as possible.",
+    "Squeeze the biceps, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "For the best results use a very slow rep timing and focus on the stretch and contraction of the muscle."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001433?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

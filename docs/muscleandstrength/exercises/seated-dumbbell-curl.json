@@ -1,0 +1,35 @@
+{
+  "id": "seated-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/seated-dumbbell-curl.html",
+  "title": "Seated Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the seated dumbbell curl by grabbing a flat bench or adjustable bench and placing a set of dumbbells at one end.",
+    "Sit on the end of the bench with your feet out in front of you and your knees together.",
+    "Pick the dumbbells up off the floor and let them hang by your sides with your palms facing up.",
+    "Bend the arms slightly to take up the tension in the biceps. This is the starting position for the exercise.",
+    "With your back straight and your elbows tucked in at your sides, slowly curl both dumbbells up as far as possible.",
+    "Squeeze the biceps hard, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows locked in at your sides.",
+    "Focus on only allowing your forearms to move.",
+    "Keep the rep timing slow and control the weight throughout the set - don't let the weight drop down quickly."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794196?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

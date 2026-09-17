@@ -1,0 +1,35 @@
+{
+  "id": "machine-shrug",
+  "url": "https://www.muscleandstrength.com/exercises/machine-shrug",
+  "title": "Machine Shrug",
+  "target_muscle": "Traps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Upper Back",
+  "overview": [
+    "The machine shrug is a variation of thebarbell shrugused to strengthen the trapezius musclesOne would use the machine shrug as a way to focus on isolating the traps. One can better isolate certain muscle groups with a machine due to its fixed movement pattern.The machine shrug is best added towards the end of your workout if you are training for hypertrophy, after you’ve used other more compound and explosive movements to work your traps."
+  ],
+  "instructions": [
+    "Assume a standing position in front of the shrug machine.",
+    "Hinge forward and grasp both handles with a double overhand grip.",
+    "Assume a standing position, inhale, and contract the traps to elevate the shoulders. Squeeze hard at the top and slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Looking slightly up while shrugging may enhance the contraction as traps help to control movement of the skull. This motion should be smooth and controlled, as a ballistic movement could result in a neck injury.",
+    "The traps tend to respond well to high reps and explosive movements (e.g. snatch grip high pulls) so program your accessory work accordingly.",
+    "Don’t allow the head to jut forward excessively as you squeeze the traps, this can put the neck in a compromised position and result in an injury.",
+    "Adding a pause at the top of the movement can help to enhance the mind muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/1xRJYoiUu-8?rel=0",
+  "youtube_id": "1xRJYoiUu-8",
+  "images": [
+    {
+      "alt": "Traps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Traps.jpg"
+    }
+  ]
+}

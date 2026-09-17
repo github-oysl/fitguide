@@ -1,0 +1,38 @@
+{
+  "id": "one-arm-dumbbell-row",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+  "title": "One Arm Dumbbell Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Shoulders",
+  "overview": [
+    "The one arm dumbbell row is a variation of thedumbbell rowand an exercise used to build back muscle and strength.The back is a muscle group that requires a fair amount of variation. So, experiment with several different angles and hand positions to maximize your back muscle growth.Rows are a foundational movement pattern and are very important to train for balanced muscle growth and strength. So, experiment until you find a rowing variation that you enjoy and work on it.The one arm dumbbell row can be performed during yourback workouts, upper body workouts, pull workouts, andfull body workouts."
+  ],
+  "instructions": [
+    "Assume a standing position while holding a dumbbell in one hand with a neutral grip.",
+    "Hinge forward until your torso is roughly parallel with the floor (or slightly above) and then begin the movement by driving the elbow behind the body while retracting the shoulder blade.",
+    "Pull the dumbbell towards your body until the elbow is at (or just past) the midline and then slowly lower the dumbbell back to the starting position under control.",
+    "Repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Fight the urge to use your opposing arm to brace against your leg or any other implement.",
+    "Keep some tone through your abdominals as you pull the dumbbell into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/YZgVEy6cmaY?rel=0",
+  "youtube_id": "YZgVEy6cmaY",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "skin-the-cat",
+  "url": "https://www.muscleandstrength.com/exercises/skin-the-cat",
+  "title": "Skin the Cat",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Rings",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Shoulders, Upper Back",
+  "overview": [
+    "The skin the cat exercise is a variation of thepull upand an exercise used to strengthen the muscles of the lats and upper back.This variation can put a lot of tension on the shoulder, especially in inexperienced lifters. Only progress to this variation once you have the prerequisite strength to keep the tension on the targeted muscle groups."
+  ],
+  "instructions": [
+    "Set up a pair of rings well above standing height and jump to get into the starting position.",
+    "Using a pronated grip, grasp the rings with the arms fully overhead.",
+    "Take a deep breath and drive the knees towards your chest as you curl your body up towards the ceiling.",
+    "As you roll over, control the descent and slowly straighten your legs.",
+    "Reverse the movement by curling your legs back to your chest and rolling your torso back through your arms to get back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Given this exercise requires an excessively large range of motion at the shoulders, one may need to utilize progressions in order to get into certain positions. Never force a position if there is pain during or after the movement.",
+    "Tucking the chin can help to generate the “somersault effect” at the torso.",
+    "Ensure that you especially control the eccentric portion of the exercise as this is an area where the shoulder is especially susceptible to injury given that many are lacking sufficient shoulder extension to maintain this position without excessive pressure to the anterior capsule.However, on the opposite end of the spectrum, this can also be an excellent stretch for generating more shoulder extension given it is loaded with your entire bodyweight.",
+    "However, on the opposite end of the spectrum, this can also be an excellent stretch for generating more shoulder extension given it is loaded with your entire bodyweight.",
+    "Remember, you need to use your lats and abs to pull yourself backwards into the tucked position.",
+    "If you can’t complete full pull ups or leg raises then work on those first before trying to jump into this more advanced movement."
+  ],
+  "video_url": "https://www.youtube.com/embed/HcLwg5XZ6qE?rel=0",
+  "youtube_id": "HcLwg5XZ6qE",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

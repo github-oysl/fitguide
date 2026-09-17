@@ -1,0 +1,34 @@
+{
+  "id": "lying-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/lying-tricep-extension.html",
+  "title": "Lying Barbell Tricep Extension (Skull Crusher)",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Sit on the end of a flat bench with a barbell on your thighs.",
+    "Grip the barbell with an overhand grip (palms facing down) with your hands about shoulder-width apart.",
+    "Bring the bar up to your chest and lay down on your back. Extend your arms straight up above your chest.",
+    "Keeping your elbows fixed in place and not pointing out, slowly lower the bar until it is about an inch from your forehead (hence the name skullcrusher!).",
+    "Pause, and then slowly extend your arms back to the starting position.",
+    "Do not lock your elbows out, and then repeat for desired reps."
+  ],
+  "tips": [
+    "It's very important that you keep your elbows in during the set. Your elbows will have a tendency to flare out as you move the weight, and you must keep them pointing forward.",
+    "Keep the rep timing slow and control the weight.",
+    "And finally, don't lock your elbows out at the top of the movement. This will take the tension off the triceps."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784165?h=2875a34466&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

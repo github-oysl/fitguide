@@ -1,0 +1,43 @@
+{
+  "id": "abdominal-barbell-rollouts",
+  "url": "https://www.muscleandstrength.com/exercises/abdominal-barbell-rollouts.html",
+  "title": "Barbell Abdominal Rollouts",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "N/A",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Shoulders",
+  "overview": [],
+  "instructions": [
+    "Load a barbell with round plates and place it on the floor.",
+    "Kneel behind the bar and grip it with both hands, shoulder-width apart.",
+    "Position your shoulders over the bar and engage your core.",
+    "Slowly roll the barbell forward, extending your body as far as you can without arching your lower back.",
+    "Pause briefly at the extended position, keeping your core tight.",
+    "Pull the barbell back toward your knees by contracting your abs, returning to the starting position.",
+    "Repeat for the desired number of reps, maintaining control throughout."
+  ],
+  "tips": [
+    "Keep your hips from sagging - a tight core prevents lower back strain.",
+    "Move slowly and with control during both the rollout and return to avoid using momentum.",
+    "Squeeze your glutes to help stabilize your hips throughout the movement.",
+    "Keep your arms straight and avoid bending at the elbows.",
+    "Exhale as you pull the barbell back in to engage your core more deeply.",
+    "Use a padded surface or mat under your knees to reduce discomfort during the exercise.",
+    "Start with partial rollouts by only rolling the bar out halfway until you build enough core strength for the full range.",
+    "Add a pause at full extension to increase time under tension and core engagement.",
+    "Roll out from a standing position instead of kneeling once you can control the full range from the floor.",
+    "Increase rep volume or sets gradually to build endurance without compromising form.",
+    "Slow down the tempo. Take 3–5 seconds to roll out and return, emphasizing control."
+  ],
+  "video_url": "https://player.vimeo.com/video/877885260?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

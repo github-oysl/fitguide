@@ -1,0 +1,32 @@
+{
+  "id": "close-grip-ez-bar-curl",
+  "url": "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html",
+  "title": "Close Grip EZ Bar Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "EZ Bar",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Grasp an EZ Bar with an underhand grip (palms facing up). Your hands should be about 6-8 inches apart.",
+    "Stand straight up, with your feet firmly on the floor at around shoulder width apart. You may find it more comfortable to take one foot back.",
+    "Keeping your body completely still and eyes facing forward, slowly curl the bar up as far as possible.",
+    "Squeeze your biceps at the top of the movement, and then slowly lower the weight back down.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "The EZ Bar is often preferred for close grip curls because the shape of the bar takes some of the strain off your wrists.",
+    "When you curl the bar up, do not lean backward. Keep your body fixed and use your biceps to move the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794039?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

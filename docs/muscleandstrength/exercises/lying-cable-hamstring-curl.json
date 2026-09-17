@@ -1,0 +1,37 @@
+{
+  "id": "lying-cable-hamstring-curl",
+  "url": "https://www.muscleandstrength.com/exercises/lying-cable-hamstring-curl.html",
+  "title": "Lying Cable Leg Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Place the bench in front of a cable pulley machine with the lowest end closet to the pulley.",
+    "Attach an ankle cuff to the low pulley and set the weight on the stack.",
+    "Secure the ankle cuff to your ankles and lay face down on the bench. Position yourself so that your knees are at the edge of the bench.",
+    "Fully extend your legs. This is the starting position.",
+    "Slowly bend your knees and bring your heels toward your glutes by contracting your hamstrings.",
+    "At the top of the movement, pause briefly and squeeze your hamstrings.",
+    "Slowly return to the starting position, fully extending your legs. This is one rep.",
+    "Perform the desired number of repetitions."
+  ],
+  "tips": [
+    "To fully engage the hamstrings, perform the movement slowly and with control, especially when lowering your legs.",
+    "When your legs curl up, pause briefly at the top and squeeze your hamstrings for maximum contraction.",
+    "Exhale as you curl your legs up, and inhale as you slowly lower them back down.",
+    "Use a full range of motion. Aim to fully extend your legs at the bottom and bring your heels as close to your glutes as possible at the top."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881354?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

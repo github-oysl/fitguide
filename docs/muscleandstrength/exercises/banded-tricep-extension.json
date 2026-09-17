@@ -1,0 +1,36 @@
+{
+  "id": "banded-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/banded-tricep-extension",
+  "title": "Banded Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The banded tricep extension is a variation of the tricep extension and an exercise used to target the muscles of the tricep.The banded tricep extension incorporates the use of bands to provide accommodating resistance, which provides a greater amount of resistance to the target muscle group the closer one gets to a complete contraction."
+  ],
+  "instructions": [
+    "Attach a band to a stable implement above head height and assume a standing position.",
+    "Grasp the band with a neutral grip (palms facing in) and lean forward slightly by hinging at the hips.",
+    "Initiate the movement by extending the elbows and flexing the triceps.",
+    "Pull the band downward until the elbows are almost locked out and then slowly lower under control back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension in the triceps, don’t lock the elbows out entirely.",
+    "Imagine there’s a screw running through your elbow and don’t allow them to move in front of the body as you extend at the bottom of the movement.",
+    "Experiment with static elbow positioning throughout the lift - some may find that they get a better stretch in the bottom portion of the movement by allowing their elbows to drift behind the body during the eccentric portion of the movement (similar to a drag curl).",
+    "Ensure the shoulder blades don’t tilt forward as you extend the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/eS72lln_EWA?rel=0",
+  "youtube_id": "eS72lln_EWA",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

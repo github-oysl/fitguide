@@ -1,0 +1,36 @@
+{
+  "id": "seated-barbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/seated-barbell-curl.html",
+  "title": "Seated Barbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the seated barbell curl by getting a flat bench, selecting a barbell or EZ bar, and placing it at one end of the bench.",
+    "Grasp the barbell and sit down on the bench. Place the barbell on your thighs.",
+    "Your back should be straight, shoulders back, and knees and feet together.",
+    "Grasp the barbell around shoulder-width apart using an underhand grip.",
+    "Keeping your elbows locked in at your sides, lift the barbell off your thighs slightly. This is the starting position for the exercise.",
+    "Bending at the elbows, slowly curl the weight up as far as possible.",
+    "Squeeze the biceps, and then slowly lower the weight back to the starting position.",
+    "Do not let the weight touch your thighs, and then repeat."
+  ],
+  "tips": [
+    "Your elbows must remain at your sides throughout the set and only your forearms should be moving.",
+    "Keep the movement slow and controlled. Do not \"swing\" the weight.",
+    "Keep your back straight and fixed, and don't bend your back when curling the weight up."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793866?badge=0&autopause=0&quality_selector=1&progress_bar=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

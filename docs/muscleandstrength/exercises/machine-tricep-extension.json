@@ -1,0 +1,33 @@
+{
+  "id": "machine-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/machine-tricep-extension",
+  "title": "Machine Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The tricep machine extension is an isolation exercise used to target the muscles of the triceps.The triceps are involved in nearly every push movement, so strengthening the triceps is important if you want to continue to make gains on thebench pressandmilitary press.From an aesthetic standpoint, having big triceps equates to bigger arms – which is one of the main goals for most gym goers starting out."
+  ],
+  "instructions": [
+    "Setup in a seated position with your hands in a neutral grip on the handles.",
+    "Exhale and press the handles outward by extending the elbows.",
+    "Slowly lower the handles back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "To keep more tension on the triceps, keep the elbows just short of lockout.",
+    "Keep some tension through your core during the exercise and don’t allow your lower back to arch.",
+    "Maintain your gaze straight ahead and don’t look to the side as this could be potentially injurious to your cervical spine."
+  ],
+  "video_url": "https://www.youtube.com/embed/T_7KWFtNna4?rel=0",
+  "youtube_id": "T_7KWFtNna4",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

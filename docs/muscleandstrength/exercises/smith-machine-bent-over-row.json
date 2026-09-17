@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-bent-over-row",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-bent-over-row.html",
+  "title": "Smith Machine Bent-Over Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the smith machine bent-over row by lowering the bar on the smith machine all the way and adding the weight you want to use.",
+    "Stand facing the bar and grip the bar with an overhand grip, with your hands wider than shoulder-width apart.",
+    "Stand straight up to take the weight off the machine.",
+    "Straighten your back, bend at the knees slightly, and slowly let the weight down until it's just below your knees. This is the start position.",
+    "Keeping your body fixed, pull the weight up until it almost hits your body.",
+    "Pause, and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "You must keep your back straight when doing all bent-over back exercises! Do not let your back arch. Keeping the head up and eyes looking forwards will help you with this.",
+    "Use a full range of motion on every rep.",
+    "Keep your body still throughout the movement, only your arms should move."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788850?h=3c6e157193",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

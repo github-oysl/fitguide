@@ -1,0 +1,32 @@
+{
+  "id": "incline-bench-cable-row",
+  "url": "https://www.muscleandstrength.com/exercises/incline-bench-cable-row.html",
+  "title": "Incline Bench Cable Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [],
+  "instructions": [
+    "Set an incline bench to around a 45-degree angle and position the bench with the highest end facing the cable pulley machine.",
+    "Attach a straight bar to the lower pulley and set the weight you want to use on the stack.",
+    "Grab the bar and position yourself with your chest on the bench, feet on the floor, and hands gripping the bar with an overhand grip around shoulder width apart. This is the starting position.",
+    "Slowly pull the bar in towards your lower chest as far as possible without hitting the incline bench.",
+    "Pause, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Squeeze your shoulder blades together and hold for a count of 1-2 at the top of the movement for the best results."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788628?h=7495f904dc",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

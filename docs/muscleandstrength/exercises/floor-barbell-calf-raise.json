@@ -1,0 +1,32 @@
+{
+  "id": "floor-barbell-calf-raise",
+  "url": "https://www.muscleandstrength.com/exercises/floor-barbell-calf-raise.html",
+  "title": "Standing Barbell Calf Raise (On Floor)",
+  "target_muscle": "Calves",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Grasp a barbell with a wider than shoulder-width grip and lift it over your head so it's resting across the muscles on the top of your back. Do not rest the bar on the back of the neck!",
+    "Leaning slightly forward, keeping your body straight and looking straight ahead, slowly raise your heels off the floor and push up as far as possible.",
+    "Pause, and then slowly lower your weight down until your heels are almost resting on the floor.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Don't let your heels come all the way down so that they're resting on the floor.",
+    "Keep the rep timing slow and control the weight.",
+    "Do not bend at the knees."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793800?badge=0&autopause=0&quality_selector=1&progress_bar=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Calves Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Calves.jpg"
+    }
+  ]
+}

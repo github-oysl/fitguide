@@ -1,0 +1,35 @@
+{
+  "id": "standing-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html",
+  "title": "Standing Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Assume the starting position for the standing dumbbell curl by grasping a pair of dumbbells and standing straight up, feet together, and dumbbells by your side. The dumbbells should not be touching your body.",
+    "Your palms should face upwards.",
+    "Take up the slack by bending the elbows slightly. Tension should be on the biceps.",
+    "Slowly curl the dumbbells up as far as possible.",
+    "Squeeze the biceps hard, and then slowly lower the dumbbells back down to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "The tension should be on the biceps at all times. Do not let them \"hang\" at the bottom of the exercise.",
+    "Keep the rep timing slow and control the weight throughout the set.",
+    "Do not let the dumbbells touch your body.",
+    "And finally, do not swing the body back as you curl up the weight. The body should stay fixed throughout the movement. Focus on only moving your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794078?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "decline-dumbbell-situp",
+  "url": "https://www.muscleandstrength.com/exercises/decline-dumbbell-situp.html",
+  "title": "Decline Weighted Sit Up with Twist",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Lower Back",
+  "overview": [],
+  "instructions": [
+    "Set a decline bench at around a 30 degree angle (you can go higher for more intensity).",
+    "Grab 2 light dumbbells and position yourself on the incline bench with your back flat against the bench and dumbbells at shoulder height, with palms facing your feet.",
+    "Tense your abs to pull yourself up while twisting and bringing your right arm forward with the dumbbell.",
+    "At the top of the movement you should be sitting upright with your right arm across your left knee.",
+    "Lower back down to the starting position slowly and repeat with the left arm forward.",
+    "Do not let your upper back touch the bench at the bottom of the movement.",
+    "Increase the decline of the bench for increased intensity.",
+    "Always do this exercise slowly for maximum results.",
+    "Heavy dumbbells are not needed to make the exercise effective. Start light and work up to heavier weights."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/1082967665?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

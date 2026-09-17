@@ -1,0 +1,36 @@
+{
+  "id": "standing-kettlebell-press",
+  "url": "https://www.muscleandstrength.com/exercises/standing-kettlebell-press",
+  "title": "Standing Kettlebell Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Kettle Bells",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Traps, Triceps",
+  "overview": [
+    "The standing kettlebell shoulder press is a variation of theoverhead pressand an exercise used to strengthen the muscles of the shoulders.The handles of the kettlebells make the kettlebell shoulder press a unique exercise. The distribution of weight lies below the handle, as opposed to aligned with the handle, forcing you to fight gravity pulling the weight down below your hand positioning.The handles, and how you’ll be able to manipulate your hand positioning, may also help alleviate some wrist and elbow pain associated with presses."
+  ],
+  "instructions": [
+    "Assume a standing position while grasping kettlebells in both hands with a neutral grip.",
+    "Clean the kettlebells to a front racked position.",
+    "Press the bells overhead until the shoulders reach full flexion and the elbows are locked out.",
+    "Slowly lower the kettlebells back to the starting position and repeat for the assigned number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "If you sense any pressure in your neck or traps during the movement, look to address a lack of thoracic spine extension or shoulder flexion.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead then it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/azmD5oSCnwo?rel=0",
+  "youtube_id": "azmD5oSCnwo",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

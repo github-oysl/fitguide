@@ -1,0 +1,31 @@
+{
+  "id": "swiss-ball-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-curl.html",
+  "title": "Exercise Ball Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs",
+  "overview": [],
+  "instructions": [
+    "Grab a pair of dumbbells and sit on an exercise ball.",
+    "Using an underhand grip and keeping your elbows in at your sides, slowly curl the dumbbells up as far as possible.",
+    "Pause, and then slowly lower the dumbbells back to the starting position."
+  ],
+  "tips": [
+    "Keep your back straight throughout the set.",
+    "Do not let your elbows come forward as you curl the dumbbells up.",
+    "Focus on keeping a tight core for added benefit."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794518?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

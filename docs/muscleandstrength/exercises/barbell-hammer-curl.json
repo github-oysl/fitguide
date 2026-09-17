@@ -1,0 +1,33 @@
+{
+  "id": "barbell-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html",
+  "title": "Hammer Bar Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Load the desired weight onto a Hammer Bar and grab the bar with a neutral grip.",
+    "Position your feet around shoulder width apart. This is the starting position.",
+    "With your back straight and core engaged, slowly curl the bar up as far as possible.",
+    "Squeeze the biceps at the top of the exercise, and then slowly lower the bar back to the starting position keeping tension on your biceps at all times.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Do not lean back or use momentum to curl the weight up. Keep your body fixed and make your biceps do the work.",
+    "Keep your elbows tucked in at your sides, and don't allow them to move forward when curling the weight.",
+    "Always do the exercise slowly and control the weight throughout the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881789?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

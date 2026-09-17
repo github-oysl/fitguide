@@ -1,0 +1,33 @@
+{
+  "id": "reverse-barbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-barbell-curl.html",
+  "title": "Reverse Grip Barbell Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps",
+  "overview": [
+    "The reverse grip barbell curl is a variation of thebarbell curland an exercise used to target the muscles of the biceps.The reverse grip hand positioning will naturally make the biceps more involved in the exercise.Barbell curls can be performed during yourbicep workouts, upper body workouts, orfull body workouts."
+  ],
+  "instructions": [
+    "Load a barbell with the desired weight, grasp it with a pronated grip (palms facing down), and position your hands around shoulder width apart. The bar should not be touching your body. This is the starting position.",
+    "Slowly curl the bar while looking forward and keeping your elbows tucked in at your sides.",
+    "Do not pause, and slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Use a full range of motion for this exercise, and focus on slow and controlled rep timing.",
+    "Focus on moving only at the elbows - keeping your upper arms completely still."
+  ],
+  "video_url": "https://player.vimeo.com/video/760002600?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

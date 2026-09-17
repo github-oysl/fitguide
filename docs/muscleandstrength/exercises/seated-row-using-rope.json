@@ -1,0 +1,36 @@
+{
+  "id": "seated-row-using-rope",
+  "url": "https://www.muscleandstrength.com/exercises/seated-row-using-rope.html",
+  "title": "Seated Row (Rope Extension)",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Attach the rope extension to the low pulley cable. Adjust the weight.",
+    "Sit down in front of the cable machine facing the cable with your legs shoulder-width apart and knees slightly bent.",
+    "Grasp the rope from the bottom with your thumbs in.",
+    "Lean back, keeping your back straight to take the weight off the stack. Your shoulders should be back and your arms fully extended.",
+    "To execute the movement, slowly pull the rope in towards your stomach.",
+    "Pull the rope back as far as possible and squeeze your shoulder blades together at the top of the movement.",
+    "Pause, and then slowly lower the weight back to the starting position.",
+    "Repeat."
+  ],
+  "tips": [
+    "Only your arms should be moving throughout each rep.",
+    "Don't allow your shoulders to come forward or use your legs/waist to move the weight back.",
+    "Do not let the weight stack drop fully until you've finished the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788717?h=3eeab8c3fa",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

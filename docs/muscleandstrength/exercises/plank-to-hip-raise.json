@@ -1,0 +1,35 @@
+{
+  "id": "plank-to-hip-raise",
+  "url": "https://www.muscleandstrength.com/exercises/plank-to-hip-raise",
+  "title": "Plank to Hip Raise",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The plank to hip raise is a variation of the plank exercise and an exercise used to strengthen the abdominal muscles.The plank to hip raise works the abs through a few different force types. The first is obviously through isometrics while performing the plank.Then, it shifts to a pull movement as you contract the abs to pike your hips."
+  ],
+  "instructions": [
+    "Assume a kneeling position with your elbows resting slightly above your head on the floor.",
+    "Extend each leg and maintain a hip width stance.",
+    "Push your elbows into the floor and pike your hips.",
+    "Lower your hips back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Move slowly but methodically. The goal is control within space, not simply completion of repetitions.",
+    "If you struggle to get your arms overhead and your hips piked then examine your thoracic extension and look to improve it via soft tissues strategies found on the site.",
+    "Press your elbows into the floor to help engage your serratus anterior. Your upper back should be filled out and there shouldn’t be an indention between your shoulder blades.",
+    "Do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath."
+  ],
+  "video_url": "https://www.youtube.com/embed/9Wd3xH6-QYw?rel=0",
+  "youtube_id": "9Wd3xH6-QYw",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

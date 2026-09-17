@@ -1,0 +1,41 @@
+{
+  "id": "band-assisted-dip",
+  "url": "https://www.muscleandstrength.com/exercises/band-assisted-dip",
+  "title": "Band Assisted Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [
+    "The band assisted dip is a way for lifters who cannot perform bodyweight dips to progress to the point where they are able to do so.A variation of thetricep dip, the band assisted dip is used by those seeking to strengthen and build the muscles of the triceps, chest, and shoulders."
+  ],
+  "instructions": [
+    "Attach a band to each of the handles on the dip station.",
+    "Step up onto the dip station (if possible) and place both knees in the center of the band while positioning your hands on the handles with a neutral grip.",
+    "Initiate the dip by unlocking the elbows and slowly lowering the body until the forearms are almost parallel with the floor.",
+    "Control the descent to parallel and then drive back to the starting position by pushing through the palms.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Technically there are two ways to perform dips - neither is wrong, just different movement with different purposes:Staying upright and keeping the elbows in close to increase tricep recruitment.Leaning forward with elbows wider to increase chest recruitment.",
+    "Staying upright and keeping the elbows in close to increase tricep recruitment.",
+    "Leaning forward with elbows wider to increase chest recruitment.",
+    "If possible, keep the legs straight down while bracing the glutes and abs to limit excessive spinal movement.",
+    "If no dip station with steps is available, position a box underneath the handles to boost yourself up to the bars.",
+    "If no box is available, then jump into position.",
+    "Don’t allow the head to jut forward during the descent.",
+    "Ensure the elbows stay just short of lockout to keep tension on the triceps.",
+    "Experiment with a false grip by wrapping the thumb over the bar as this may be more comfortable for some."
+  ],
+  "video_url": "https://www.youtube.com/embed/qWkMkD6260g?rel=0",
+  "youtube_id": "qWkMkD6260g",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

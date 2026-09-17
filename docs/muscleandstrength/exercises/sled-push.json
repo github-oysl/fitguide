@@ -1,0 +1,38 @@
+{
+  "id": "sled-push",
+  "url": "https://www.muscleandstrength.com/exercises/sled-push",
+  "title": "Sled Push",
+  "target_muscle": "Quads",
+  "exercise_type": "Conditioning",
+  "equipment": "Sled",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Lats, Lower Back, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The sled push is an exercise used to strengthen the muscle of the quads, glutes and hamstrings.As you push, the sled will put concentric tension on the muscles used – making it a perfect exercise for those rehabbing injury, as you don’t have to worry about the eccentric motion of the lift.Sled pushes can be an extremely beneficial conditioning exercise or they can be used as a strength building exercise depending on how you fit them into yourworkout routine."
+  ],
+  "instructions": [
+    "Load the desired weight onto the sled.",
+    "Setup in an athletic position with your body inclined into the sled at roughly 45 degrees and your arms extended.",
+    "Drive the sled forward by extending the leg and hip of one leg.",
+    "Repeat on the opposite side until you reach the desired number of steps, distance, or time."
+  ],
+  "tips": [
+    "There are sled push variations which have the elbows extended or bent. If the elbows are bent then you will load the hips more as you effectively take the upper back out of the equation given you’re shortening the lever arm and taking the shoulders out of flexion. If you keep the elbows locked out then you will have to fight for more thoracic extension during the movement. Neither is right or wrong, just depends on what you’re looking to accomplish.",
+    "If you find the front of the sled digging into the floor then you may need to grip slightly lower on the handles and/or ensure that your torso is inclined properly. If you start to get too upright then the sled will likely tilt forward and you’ll increase drag against the floor.",
+    "If you don’t have access to a sled, you can push a car or even a plate across astroturf.",
+    "Some prefer to push with the head down while others would rather look up. This is somewhat personal preference but it will also depend upon the individual and how they present in a resting position.If someone exhibits more extension bias then they may want to experiment with looking down as this will help to keep them a bit more neutral.If someone exhibits more flexion bias then they may want to experiment with looking up as this will help to drive more extension and keep them a bit more neutral.",
+    "If someone exhibits more extension bias then they may want to experiment with looking down as this will help to keep them a bit more neutral.",
+    "If someone exhibits more flexion bias then they may want to experiment with looking up as this will help to drive more extension and keep them a bit more neutral.",
+    "Given sled pushes/drags don’t have any eccentric component they can very beneficial to incorporate during rehab, as a method of conditioning which won’t incur excessive soreness or load joints excessively."
+  ],
+  "video_url": "https://www.youtube.com/embed/SWmRa-YgONs?rel=0",
+  "youtube_id": "SWmRa-YgONs",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

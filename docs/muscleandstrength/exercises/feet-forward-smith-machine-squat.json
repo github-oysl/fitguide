@@ -1,0 +1,32 @@
+{
+  "id": "feet-forward-smith-machine-squat",
+  "url": "https://www.muscleandstrength.com/exercises/feet-forward-smith-machine-squat.html",
+  "title": "Smith Machine Squat (Feet Forward)",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Set the bar to around shoulder height and load the weight you want to use.",
+    "Stand under the bar with your legs around shoulder width apart. Grasp the bar with a wide grip and position the center of the bar on top of the muscles on your back.",
+    "Unrack the weight and take a few steps forward to bring your feet out in front of you. This is the starting position.",
+    "Inhale and slowly squat down until your thighs are parallel to the floor.",
+    "Exhale, and push up through the heels, raising the bar back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your back straight and your core engaged throughout the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881767?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

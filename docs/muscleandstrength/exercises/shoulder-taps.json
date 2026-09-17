@@ -1,0 +1,35 @@
+{
+  "id": "shoulder-taps",
+  "url": "https://www.muscleandstrength.com/exercises/shoulder-taps",
+  "title": "Shoulder Taps",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The shoulder tap is a variation of theplankand an exercise used to strengthen the muscles of the core.The shoulder tap challenges your core stability as you maintain a push up position while bringing your hand through the range of motion necessary to touch your shoulder and return to the starting position."
+  ],
+  "instructions": [
+    "Assume a pushup position with your feet slightly wider than shoulder width.",
+    "Slowly raise one hand off the floor and touch your opposing shoulder.",
+    "Replace the hand and repeat on the opposite side.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "The main goal is to ensure the hips stay stable. Imagine you’re trying to balance a cup of water on your lower back as you raise each hand.",
+    "Continue to breathe normally and do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath.",
+    "Keep the fingers spread wide while touching the floor, this will increase your base of support and also enhance proprioception through the hands.",
+    "Do not look up, keep the neck neutral and the eyes fixed on the floor just above the fingertips as you complete each rep."
+  ],
+  "video_url": "https://www.youtube.com/embed/cAn5_PtJbjk?rel=0",
+  "youtube_id": "cAn5_PtJbjk",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

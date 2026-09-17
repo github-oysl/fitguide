@@ -1,0 +1,33 @@
+{
+  "id": "spider-crawls",
+  "url": "https://www.muscleandstrength.com/exercises/spider-crawls",
+  "title": "Spider Crawls",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Upper Back",
+  "overview": [
+    "Spider crawls is anoverhead pressvariation used to target the muscles of the shoulder.The spider crawl exercise is unique in that it utilizes banded resistance and you increase the distance in between your hands the closer you get to complete lockout.The bands used in the spider crawl exercise provides accommodating resistance. This means the closer one gets to lockout, the more resistance they will feel on the targeted muscle group.The spider crawl can be used as both a prehab/warm up exercise and/or as an accessory exercise to the overhead press."
+  ],
+  "instructions": [
+    "Assume a standing position with your fingertips against a wall and a band wrapped around your wrists.",
+    "Slowly begin to walk your hands vertically up the wall while maintaining tension on the band.",
+    "Walk your fingertips up the wall until your elbows are extended and shoulders are flexed.",
+    "Slowly walk your fingertips back down the wall and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow your back to arch or head to jut forward as the arms move overhead.",
+    "If you still struggle with maintaining a neutral spinal position, consider using a half kneeling version of this exercise."
+  ],
+  "video_url": "https://www.youtube.com/embed/E6hd7_wrfN8?rel=0",
+  "youtube_id": "E6hd7_wrfN8",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dumbbell-step-up",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html",
+  "title": "Dumbbell Step Up",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [
+    "The Dumbbell Step-Up is an effective lower-body exercise that targets the quads, hamstrings, and glutes while engaging the core for stability. Utilizing an elevated platform improves balance and coordination.This unilateral exercise helps correct muscle imbalances between legs and builds functional strength, making it ideal for athletes or anyone looking to enhance leg power and mobility. It's also low-impact, making it easier on the joints compared to exercises likesquatsorlunges.Incorporating dumbbell step-ups into your routine can improve both strength and stability, supporting overall lower-body fitness."
+  ],
+  "instructions": [
+    "Hold a dumbbell in each hand, keeping your arms fully extended by your sides.",
+    "Place a sturdy bench or platform in front of you, about knee height, and stand with your feet hip-width apart, facing the step. This is the starting position.",
+    "Place one foot on the step, pressing through your heel to lift your body upward.",
+    "Push through the working foot on the step to fully extend your leg and bring your other foot up to the platform.",
+    "Once both feet are on the platform, step down with your non-working foot, followed by the other foot.",
+    "Alternate legs for each rep, or complete all reps on one leg before switching."
+  ],
+  "tips": [
+    "Start by using bodyweight to ensure a strong foundation in the movement.",
+    "Increase the difficulty by raising the platform. The higher the platform, the more intense the exercise.",
+    "When stepping up, drive through the heel of the foot on the step. This engages the glutes and hamstrings more effectively, reducing stress on the knee.",
+    "Avoid using momentum. Control both the upward and downward phases to get the most out of the exercise and reduce the risk of injury.",
+    "Ensure you fully extend your knee and hip at the top before bringing the other foot onto the step. This maximizes the glute and quad activation."
+  ],
+  "video_url": "https://player.vimeo.com/video/877882016?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

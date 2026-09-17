@@ -1,0 +1,39 @@
+{
+  "id": "banded-machine-t-bar-row",
+  "url": "https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row",
+  "title": "Banded Machine T-Bar Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Biceps, Lats, Shoulders",
+  "overview": [
+    "The banded machine t bar row is a variation of themachine t-bar rowused to target the muscles of the back.The banded machine t bar row provides accommodating resistance, via the band, to make the exercise more challenging."
+  ],
+  "instructions": [
+    "Attach a band to the circular weight peg and then add additional plates if desired.",
+    "Lie prone on the pad of a T-Bar machine and grasp the handle with a neutral or pronated grip depending upon preference or programming.",
+    "Begin the movement by driving the elbows behind the body while retracting the shoulder blades.",
+    "Pull the weight towards your body until the elbows are at (or just past) the midline and then slowly lower the weight back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "As you pull the weight towards your body, don’t hyperextend the thoracic spine by pulling your entire upper torso off the bench. You can extend slightly but don’t make it too drastic.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/pF5E966XrfA?rel=0",
+  "youtube_id": "pF5E966XrfA",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

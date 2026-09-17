@@ -1,0 +1,37 @@
+{
+  "id": "seated-vertical-jump",
+  "url": "https://www.muscleandstrength.com/exercises/seated-vertical-jump",
+  "title": "Seated Vertical Jump",
+  "target_muscle": "Quads",
+  "exercise_type": "Plyometrics",
+  "equipment": "Box",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Adductors, Calves, Glutes, Hamstrings, Hip Flexors",
+  "overview": [
+    "The seated vertical jump is a variation of the vertical jump and an exercise used to increase lower body explosiveness.Plyometric exercises, such as the seated vertical jump, are not only important for athletes – but also the general population as well to maintain elasticity in your tendons as you age."
+  ],
+  "instructions": [
+    "Setup in a seated position on the side of a box.",
+    "Lean forward slightly, swing your arms back, and explode straight up by driving off both legs.",
+    "Generate triple extension and then land softly."
+  ],
+  "tips": [
+    "Triple extension = extension of the hips, knees, and ankles.",
+    "If you don’t have access to a box then you can use a chair or a bench. Initially it might be wise to set the depth well above 90 degrees and then slowly work your way down.",
+    "You can use these drills as “fillers” in between your large compound movements or you can implement them within your warm up as a method of potentiating your central nervous system for heavier strength based work in your accompanying training session.",
+    "Unilateral versions should only be incorporated once someone demonstrates substantial levels of lower body strength and stability.",
+    "The arms drive the legs, don’t forget to incorporate the arm swing.",
+    "Make sure you step down from the box, don’t jump down.",
+    "Land softly - use the cue “extend (as in the hips), absorb”."
+  ],
+  "video_url": "https://www.youtube.com/embed/IejG2BraFjE?rel=0",
+  "youtube_id": "IejG2BraFjE",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "seated-zottman-curl",
+  "url": "https://www.muscleandstrength.com/exercises/seated-zottman-curl",
+  "title": "Seated Zottman Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [
+    "The seated Zottman curl is a bicep building exercise that incorporates both a standardseated dumbbell curlandseated reverse curl.The standard seated dumbbell curl portion of the seated Zottman curl is excellent for building your biceps. And the seated reverse curl portion of the seated Zottman curl is excellent for building your forearms."
+  ],
+  "instructions": [
+    "Position an incline bench at roughly 90 degrees and select the desired weight from the rack.",
+    "Using a supinated grip, take a deep breath and curl the dumbbells towards your shoulders.",
+    "Once the biceps are fully shortened, rotate the forearms to a pronated position (palms down) and slowly lower the weight back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the elbows to shift behind the body. Similarly, make sure the shoulder doesn’t shift forward in the socket as you lower the weight.",
+    "Maintain a slight bend in the elbow at the bottom of the movement in order to keep tension through the biceps.",
+    "Rotate the forearms slowly, excessive velocity may cause issues within the elbows or wrists.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/GIYet6Gcfmg?rel=0",
+  "youtube_id": "GIYet6Gcfmg",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

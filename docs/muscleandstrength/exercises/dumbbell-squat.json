@@ -1,0 +1,39 @@
+{
+  "id": "dumbbell-squat",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-squat.html",
+  "title": "Dumbbell Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Calves, Glutes, Hamstrings, Lower Back",
+  "overview": [
+    "Dumbbell squats are a foundational strength training exercise that targets the lower body, especially the quads, glutes, hamstrings, and core. They’re a great option for building strength, improving balance, and developing proper squat form with added resistance.Common variations include thegoblet squat, front-loaded squats (dumbbells racked at shoulders), and sumo dumbbell squats (wide stance with a single dumbbell between the legs). For more advanced training, you can progress toBulgarian split squatsor increase the load over time.Benefits of dumbbell squats include improved muscular strength, enhanced core stability, better joint mobility, and increased calorie burn. They’re versatile, accessible, and ideal for both beginners and advanced lifters looking to level up their lower body workouts."
+  ],
+  "instructions": [
+    "Hold dumbbells by your sides or at your shoulders.",
+    "Stand with feet shoulder-width apart, toes slightly out.",
+    "Brace your core and keep your chest up.",
+    "Squat down by pushing your hips back and bending your knees.",
+    "Go as low as comfortable (thighs parallel or lower).",
+    "Stand up by pushing through your heels and squeezing your glutes.",
+    "Repeat for your desired reps."
+  ],
+  "tips": [
+    "Use lighter dumbbells until you’re confident with your form. Focus on control over weight.",
+    "Engage your abs throughout the movement to support your spine and improve balance.",
+    "Press into your heels (not your toes) as you stand up to better activate your glutes.",
+    "Keep your knees aligned with your toes—avoid letting them collapse inward.",
+    "Inhale as you lower, exhale as you push up—this helps maintain core stability and rhythm."
+  ],
+  "video_url": "https://player.vimeo.com/video/1077314446?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "twisting-standing-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/twisting-standing-dumbbell-curl.html",
+  "title": "Alternating Standing Dumbbell Twisting Curls",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Grasp a pair of dumbbells and stand straight up holding the dumbbells by your side.",
+    "Your arms should be slightly bent and your palms facing in towards your body (thumbs forward).",
+    "Before starting the movement, curl the weight up slowly to put the tension on your biceps.",
+    "With one arm, curl the dumbbell up.",
+    "As you curl up, rotate the dumbbell from a neutral position (palms facing in) to an underhand position (palms facing up).",
+    "Squeeze your bicep at the top of the movement, and then slowly lower the weight back down without letting it touch your body.",
+    "Repeat on the other arm.",
+    "That's 1 rep. Now repeat for desired reps."
+  ],
+  "tips": [
+    "Keep the rep timing slow and control the weight throughout the set.",
+    "Do not lean or swing back as you raise the weight.",
+    "Keep the tension on the biceps for the whole set. Don't let the weight hang at the bottom of the movement or rest on the body."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793174?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

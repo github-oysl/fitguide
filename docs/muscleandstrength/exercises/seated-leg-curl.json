@@ -1,0 +1,36 @@
+{
+  "id": "seated-leg-curl",
+  "url": "https://www.muscleandstrength.com/exercises/seated-leg-curl",
+  "title": "Seated Leg Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Glutes",
+  "overview": [
+    "The seated leg curl is a variation of theleg curland an exercise used to isolate the hamstrings.The seated leg curl is best used as part of yourleg workoutor in afull body workout routine."
+  ],
+  "instructions": [
+    "Select the desired weight, then adjust the pad so it rests comfortably above the back of the heels.",
+    "Tense up the hamstrings by taking the weight slightly off the stack. This is the starting position for the exercise.",
+    "Take a deep breath, squeeze the hamstrings, and curl the weight up as far as possible while keeping the spine neutral.",
+    "Slowly lower the weight back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "To keep tension on the hamstrings, keep the knees just shy of lockout.",
+    "Don’t allow the back to arch, keep your hips pressed into the pad.",
+    "Keep your low back flat against the pad throughout the movement.",
+    "Ensure the head does not jut forward excessively.",
+    "Don’t allow momentum to dictate the tempo of the exercise, control the movement throughout the entire range of motion."
+  ],
+  "video_url": "https://www.youtube.com/embed/3BWiLFc8Dbg?rel=0",
+  "youtube_id": "3BWiLFc8Dbg",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

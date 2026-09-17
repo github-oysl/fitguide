@@ -1,0 +1,40 @@
+{
+  "id": "ring-dip",
+  "url": "https://www.muscleandstrength.com/exercises/ring-dip",
+  "title": "Ring Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Rings",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Advanced",
+  "secondary_muscles": "Abs, Chest, Shoulders",
+  "overview": [
+    "The ring dip is a variation of thetricep dipand an exercise used to strengthen the muscles of the triceps, chest, and shoulders.The use of rings instead of a straight bar or parallel bars allows your hands to move with the range of motion. This can help alleviate the joint and tendon pain commonly associated with performing dips. It also challenges the shoulders and core to stabilize the body more so than a fixed implement would."
+  ],
+  "instructions": [
+    "Set a pair of rings at roughly chest height and grasp the handles using a neutral grip (palms facing).",
+    "Initiate the dip by unlocking the elbows and slowly lowering the body until the forearms are almost parallel with the floor.",
+    "Control the descent to parallel and then drive back to the starting position by pushing through the palms.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Technically there are two ways to perform dips - neither is wrong, just different movement with different purposes:Staying upright and keeping the elbows in close to increase tricep recruitment.Leaning forward with elbows wider to increase chest recruitment.",
+    "Staying upright and keeping the elbows in close to increase tricep recruitment.",
+    "Leaning forward with elbows wider to increase chest recruitment.",
+    "If possible, keep the legs straight down while bracing the glutes and abs to limit excessive spinal movement.",
+    "If no steps are available to the rings, position a box underneath the handles to boost yourself up to the rings.",
+    "If no box is available, then jump into position.",
+    "Don’t allow the head to jut forward during the descent.",
+    "Ensure the elbows stay just short of lockout to keep tension on the triceps.",
+    "Experiment with a false grip by wrapping the thumb over the bar as this may be more comfortable for some."
+  ],
+  "video_url": "https://www.youtube.com/embed/rLFLal3vQww?rel=0",
+  "youtube_id": "rLFLal3vQww",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

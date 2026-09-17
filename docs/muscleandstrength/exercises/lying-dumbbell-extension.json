@@ -1,0 +1,32 @@
+{
+  "id": "lying-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/lying-dumbbell-extension.html",
+  "title": "Lying Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Grab a pair of dumbbells and sit on the end of a flat bench with the dumbbells resting on your thighs.",
+    "Lie back on the bench and extend the dumbbells above your head. The dumbbells should not be touching and you should be using a neutral grip (palms facing each other).",
+    "Bending at the elbows only, keeping your elbows fixed and pointing at your hips, slowly lower the dumbbells down beside your head until they are about level with your ears.",
+    "Pause and squeeze the triceps. Then raise the dumbbells back to the starting position.",
+    "Do not lock the elbows out, and then repeat for desired reps."
+  ],
+  "tips": [
+    "It's important to keep your elbows in and facing toward your hips. Don't let them flare out as you lower the dumbbells down.",
+    "Keep the rep timing slow and control the weight throughout the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784027?h=3e566cd972&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

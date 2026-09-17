@@ -1,0 +1,30 @@
+{
+  "id": "cable-hip-adduction",
+  "url": "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html",
+  "title": "Cable Hip Adduction",
+  "target_muscle": "Adductors",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Attach an ankle strap to a low pulley on a cable machine.",
+    "Stand next to the pulley machine and attach the ankle strap to the ankle closest to the pulley machine.",
+    "Stand with feet shoulder-width apart, and hold onto the machine or nearby support for balance.",
+    "Keeping your leg straight, lift the working left and move it across your body until your ankle passes your stationary leg.",
+    "Pause, then slowly return your leg to the starting position with control, resisting the cable tension.",
+    "Perform the desired number of reps, then switch legs."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/760008232?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Adductors Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Adductors.jpg"
+    }
+  ]
+}

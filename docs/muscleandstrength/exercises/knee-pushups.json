@@ -1,0 +1,31 @@
+{
+  "id": "knee-pushups",
+  "url": "https://www.muscleandstrength.com/exercises/knee-pushups.html",
+  "title": "Knee Push-Up",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the knee push-up in the same way you'd set up for a regular push-up, only your lower body will rest on your knees and not your feet. Your body should still be straight.",
+    "Lower your body towards the floor until your torso is about 1 inch from the floor. Pause, then slowly raise your body back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your body straight throughout the exercise.",
+    "Place your hands around 36 inches apart or just past shoulder width.",
+    "Knee push-ups are also great for finishing off an intense chest workout."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783570?h=db283d8515&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

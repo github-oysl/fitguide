@@ -1,0 +1,37 @@
+{
+  "id": "bent-over-row",
+  "url": "https://www.muscleandstrength.com/exercises/bent-over-row.html",
+  "title": "T-Bar Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders, Traps",
+  "overview": [
+    "The T-Bar row, also known as the close grip barbell row, is an excellent exercise to use if you are trying to target your upper back.A variation of thebent over row, the T-bar row allows one to utilize a more neutral grip which can help alleviate some of the tension placed on the shoulder joint."
+  ],
+  "instructions": [
+    "Assume a standing position with the bar positioned directly between your legs.",
+    "Utilize a v-grip handle and place the bar directly in the notch of the v.",
+    "Hinge forward until your torso is roughly parallel with the floor (or slightly above) and then begin the movement by driving the elbows behind the body while retracting the shoulder blades.",
+    "Pull the bar towards your body until the plates touch your chest and then slowly lower the handle back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the bar throughout the entirety of each rep.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/gJSov9rHIf0?rel=0",
+  "youtube_id": "gJSov9rHIf0",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

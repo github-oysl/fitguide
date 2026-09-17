@@ -1,0 +1,38 @@
+{
+  "id": "foam-rolling-lats",
+  "url": "https://www.muscleandstrength.com/exercises/foam-rolling-lats",
+  "title": "Lat Foam Rolling",
+  "target_muscle": "Lats",
+  "exercise_type": "SMR",
+  "equipment": "Foam Roll",
+  "mechanics": "Isolation",
+  "force_type": "Compression",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "Foam rolling your lats is a great way to warm up and cool down for your workout, especially if you plan to perform upper body exercises that require the lats to be more mobile.When you foam roll the lats, or any muscle group for that matter, you alleviate some of the tension that is built up during the day and your workouts."
+  ],
+  "instructions": [
+    "In a supine position, position the foam roller near your armpit at the base of your lat.",
+    "Raise one arm overhead, pick your hips up off the floor, and roll from the base of your ribcage up into the armpit region.",
+    "Adjust pressure into the roller by raising your hips higher or lower or applying more force through your free hand into the ground.",
+    "Slowly roll up and down the length of the thoracic spine for 20-30 seconds.",
+    "Repeat on the other side."
+  ],
+  "tips": [
+    "The most important thing you can remember with any soft tissue work: KEEP BREATHING. Don’t hold your breath, you want to release tension, not generate it.",
+    "Avoid rolling the lumbar spine (lower back), try to stay centered over your ribcage.",
+    "Do not allow yourself to fall into overextension, keep tension through the abs.",
+    "If you find a tender spot, pause for 5-6 seconds and focus on slow, deep breaths and try to relax.",
+    "Foam rolling may be uncomfortable but that’s not an excuse to avoid it. It hurts because there may be physiological or neurological influences generating a pain response. The more you roll the better it’ll feel provided there’s no serious underlying mechanism.",
+    "If you notice any burning, numbness, or tingling, keep moving past that area. It’s likely a nerve and pausing on it for any length of time would not be a good idea."
+  ],
+  "video_url": "https://www.youtube.com/embed/0HoTk7H6Gcs?rel=0",
+  "youtube_id": "0HoTk7H6Gcs",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

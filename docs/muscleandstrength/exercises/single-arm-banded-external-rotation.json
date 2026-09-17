@@ -1,0 +1,34 @@
+{
+  "id": "single-arm-banded-external-rotation",
+  "url": "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation",
+  "title": "Single Arm Banded External Rotation",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Upper Back",
+  "overview": [
+    "The single arm band external rotation is an exercise that targets the muscles of the upper body including the shoulders (rear delts) and upper back.People typically use the single arm band external rotation as a prehab/warm up exercise, but it can also be used to strengthen the rear deltoids."
+  ],
+  "instructions": [
+    "Assume a standing position with your elbow flexed to 90 degrees while holding a band anchored to a sturdy object.",
+    "Rotate your hand away from your body while keeping your elbow tight to your torso.",
+    "Slowly lower the band back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow your back to arch or head to jut forward as the arm moves.",
+    "If you still struggle with maintaining a neutral spinal position, consider using the half kneeling version of this exercise.",
+    "Experiment with a supinated (palms up), pronated (palms down), and neutral grip (palms facing) to see which feels best for your shoulder."
+  ],
+  "video_url": "https://www.youtube.com/embed/hyH55ntr47g?rel=0",
+  "youtube_id": "hyH55ntr47g",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

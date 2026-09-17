@@ -1,0 +1,34 @@
+{
+  "id": "landmine-rotation",
+  "url": "https://www.muscleandstrength.com/exercises/landmine-rotation",
+  "title": "Landmine Rotation",
+  "target_muscle": "Obliques",
+  "exercise_type": "Strength",
+  "equipment": "Landmine",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs",
+  "overview": [
+    "The landmine rotation is a variation of theRussian twistand an exercise used to target your obliques.The landmine rotation utilizes the landmine implement to keep the weight in a fixed movement pattern as you move it through the range of motion."
+  ],
+  "instructions": [
+    "Assume an athletic position with your feet slightly wider than shoulder width and position a barbell in a landmine attachment.",
+    "Grasp the end of the barbell by your side with both hands overlapping.",
+    "Rotate your shoulders and keep the arms locked out while allowing the end of the barbell to rotate around your body.",
+    "Repeat in the opposite direction for the desired number of repetitions."
+  ],
+  "tips": [
+    "The goal is to keep your hips/pelvis as stationary as possible. If you have trouble with rotation at the pelvis or lumbar spine than consider widening the feet and slowly progressing to shorten your stance over time as you gain the requisite motor control.",
+    "All rotation should primarily come through the upper back and not through the lumbar spine. If you’re finding there is some rotation and/or pain through the SI joint then you may need to regress to a half kneeling or tall kneeling exercise variation.",
+    "Keep a slight bend in your knees as you rotate, this should help take a bit of tension off your lumbar spine during the movement."
+  ],
+  "video_url": "https://www.youtube.com/embed/iszktbsU8nE?rel=0",
+  "youtube_id": "iszktbsU8nE",
+  "images": [
+    {
+      "alt": "Obliques Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Obliques.jpg"
+    }
+  ]
+}

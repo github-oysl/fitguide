@@ -1,0 +1,33 @@
+{
+  "id": "abdominal-pendulum",
+  "url": "https://www.muscleandstrength.com/exercises/abdominal-pendulum.html",
+  "title": "Abdominal Pendulum",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Place a mat on the floor and lie down on your back.",
+    "Put your arms out at right angles to your body with your palms on the floor.",
+    "Keep your legs straight and your legs off the floor until they're at a right angle to the floor. This is the start of the exercise.",
+    "Rotating only at the hips, slowly lower your feet to one as far as possible without losing stability.",
+    "Do not pause, and raise your feet up and across to the opposite side.",
+    "This is one rep. Repeat for desired reps."
+  ],
+  "tips": [
+    "This exercise can also be done with a dumbbell held between the feet for some added intensity.",
+    "For maximum benefit do the exercise slowly and lower feet as far as possible."
+  ],
+  "video_url": "https://player.vimeo.com/video/877880949?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

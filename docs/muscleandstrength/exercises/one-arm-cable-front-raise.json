@@ -1,0 +1,36 @@
+{
+  "id": "one-arm-cable-front-raise",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-front-raise.html",
+  "title": "One-Arm Cable Front Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by attaching a single grip handle to a low pulley cable machine and selecting the weight you want to use.",
+    "Stand facing away from the machine and grip the handle with one hand using an overhand grip (palm facing down).",
+    "Stand up and hold the handle just off your thighs pulling weight off the stack. This is the starting position.",
+    "To execute, slowly raise the handle to around shoulder height while keeping your arm straight and your body fixed.",
+    "Pause, and then slowly lower the weight to the starting position.",
+    "Do not allow the stack to drop or the handle to touch your body.",
+    "Repeat for desired reps and then repeat using your right arm."
+  ],
+  "tips": [
+    "This is an isolation exercise, so the focus should be on form and muscle contraction, not weight.",
+    "Keep the rep timing slow and control the weight throughout the set.",
+    "Do not allow the handle to touch your body, and do not allow your body to move (or swing) throughout the movement.",
+    "The front raise is a good exercise to super set with a shoulder pressing exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001864?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

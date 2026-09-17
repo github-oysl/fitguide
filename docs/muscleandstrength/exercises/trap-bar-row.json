@@ -1,0 +1,38 @@
+{
+  "id": "trap-bar-row",
+  "url": "https://www.muscleandstrength.com/exercises/trap-bar-row",
+  "title": "Trap Bar Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Trap Bar",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back",
+  "overview": [
+    "The trap bar row is a variation of thebent over rowand an exercise one would typically use when trying to target the muscles of the back.The trap bar used when performing trap bar deadlifts allows for a neutral hand placement. This can help in alleviating stress placed on the shoulder joint during the exercise."
+  ],
+  "instructions": [
+    "Step inside of a trap bar and hinge forward until your torso is roughly parallel with the floor (or slightly above).",
+    "Grasp the bar with a neutral grip and then begin the movement by driving the elbows behind the body while retracting the shoulder blades.",
+    "Pull the bar towards your belly button until the upper back musculature has completely contracted.",
+    "Slowly lower the bar back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the bar throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/fj3tev2OhS0?rel=0",
+  "youtube_id": "fj3tev2OhS0",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

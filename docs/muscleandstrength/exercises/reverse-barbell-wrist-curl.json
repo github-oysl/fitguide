@@ -1,0 +1,34 @@
+{
+  "id": "reverse-barbell-wrist-curl",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl.html",
+  "title": "Reverse Grip Barbell Wrist Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Select a barbell and sit on a bench with your forearms resting on your thighs, palms facing down.",
+    "Hold the barbell with an overhand grip, hands shoulder-width apart.",
+    "Position your wrists by letting the bar hang in front of you, wrists slightly hanging off your knees.",
+    "Use your wrists to curl the bar upwards, exhaling as you lift.",
+    "Pause and squeeze your forearms at the top.",
+    "Slowly lower the bar back down, inhaling as you descend. This is one rep.",
+    "Perform the desired reps, focusing on wrist control and forearm activation."
+  ],
+  "tips": [
+    "Keep the movement controlled for maximum wrist and forearm engagement.",
+    "Use an EZ bar if you feel pain in the wrists during the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008069?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

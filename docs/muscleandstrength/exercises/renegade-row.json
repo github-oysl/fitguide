@@ -1,0 +1,36 @@
+{
+  "id": "renegade-row",
+  "url": "https://www.muscleandstrength.com/exercises/renegade-row",
+  "title": "Renegade Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Chest, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The renegade dumbbell row is a variation of thebent over dumbbell rowand an exercise used to strengthen and build the muscles of the back.The renegade row also requires abdominal and core strength to maintain a neutral spine while performing the dumbbell row portion of the exercise."
+  ],
+  "instructions": [
+    "Assume a quadruped position on your hands and knees.",
+    "Position two dumbbells directly underneath your hands and grasp them with a neutral grip.",
+    "Pull the dumbbell towards your body until the elbow is at (or just past) the midline and then slowly lower the dumbbell back to the starting position under control.",
+    "Repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Focus on the hips and prevent them from swiveling excessively. Imagine you’re trying to balance a cup of water on your lower back.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/dFbU1qd62Fo?rel=0",
+  "youtube_id": "dFbU1qd62Fo",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

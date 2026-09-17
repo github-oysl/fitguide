@@ -1,0 +1,34 @@
+{
+  "id": "sit-up",
+  "url": "https://www.muscleandstrength.com/exercises/sit-up.html",
+  "title": "Sit Up",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The sit up is a classic abdominal exercise.It’s rarely performed anymore, however, it’s still a very effective flexion based exercise for those looking to utilize it to target their core.There are some risks involved in performing the sit up as opposed tocrunches(orstability ball crunches). The primary one being the common complaint of lower back pain.One can perform sit ups as part of theirab workoutorfull body workout."
+  ],
+  "instructions": [
+    "Lay supine in a relaxed position with your knees up and hands across your chest.",
+    "Exhale and squeeze your abs as you curl your upper body off the floor.",
+    "Once your torso is perpendicular to the floor, slowly lower yourself back to the starting position.",
+    "Complete for the assigned number of repetitions."
+  ],
+  "tips": [
+    "Exhale hard like you’re blowing out candles on a cake and hold the contraction for a second in order to improve mind muscle connection.",
+    "If your lower back bothers you during this exercise, choose more anti extension and anti rotation based movements.",
+    "Avoid putting the hands behind the head as this can lead to excess strain upon the neck."
+  ],
+  "video_url": "https://www.youtube.com/embed/MQDopvLZOS8?rel=0",
+  "youtube_id": "MQDopvLZOS8",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

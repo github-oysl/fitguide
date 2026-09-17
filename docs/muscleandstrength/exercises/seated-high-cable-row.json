@@ -1,0 +1,30 @@
+{
+  "id": "seated-high-cable-row",
+  "url": "https://www.muscleandstrength.com/exercises/seated-high-cable-row.html",
+  "title": "Seated High Cable Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [],
+  "instructions": [
+    "Grab a flat bench and position it in front of a cable machine. Attach a rope extension to the low pulley cable and select the weight you want to use on the stack.",
+    "Sit down on the bench facing the cable machine with your feet and knees together. Grasp the rope extension from below with a neutral grip (thumbs facing inwards).",
+    "Sit straight up with your shoulders back and arms fully extended. This is the starting position.",
+    "Slowly pull the rope up towards your upper chest.",
+    "At the top of the movement, pause, then slowly lower the weight back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/877881282?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

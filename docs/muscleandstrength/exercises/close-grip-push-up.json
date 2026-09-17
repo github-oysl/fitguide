@@ -1,0 +1,34 @@
+{
+  "id": "close-grip-push-up",
+  "url": "https://www.muscleandstrength.com/exercises/close-grip-push-up.html",
+  "title": "Close Grip Push Up",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up by placing your palms on the floor with your thumbs touching one another.",
+    "Extend your legs back so that only your toes are touching the floor and your body is straight.",
+    "Bend slightly at the elbows to keep tension in your triceps.",
+    "Keeping your body straight, slowly lower yourself as far as possible without hitting the floor.",
+    "Pause, and then push back up to the starting position without locking your elbows out.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows tucked in at your side throughout the set.",
+    "Don't lock your elbows out. This takes the tension off the triceps and makes the exercise less effective.",
+    "The close-grip push-up is a good finishing exercise or as a second exercise in a superset."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784503?h=8b3ba1decc&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

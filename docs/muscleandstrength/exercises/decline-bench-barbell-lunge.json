@@ -1,0 +1,33 @@
+{
+  "id": "decline-bench-barbell-lunge",
+  "url": "https://www.muscleandstrength.com/exercises/decline-bench-barbell-lunge.html",
+  "title": "Decline Bench Barbell Lunge",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Select a barbell and stand directly in front of a decline bench.",
+    "Position the bar so it rests on your back, and not your neck, and grip the bar with a wide grip for stability.",
+    "Step forward with one leg onto the center of the bench. Your other leg should be planted on the ground. This is the starting position.",
+    "Descend until your knee reaches a 90-degree angle, or until your range of motion allows.",
+    "Then drive through the front foot and extend the knee as you return to the starting position. This is one rep.",
+    "Repeat for the desired number of repetitions, and then repeat on the other leg."
+  ],
+  "tips": [
+    "This exercise requires a good deal of balance and is not recommended for those with balance issues. If balance is a problem, begin with little to no weight.",
+    "If you want to emphasize the glutes and hamstrings during any sort of lunge or split squat pattern, focus on taking a slightly larger step and drive up through the heel of the foot."
+  ],
+  "video_url": "https://player.vimeo.com/video/877882062?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

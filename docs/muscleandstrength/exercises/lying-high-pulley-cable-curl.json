@@ -1,0 +1,30 @@
+{
+  "id": "lying-high-pulley-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/lying-high-pulley-cable-curl.html",
+  "title": "Lying High Pulley Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up a flat bench in front of a cable machine. Attach a straight bar to the high pulley and select your desired weight.",
+    "Sit on the bench facing away from the machine. Grasp the bar with an underhand grip (palms facing up).",
+    "Lie back so that your head is positioned near the cable machine.",
+    "With your upper arms stationary, curl the bar toward the top of your head in a controlled motion.",
+    "Squeeze your biceps at the top, then slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/1082966899?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

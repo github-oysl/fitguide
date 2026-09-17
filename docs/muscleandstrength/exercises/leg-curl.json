@@ -1,0 +1,38 @@
+{
+  "id": "leg-curl",
+  "url": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+  "title": "Leg Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The lying leg curl is an isolation exercise primarily targeting the hamstrings (the muscles at the back of your thighs).This exercise helps improve hamstring strength and flexibility, knee stability, and overall leg development. It also helps correct muscle imbalances by isolating the hamstrings without involving other muscle groups like the quads.It’s an effective exercise for building strength, improving athletic performance, and preventing injuries, especially for activities that rely heavily on knee flexion, such as running and jumping."
+  ],
+  "instructions": [
+    "On a leg curl machine, adjust the pad so it sits comfortably just above your ankles, and ensure the backrest is set to match your body size.",
+    "Select the desired weight and position your body face down on the machine, keeping your torso flat and your legs extended straight.",
+    "Place your feet under the ankle pad and hold onto the machine's handles for stability. This is the starting position.",
+    "Slowly bend your knees and bring your heels toward your glutes by contracting your hamstrings.",
+    "At the top of the movement, pause briefly and squeeze your hamstrings.",
+    "Slowly return to the starting position, fully extending your legs. This is one rep.",
+    "Perform the desired number of repetitions."
+  ],
+  "tips": [
+    "To fully engage the hamstrings, perform the movement slowly and with control, especially when lowering your legs.",
+    "When your legs curl up, pause briefly at the top and squeeze your hamstrings for maximum contraction.",
+    "Exhale as you curl your legs up, and inhale as you slowly lower them back down.",
+    "Use a full range of motion. Aim to fully extend your legs at the bottom and bring your heels as close to your glutes as possible at the top."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881471?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

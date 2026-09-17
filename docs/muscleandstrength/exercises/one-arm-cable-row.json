@@ -1,0 +1,34 @@
+{
+  "id": "one-arm-cable-row",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-row.html",
+  "title": "One-Arm Seated Cable Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats, Triceps",
+  "overview": [],
+  "instructions": [
+    "Attach a single handle to the low pulley cable machine and set the amount of weight you want to use.",
+    "Sit down facing the cable with your knees slightly bent.",
+    "With your right hand, grab the handle using an overhand grip and take the weight off the stack.",
+    "Keep your back straight and shoulders back. Slowly pull the weight towards your side twisting at the wrist.",
+    "Pull the weight as far as possible, and squeeze your shoulder blade at the top of the movement.",
+    "Pause, and then slowly lower the weight back to the starting position (do not let the weight touch the stack).",
+    "Repeat for desired reps, and then repeat for the other arm."
+  ],
+  "tips": [
+    "Keep your shoulder fixed throughout the movement. Do not let your shoulder come forward with your arm.",
+    "If you have a weak side (usually the left for most people) make sure you do that side first to correct any imbalances."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788697?h=9127d16707",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

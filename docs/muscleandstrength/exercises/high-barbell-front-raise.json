@@ -1,0 +1,34 @@
+{
+  "id": "high-barbell-front-raise",
+  "url": "https://www.muscleandstrength.com/exercises/high-barbell-front-raise.html",
+  "title": "Barbell Overhead Front Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Traps",
+  "overview": [
+    "The barbell overhead front raise is a shoulder building exercise that targets the front deltoids. It is a variation of thebarbell front raise, which includes a larger range of motion.The barbell overhead front raise can be used as a progression from the barbell front raise. Although, you will likely need to use less weight to complete the movement."
+  ],
+  "instructions": [
+    "Select the desired weight and load it onto a barbell.",
+    "Assume a shoulder width stance and grasp the bar at shoulder width with a pronated grip.",
+    "Inhale, brace your abs, and raise the arms vertically while keeping the elbows nearly locked out.",
+    "Once the arms are raised completely overhead, slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t lean back as you raise the arms, keep the motion under control and don’t rely on momentum.",
+    "Try not to bounce at the top of the movement, allow the shoulders to flex and then lower slowly."
+  ],
+  "video_url": "https://www.youtube.com/embed/jPso71PdPqA?rel=0",
+  "youtube_id": "jPso71PdPqA",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

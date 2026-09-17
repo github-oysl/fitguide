@@ -1,0 +1,33 @@
+{
+  "id": "smith-machine-one-leg-squat",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-one-leg-squat.html",
+  "title": "Smith Machine Bulgarian Split Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Set the bar on the Smith Machine to about shoulder height.",
+    "Step under the bar, resting it across your upper traps, and unrack it by rotating the bar.",
+    "Stand about 2–3 feet in front of a bench, facing away from it.",
+    "Place one foot behind you on the bench, laces down.",
+    "Keep your chest up and core engaged. This is the starting position.",
+    "Lower your back knee toward the floor by bending your front leg, keeping your front knee aligned over your ankle.",
+    "Stop when your front thigh is parallel to the floor.",
+    "Push through your front heel to return to the starting position. This is one rep.",
+    "Repeat for reps, then switch legs."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/1082966532?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

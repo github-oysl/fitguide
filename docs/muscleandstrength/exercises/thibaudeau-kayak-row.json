@@ -1,0 +1,36 @@
+{
+  "id": "thibaudeau-kayak-row",
+  "url": "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row",
+  "title": "Thibaudeau Kayak Row",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Shoulders, Upper Back",
+  "overview": [
+    "The Thibaudeau kayak rows is an exercise used to target the muscles of the back.The exercise was made popular by world-renowned strength coach, Christian Thibaudeau. The Thibaudeau kayak row utilizes a cable pulley machine and mimics the motion one would use to paddle while in a kayak."
+  ],
+  "instructions": [
+    "Attach a medium width handle to a cable stack and assume a standing position.",
+    "Grasp the handle with a pronated grip (double overhand) at roughly shoulder width.",
+    "Keep the elbow slightly flexed and initiate the movement by depressing the shoulder blade, extending the shoulder, and laterally flexing the spine to maximally contract the lat.",
+    "Pull one side of the bar towards your thigh until the lat is fully contracted and then slowly lower under control.",
+    "Repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through the spine.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/1YF81jucQbg?rel=0",
+  "youtube_id": "1YF81jucQbg",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "seated-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/seated-cable-curl.html",
+  "title": "Seated Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the seated cable curl by getting a flat or adjustable bench and placing it facing a low pulley cable machine.",
+    "Attach a straight bar to the low pulley and select the weight you want to use on the stack.",
+    "Sit on the end of the bench facing the cable machine with your feet and knees together.",
+    "Grasp the bar with an underhand grip (palms facing up) with your hands around shoulder width apart.",
+    "Pull the weight back until your elbows are at your sides.",
+    "Keeping your elbows fixed, slowly curl the weight up as far as possible.",
+    "Pause and squeeze the biceps. Then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Don't lean or swing back as you curl the weight. Using an adjustable bench will stop you from doing this as you'll have a backrest.",
+    "Keep your elbows tucked in at your sides and don't allow them to come forward as you curl the weight up. Focus on only allowing your forearms to move.",
+    "Keep the rep timing slow and control the weight during the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001618?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

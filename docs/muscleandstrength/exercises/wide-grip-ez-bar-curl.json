@@ -1,0 +1,34 @@
+{
+  "id": "wide-grip-ez-bar-curl",
+  "url": "https://www.muscleandstrength.com/exercises/wide-grip-ez-bar-curl.html",
+  "title": "Wide Grip EZ Bar Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "EZ Bar",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Grasp an EZ Bar with your hands at a wider than shoulder width using an underhand grip (palms facing up).",
+    "Your feet should be firmly on the floor, about shoulder-width apart. If you prefer, you can place one foot back. This is the starting position.",
+    "Keeping your body fixed (do not swing!), slowly curl the weight up as far as possible.",
+    "Squeeze the biceps, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "The EZ Bar bar is preferred for wide grip curls because the shape of the bar takes some of the strain off the wrists.",
+    "When curling up the EZ Bar do not lean back or \"swing\" the weight up! Using the rest of your body and momentum to move the weight when your biceps should be doing the work, is a form of cheating.",
+    "Control the weight from start to finish. Do not allow the bar to drop too fast.",
+    "Focus on keeping all movement in your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794030?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

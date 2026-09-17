@@ -1,0 +1,33 @@
+{
+  "id": "rope-lat-pull-down",
+  "url": "https://www.muscleandstrength.com/exercises/rope-lat-pull-down.html",
+  "title": "Lateral Pulldown (Rope Extension)",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Middle Back, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by attaching a rope extension to a lat pulldown machine, setting the weight you want to use on the stack, and adjusting the knee pad.",
+    "Grasp the rope with a neutral grip, palms facing inward and thumbs back.",
+    "Sit down on the machine and take the weight off the stack, keeping your arms extended. This is the starting position.",
+    "Keeping your body tight and sitting upright, slowly pull the rope down as far as possible.",
+    "Pause, and then slowly lower the weight back to the starting position without letting it drop to the stack.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Stay seated upright throughout the set - do not lean back. Leaning back and using your body to swing the weight down is cheating!",
+    "To add more intensity, slow the rep timing down to 1-2-2."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788551?h=228c3e8e4f",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

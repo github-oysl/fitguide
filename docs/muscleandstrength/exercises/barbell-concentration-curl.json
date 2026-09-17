@@ -1,0 +1,36 @@
+{
+  "id": "barbell-concentration-curl",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-concentration-curl.html",
+  "title": "Barbell Concentration Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Grab a flat bench and sit the barbell you want to use at one end (you can also use an EZ bar).",
+    "Sit on the end of the bench with your feet slightly wider than should width apart.",
+    "Grasp the barbell with an underhand grip (palms facing up), with your hands about 6-8 inches apart.",
+    "Lean forward until your upper arms are touching the inside of your thighs.",
+    "Use your thighs to hold your arms in position throughout the exercise.",
+    "Keeping your head up, eyes facing forward, slowly curl the barbell up as far as possible.",
+    "Squeeze the biceps and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "You should bend at the elbows only. The rest of the body should be fixed for the whole set.",
+    "This is an isolation exercise, so the emphasis is not on how much weight you lift but how you work the muscle.",
+    "Keep it slow and controlled, and squeeze your biceps hard at the top of the movement for the best results."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794296?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

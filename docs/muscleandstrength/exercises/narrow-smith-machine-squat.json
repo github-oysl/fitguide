@@ -1,0 +1,35 @@
+{
+  "id": "narrow-smith-machine-squat",
+  "url": "https://www.muscleandstrength.com/exercises/narrow-smith-machine-squat.html",
+  "title": "Narrow Stance Smith Machine Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Set the bar to around shoulder height and load the weight you want to use.",
+    "Stand under the bar with your legs in a narrow stance, closer than shoulder width.",
+    "Grasp the bar and position the center on top of your back muscles. The bar should not rest on your neck.",
+    "Take the weight off the rack. This is the starting position.",
+    "Inhale and slowly squat down until your thighs are parallel to the floor.",
+    "Pause. Exhale, and push through your heels to raise the bar back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Don't push from the balls of your feet. This puts unnecessary strain on joints and tendons.",
+    "Using squats to their full potential requires squatting down until your thighs are at least parallel to the floor.",
+    "Keep your back straight and your core engaged throughout the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881673?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

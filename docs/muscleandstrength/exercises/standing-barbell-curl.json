@@ -1,0 +1,33 @@
+{
+  "id": "standing-barbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html",
+  "title": "Standing Barbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The Standing Barbell Curl is a bicep-focused exercise that targets the upper arms, primarily working the biceps brachii.This exercise is effective for building bicep strength and size and can be done with varying weight and rep ranges to suit different fitness goals.Proper form—avoiding body swinging and maintaining control throughout the movement—is key for maximum effectiveness."
+  ],
+  "instructions": [
+    "Grasp a barbell or EZ bar with an underhand grip and stand with your feet around shoulder-width apart. This is the starting position for the exercise.",
+    "Bending at the elbows, slowly curl the weight up as far as possible.",
+    "Squeeze the biceps, and then slowly lower the weight back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows at your sides throughout the movement and only move your forearms.",
+    "Keep the movement slow and controlled. Do not swing the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008460?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bus-drivers",
+  "url": "https://www.muscleandstrength.com/exercises/bus-drivers",
+  "title": "Bus Drivers",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Traps, Upper Back",
+  "overview": [
+    "The bus driver exercise is a great prehab and warm up exercise to perform to promote rotator cuff health.Rotator cuffs are one of the more common injuries, especially as lifters get older. Performing prehab exercises such as bus drivers can help prevent injury and increase your longevity in the gym."
+  ],
+  "instructions": [
+    "Assume a standing position with a plate in both hands using a neutral grip.",
+    "Inhale, brace your abs, and raise the arms vertically while keeping the elbows slightly bent.",
+    "Once the arms are parallel with the floor, rotate the plate clockwise and counterclockwise.",
+    "Slowly lower the plate back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t lean back as you raise the arms, keep the motion under control and don’t rely on momentum.",
+    "Try not to bounce at the top of the movement, allow the shoulders to flex and then lower slowly.",
+    "As the arms raise, don’t allow the head to jut forward."
+  ],
+  "video_url": "https://www.youtube.com/embed/VR2wuQ0FySQ?rel=0",
+  "youtube_id": "VR2wuQ0FySQ",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

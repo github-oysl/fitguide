@@ -1,0 +1,50 @@
+{
+  "id": "clean",
+  "url": "https://www.muscleandstrength.com/exercises/clean",
+  "title": "Clean",
+  "target_muscle": "Quads",
+  "exercise_type": "Olympic Weightlifting",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Biceps, Calves, Forearms, Glutes, Hamstrings, Lats, Lower Back, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The clean is a full body exercise that is commonly performed in Olympic weight lifting and athletic training facilities.The clean is an extremely explosive movement that combines an initialdeadliftlike pull and finishes up with afront squatlike push. The middle portion of the movement will involve a lot of muscles of the upper body, with a primary focus being on the shoulders and traps."
+  ],
+  "instructions": [
+    "Position the bar over the knot on your shoelaces but not touching your shins.",
+    "Setup with your feet in a shoulder width stance, toes pointed out slightly, and your hands slightly wider than shoulder width.",
+    "Drop your hips and drive the chest up while looking forward.",
+    "Keeping the bar close to your body, begin to push the floor away and shift your knees back.",
+    "As the bar passes your knees, shift your knees forward into a power position with your torso upright.",
+    "Explosively jump straight up and shrug the bar aggressively.",
+    "As the bar passes your shoulders, rotate your elbows around the bar until they are facing forward.",
+    "Drop underneath the bar into a squat and catch the clean on your shoulders in the front rack position with your hands outside of your shoulders.",
+    "Reverse the movement by rotating the elbows back around the bar, unbending the elbows, and catching the bar at the crease of your hip before lowering to the floor.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Olympic lifting is about efficiency, not just brute strength.",
+    "Given the difference in hand position, the hips will likely start a little lower in the clean compared to the snatch.",
+    "Use this simple jingle to help groove the necessary positions for the snatch:Starting positionKnees backKnees forwardJump and shrug",
+    "Starting position",
+    "Knees back",
+    "Knees forward",
+    "Jump and shrug",
+    "Think “slow off the floor, fast into the hips”.",
+    "Ideally you want the movement to take place in a vertical fashion. Don’t think about pushing the hips forward, think up.",
+    "Work on front squats and RDLs initially before moving into the clean, this will ensure that you’re already strong in a hinge and front rack position.",
+    "When initially learning the clean, start from the hang (middle of the thigh).",
+    "Toe angle is highly individual - experiment to see what feels best for you.",
+    "Drive through the whole foot - you want 3 points of contact: big toe, little toe, and heel."
+  ],
+  "video_url": "https://www.youtube.com/embed/wKSJOLL5NU4?rel=0",
+  "youtube_id": "wKSJOLL5NU4",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

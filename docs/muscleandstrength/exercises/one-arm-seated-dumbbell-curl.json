@@ -1,0 +1,33 @@
+{
+  "id": "one-arm-seated-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-curl.html",
+  "title": "One-Arm Seated Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the one-arm seated dumbbell curl by grabbing a flat bench or adjustable bench and placing a dumbbell at one end. If you're using an adjustable bench, adjust the back to a 90-degree angle.",
+    "Sit on the end of the bench with your feet out in front of you and your knees together.",
+    "Pick up the dumbbell with one hand and bend the arm slightly to take the tension into the bicep. This is the starting position for the exercise.",
+    "With your back straight and your elbow tucked in at your side, slowly curl the dumbbell up as far as possible.",
+    "Squeeze the bicep hard,  and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps, and then repeat for the other arm."
+  ],
+  "tips": [
+    "Keep the rep timing slow and control the weight throughout the set.",
+    "Keep your elbow tucked in at your side, don't allow it to come forward as you move the weight. Only your forearm should move."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794231?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "machine-row",
+  "url": "https://www.muscleandstrength.com/exercises/machine-row.html",
+  "title": "Machine Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [
+    "The machine row targets the upper back, specifically the latissimus dorsi, rhomboids, and trapezius muscles, while also engaging the biceps and forearms. It improves back strength, posture, and muscle definition.Benefits of this exercise include enhanced upper body stability, postural support, and pulling strength, which are all vital for daily activities and other exercises likedeadliftsandpull-ups.The machine row also helps prevent muscle imbalances by developing the muscles of the back, counteracting the effects of sitting or forward-leaning positions."
+  ],
+  "instructions": [
+    "Adjust the seat so that your knees are slightly bent and the handles are around chest height. Set the weight to your desired level.",
+    "Grab the handles with a neutral grip, keeping your arms extended and elbows slightly bent. This is the starting position.",
+    "Engage your back muscles and pull the handles towards your torso, squeezing your shoulder blades together.",
+    "Slowly return the handles to the starting position, extending your arms fully while maintaining control. This is one repetition.",
+    "Perform the desired number of repetitions, keeping your movements smooth and controlled."
+  ],
+  "tips": [
+    "Maintain good posture. Sit tall with your chest up and back straight, not rounded. Engage your core to avoid excessive arching in your lower back.",
+    "Focus on pulling with your back muscles (lats, rhomboids, and traps) rather than using your arms. Your elbows should travel close to your body as you row.",
+    "Avoid leaning back or using momentum to pull the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881179?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

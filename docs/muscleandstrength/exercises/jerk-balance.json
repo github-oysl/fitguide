@@ -1,0 +1,38 @@
+{
+  "id": "jerk-balance",
+  "url": "https://www.muscleandstrength.com/exercises/jerk-balance",
+  "title": "Jerk Balance",
+  "target_muscle": "Quads",
+  "exercise_type": "Olympic Weightlifting",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The jerk balance is a full body exercise and is typically performed in Olympic style weightlifting facilities.The jerk is a pushing movement pattern that works both the pushing muscles of the lower body (quads) and upper body (shoulders and triceps)Olympic lifts, such as the jerk balance, are very technically demanding and require a lot of practice prior to performing with any sort of significant weight."
+  ],
+  "instructions": [
+    "Setup with the bar in the front rack as you would for a front squat and your feet in a the split stance jerk position.",
+    "Dip slightly by bending the front knee and then drive up and press the bar overhead.",
+    "As the bar reaches lockout, move the front foot forward to mimic your jerk finish position.",
+    "Catch the bar overhead with elbows locked out.",
+    "Drop the bar back down to the shoulders.",
+    "Move the front foot back into the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Olympic lifting is about efficiency, not just brute strength.",
+    "Dip and drive, use the front leg drive to generate momentum as you drive the bar overhead.",
+    "Ensure the front shin stays vertical both at the start and finish position.",
+    "Drive the chin back as you press overhead to ensure the bar doesn’t contact the face on the way up.",
+    "Drive the head through at the top to ensure the bar finishes overhead."
+  ],
+  "video_url": "https://www.youtube.com/embed/sINEIuhGTF0?rel=0",
+  "youtube_id": "sINEIuhGTF0",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

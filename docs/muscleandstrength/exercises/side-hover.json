@@ -1,0 +1,32 @@
+{
+  "id": "side-hover",
+  "url": "https://www.muscleandstrength.com/exercises/side-hover.html",
+  "title": "Side Plank",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Static",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Lower Back",
+  "overview": [],
+  "instructions": [
+    "The side plank is a great exercise for building core strength, and more specifically oblique strength. It's also a good balance exercise. It's your choice whether to use a mat in this exercise. Start by laying on your side with one hand on the floor and your feet on top of one another.",
+    "If you prefer, you can rest on your elbow instead of your hand.",
+    "Lift your hips up until your body is exactly straight.",
+    "Now hold this position for as long as possible. You should feel this exercise in your abs and obliques.",
+    "Complete the same for the opposite side of the body.",
+    "Do not let your mid-section sag. Always stay perfectly straight.",
+    "Do the side plank in front of the mirror to ensure you keep your technique tight!",
+    "Try to hold your plank for a full minute. Hold the plank for longer periods of time for increased intensity."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/877885425?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

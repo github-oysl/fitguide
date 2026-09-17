@@ -1,0 +1,36 @@
+{
+  "id": "smith-machine-incline-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-incline-tricep-extension.html",
+  "title": "Smith Machine Incline Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set an incline bench to an angle of between 30 and 45 degrees and place it with the highest end underneath the smith machine bar.",
+    "Load the weight you want to use on the smith machine.",
+    "Lay back on the incline bench with your feet firmly positioned on the floor.",
+    "Grasp the bar with an underhand grip (palms facing up) slightly closer than shoulder-width apart.",
+    "Take the weight off the stack and extend your arms. This is the starting position.",
+    "Keeping your elbows fixed, slowly lower the bar down as far as possible.",
+    "Pause, and then raise the bar back to the starting position without locking the elbows out.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "To get the bench positioning right, it's a good idea to test it without any weight loaded on the bar before you start your first set.",
+    "Keep your elbows fixed throughout the set and don't let them flare out as you lower the bar down.",
+    "Squeeze the triceps at the top of the movement!"
+  ],
+  "video_url": "https://player.vimeo.com/video/756783772?h=94bf2e39a2&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

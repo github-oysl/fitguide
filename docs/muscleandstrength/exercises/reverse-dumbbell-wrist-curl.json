@@ -1,0 +1,32 @@
+{
+  "id": "reverse-dumbbell-wrist-curl",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl.html",
+  "title": "Seated Reverse Grip Dumbbell Wrist Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Grab a pair of dumbbells using a pronated grip (palms facing down) and sit down on the end of a flat bench.",
+    "Bending only at the wrists, let the dumbbells drop as far as possible. This is the starting position for the exercise.",
+    "Slowly curl the dumbbells towards your body using your wrists. Squeeze the forearm muscles at the top of the movement.",
+    "Pause, and then slowly lower the dumbbells back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep the rep timing slow, and pause/squeeze the forearms for a count of two at the top of the movement for added intensity.",
+    "Use a full range of motion by allowing the weight to drop as far as possible at the bottom of the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881908?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

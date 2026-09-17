@@ -1,0 +1,33 @@
+{
+  "id": "hammer-bar-preacher-curl",
+  "url": "https://www.muscleandstrength.com/exercises/hammer-bar-preacher-curl.html",
+  "title": "Hammer Bar Preacher Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Adjust the seat on the preacher bench so that your upper arms sit comfortably on the padding when seated.",
+    "Load the desired weight onto a Hammer Bar and sit on a preacher bench.",
+    "Grab the bar with a neutral grip, with your hands around shoulder-width apart. Hold the bar in front of you supporting it with your arms slightly bent. This is the starting position.",
+    "Slowly curl the bar up as far as possible.",
+    "Squeeze the biceps at the top of the exercise, and then slowly lower the bar back to the starting position keeping tension on your biceps at all times.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows tucked in at your sides, and don't allow them to move forward when curling the weight.",
+    "Always do the exercise slowly and control the weight throughout the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881808?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

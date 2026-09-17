@@ -1,0 +1,36 @@
+{
+  "id": "one-arm-prone-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-prone-dumbbell-curl.html",
+  "title": "One-Arm Prone Incline Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the one-arm prone incline dumbbell curl by setting an adjustable bench to an angle of around 30-40 degrees.",
+    "Grab a dumbbell with one arm and position yourself with your chest on the back of the bench (prone position).",
+    "Use your feet to stabilize yourself, and position your shoulders to be level with the top of the bench. One arm should be hanging, holding the dumbbell with an underhand grip (palms facing up).",
+    "You can use the free arm for stability.",
+    "Put the tension on your bicep by slightly bending your hanging arm. This is the starting position for the exercise.",
+    "With your elbow fixed, slowly curl the dumbbell up as far as possible.",
+    "Squeeze the bicep and slowly lower the dumbbell back to the starting position.",
+    "Repeat for desired reps, and then repeat for the other arm."
+  ],
+  "tips": [
+    "Keep the rep timing slow and control the weight on the way down.",
+    "Use a full range of motion by allowing the weight to go down, while keeping the tension on the bicep muscle.",
+    "Keep your elbow fixed. Don't allow it to come forward as you curl the weight up. Only your forearm should be moving."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794439?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

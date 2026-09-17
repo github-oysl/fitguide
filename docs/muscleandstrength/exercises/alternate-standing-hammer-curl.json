@@ -1,0 +1,31 @@
+{
+  "id": "alternate-standing-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/alternate-standing-hammer-curl.html",
+  "title": "Alternating Standing Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Grab a pair of dumbbells and stand up with the dumbbells by your sides.",
+    "With a neutral grip, bend your arms slightly to keep the tension on the biceps.",
+    "Keeping your body fixed and elbows in at your sides, slowly curl the dumbbell up with one arm.",
+    "Squeeze the bicep at the top of the movement, and then slowly lower the weight back to the starting position.",
+    "Repeat the same movement for the other arm. This is one rep."
+  ],
+  "tips": [
+    "Keep the rep timing slow and controlled."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794147?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

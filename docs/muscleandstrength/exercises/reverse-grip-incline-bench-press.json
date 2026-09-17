@@ -1,0 +1,34 @@
+{
+  "id": "reverse-grip-incline-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-press.html",
+  "title": "Reverse Grip Incline Bench Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the reverse grip incline bench press by setting the bench to an angle of between 30 and 40 degrees. 30 is preferable as any higher than that will recruit too much of your shoulders. Load the weight you want to use.",
+    "Lay back on the bench with your feet firmly on the floor and grasp the barbell with a wider than shoulder-width underhand grip (palms facing your head).",
+    "Take the barbell off the rack. Slowly lower the barbell down to the top of your chest as far as possible without touching your body.",
+    "Pause, then slowly raise the bar back to the starting position.",
+    "Do not lock your elbows out, and repeat for desired reps."
+  ],
+  "tips": [
+    "Make sure you grip the bar with your thumbs around it.",
+    "Keep the rep timing slow and control the weight.",
+    "Don't bounce the weight off your chest.",
+    "Don't lock your elbows out at the top of the movement."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783664?h=0da27a79f6&badge=0&autopause=0&player_id=0&app_id=58479/embed",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

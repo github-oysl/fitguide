@@ -1,0 +1,34 @@
+{
+  "id": "two-arm-cable-lateral-raise",
+  "url": "https://www.muscleandstrength.com/exercises/two-arm-cable-lateral-raise.html",
+  "title": "Cable Lateral Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set the pulleys of a dual cable machine to the low setting and select the weight you wish to use.",
+    "Stand facing away from the machine and grasp opposite handles with opposite hands.",
+    "Stand straight up with your arms in front of you (crossed over). The weight should be slightly off the stack. This is the starting position for the movement.",
+    "Keeping your elbows high, extend your arms out in a semi-circle motion.",
+    "Once your hands get to around shoulder height, pause and slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Because this is an isolation movement, form is more important than weight.",
+    "Keep your elbows high throughout the movement.",
+    "Don't flare your hands up as you move the weight as this will bring the front delts into the exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001811?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

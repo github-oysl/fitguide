@@ -1,0 +1,33 @@
+{
+  "id": "barbell-wrist-curl",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html",
+  "title": "Seated Barbell Wrist Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The seated barbell wrist curl is a wrist curl variation and an exercise used to target the muscles of the forearms.Having strong forearms, and training the forearms in multiple ways, will allow you to lift heavier weight in many exercises simply by strengthening your grip.Forearms can be a resistant muscle to grow and may require ahigher training frequencyto experience a noticeable difference in forearm strength and size."
+  ],
+  "instructions": [
+    "Select the desired weight, load it onto the bar, and assume a seated position with the forearms resting comfortably on your thighs.",
+    "Utilize a supinated (palms up) grip and curl the bar towards your body using just the wrists.",
+    "Once the forearm flexors are fully shortened, slowly lower the weight back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+    "Try not to open the fingers at the bottom of the movement, just move through the wrist."
+  ],
+  "video_url": "https://www.youtube.com/embed/cOBaYeX3bYo?rel=0",
+  "youtube_id": "cOBaYeX3bYo",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

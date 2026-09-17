@@ -1,0 +1,36 @@
+{
+  "id": "split-jerk",
+  "url": "https://www.muscleandstrength.com/exercises/split-jerk",
+  "title": "Split Jerk",
+  "target_muscle": "Quads",
+  "exercise_type": "Olympic Weightlifting",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, Upper Back",
+  "overview": [
+    "The split jerk is a variation of the jerk and a full body exercise that is commonly performed in Olympic weight lifting and athletic training facilities.The split jerk is an extremely explosive movement that involves nearly every muscle in the body. They can be especially beneficial for those looking to build explosiveness for sports, or those looking to build thicker traps by using explosive exercises."
+  ],
+  "instructions": [
+    "Setup with the bar at chest height.",
+    "Rotate the elbows around the bar and maintain a front rack position as you unrack the bar and take two steps back.",
+    "Dip slightly at the knees and then explode straight up as you press the bar overhead.",
+    "As the bar is still moving overhead, drop underneath and catch the bar in the normal split stance jerk finish position.",
+    "Stand up by taking a step back with the front foot and then stepping forward with the back leg.",
+    "If not completing any further repetitions, drop the bar from overhead in a somewhat controlled fashion."
+  ],
+  "tips": [
+    "Olympic lifting is about efficiency, not just brute strength.",
+    "With most jerks you will want to just drop them from overhead given it would require quite a bit of work to lower them back to the floor under control. Not to mention, when the weight gets heavy this could present a further injury risk to an already complicated lift.",
+    "With the jerk, smaller athletes may need to keep the elbows up during the dip prior to the jerk as the bar may have a tendency to slide forward off their shoulders due to the smaller size of the musculature."
+  ],
+  "video_url": "https://www.youtube.com/embed/YqSivv9cpIs?rel=0",
+  "youtube_id": "YqSivv9cpIs",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

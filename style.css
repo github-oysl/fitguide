@@ -650,8 +650,21 @@ h2 { font-size: var(--fs-xl); }
   display: flex; flex-direction: column; flex: 1;
   padding: var(--sp-5); border-top: 1px solid var(--line);
 }
-.card-meta { display: flex; justify-content: space-between; gap: var(--sp-2); font-size: var(--fs-2xs); color: var(--muted); }
-.card-meta span:first-child { color: var(--green); font-weight: 500; }
+.card-meta { display: flex; justify-content: space-between; align-items: center; gap: var(--sp-2); font-size: var(--fs-2xs); color: var(--muted); }
+.card-equip-badge {
+  color: var(--green); font-weight: 600;
+  max-width: 68%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.card-status-tag {
+  font-size: var(--fs-2xs); font-weight: 500;
+  padding: 2px 7px; border-radius: var(--r-pill); white-space: nowrap;
+}
+.card-status-tag.is-available {
+  background: var(--soft); color: var(--green); border: 1px solid rgba(44, 83, 62, .18);
+}
+.card-status-tag.is-missing {
+  background: rgba(180, 70, 40, .08); color: #9c3325; border: 1px solid rgba(180, 70, 40, .22);
+}
 .card-body h3 { margin: 10px 0 6px; font-size: var(--fs-lg); }
 .primary { margin: 0 0 10px; font-size: var(--fs-xs); color: var(--green); }
 .cue { margin: 0 0 12px; font-size: 13.5px; color: var(--ink-2); }
@@ -754,34 +767,133 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
   display: flex; flex-direction: column; gap: 7px;
   font-size: var(--fs-2xs); color: var(--ink-2);
 }
-.equip-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-3); }
-.equip-card {
-  position: relative; display: flex; flex-direction: column; gap: 4px;
-  padding: var(--sp-4); border: 1px solid var(--line); border-radius: var(--r-md);
-  background: var(--surface); cursor: pointer;
-  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+/* 器械配置页头部与统计药丸 */
+.equip-section-header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: var(--sp-4); flex-wrap: wrap; margin-bottom: var(--sp-3);
 }
-.equip-card input[type=checkbox] { position: absolute; opacity: 0; width: 0; height: 0; }
-.equip-card b { font-size: var(--fs-sm); font-weight: 500; }
-.equip-card small { font-size: var(--fs-2xs); color: var(--muted); }
-.equip-count { font-size: var(--fs-2xs); color: var(--green); font-weight: 500; }
-.equip-card:hover { border-color: var(--line-strong); background: var(--tint); }
-.equip-card.is-on { border-color: var(--green); background: var(--soft); }
-.equip-card.is-on b { color: var(--green-deep); }
+.equip-stats-pill {
+  padding: 6px 14px; border: 1px solid var(--lime); border-radius: 999px;
+  background: var(--soft); font-size: var(--fs-2xs); color: var(--ink-2);
+  white-space: nowrap; align-self: center;
+}
+.equip-stats-pill b { color: var(--green); font-weight: 700; }
 
+/* 选项工具栏与 Tab */
+.equip-toolbar {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: var(--sp-3); flex-wrap: wrap; margin-bottom: var(--sp-4);
+}
+.equip-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.equip-tab {
+  padding: 6px 12px; border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: var(--surface); color: var(--ink-2); font-size: var(--fs-xs);
+  cursor: pointer; transition: all var(--dur) var(--ease);
+}
+.equip-tab:hover { border-color: var(--line-strong); background: var(--tint); }
+.equip-tab.is-active {
+  border-color: var(--green); background: var(--green); color: #fff; font-weight: 600;
+}
+
+.equip-quick-btns { display: flex; gap: 6px; }
+.btn-micro {
+  padding: 4px 10px; min-height: 28px; border: 1px solid var(--line);
+  border-radius: var(--r-sm); background: var(--tint); color: var(--ink-2);
+  font-size: var(--fs-2xs); cursor: pointer;
+}
+.btn-micro:hover { border-color: var(--line-strong); background: var(--surface); color: var(--ink); }
+
+/* 具体器械网格卡片 */
+.equip-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-4);
+}
+.equip-card {
+  position: relative; display: flex; gap: var(--sp-3);
+  padding: var(--sp-3); border: 1px solid var(--line); border-radius: var(--r-md);
+  background: var(--surface); cursor: pointer; opacity: 0.65;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease), opacity var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.equip-card input[type=checkbox] { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+.equip-card:hover { border-color: var(--line-strong); opacity: 0.9; }
+
+.equip-card.is-on {
+  border-color: var(--green); background: var(--soft); opacity: 1;
+}
+
+.equip-thumb-wrap {
+  position: relative; flex-shrink: 0; width: 88px; height: 88px;
+  border-radius: var(--r-sm); overflow: hidden; background: var(--tint);
+  border: 1px solid var(--line);
+}
+.equip-thumb {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.equip-badge {
+  position: absolute; bottom: 4px; left: 4px;
+  padding: 1px 5px; border-radius: 4px; background: rgba(0, 0, 0, 0.65);
+  color: #fff; font-size: 11px; font-weight: 700; line-height: 1.3;
+}
+
+.equip-card-info {
+  flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px;
+}
+.equip-card-top {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: var(--sp-2);
+}
+.equip-name {
+  font-size: var(--fs-sm); font-weight: 600; color: var(--ink); line-height: 1.3;
+}
+.equip-status-tag {
+  flex-shrink: 0; padding: 2px 7px; border-radius: 999px;
+  font-size: 11px; font-weight: 500; border: 1px solid var(--line);
+  background: var(--tint); color: var(--muted);
+}
+.equip-card.is-on .equip-status-tag {
+  border-color: var(--lime); background: var(--surface); color: var(--green); font-weight: 600;
+}
+.equip-sub {
+  font-size: var(--fs-2xs); color: var(--muted); line-height: 1.2;
+}
+.equip-desc {
+  font-size: var(--fs-2xs); color: var(--ink-2); line-height: 1.35;
+  margin: 2px 0 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.equip-photo-note {
+  font-size: 11px; color: var(--green); line-height: 1.3; margin-bottom: 4px;
+}
+.equip-photo-note small { font-size: 11px; }
+.equip-card-footer {
+  margin-top: auto; display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+}
+.equip-count-badge {
+  font-size: 11px; color: var(--green); font-weight: 600;
+  padding: 1px 6px; border-radius: 4px; background: rgba(0, 168, 112, 0.08);
+}
+.equip-ex-preview {
+  font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 140px;
+}
+
+/* 备注列表 */
 .notes-list { margin-top: var(--sp-2); }
 .notes-group { border: 1px solid var(--line); border-radius: var(--r-md); margin-bottom: var(--sp-3); }
 .notes-group summary {
   min-height: 44px; padding: var(--sp-3) var(--sp-4);
-  font-size: var(--fs-sm); font-weight: 500;
+  font-size: var(--fs-sm); font-weight: 500; display: flex; justify-content: space-between; align-items: center;
 }
-.notes-group summary small { margin-left: var(--sp-2); font-weight: 400; color: var(--muted); font-size: var(--fs-2xs); }
+.notes-group-title { display: flex; align-items: center; gap: 8px; }
+.notes-mini-thumb {
+  width: 26px; height: 26px; border-radius: 4px; object-fit: cover; border: 1px solid var(--line);
+}
+.notes-group summary small { font-weight: 400; color: var(--muted); font-size: var(--fs-2xs); }
 .notes-items { padding: 0 var(--sp-4) var(--sp-4); }
 .note-row {
   display: flex; flex-direction: column; gap: 4px;
   padding: var(--sp-3) 0; border-top: 1px solid var(--line);
 }
-.note-row span { font-size: var(--fs-sm); font-weight: 500; }
+.note-row-label { display: flex; justify-content: space-between; align-items: baseline; }
+.note-row-label span { font-size: var(--fs-sm); font-weight: 500; }
+.note-row-label small { font-size: var(--fs-2xs); color: var(--muted); }
 .note-row textarea {
   width: 100%; min-height: 36px; padding: 8px 10px;
   border: 1px solid var(--line); border-radius: var(--r-sm);
@@ -792,13 +904,20 @@ dialog::backdrop { background: rgba(20, 39, 27, .72); }
 .settings-actions-row { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
 .settings-status { margin-top: var(--sp-3); font-size: var(--fs-2xs); color: var(--muted); }
 
-/* 动作详情中的健身房备注 */
+/* 动作详情中的健身房备注与器械标签 */
 .gym-note-wrap {
   margin: var(--sp-4) 0 0; padding: var(--sp-3) var(--sp-4);
   border: 1px solid var(--lime); border-radius: var(--r-sm);
   background: var(--soft); font-size: var(--fs-sm);
 }
-.gym-note-wrap b { font-size: var(--fs-2xs); color: var(--green); display: block; margin-bottom: 4px; }
+.gym-note-header {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;
+}
+.gym-note-wrap b { font-size: var(--fs-2xs); color: var(--green); }
+.gym-note-equip-tag {
+  font-size: 11px; padding: 2px 7px; border-radius: 4px;
+  background: var(--surface); border: 1px solid var(--line); color: var(--ink-2); font-weight: 500;
+}
 .gym-note-wrap p { color: var(--ink-2); margin: 0; }
 .gym-note-wrap textarea {
   display: block; width: 100%; margin-top: var(--sp-2); padding: 8px;

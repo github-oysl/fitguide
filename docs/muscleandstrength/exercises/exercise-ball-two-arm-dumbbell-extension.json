@@ -1,0 +1,33 @@
+{
+  "id": "exercise-ball-two-arm-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/exercise-ball-two-arm-dumbbell-extension.html",
+  "title": "Exercise Ball Two-Arm Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs",
+  "overview": [],
+  "instructions": [
+    "Set up by sitting on an exercise ball and holding a dumbbell above your head using two hands.",
+    "Keep your feet at a wide stance on the floor for stability.",
+    "Tense your core muscles and straighten your back. Keeping your eyes facing and core tight, slowly lower the dumbbell behind your head as far as possible.",
+    "Pause, and then slowly extend your arms squeezing the triceps.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Make sure you keep your back straight throughout the set by tensing your core muscles and keeping your head and eyes up.",
+    "Keep the rep timing slow and controlled.",
+    "Don't \"rest\" at the top of the movement by locking your elbows out."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784453?h=37fad1e829&badge=0&autopause=0&player_id=0&app_id=58479/embed",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

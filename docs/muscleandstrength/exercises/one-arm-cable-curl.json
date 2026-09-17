@@ -1,0 +1,33 @@
+{
+  "id": "one-arm-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html",
+  "title": "One-Arm Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the one-arm cable curl by attaching a single grip handle to a low pulley cable and selecting the weight you want to use.",
+    "Stand in front of the cable machine and grasp the handle with an underhand grip.",
+    "With your body fixed and your elbow tucked in at your side, slowly curl the weight up as far as possible.",
+    "Squeeze the bicep at the top of the movement, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps, and then repeat for the other arm."
+  ],
+  "tips": [
+    "Keep your body straight and fixed during the set. Do not swing back or lean back as you curl the weight up.",
+    "Keep the elbow of the arm curling the weight tucked in at your side and use the other arm to stabilize your body.",
+    "Only your forearm should be moving."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001492?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

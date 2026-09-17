@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-bicep-curl",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-bicep-curl.html",
+  "title": "Smith Machine Bicep Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up the Smith Machine by adjusting the bar to waist height and loading the appropriate weight.",
+    "Stand facing the machine, and grip the bar with palms up, shoulder-width apart.",
+    "Position your elbows, keeping them close to your body. This is the starting position.",
+    "Slowly curl the bar up by contracting your biceps, exhaling as you lift.",
+    "Pause and squeeze your biceps briefly at the top.",
+    "Slowly lower the bar back to the starting position, inhaling as you descend. This is one rep.",
+    "Perform the desired reps, focusing on form and control."
+  ],
+  "tips": [
+    "Focus on form, not weight. Keep the movement controlled and deliberate.",
+    "Do not use your back or shoulders to lift the weight—concentrate on isolating your biceps.",
+    "Avoid locking your elbows at the bottom to keep tension on the muscles."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008086?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

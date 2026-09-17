@@ -1,0 +1,36 @@
+{
+  "id": "one-leg-hack-squat",
+  "url": "https://www.muscleandstrength.com/exercises/one-leg-hack-squat.html",
+  "title": "One-Leg Hack Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [
+    "A One-Leg Hack Squat is a variation of the traditionalhack squat, performed on a hack squat machine using only one leg at a time. It targets the quads, glutes, and hamstrings, while also improving balance and unilateral strength.By isolating one leg, it helps correct muscle imbalances and increases focus on the individual leg’s strength. This exercise involves lowering the body by bending the knee, then driving back up through the heel to return to the starting position."
+  ],
+  "instructions": [
+    "Adjust the hack squat machine and load an appropriate weight.",
+    "Place one foot on the platform, centered, with the heel slightly raised.",
+    "Place your shoulders under the pads and grip the handles.",
+    "Release the safety bars to allow the machine to move. This is the starting position.",
+    "Slowly bend your knee, lowering your body while keeping your torso upright.",
+    "Press through your heel to extend your leg and return to the starting position. This is one rep.",
+    "Complete the desired reps, then switch legs."
+  ],
+  "tips": [
+    "Lower the weight slowly.",
+    "Keep your movements controlled and focus on your working leg."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008117?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

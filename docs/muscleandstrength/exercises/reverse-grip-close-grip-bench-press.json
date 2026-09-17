@@ -1,0 +1,35 @@
+{
+  "id": "reverse-grip-close-grip-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-grip-close-grip-bench-press.html",
+  "title": "Reverse Grip Close Grip Bench Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by loading the weight on the bar and adjusting the height of the rack (if adjustable).",
+    "Lay back on the bench and position your feet firmly on the floor.",
+    "Grab the barbell with an underhand grip (palms facing your head) with your hands about 8-12 inches apart. Take the weight off the rack.",
+    "Keeping your elbows tucked in at your sides, slowly lower the barbell down to your middle chest until it's about 1 inch from touching.",
+    "Contract the triceps and push the barbell back up until your arms are almost fully outstretched.",
+    "Don't lock the elbows, and then repeat the movement for desired reps."
+  ],
+  "tips": [
+    "The reverse grip bench is a variation of the close grip bench press. Technique is important to make sure that the close grip bench press works the triceps primarily and not the chest/shoulders.",
+    "Keep your elbows as close to your body as possible during the set.",
+    "Don't let the bar touch your chest and don't lock your elbows out at the top of the exercise.",
+    "Focus on the stretch and contraction of the triceps throughout the movement. The mind-muscle connection is really important here, and you might want to practice the close grip bench press with no weight until you can engage your triceps as the prime movers for the exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788436?h=c03d4c1f9d",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

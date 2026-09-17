@@ -1,0 +1,37 @@
+{
+  "id": "lying-shoulder-press",
+  "url": "https://www.muscleandstrength.com/exercises/lying-shoulder-press",
+  "title": "Lying Shoulder Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The lying shoulder press is adumbbell shoulder pressvariation that is used to strengthen the muscles of the shoulders.The key difference that separates the lying shoulder press to other variations is the need to keep the arms externally rotated throughout the entire exercise. The lying shoulder press is an excellent option for those looking to bulletproof their rotator cuffs and strengthen their rear delts."
+  ],
+  "instructions": [
+    "Assume a prone position on a flat bench with your chin tucked and arms straight.",
+    "Reach down, grab the dumbbells, and rotate at the shoulders with the hands facing forward.",
+    "Take a deep breath and press the dumbbells overhead by extending the elbows and contracting the deltoids.",
+    "Slowly lower the dumbbells back to the starting position (the arms should be roughly 90 degrees or slightly lower depending upon limb lengths).",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Focus on keeping the wrist in line with the elbow as you press.",
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead than it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/MRcXJN-fBOQ?rel=0",
+  "youtube_id": "MRcXJN-fBOQ",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

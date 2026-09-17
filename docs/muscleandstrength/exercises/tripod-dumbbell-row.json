@@ -1,0 +1,38 @@
+{
+  "id": "tripod-dumbbell-row",
+  "url": "https://www.muscleandstrength.com/exercises/tripod-dumbbell-row",
+  "title": "Tripod Dumbbell Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The tripod dumbbell row is a variation of thedumbbell bent over rowand an exercise one would typically use when trying to target the muscles of the back.The tripod dumbbell row requires more core stability than other, more supported dumbbell row variations. The tripod dumbbell row also allows one to work the muscles of the back unilaterally, which can lead to a more symmetrical physique and balanced strength."
+  ],
+  "instructions": [
+    "Assume a kneeling position on the bench with your ipsilateral (i.e. same side) hand braced against the bench.",
+    "Hold a dumbbell in the opposite hand with a neutral grip.",
+    "Begin the movement by driving the elbow behind the body while retracting the shoulder blade.",
+    "Pull the dumbbell towards your body until the elbow is at (or just past) the midline and then slowly lower the dumbbells back to the starting position under control.",
+    "Repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the dumbbells throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/78Z2mk9LQoI?rel=0",
+  "youtube_id": "78Z2mk9LQoI",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

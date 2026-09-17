@@ -1,0 +1,34 @@
+{
+  "id": "barbell-front-raise",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-front-raise.html",
+  "title": "Barbell Front Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Traps",
+  "overview": [
+    "The barbell front raise is ashoulder exerciseused to target the front deltoids.Use of the barbell can allow you to overload the muscles to a greater degree than one may be capable of doing with dumbbells.The front deltoid is involved in several pressing movements and working to increase the strength of this muscle group can have a positive carry over into your heavy pushing lifts.From an aesthetics standpoint, bigger front deltoids can lead to an appearance of a complete set of shoulders and wider framed upper body."
+  ],
+  "instructions": [
+    "Select the desired weight and load it onto a barbell.",
+    "Assume a shoulder width stance and grasp the bar at shoulder width with a pronated grip.",
+    "Inhale, brace your abs, and raise the arms vertically while keeping the elbows nearly locked out.",
+    "Once the arms are parallel with the floor, slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t lean back as you raise the arms, keep the motion under control and don’t rely on momentum.",
+    "Try not to bounce at the top of the movement, allow the shoulders to flex and then lower slowly."
+  ],
+  "video_url": "https://www.youtube.com/embed/lhV2-z6s_bI?rel=0",
+  "youtube_id": "lhV2-z6s_bI",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

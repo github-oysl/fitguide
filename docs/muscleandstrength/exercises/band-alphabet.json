@@ -1,0 +1,35 @@
+{
+  "id": "band-alphabet",
+  "url": "https://www.muscleandstrength.com/exercises/band-alphabet",
+  "title": "Banded Alphabet",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [
+    "The banded alphabet is an exercise used to strength the core and works the abdominals through stabilization.The banded alphabet is an intermediate variation of the pallof press and should only be attempted once earlier variations have been mastered."
+  ],
+  "instructions": [
+    "Attach a band to a stable object at roughly chest height.",
+    "Grasp the band with an overlapping grip and assume an athletic position with your feet slightly wider than shoulder width apart.",
+    "Press the band horizontally to extension and begin by drawing each letter of the alphabet in a slow, controlled fashion.",
+    "Once you have completed the desired number of letters, repeat on the opposite side."
+  ],
+  "tips": [
+    "You can also perform a single arm version of this movement which addresses a little more shoulder stability and slightly less core stability.",
+    "The majority of motion should take place at the shoulders, the goal is to resist spinal motion.",
+    "Keep a slight bend in your knees as you draw the letters, this will help to get your joints stacked and avoid hyperextension.",
+    "Don’t hold your breath, the goal should be to utilize respiration to drive further abdominal activation."
+  ],
+  "video_url": "https://www.youtube.com/embed/fxIttTaXTCA?rel=0",
+  "youtube_id": "fxIttTaXTCA",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

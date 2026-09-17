@@ -1,0 +1,41 @@
+{
+  "id": "45-degree-leg-press",
+  "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+  "title": "Leg Press",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Lower Back",
+  "overview": [
+    "The leg press is a variation of thesquatand an exercise used to target the muscles of the leg.One can utilize the leg press to target both the quads and the hamstring muscle, depending on which portion of the foot they push through.The leg press is commonly thought of as a machine variation of the barbell back squat. The mechanics are fairly similar, however, the leg press does not completely mimic the movement pattern of the squat. Nor does it work all of the muscle groups that the squat does.The leg press is best used as an accessory movement to the squat, or as a primary movement in gyms which lack the necessary equipment to train the squat movement pattern."
+  ],
+  "instructions": [
+    "Load the machine with the desired weight and take a seat.",
+    "Sit down and position your feet on the sled with a shoulder width stance.",
+    "Take a deep breath, extend your legs, and unlock the safeties.",
+    "Lower the weight under control until the legs are roughly 45 degrees or slightly below.",
+    "Drive the weight back to the starting position by extending the knees but don’t forcefully lockout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "To keep tension on the quads, keep the knees just shy of lockout.",
+    "To emphasize the glutes more, push through the heels.",
+    "To emphasize the quads more, push through the balls of the feet.",
+    "Don’t allow the hips to posteriorly tilt and roll off the pad.",
+    "Keep your low back flat against the pad throughout the movement.",
+    "Maintain a neutral head position by not looking up or down excessively.",
+    "Self spotting is possible by simply applying pressure to the knees with the hands. Use only when necessary.",
+    "Toe angle is individual and will depend upon each individual’s hip anatomy and ankle mobility - experiment and adjust based upon feel."
+  ],
+  "video_url": "https://www.youtube.com/embed/sEM_zo9w2ss?rel=0",
+  "youtube_id": "sEM_zo9w2ss",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

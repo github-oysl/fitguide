@@ -1,0 +1,35 @@
+{
+  "id": "weighted-three-bench-dips",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-three-bench-dips.html",
+  "title": "Weighted Three Bench Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the three-bench dip by getting two flat benches and placing them parallel to one another. The distance between the benches should be slightly wider than your shoulder width.",
+    "Grab the third bench and place it at a right angle to the other benches. The gap between these benches should be about the length of your legs.",
+    "Sit on the floor with your heels up on the right-angle bench, and put a weight plate on the top of your thighs. Alternatively, you can have your training partner place it on for you.",
+    "With your palms facing away from your body, grip the end of the parallel benches and push up until your arms are straight. This is the starting position for the exercise.",
+    "Slowly lower your body down until your elbow is at the same height as your shoulder.",
+    "Push back up to the starting position without locking your elbows out.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "To put less stress on your shoulders, do not dip too low. Never let your shoulders dip lower than your elbows.",
+    "You can adjust the width of the parallel benches to what's comfortable for you.",
+    "You can also bring the parallel benches forward to lessen the strain on your shoulders. Always adjust the benches to what is comfortable for you. That's the beauty of the 3 bench dip."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783950?h=f6931b8b8b&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

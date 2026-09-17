@@ -1,0 +1,34 @@
+{
+  "id": "incline-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-curl.html",
+  "title": "Incline Dumbbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [
+    "The incline dumbbell curl is a variation of thedumbbell curland an exercise used to build bigger biceps.The biceps is a tricky (and fun) muscle to target and putting yourself in various degrees of incline can help manipulate the range of motion for either a tighter contraction or deeper stretch.The incline dumbbell curl elongates the negative portion of the dumbbell curl, creating a deeper stretch on the biceps muscle tissue.Dumbbell curl variations are primarily popular among lifters looking to improve their aesthetics as direct arm work will have limited carry over into maximum strength."
+  ],
+  "instructions": [
+    "Position an incline bench at roughly 55-65 degrees, select the desired weight from the rack, and sit upright with your back flat against the pad.",
+    "Using a supinated (palms up) grip, take a deep breath and curl both dumbbells towards your shoulders.",
+    "Once the biceps are fully shortened, slowly lower the weights back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the elbows to shift behind the body. Similarly, make sure the shoulder doesn’t shift forward in the socket as you lower the weight.",
+    "Maintain a slight bend in the elbow at the bottom of the movement in order to keep tension through the biceps.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/UeleXjsE-98?rel=0",
+  "youtube_id": "UeleXjsE-98",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

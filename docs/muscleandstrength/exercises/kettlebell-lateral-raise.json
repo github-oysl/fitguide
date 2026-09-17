@@ -1,0 +1,36 @@
+{
+  "id": "kettlebell-lateral-raise",
+  "url": "https://www.muscleandstrength.com/exercises/kettlebell-lateral-raise",
+  "title": "Kettlebell Lateral Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Kettle Bells",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The kettlebell lateral raise is alateral raisevariation and an exercise used to strengthen the muscles of the shoulder.The use of kettlebells, as seen in the kettlebell lateral raise, provides a unique challenge in the form of an alternative implement. In the case of kettlebells, the weight is below the handles forcing your muscles to fight gravity to stabilize the weight."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack, then take a few steps back into an open area.",
+    "Take a deep breath and raise the kettlebells to shoulder height using a neutral grip (palms facing in) while keeping the elbows slightly bent.",
+    "Slowly lower the kettlebells back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension through the side delts, don’t allow the weights to touch your sides and control the eccentric (lowering) portion of the movement.",
+    "Keep the abs braced and don’t lean back or arch your back at the top of the movement.",
+    "Allow the shoulders to move freely but don’t completely lock out the elbows.",
+    "Leaning forward may help to enhance rear delt activation.",
+    "Don’t allow the kettlebells to collide in the bottom of the movement as this may present a potential injury risk."
+  ],
+  "video_url": "https://www.youtube.com/embed/90e0xxp7hEI?rel=0",
+  "youtube_id": "90e0xxp7hEI",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

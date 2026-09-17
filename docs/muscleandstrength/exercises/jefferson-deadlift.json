@@ -1,0 +1,43 @@
+{
+  "id": "jefferson-deadlift",
+  "url": "https://www.muscleandstrength.com/exercises/jefferson-deadlift",
+  "title": "Jefferson Deadlift",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Hinge (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Adductors, Calves, Forearms, Glutes, Lats, Lower Back, Quads, Traps, Upper Back",
+  "overview": [
+    "The Jefferson deadlift is a variation of theconventional deadlift. While the exercise primarily targets the hamstring complex, the Jefferson deadlift is an excellent way to work the entire posterior chain.The main difference in the Jefferson deadlift is its set up. It takes a staggered stance approach to challenge your muscles in a way they are not used to. This staggered stance can provide a straighter bar path for some in comparison to the conventional deadlift."
+  ],
+  "instructions": [
+    "Position the bar at 45 degrees relative to your body.",
+    "Squat down and grasp the bar with one hand behind and one hand in front of the body.",
+    "Depending upon the length of your limbs, you may have to adjust foot position slightly at this stage in order to get into the most mechanically advantageous position for leverage.",
+    "Drive through the whole foot and focus on pushing the floor away.",
+    "Once you have locked out the hips, reverse the movement by pushing the hips back and hinging forward.",
+    "Return the bar to the floor, reset, and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "The Jefferson deadlift will be more much upright than a conventional pull and slightly more upright than a sumo pull.",
+    "Neck position is highly individual - Some prefer a neutral neck position (i.e. keeping the chin tucked throughout the lift) while others do well with looking slightly up. Here’s some factors to consider:If you’re someone who is more globally extended (i.e. athletic background), then you will likely be able to keep a neutral position more effectively by packing the chin.On the opposite end of the spectrum, if you tend to be more flexion dominant (especially in your thoracic spine - upper back) then it would behoove you to look up slightly as this will drive more extension.Experiment with each and see which one works best for your individual anatomy and biomechanics.",
+    "If you’re someone who is more globally extended (i.e. athletic background), then you will likely be able to keep a neutral position more effectively by packing the chin.",
+    "On the opposite end of the spectrum, if you tend to be more flexion dominant (especially in your thoracic spine - upper back) then it would behoove you to look up slightly as this will drive more extension.",
+    "Experiment with each and see which one works best for your individual anatomy and biomechanics.",
+    "Toe angle is highly individual - this will be dependent upon your hip anatomy. Experiment (toes slightly out vs. neutral) to see what feels best for you.",
+    "Do NOT retract your shoulder blades. This is mechanically inefficient and a self limiting cue as it shortens the length of the arms thus requiring a larger range of motion.",
+    "Make sure you wrap your thumbs around the bar and don’t utilize a false grip. Squeeze the bar as tight as possible like you’re trying to leave an imprint of your fingerprints on the bar.",
+    "To follow up on my previous point, if you focus on keeping the weight entirely on the heels, you won’t be able to effectively recruit your quads at the beginning of the lift and thus you’ll be slow off the flow. So, to combat this, you should focus on driving through the whole foot - you want 3 points of contact: big toe, little toe, and heel.",
+    "Ensure the elbows stay locked out. Don’t actively flex the triceps but make sure that your elbow doesn’t break neutral as this can potentially put you at risk for a bicep tear under maximal weights."
+  ],
+  "video_url": "https://www.youtube.com/embed/75QNMnaqeZY?rel=0",
+  "youtube_id": "75QNMnaqeZY",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

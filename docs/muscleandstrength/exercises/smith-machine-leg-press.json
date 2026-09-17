@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-leg-press",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-leg-press",
+  "title": "Smith Machine Leg Press",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Glutes, Hamstrings, Lower Back",
+  "overview": [
+    "The Smith machine leg press is aleg pressvariation and an exercise used to target the muscles of the leg. In particular, the Smith machine leg press will emphasize your quadriceps, but also indirectly targets the glutes, hamstrings, and calves.The Smith machine leg press utilizes a more vertical pressing motion than the traditional 45 degree leg press. This can be a good way to incorporate exercise variance into yourworkout programs."
+  ],
+  "instructions": [
+    "Set the bar at roughly 3 feet off the ground and assume a supine position with your feet on the bar hip width apart.",
+    "Extend your legs to lockout to unrack the safeties and then allow the bar to descend by bending your knees and flexing your hips.",
+    "Drive your feet into the bar and exhale as you extend your knees and hips.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Un/re-racking for this exercise can be tricky due to the way the smith machine is designed; you will most likely want to enlist the help of a spotter (or two) with the exercise to ensure that you don’t risk injuring yourself.",
+    "Toe angle is highly individual - experiment to see what feels best for you.",
+    "Never lower the weight so far that the hips to tuck under (i.e. posteriorly tilt) as this can predispose you to vertebrae and disc issues.",
+    "If you want to generate more tension within the quads, stop just short of lockout and don’t fully extend the knees."
+  ],
+  "video_url": "https://www.youtube.com/embed/RBEVNRumJH4?rel=0",
+  "youtube_id": "RBEVNRumJH4",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

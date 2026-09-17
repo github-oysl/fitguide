@@ -1,0 +1,36 @@
+{
+  "id": "reverse-grip-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-grip-tricep-extension.html",
+  "title": "Reverse Grip Cable Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The reverse grip tricep pushdown is a variation of thestraight bar tricep pushdownand an exercise used to target the muscles of the triceps.Taking an underhand grip can minimize the involvement of the forearms and help place less stress on the elbows."
+  ],
+  "instructions": [
+    "Attach a straight bar to a cable stack as high as possible and assume a standing position.",
+    "Grasp the straight bar with a supinated grip (palms facing up) and lean forward slightly by hinging at the hips.",
+    "Initiate the movement by extending the elbows and flexing the triceps.",
+    "Pull the handle downward until the elbows are almost locked out and then slowly lower under control back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension in the triceps, don’t lock the elbows out entirely.",
+    "Imagine there’s a screw running through your elbow and don’t allow them to move in front of the body as you extend at the bottom of the movement.",
+    "Experiment with static elbow positioning throughout the lift - some may find that they get a better stretch in the bottom portion of the movement by allowing their elbows to drift behind the body during the eccentric portion of the movement (similar to a drag curl).",
+    "Ensure the shoulder blades don’t tilt forward as you extend the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/mNDpEivaal8?rel=0",
+  "youtube_id": "mNDpEivaal8",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

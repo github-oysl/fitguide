@@ -1,0 +1,32 @@
+{
+  "id": "barbell-side-bends",
+  "url": "https://www.muscleandstrength.com/exercises/barbell-side-bends.html",
+  "title": "Barbell Side Bends",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Lower Back",
+  "overview": [],
+  "instructions": [
+    "Grab a light barbell and rest it across the back of your shoulders. Rest the bar on the muscle (traps), not your neck.",
+    "Sit down on a flat bench with your feet at wider than shoulder width apart and your back straight.",
+    "Slowly move the right side of the bar towards floor while keeping your back straight and your eyes looking forward. Stretch as far as possible.",
+    "Slowly raise the bar back up and straight down to the left side (do not pause in the middle).",
+    "Repeat for desired reps.",
+    "Always keep your eyes facing forwards, so don't look down or to the side.",
+    "This exercise works the obliques so try and focus on contraction and stretch of the obliques throughout the movement.",
+    "This exercise can also be done while standing."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/877885441?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "swiss-ball-crunch",
+  "url": "https://www.muscleandstrength.com/exercises/swiss-ball-crunch.html",
+  "title": "Exercise Ball Crunch",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Sit on an exercise ball with your feet flat on the floor.",
+    "Walk your feet forward and lean back until the ball is under your lower back.",
+    "Cross your arms over your chest or place your hands lightly behind your head.",
+    "Crunch your upper body up, lifting your shoulders off the ball.",
+    "Squeeze your abs at the top, then slowly lower back down.",
+    "Repeat for your desired number of reps."
+  ],
+  "tips": [
+    "Keep your feet flat and stable throughout the movement.",
+    "Keep movements slow and controlled.",
+    "Exhale as you crunch up, and inhale as you return to the start."
+  ],
+  "video_url": "https://player.vimeo.com/video/1082965087?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hanging-knee-raise",
+  "url": "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html",
+  "title": "Hanging Knee Raise",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Grab a pull-up bar with your palms facing forward (overhand grip) and arms shoulder-width apart. Hang with your arms fully extended and feet off the ground.",
+    "Engage your abdominal muscles to stabilize your body and minimize swinging. This is the starting position.",
+    "Slowly raise your knees toward your chest by bending at the hips and knees. Keep the movement controlled.",
+    "Hold for a second when your thighs are parallel to the ground or your knees are near chest level.",
+    "Slowly lower your legs back to the starting position without swinging.",
+    "Repeat for desired reps."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/1082967622?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

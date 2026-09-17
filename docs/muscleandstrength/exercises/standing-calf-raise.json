@@ -1,0 +1,34 @@
+{
+  "id": "standing-calf-raise",
+  "url": "https://www.muscleandstrength.com/exercises/standing-calf-raise.html",
+  "title": "Standing Barbell Calf Raise",
+  "target_muscle": "Calves",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the standing barbell calf raise by getting a block or step and placing it in front of you.",
+    "Grasp a barbell and place it across the back of your shoulders. Make sure the bar sits across the muscles in your upper back, not your neck.",
+    "Stand up on the block with the balls of your feet on the edge.",
+    "Keeping your balance, raise your heels off the floor.",
+    "Squeeze the calves, and then slowly lower your heals back down as far as possible without letting them touch the floor.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep the balls of your feet on the edge of the step. Don't let your feet come forward as this makes the exercise less challenging.",
+    "Keep the rep timing slow and controlled - don't \"bounce\".",
+    "To help keep your balance, keep your eyes facing forward at all times."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793820?badge=0&autopause=0&quality_selector=1&progress_bar=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Calves Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Calves.jpg"
+    }
+  ]
+}

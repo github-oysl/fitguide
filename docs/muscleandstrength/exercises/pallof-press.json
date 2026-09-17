@@ -1,0 +1,35 @@
+{
+  "id": "pallof-press",
+  "url": "https://www.muscleandstrength.com/exercises/pallof-press",
+  "title": "Pallof Press",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The Pallof press is an exercise commonly used to strengthen the muscles of the abs and obliques.It works the core by providing isometric tension while you move a weight through a brief range of motion.It’s an extremely versatile exercises which has had many variations stem from it to challenge the core in many different ways and to help accomplish different goals.If you have a goal of increasing core strength, the pallof press should be a staple in your core workouts."
+  ],
+  "instructions": [
+    "Assume a standing position and attach a handle to a cable stack at chest height.",
+    "Hold the handle to your chest and assume an athletic base position with your feet slightly wider than shoulder width apart.",
+    "Press the handle horizontally to extension as you exhale.",
+    "Return to the starting position and repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Don’t allow the hips to rotate as you press the handle to extension.",
+    "Ensure that you exhale as you press to use the breath to drive more abdominal activation.",
+    "If you find you can’t maintain a neutral spinal position during this variation, regress to a supine version and then progress into a half kneeling and tall kneeling version once you gain the requisite lumbo-pelvic control.",
+    "Do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath."
+  ],
+  "video_url": "https://www.youtube.com/embed/SFJprbDnaS0?rel=0",
+  "youtube_id": "SFJprbDnaS0",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

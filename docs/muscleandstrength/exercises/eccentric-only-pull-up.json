@@ -1,0 +1,36 @@
+{
+  "id": "eccentric-only-pull-up",
+  "url": "https://www.muscleandstrength.com/exercises/eccentric-only-pull-up",
+  "title": "Eccentric Only Pull Up",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Shoulders, Upper Back",
+  "overview": [
+    "The eccentric only pull up is a great starting point for those looking to complete their first bodyweightpull up.By focusing on the only the eccentric portion of the pull up, you can build the pulling muscles required to perform the traditional pull up."
+  ],
+  "instructions": [
+    "Using a pronated grip, grasp the pull bar with a slightly wider than shoulder width grip.",
+    "Take a deep breath and hop to get yourself up to the bar. Squeeze your glutes, brace your abs, and descend slowly back to the start position.",
+    "Repeat for the assigned number of repetitions."
+  ],
+  "tips": [
+    "To decrease bicep involvement, use a false (thumbless grip).",
+    "Try to keep a neutral head position (looking straight ahead or slightly up) as hyperextending the neck can lead to compensations throughout the spine.",
+    "If the bar is high enough, keep the legs straight and in front of the body in a hollow body position.",
+    "Avoid falling into overextension of the lumbar spine by squeezing your glutes and bracing your abs.",
+    "Lower to almost full extension of the elbow but avoid locking out completely as this can place excessive strain on the ligamentous structures within the elbow and shoulder.",
+    "If you can’t complete a single bodyweight pull up, start with slow negatives (add weight when these can be accomplished under control) or flexed arm hangs in the top position."
+  ],
+  "video_url": "https://www.youtube.com/embed/aWutvauIG0w?rel=0",
+  "youtube_id": "aWutvauIG0w",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

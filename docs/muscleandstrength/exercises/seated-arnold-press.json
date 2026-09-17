@@ -1,0 +1,41 @@
+{
+  "id": "seated-arnold-press",
+  "url": "https://www.muscleandstrength.com/exercises/seated-arnold-press.html",
+  "title": "Seated Arnold Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Traps, Triceps",
+  "overview": [
+    "The seated Arnold press is a variation of theseated dumbbell pressand an exercise utilized to build shoulder muscle size and strength.The Arnold press, named afterArnold Schwarzeneggerhimself, is an exercise used to target every single head of the deltoid.The exercise is best used by those seeking aesthetic benefits due to its long time under tension, but can also be used as an accessory movement by those attempting to build strength."
+  ],
+  "instructions": [
+    "Set up an adjustable angle bench to 90 degrees and select the desired weight from the rack.",
+    "Pick up the dumbbells from the floor using a neutral grip (palms facing in). Position the end of the dumbbells on your knees and sit down on the bench.",
+    "Using a safe and controlled motion, kick your knees up one at a time in order to get each dumbbell into place.",
+    "Once the dumbbells are in place, rotate your palms so they are facing you.",
+    "Take a deep breath then press the dumbbells overhead by extending the elbows and contracting the deltoids.",
+    "As you press, rotate the dumbbells until your palms are facing forward.",
+    "Slowly lower the dumbbells back to the starting position (the arms should be roughly 90 degrees or slightly lower depending upon limb lengths).",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Keep your back flat against the pad throughout the duration of the exercise.",
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "If you sense any pressure in your neck or traps during the movement, look to address a lack of thoracic spine extension or shoulder flexion.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead than it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/hmnZKRpYaV8?rel=0",
+  "youtube_id": "hmnZKRpYaV8",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

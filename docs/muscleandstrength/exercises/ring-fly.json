@@ -1,0 +1,37 @@
+{
+  "id": "ring-fly",
+  "url": "https://www.muscleandstrength.com/exercises/ring-fly",
+  "title": "Ring Fly",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Rings",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Advanced",
+  "secondary_muscles": "Abs, Shoulders, Triceps",
+  "overview": [
+    "The ring fly is a variation of thedumbbell chest flyand an exercise used to isolate the muscles of the chest.The ring fly will also challenge the core to stabilize your spine as you move through the range of motion."
+  ],
+  "instructions": [
+    "Set a pair of rings at roughly knee height.",
+    "Start in a pushup position and grasp the handles using a neutral grip (palms facing).",
+    "Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch.",
+    "Return to the starting position by flexing your pecs and bringing the rings together at chest height.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Imagine you’re trying to hug a tree while completing the exercise.",
+    "Don’t squeeze the handles excessively tight as this can over recruit the forearms and biceps thereby reducing activation of the pecs.",
+    "Avoid touching or banging the handles together at peak contraction to keep constant tension on the intended muscle groups.",
+    "Always keep a slight bend in the elbows and never lower to the point where you get any sort of pain and pressure at the front of the shoulder joint.",
+    "Ensure you maintain some tension in your abs and don’t allow your lower back to arch excessively."
+  ],
+  "video_url": "https://www.youtube.com/embed/P5tAqCw7Ygs?rel=0",
+  "youtube_id": "P5tAqCw7Ygs",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

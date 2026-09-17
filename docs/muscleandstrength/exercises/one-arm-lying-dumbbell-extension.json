@@ -1,0 +1,32 @@
+{
+  "id": "one-arm-lying-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-extension.html",
+  "title": "One-Arm Lying Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Choose a dumbbell and sit on the end of a flat bench with the dumbbell resting on your thighs. Hold the dumbbell with a neutral grip using your left hand.",
+    "Lie back on the bench and extend the dumbbell above your head fully extending your left arm.",
+    "Bending at the elbow only, keeping your elbow fixed and pointing at your hips, slowly lower the dumbbell down beside the left side of your head until it is about level with your ear.",
+    "Pause and squeeze the triceps. Then raise the dumbbell back to the starting position.",
+    "Do not lock your elbow out, and then repeat for desired reps."
+  ],
+  "tips": [
+    "It's important to keep your elbows in and facing toward your hips. Don't let them flare out as you lower the dumbbells down.",
+    "Keep the rep timing slow and control the weight throughout the set."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784009?h=428509354b&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

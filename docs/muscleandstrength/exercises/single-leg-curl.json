@@ -1,0 +1,34 @@
+{
+  "id": "single-leg-curl",
+  "url": "https://www.muscleandstrength.com/exercises/single-leg-curl.html",
+  "title": "Single Leg Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "​​​​​Adjust the leg curl machine so that your knees are aligned with the pivot point and your body is comfortably positioned.",
+    "Lie face down on the machine and place one leg on the leg pad.",
+    "Hold onto the handles for support and stability. This is the starting position.",
+    "Slowly bend your knee to bring your heel towards your glutes, using your hamstring muscles to pull.",
+    "Once your leg is fully curled, pause for a moment at the top of the movement.",
+    "Slowly lower your leg back to the starting position, keeping control of the movement.",
+    "After completing the desired reps on one leg, switch to the other leg and repeat"
+  ],
+  "tips": [
+    "Maintain control throughout the set. Avoid using momentum to move the weight up, and don't allow it to drop back down quickly.",
+    "Use a full range of motion by curling the weight up as far as possible and lowering it as far as possible without the weight dropping on the stack."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881259?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

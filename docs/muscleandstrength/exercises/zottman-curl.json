@@ -1,0 +1,35 @@
+{
+  "id": "zottman-curl",
+  "url": "https://www.muscleandstrength.com/exercises/zottman-curl.html",
+  "title": "Zottman Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Forearms",
+  "overview": [
+    "The standing Zottman curl is a variation of thestanding dumbbell curland an exercise used to strengthen the muscles of the biceps.The Zottman curl utilizes different hand positioning at different portions of the lift to capitalize on the strength of the lifter and maximize arm growth. The first portion, the regular curl, allows the lifter to focus on their bicep strength. The lowering portion, after already using a heavier weight than one would typically use in adumbbell reverse curl, allows you to overload the forearms.Bicep isolation work is particularly helpful for those looking to achieve aesthetics and building a balanced physique."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack and assume a shoulder width stance.",
+    "Using a supinated grip, take a deep breath and curl the dumbbells towards your shoulders.",
+    "Once the biceps are fully shortened, rotate the forearms to a pronated position (palms down) and slowly lower the weight back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the elbows to shift behind the body. Similarly, make sure the shoulder doesn’t shift forward in the socket as you lower the weight.",
+    "Maintain a slight bend in the elbow at the bottom of the movement in order to keep tension through the biceps.",
+    "Rotate the forearms slowly, excessive velocity may cause issues within the elbows or wrists.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/rVEwDJdHE2c?rel=0",
+  "youtube_id": "rVEwDJdHE2c",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "smith-machine-zercher-squat",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-zercher-squat.html",
+  "title": "Smith Machine Zercher Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Set the bar to somewhere between chest height and waist height, then load the weight you want to use.",
+    "Stand with your arms under the bar and your legs around shoulder-width apart.",
+    "Lock your hands together and rest the bar in between your forearms and upper arms.",
+    "With your back straight and eyes forward, push through your heels and take the weight off the rack.",
+    "Inhale, and slowly squat down until your thighs are parallel to the floor.",
+    "Exhale, and push up through the heels to raise the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Start with a lightweight as there is a lot of pressure being applied to your arms when lifting the bar."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881723?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

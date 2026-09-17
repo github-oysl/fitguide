@@ -1,0 +1,33 @@
+{
+  "id": "cable-underhand-pull-down",
+  "url": "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html",
+  "title": "Lateral Pulldown Bicep Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up by adjusting the knee pad to suit your legs and selecting the weight you want to use on the stack.",
+    "Grip the bar with an underhand grip (palms facing up) with your hands about shoulder-width apart.",
+    "Sit down on the bench with your arms fully extended. This is the starting position for the exercise.",
+    "Keeping your upper arms and elbows fixed, slowly curl the weight behind your head.",
+    "Pause, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "It's important to keep your upper arms pointing straight up. Don't allow your elbows to move back and forth as you curl the weight.",
+    "Focus on only allowing your forearms to move."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001376?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

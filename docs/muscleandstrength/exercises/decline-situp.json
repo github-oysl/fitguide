@@ -1,0 +1,36 @@
+{
+  "id": "decline-situp",
+  "url": "https://www.muscleandstrength.com/exercises/decline-situp.html",
+  "title": "Decline Bench Sit Up",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Hip Flexors",
+  "overview": [
+    "The Decline Bench Sit Up is an effective core-strengthening exercise that targets the rectus abdominis (the main abdominal muscle) and works the hip flexors as secondary muscles.By performing this exercise on a decline bench, the angle increases the intensity of the movement, making it more challenging than a traditionalfloor sit up.The decline position requires greater activation of the abdominal muscles to lift the torso against gravity, helping to build strength and endurance in the core."
+  ],
+  "instructions": [
+    "Position yourself on a decline bench, securing your feet under the foot pads.",
+    "Lie back on the bench and position your arms over your chest or place them behind your head for support.",
+    "Exhale and squeeze your abs as you curl your upper body off the bench, bringing your chest toward your knees.",
+    "Pause at the top of the movement, then slowly lower your upper body back to the starting position. This is one rep.",
+    "Perform the desired number of reps, maintaining proper form and control."
+  ],
+  "tips": [
+    "Exhale as you lift your torso and inhale as you lower yourself back down.",
+    "If you want to engage the obliques, add atwisting motionto help improve posture, stability, and overall core function.",
+    "Perform the sit up slowly and with control, both while rising and lowering, to maximize muscle engagement and avoid using momentum.",
+    "Keep a neutral spine position throughout the movement; don’t let your back arch too much as you lower yourself."
+  ],
+  "video_url": "https://player.vimeo.com/video/877880639?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "weighted-bench-dips",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-bench-dips.html",
+  "title": "Weighted Bench Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the weighted bench dip by placing 2 flat benches parallel to one another around 4-5 feet apart (you may need to adjust the width to suit your height).",
+    "Place your hands on the edge of one bench as shown in the video. Put your heels on the edge of the opposite bench around shoulder-width apart.",
+    "Have a training partner place a weight plate on your thighs. This is the starting position for the exercise.",
+    "Keeping your body close to the bench, slowly dip down until your elbows are at the same height as your shoulders.",
+    "Slowly push back up squeezing through the triceps.",
+    "Do not lock the elbows out at the top of the exercise, and repeat."
+  ],
+  "tips": [
+    "It is possible to set up for this exercise by yourself. Put your feet on the floor between the benches and squat down. Put the weight plate on your thighs and put one leg at a time on the bench. It's much easier to have someone help you out.",
+    "As with all types of dipping, your shoulders should not dip below your elbows, as this puts unnecessary strain on the rotator cuff."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783909?h=ddcdebd6d8&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

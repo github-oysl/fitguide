@@ -1,0 +1,37 @@
+{
+  "id": "pendlay-row",
+  "url": "https://www.muscleandstrength.com/exercises/pendlay-row",
+  "title": "Pendlay Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The Pendlay row is a variation of thebent over rowand an exercise used to build strength in the muscles of the upper back.The main difference between a Pendlay row and other rowing variations is the Pendlay row involves coming to a complete dead stop during the movement. This dead stop allows the lifter to train power and explosiveness as s/he contracts the back to bring the weight to their body."
+  ],
+  "instructions": [
+    "Position the bar directly in front of your shins and hinge forward until your torso is roughly parallel with the floor (or slightly above).",
+    "Grasp the bar with a double overhand grip and begin the movement by driving the elbows explosively behind the body while retracting the shoulder blades.",
+    "Pull the bar towards your belly button until it touches your body and then slowly lower the bar back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Focus on bar speed, the idea is to be as explosive as possible.",
+    "If you aren’t able to use 45lb plates on either side of the bar when performing this exercise, utilize the deadstop rack row.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/EDhJ_FTlaXA?rel=0",
+  "youtube_id": "EDhJ_FTlaXA",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

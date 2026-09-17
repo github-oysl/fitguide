@@ -1,0 +1,35 @@
+{
+  "id": "two-arm-standing-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/two-arm-standing-dumbbell-extension.html",
+  "title": "Two Arm Standing Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs",
+  "overview": [
+    "The standing dumbbell tricep extension is a variation of thetricep extensionand an exercise used to isolate the muscles of the triceps.Overhead extension exercises are particularly useful in targeting the long head of the triceps muscle. Having a larger and more dense long head will give you an overall appearance of a larger tricep.Isolation exercises for the triceps are particularly useful for those looking to achieve aesthetics. They can also be helpful for those looking to increase their strength on other pressing motions."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack and stand in an open area.",
+    "To get into position, lift the dumbbell to the top of your shoulder, take a deep breath, overlap your hands around the dumbbell, then press it into position overhead.",
+    "Maintain an overlapped grip and slowly lower the dumbbell behind your head by unlocking your elbows.",
+    "Once your forearms reach parallel or just below, drive the dumbbell back to the starting point by extending the elbows and flexing the triceps.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t overextend through the lumbar spine, keep your ribcage down by maintaining tension through the abs and glutes.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection.",
+    "Keep the head in a fairly neutral position, don’t allow the neck to jut forward as this may place excessive pressure on the cervical spine."
+  ],
+  "video_url": "https://www.youtube.com/embed/VjmgzEmODnI?rel=0",
+  "youtube_id": "VjmgzEmODnI",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

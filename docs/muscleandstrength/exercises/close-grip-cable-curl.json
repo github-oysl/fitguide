@@ -1,0 +1,34 @@
+{
+  "id": "close-grip-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/close-grip-cable-curl.html",
+  "title": "Close Grip Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the close grip cable curl by attaching a straight bar to the low pulley cable and selecting the weight you want to use on the stack.",
+    "Stand facing the cable machine with your legs shoulder-width apart.",
+    "Grasp the bar with an underhand grip (palms facing up), hands about 6 to 8 inches apart.",
+    "With your elbows tucked in by your sides, slowly curl the bar up as far as possible.",
+    "Squeeze the biceps at the top of the movement, then slowly lower it back to the starting position. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your elbows tucked in at your sides and don't allow them to come forward as you curl the weight up.",
+    "Don't lean back or swing as you curl the weight up.",
+    "Keep the rep timing slow and control the weight on the way down."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001475?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

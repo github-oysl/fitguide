@@ -1,0 +1,34 @@
+{
+  "id": "banded-tibialis-raise",
+  "url": "https://www.muscleandstrength.com/exercises/banded-tibialis-raise",
+  "title": "Banded Tibialis Raise",
+  "target_muscle": "Calves",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The banded tibialis raise is an exercise that targets the anterior calf.Strengthening the anterior calf can be beneficial in preventing shin splits and increasing ankle mobility.The banded tibialis raise is best performed at either the beginning of end of yourleg workouts."
+  ],
+  "instructions": [
+    "Attach a band to a kettlebell by threading one end through the loop.",
+    "Attach the free end to top of your foot and move back slightly to increase tension within the band.",
+    "Pull your toes toward your face as you flex the anterior portion of your calf.",
+    "Slowly lower the toes until you feel a stretch in the front of your shin and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "A band will be slightly more effective than a machine as the tension is linear and doesn’t change during the strength curve.",
+    "Superset these with calf raises to optimize calf development.",
+    "These are very beneficial for runners who suffer from shin splints. Make sure to emphasize the eccentric portion and focus on an effective contraction of the intended muscle group."
+  ],
+  "video_url": "https://www.youtube.com/embed/gOV7XZyUv6Y?rel=0",
+  "youtube_id": "gOV7XZyUv6Y",
+  "images": [
+    {
+      "alt": "Calves Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Calves.jpg"
+    }
+  ]
+}

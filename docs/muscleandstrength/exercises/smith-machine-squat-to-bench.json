@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-squat-to-bench",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-squat-to-bench.html",
+  "title": "Smith Machine Box Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Calves, Glutes, Hamstrings, Lower Back",
+  "overview": [],
+  "instructions": [
+    "Place a box or bench behind you, at a height that allows your thighs to be parallel to the ground when sitting.",
+    "Set the Smith machine barbell to an appropriate height, typically around shoulder level or slightly lower, and load the desired weight.",
+    "Stand under the bar and unrack the weight. This is the starting position.",
+    "Inhale and slowly lower your body by pushing your hips back and bending your knees.",
+    "Keep your chest up and back straight as you lower yourself toward the box or bench.",
+    "Once your glutes reach the box or bench, exhale and drive through your heels, pushing your hips forward to return to the standing position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Toe angle is highly individual - experiment to see what feels best for you.",
+    "Some forward translation of the knees over the toes is alright provided that the knees don’t deviate excessively inward or outward. Those with longer femurs will have to allow their knees to come farther forward if they want to remain upright.",
+    "Drive your traps into the bar and try to squeeze your elbows in towards your body as you reverse the movement out of the hole."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881741?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

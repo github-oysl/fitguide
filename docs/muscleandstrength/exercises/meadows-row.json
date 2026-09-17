@@ -1,0 +1,39 @@
+{
+  "id": "meadows-row",
+  "url": "https://www.muscleandstrength.com/exercises/meadows-row",
+  "title": "Meadows Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Landmine",
+  "mechanics": "Compound",
+  "force_type": "Pull (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The meadows row is a unilateral landmine exercise used to target the muscles of the back. The meadows row also challenges one’s grip and indirectly targets the muscles of the bicep.The meadows row is named after John Meadows, who popularized the movement. It is an excellent exercise for isolating each side of back to build a balanced physique and quality strength."
+  ],
+  "instructions": [
+    "Position a barbell in a landmine attachment or wedged into the corner of a wall.",
+    "Hinge forward with a staggered stance and grasp the barbell with a pronated (overhand) grip.",
+    "Begin the movement by driving the elbow behind the body while retracting the shoulder blade.",
+    "Pull the barbell towards your hip until the elbow is at (or just past) the midline and then slowly lower the barbell back to the starting position under control.",
+    "Repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "Due to the circumference of the barbell, it may prove more beneficial to utilize straps for this variation as it can cause wrist pain in some.",
+    "Experiment with head position and see which option (looking slightly up vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the barbell throughout the entirety of each rep.",
+    "If you feel your biceps being overused and your back remaining under active, consider utilizing a false grip (i.e. don’t wrap the thumb around the dumbbell).",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/lPPNLJhgZWE?rel=0",
+  "youtube_id": "lPPNLJhgZWE",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

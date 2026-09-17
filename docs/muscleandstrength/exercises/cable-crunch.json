@@ -1,0 +1,38 @@
+{
+  "id": "cable-crunch",
+  "url": "https://www.muscleandstrength.com/exercises/cable-crunch.html",
+  "title": "Cable Crunch",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The Cable Crunch is an effectivecoreexercise that targets the abdominal muscles, particularly the rectus abdominis.Unlikefloor crunches, the cable crunch reduces neck strain by allowing you to focus on using your abs without needing to lift your head or shoulders. It also helps improve spinal flexion, a fundamental movement for building a strong, functional core.This exercise helps strengthen and define the core,improve posture, and enhance overall abdominal endurance. Proper form is crucial to avoid strain on the lower back and ensure maximum activation of the ab muscles."
+  ],
+  "instructions": [
+    "Attach a rope handle to the high pulley of a cable machine.",
+    "Kneel in front of the machine and hold the rope with both hands, bringing it around your head.",
+    "Keep your knees slightly bent and your hips stationary. This is the starting position.",
+    "Engage your core and pull the rope down by crunching your torso forward.",
+    "Continue to pull the rope towards your knees, focusing on contracting your abs. Keep your elbows fixed.",
+    "Release the tension and slowly return to the starting position. This is one rep.",
+    "Perform the desired number of reps while maintaining control and good form."
+  ],
+  "tips": [
+    "Use controlled movements. Perform the crunch slowly and with control to maximize muscle engagement and avoidinjury.",
+    "Focus on crunching with your abs, not pulling with your arms. The arms should only guide the rope.",
+    "Avoid arching your back too much. Keep the motion in your torso to protect your spine.",
+    "Avoid using your hips or legs to assist in the movement. Focus on flexing your spine using your abs."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008287?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

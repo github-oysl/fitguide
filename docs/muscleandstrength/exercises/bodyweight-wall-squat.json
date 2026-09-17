@@ -1,0 +1,37 @@
+{
+  "id": "bodyweight-wall-squat",
+  "url": "https://www.muscleandstrength.com/exercises/bodyweight-wall-squat.html",
+  "title": "Bodyweight Wall Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Calves, Glutes, Hamstrings",
+  "overview": [
+    "A Bodyweight Wall Squat is a static exercise that targets the quads, glutes, and core while improving lower body endurance and stability. The movement involves sliding down the wall into a squat position and holding, with your knees at a 90-degree angle. It's an effective way to strengthen the legs and enhance muscular endurance without needing equipment."
+  ],
+  "instructions": [
+    "Stand with your back against a wall, feet shoulder-width apart and a few inches away. This is the starting position.",
+    "Slowly slide your back down the wall, bending your knees until they are at about 90 degrees.",
+    "Keep your back flat by pressing your lower back against the wall and keeping your chest lifted.",
+    "Stay in the squat position, keeping your thighs parallel to the floor.",
+    "Push through your heels and slowly slide back up to the starting position. This is one rep.",
+    "Perform the desired reps, focusing on form and controlled movement."
+  ],
+  "tips": [
+    "Keep your core tight to protect your lower back and maintain posture.",
+    "Control the descent and hold the position for added intensity.",
+    "Position your feet hip-width for balance and stability.",
+    "Press your lower back against the wall to avoid rounding your spine."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008179?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

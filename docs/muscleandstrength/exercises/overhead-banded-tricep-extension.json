@@ -1,0 +1,36 @@
+{
+  "id": "overhead-banded-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/overhead-banded-tricep-extension",
+  "title": "Overhead Banded Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs",
+  "overview": [
+    "The overhead banded tricep extension is an exercise used to isolate the muscles of the triceps.The band used to perform overhead banded tricep extensions provides accommodating resistance, increasing the amount of tension placed on the tricep the closer one gets to lockout."
+  ],
+  "instructions": [
+    "Attach a band to a stable implement above head height and assume a standing position.",
+    "Utilize a split stance, grasp the band overhead with a neutral grip (palms facing), and lean forward by hinging at the hips.",
+    "Initiate the movement by extending the elbows and flexing the triceps.",
+    "Pull the band downward until the elbows are almost locked out and then slowly lower under control back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "If you want to keep more tension in the triceps, don’t lock the elbows out entirely.",
+    "Don’t allow the rope to pull you backwards or cause you to overarch throughout your lumbar spine.",
+    "You may need to tuck the chin slightly to allow the band to travel overhead and not graze the back of your head.",
+    "Ensure the shoulder blades don’t tilt forward as you extend the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/23zkcdIm-2Y?rel=0",
+  "youtube_id": "23zkcdIm-2Y",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "machine-shoulder-press",
+  "url": "https://www.muscleandstrength.com/exercises/machine-shoulder-press",
+  "title": "Machine Shoulder Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Traps, Triceps",
+  "overview": [
+    "The machine shoulder press is a variation of the seated barbell shoulder press used to strengthen the muscles of the shoulders.One would use the machine shoulder press as a way to perform the pressing movement pattern with a focus on isolating the shoulders. One can better isolate certain muscle groups with a machine due to its fixed movement pattern.The machine shoulder press is best added towards the end of your shoulder workout if you are training for hypertrophy, after you’ve used other more compound variations to work your push muscles."
+  ],
+  "instructions": [
+    "Assume a seated position in the machine with the handles set at roughly shoulder height.",
+    "Grab the handles with a pronated or neutral grip.",
+    "Inhale and press directly overhead.",
+    "Slowly lower the handles back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "If you sense any pressure in your neck or traps during the movement, look to address a lack of thoracic spine extension or shoulder flexion.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead than it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/fj_VAk1jfZ8?rel=0",
+  "youtube_id": "fj_VAk1jfZ8",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

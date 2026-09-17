@@ -1,0 +1,35 @@
+{
+  "id": "tricep-bench-dip",
+  "url": "https://www.muscleandstrength.com/exercises/tricep-bench-dip.html",
+  "title": "Bench Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the bench dip by placing 2 flat benches parallel to one another to around 4-5 feet apart (you may need to adjust the width to suit your height).",
+    "Put your heels on the edge of one bench around shoulder-width apart.",
+    "Place your hands on the edge of the other bench. This is the starting position for the exercise.",
+    "Keeping your body close to the bench, slowly dip down until your elbows are at the same height as your shoulders.",
+    "Slowly push back up, squeezing through the triceps.",
+    "Do not lock the elbows out at the top of the exercise, and repeat."
+  ],
+  "tips": [
+    "Keep your forearms pointing downward and try to keep your elbows close.",
+    "It's important that you do not dip down too low as it places unnecessary strain on the shoulder joints.",
+    "Keep the rep timing slow.",
+    "Really squeeze the triceps at the top of the movement to get the most out of this exercise. Mentally focusing on the triceps being the prime mover in this exercise will help place more emphasis on the triceps and less on the shoulders."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783893?h=d0044faa39&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

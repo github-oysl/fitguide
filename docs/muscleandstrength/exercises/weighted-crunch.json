@@ -1,0 +1,36 @@
+{
+  "id": "weighted-crunch",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-crunch.html",
+  "title": "Weighted Crunch",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [
+    "The weighted crunch is a variation of thecrunchand an exercise used to build the abdominal muscles.Adding weight is a common form of progression used to make bodyweight exercises, such as the crunch, more challenging. Doing so allows for the lifter to progress, adapt, and build more muscle."
+  ],
+  "instructions": [
+    "Lay supine in a relaxed position with your knees bent.",
+    "Hold a weight plate directly over your chest and press it to extension.",
+    "Raise your knees to 90 degrees, at which point they will be perpendicular to the floor.",
+    "Exhale as you reach towards your toes with the weight plate.",
+    "Once your abs are fully contracted and your upper back is off the floor, slowly lower yourself back to the starting position.",
+    "Complete for the assigned number of repetitions."
+  ],
+  "tips": [
+    "Exhale hard like you’re blowing out candles on a cake and hold the contraction for a second to improve mind muscle connection.",
+    "If your lower back bothers you during this exercise, choose more anti extension and anti rotation based movements.",
+    "Avoid putting the hands behind the head as this can lead to excess strain upon the neck."
+  ],
+  "video_url": "https://www.youtube.com/embed/6kHg3JAFNFo?rel=0",
+  "youtube_id": "6kHg3JAFNFo",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

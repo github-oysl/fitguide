@@ -18,10 +18,11 @@ Playwright 校验脚本（`node tools/verify-*.cjs`、`tools/check-cardio-librar
 
 ## 结构与入口
 
-- 根目录数据/逻辑：`data.js` + `extra-data.js` + `activity-data.js` 往 `window.GYM_DATA` 注入动作（当前 28 个）；`guide.js` 动作库与筛选；`plans.js` 计划打卡；`dashboard.js` 统计；`free-activity.js` 自由运动；`checkin-stats.js` 统计纯函数（`module.exports`，可被 Node require）。
+- 根目录数据/逻辑：`data.js` + `extra-data.js` + `activity-data.js` 往 `window.GYM_DATA` 注入动作（当前 60 个）；`guide.js` 动作库与筛选；`plans.js` 计划打卡；`dashboard.js` 统计；`free-activity.js` 自由运动；`checkin-stats.js` 统计纯函数（`module.exports`，可被 Node require）。
 - `comparison/`：动作对比。`core.mjs` 指标计算、`exercises.mjs` 各动作配置、`pose-worker.mjs` Worker 内 MediaPipe、`video.mjs`、`guidance.mjs`（浏览器直连 OpenAI 兼容接口）、`ui.mjs`。
 - `vendor/mediapipe/`：本地 MediaPipe Tasks Vision（Apache-2.0）。
 - `tools/`：测试与 Playwright 校验脚本；`docs/equipment-review/`：器械复核文档；`assets/`：媒体素材。
+- `docs/muscleandstrength/`：Muscle & Strength 全站 1,219 个动作资源镜像、结构化数据与教程；方案 A（全量图文+已识别动作视频）已就绪，全站全量视频待办见 [`docs/muscleandstrength/PLAN_B_TODO.md`](docs/muscleandstrength/PLAN_B_TODO.md)（一键下载：`python tools/download-all-ms-videos.py`）。
 
 ## 服务白名单（改文件必看）
 
@@ -29,7 +30,8 @@ Playwright 校验脚本（`node tools/verify-*.cjs`、`tools/check-cardio-librar
 
 ## 素材与公开性
 
-仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`assets/*.jpg|*.mp4`、`teachers-day.js|css`、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/`、`.workbuddy/`、`test-artifacts/`。注意 `index.html` 引用了被忽略的 `teachers-day.css`。
+仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`docs/muscleandstrength/media/`、`teachers-day.js|css`、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/*`（除 `*.jpg`）、`.workbuddy/`、`test-artifacts/`。注意 `index.html` 引用了被忽略的 `teachers-day.css`。
+动作库素材（`assets/*.jpg|*.mp4`、`assets/equipment/*.jpg`）已纳入版本管理随仓库分发，保障开箱即用。
 
 动作数量一律数据驱动：HTML 用 `<span data-exercise-count>` 占位，`guide.js` 用 `window.GYM_DATA.length` 填充，**不要写死数字**。
 

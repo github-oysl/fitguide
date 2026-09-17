@@ -1,0 +1,35 @@
+{
+  "id": "standing-dumbbell-reverse-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html",
+  "title": "Standing Dumbbell Reverse Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [
+    "The standing dumbbell reverse curl is a variation of thestanding dumbbell curland an exercise used to strengthen the muscles of the biceps.The reverse grip is particularly useful in forcing the forearms to become involved in some of the workload.Bicep isolation work is particularly helpful for those looking to achieve aesthetics and building a balanced physique."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack and assume a shoulder width stance.",
+    "Using a pronated (palms down) grip, take a deep breath and curl the dumbbells towards your shoulders.",
+    "Once the biceps are fully shortened, slowly lower the weight back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the elbows to shift behind the body. Similarly, make sure the shoulder doesn’t shift forward in the socket as you lower the weight.",
+    "Maintain a slight bend in the elbow at the bottom of the movement in order to keep tension through the biceps.",
+    "Rotate the forearms slowly, excessive velocity may cause issues within the elbows or wrists.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/i5h3myNHVFk?rel=0",
+  "youtube_id": "i5h3myNHVFk",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

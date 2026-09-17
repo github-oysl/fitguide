@@ -1,0 +1,38 @@
+{
+  "id": "deadstop-rack-row",
+  "url": "https://www.muscleandstrength.com/exercises/deadstop-rack-row",
+  "title": "Deadstop Rack Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Biceps, Lats, Lower Back, Shoulders",
+  "overview": [
+    "The deadstop rack row is a variation of thebent over rowand an exercise used to target the muscles of the back.The deadstop rack row incorporates the power rack and provides a brief pause after each set. This brief pause, or deadstop, eliminates any momentum from being used in the exercise."
+  ],
+  "instructions": [
+    "Set the safeties in a rack at roughly mid shin height.",
+    "Hinge forward until your torso is roughly parallel with the floor (or slightly above) and grasp the bar using a double overhand grip.",
+    "Begin the movement by driving the elbows behind the body while retracting the shoulder blades.",
+    "Pull the bar towards your belly button until it touches your body and then slowly lower the bar back to the safety pins under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Experiment with head position and see which option (looking forward vs. packing the neck) works better for you.",
+    "Keep some tone through your abdominals as you pull the bar into your body to ensure you don’t arch excessively through your spine.",
+    "Don’t allow momentum to dictate the movement, control the bar throughout the entirety of each rep.",
+    "This movement is an exact replica of a bent over row each repetition begins from a stand still thus mitigating the stretch shortening cycle.",
+    "Don’t allow the head to jut forward as you pull.",
+    "Similarly, ensure the shoulder blade moves on the rib cage. Don’t lock the shoulder blade down and just move through the glenohumeral joint."
+  ],
+  "video_url": "https://www.youtube.com/embed/lJ7RtjoJ2RE?rel=0",
+  "youtube_id": "lJ7RtjoJ2RE",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

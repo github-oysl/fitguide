@@ -1,0 +1,35 @@
+{
+  "id": "preacher-curl",
+  "url": "https://www.muscleandstrength.com/exercises/preacher-curl.html",
+  "title": "Barbell Preacher Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The preacher curl is an exercise used to isolate the biceps.The angle used when performing preacher curl variations allows for a more focused concentric portion of the curl. This is especially helpful when trying to build bicep peaks and promote a pump in the biceps.The preacher curl is an isolation movement that is best used toward the end of yourworkoutsif your goal is building a more aesthetic physique."
+  ],
+  "instructions": [
+    "Load the desired weight on the barbell, and sit in an upright position with your chest flat against the preacher bench.",
+    "Keep your upper arm pressed into the pad and use a supinated grip (palms facing up).",
+    "Extend your arms until your biceps are fully lengthened. This is the starting position.",
+    "Take a deep breath and curl the weight by bending at the elbows until the bar is at shoulder height.",
+    "Squeeze the biceps at the top of the movement and slowly lower the bar back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Keep the motion slow and controlled throughout the set.",
+    "Always use a full range of motion to get the most out of this exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793994?h=dbd7856d57",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

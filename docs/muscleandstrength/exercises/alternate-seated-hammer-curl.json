@@ -1,0 +1,33 @@
+{
+  "id": "alternate-seated-hammer-curl",
+  "url": "https://www.muscleandstrength.com/exercises/alternate-seated-hammer-curl.html",
+  "title": "Alternating Seated Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Set up for the alternating seated hammer curl by grabbing a flat bench or adjustable bench and placing a set of dumbbells at one end. If you're using an adjustable bench, adjust the back to a 90-degree angle.",
+    "Sit on the end of the bench with your feet out in front of you and your knees together.",
+    "Pick the dumbbells up off the floor and let them hang by your sides with a neutral grip. Bend the arms slightly to keep tension on the biceps. This is the starting position for the exercise.",
+    "With your back straight and your elbows tucked in at your sides, slowly curl the dumbbell up with one arm.",
+    "Squeeze the bicep hard, and then slowly lower the dumbbell back to the starting position.",
+    "Repeat this for your other arm, and then repeat for desired reps."
+  ],
+  "tips": [
+    "Keep tension in the biceps the whole time.",
+    "Do not swing the shoulders back as you curl the dumbbell up."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794279?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

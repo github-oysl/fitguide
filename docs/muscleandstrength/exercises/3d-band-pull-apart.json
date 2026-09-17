@@ -1,0 +1,36 @@
+{
+  "id": "3d-band-pull-apart",
+  "url": "https://www.muscleandstrength.com/exercises/3d-band-pull-apart",
+  "title": "3-D Band Pull Apart",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Upper Back",
+  "overview": [
+    "The 3D band pull apart is an exercise that targets the muscles of the upper body including the shoulders (rear delts), upper back, and traps.People typically use the 3D band pull apart as a prehab/warm up exercise, but it can also be used to strengthen the rear deltoids."
+  ],
+  "instructions": [
+    "Stand on a band with your feet shoulder width apart, arms relaxed at your side, and hold the band using a pronated grip (thumbs pointing towards one another).",
+    "Inhale and raise the band to shoulder height with the elbows nearly locked out.",
+    "Once your arms are parallel to the floor, pull the band apart by contracting your rear delts.",
+    "Slowly lower back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Ideally we want to focus on the rear deltoids, not the scapular retractors so movement at the shoulder blade should be limited. Move the shoulder within the joint, not the shoulder blade on the rib cage.",
+    "Keep the abs braced and don’t arch the back at the top of the movement.",
+    "Don’t jut your head forward during the movement - this about stimulation for a small muscle group. Focus during the movement and don’t just rely on momentum.",
+    "Allow the arms to move freely but don’t lock out the elbows."
+  ],
+  "video_url": "https://www.youtube.com/embed/rmbNEz5ZRnM?rel=0",
+  "youtube_id": "rmbNEz5ZRnM",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

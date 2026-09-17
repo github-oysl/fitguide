@@ -1,0 +1,34 @@
+{
+  "id": "one-arm-prone-hammer-dumbbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-prone-hammer-dumbbell-curl.html",
+  "title": "One-Arm Prone Hammer Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Forearms",
+  "overview": [],
+  "instructions": [
+    "Set up for the one-arm prone hammer curl by setting an adjustable back bench to an angle of around 30-40 degrees.",
+    "Grab a dumbbell with one arm and position yourself with your chest against the bench (prone position).",
+    "Your feet should be used for stability on the floor, your shoulders should be about level with the top of the back padding and your arm should be hanging - holding the dumbbell with a neutral grip (palm facing towards your body).",
+    "Put the tension on your bicep by slightly bending your arm. This is the starting position for the exercise.",
+    "Keeping your elbow fixed, slowly curl the dumbbell up as far as possible.",
+    "Squeeze the bicep and slowly lower the dumbbell back to the starting position.",
+    "Repeat for desired reps, and then repeat the same on the other arm."
+  ],
+  "tips": [
+    "Your elbow should be fixed throughout the movement. Only your forearm should be moving.",
+    "Keep the rep timing slow and control the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794497?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

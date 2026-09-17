@@ -1,0 +1,33 @@
+{
+  "id": "lying-rear-delt-barbell-raise",
+  "url": "https://www.muscleandstrength.com/exercises/lying-rear-delt-barbell-raise.html",
+  "title": "Lying Rear Delt Barbell Raise",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Load a barbell with the desired weight and place it in front of a flat bench. Depending on the length of your arms, you may need to elevate the bench using blocks or steps.",
+    "Lay down with your chest flat on the bench. Your feet can be straight out behind you or planted on the floor for stability.",
+    "With your arms extended below you, hold the bar with an overhand grip around shoulder width apart. This is the starting position.",
+    "Slowly raise the barbell to around shoulder height.",
+    "Pause, and then slowly lower the barbell back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep the rep timing slow, and lower the weight slowly.",
+    "Aim to raise the barbell to around shoulder height, but ultimately your range of motion will determine how far you are able to raise the bar."
+  ],
+  "video_url": "https://player.vimeo.com/video/760002750?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

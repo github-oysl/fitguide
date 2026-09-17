@@ -1,0 +1,34 @@
+{
+  "id": "alternate-dumbbell-flys",
+  "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-flys.html",
+  "title": "Alternating Dumbbell Fly",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders",
+  "overview": [],
+  "instructions": [
+    "Grab a set of dumbbells and sit on the end of a flat bench with the dumbbells resting on your thighs.",
+    "Lay back on the bench and extend your arms out, holding the dumbbells with a neutral grip (palms facing each other). The dumbbells should not be touching. Keep your feet planted on the floor for balance.",
+    "Bend your arms slightly. This is the starting position for the exercise.",
+    "Slowly lower the dumbbell in the left hand out to your side in a semicircle. Rotate at the shoulders only, keeping your arm slightly bent.",
+    "Once the dumbbell gets about level with your chest, squeeze the chest muscles and raise the dumbbell back up using the same path of motion (semicircle) as you did on the way down. Don't let the dumbbells touch.",
+    "Repeat the movement with your right arm.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Start with your weakest side first. For most people this is their left side.",
+    "Always use slow and controlled movements. The key to this exercise is stretch and contraction - not moving heavy weights. Save that for the big compound movements!"
+  ],
+  "video_url": "https://player.vimeo.com/video/756783487?h=d24eaac4b6&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

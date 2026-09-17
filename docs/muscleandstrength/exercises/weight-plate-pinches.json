@@ -1,0 +1,31 @@
+{
+  "id": "weight-plate-pinches",
+  "url": "https://www.muscleandstrength.com/exercises/weight-plate-pinches.html",
+  "title": "Weight Plate Pinches",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Isolation",
+  "force_type": "Static",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "To complete this exercise grasp a weight plate (or two if you can) between your two index fingers and your thumb.",
+    "Stand up straight and hold the weight plate with your fingers as long as possible.",
+    "If you can hold it longer than 30 seconds, use a heavier plate or two small plates together."
+  ],
+  "tips": [
+    "Don't use your fingers to hook around the weight plate. The idea is that you pinch it.",
+    "Holding several smaller plates together is more challenging.",
+    "It's generally a good idea to do this exercise at the end of your workout as your grip is used in most exercises."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001933?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

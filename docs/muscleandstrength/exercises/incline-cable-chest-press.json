@@ -1,0 +1,35 @@
+{
+  "id": "incline-cable-chest-press",
+  "url": "https://www.muscleandstrength.com/exercises/incline-cable-chest-press",
+  "title": "Incline Cable Chest Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [
+    "The incline cable chest press is a variation of theincline bench pressused to target the muscles of the chest. In particular, the incline used in the incline cable chest press helps one target the upper chest to a greater degree.Cables are an excellent tool to use to keep constant tension on the working muscles, as seen in the incline cable chest press. This constant tension increases the total time under tension of the working muscle and (when programmed appropriately) can help lead to better muscle gains."
+  ],
+  "instructions": [
+    "Set up a incline bench inside the cable station, position both pulleys as low as possible, and select the desired weight.",
+    "Sit on the incline bench and grasp one handle at a time. Lay back and get into position with the handles at chest height.",
+    "Press the handles to lockout while flexing the pecs and extending the elbows.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Maintain more tension through the pecs by not locking out the elbows entirely.",
+    "Don’t allow the handles to collide at the top of each rep.",
+    "If you’re feeling pain within the shoulder joint itself (specifically at the front), ensure your shoulder blades are slightly retracted and try to keep the shoulder girdle “packed”.",
+    "Ensure you maintain some tension in your abs and don’t allow your lower back to arch excessively."
+  ],
+  "video_url": "https://www.youtube.com/embed/Z8qjy7FAMuE?rel=0",
+  "youtube_id": "Z8qjy7FAMuE",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

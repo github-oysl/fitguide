@@ -1,0 +1,35 @@
+{
+  "id": "incline-skullcrusher",
+  "url": "https://www.muscleandstrength.com/exercises/incline-skullcrusher.html",
+  "title": "Incline Skull Crusher",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the incline skull crusher by setting an incline bench to around 30-45 degrees and selecting a barbell you want to use.",
+    "Sit down on the bench with the barbell across your thighs.",
+    "Grasp the barbell with an overhand grip (palms facing down) with your hands slightly closer than shoulder-width apart.",
+    "Lay back on the bench and hold the barbell straight up in the air with your arms fully extended.",
+    "Bend the arms slightly to take up the tension in your triceps. This is the starting position for the exercise.",
+    "Keeping your elbows completely fixed in place, slowly lower the bar down until it's almost touching your forehead.",
+    "Pause, and then slowly extend the arms back up to the starting position.",
+    "Don't lock your arms, and then repeat for desired reps."
+  ],
+  "tips": [
+    "Make sure you keep your elbows in during the set. The tenancy will be for your elbows to want to flare out to the sides, and this will take some of the work of your triceps.",
+    "Keep the rep timing slow and controlled, and squeeze the triceps at the top of the exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784389?h=0fb8b664ad&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

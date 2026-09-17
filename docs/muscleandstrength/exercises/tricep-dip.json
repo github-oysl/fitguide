@@ -1,0 +1,36 @@
+{
+  "id": "tricep-dip",
+  "url": "https://www.muscleandstrength.com/exercises/tricep-dip.html",
+  "title": "Tricep Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Grab the parallel dip bars with an inward grip.",
+    "If the bars are adjustable, adjust them to around shoulder-width apart.",
+    "Jump up off the floor and take your weight on the bars.",
+    "The key to hitting your triceps on this version of the dip is to keep your body as straight as possible and don't lean forward. This may mean not crossing your legs and keeping them hanging down.",
+    "Slowly lower yourself down, keeping your eyes facing forward.",
+    "Lower until your elbow is at around the same height as your shoulder, and then raise your body back up without locking your arms at the top of the movement.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Do not lower yourself down too far, as this can result in heavy strain on your shoulder joints and possible injury.",
+    "Use the mind-muscle connection to focus on working your triceps throughout the movement. Squeeze your triceps hard at the top of the movement and feel the stretch on the way down.",
+    "Do not lock your elbows out at the top of the movement.",
+    "And finally, keep the rep timing slow for maximum results from this exercise."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788398?h=b066242b72",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

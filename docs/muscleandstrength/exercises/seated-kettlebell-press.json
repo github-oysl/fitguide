@@ -1,0 +1,36 @@
+{
+  "id": "seated-kettlebell-press",
+  "url": "https://www.muscleandstrength.com/exercises/seated-kettlebell-press",
+  "title": "Seated Kettlebell Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Kettle Bells",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Traps, Triceps",
+  "overview": [
+    "The seated kettlebell shoulder press is a variation of theseated dumbbell pressand an exercise used to build the muscles of the shoulders.The kettlebells used to perform the seated kettlebell shoulder press provide a unique challenge in the form of a different implement. As opposed to when performing the shoulder press with dumbbells, the weight of the kettlebell lies below the handle, forcing you to fight gravity throughout each rep."
+  ],
+  "instructions": [
+    "Assume a seated position on a bench while grasping a kettlebell with a neutral grip in both hands.",
+    "Curl or clean both kettlebells into a front racked position.",
+    "Press the bells overhead until the shoulders reach full flexion and the elbows are locked out.",
+    "Slowly lower the kettlebells back to the starting position and repeat for the assigned number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow the head to jut forward excessively.",
+    "Drive the bicep to the ear and exhale as you press.",
+    "If you sense any pressure in your neck or traps during the movement, look to address a lack of thoracic spine extension or shoulder flexion.",
+    "Keeping the elbows slightly bent at the top and not locking out entirely will help to keep tension on the shoulders.",
+    "If you can’t lock out the elbows overhead than it may indicate a lack of shoulder mobility due to poor scapular upward rotation."
+  ],
+  "video_url": "https://www.youtube.com/embed/DC27E8lT43A?rel=0",
+  "youtube_id": "DC27E8lT43A",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

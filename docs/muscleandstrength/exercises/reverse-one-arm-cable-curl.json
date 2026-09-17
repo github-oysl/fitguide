@@ -1,0 +1,31 @@
+{
+  "id": "reverse-one-arm-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-one-arm-cable-curl.html",
+  "title": "Reverse One-Arm Cable Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps",
+  "overview": [],
+  "instructions": [
+    "Attach a single-grip handle to the low pulley of a cable machine.",
+    "Stand facing the machine and grab the handle with one hand using an overhand grip (palm facing down).",
+    "Keep your torso still and your elbow tucked close to your side.",
+    "Slowly curl the handle upward as far as you can, focusing on squeezing your bicep.",
+    "Pause briefly at the top of the movement.",
+    "Lower the handle back down with control to the starting position.",
+    "Complete the desired number of reps, then switch arms and repeat."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/1082967583?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

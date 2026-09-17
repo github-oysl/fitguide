@@ -1,0 +1,35 @@
+{
+  "id": "dumbbell-tate-press",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-tate-press",
+  "title": "Dumbbell Tate Press",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The dumbbell Tate press is a variation of thedumbbell tricep extensionand an exercise used to build stronger triceps.The Tate press can be used by pretty much any lifting population and it’d be beneficial in theirworkout programs.For bodybuilders, the Tate press will offer a unique range of motion to target the triceps. This will help in building a complete pair of horseshoe triceps.For other lifters, the Tate press can help improve other pressing variations that require a lot of tricep strength at lock out."
+  ],
+  "instructions": [
+    "Select the desired weight from the rack and sit down on a flat bench.",
+    "To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, then press the dumbbells to lockout at the top.",
+    "Maintain a pronated grip (thumbs pointing towards each other) and allow the elbows to bend while lowering the inner portion of the dumbbells to the chest.",
+    "Once the ends of the dumbbells touch your chest, reverse the movement and flex the triceps to lockout the elbows.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t overextend through the lumbar spine, keep your ribcage down by maintaining tension through the abs.",
+    "Try to keep the dumbbells touching throughout the duration of the exercise.",
+    "Using a slow eccentric (lowering portion) of the exercise can help to improve tension and mind-muscle connection."
+  ],
+  "video_url": "https://www.youtube.com/embed/0BsOmGkxMCI?rel=0",
+  "youtube_id": "0BsOmGkxMCI",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

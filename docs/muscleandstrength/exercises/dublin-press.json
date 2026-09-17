@@ -1,0 +1,33 @@
+{
+  "id": "dublin-press",
+  "url": "https://www.muscleandstrength.com/exercises/dublin-press.html",
+  "title": "Dublin Press",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the dublin press by grabbing a pair of dumbbells and sitting at the end of a flat bench.",
+    "Raise the dumbbells to shoulder height on each side, and rotate your wrists so that your palms are facing forward. This is the starting position for the exercise.",
+    "Slowly raise the dumbbells above your head and slightly outward until your arms are almost fully extended.",
+    "Do not pause at the top of the movement, and immediately begin lowering the dumbbells back down to the starting position.",
+    "Repeat this movement for desired reps."
+  ],
+  "tips": [
+    "This exercise varies slightly from theshoulder pressdue to the angle at which you push the weight. Focus on keeping the weights away from your body rather than pressing them straight above your head.",
+    "Always use the longest range of motion possible and control the dumbbells throughout the set.",
+    "This exercise can also be performed while sitting on a bench with a backrest, which is especially ideal for those with lower back problems."
+  ],
+  "video_url": "https://player.vimeo.com/video/760002772?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

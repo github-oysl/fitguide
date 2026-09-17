@@ -1,0 +1,35 @@
+{
+  "id": "lying-barbell-reverse-extension",
+  "url": "https://www.muscleandstrength.com/exercises/lying-barbell-reverse-extension.html",
+  "title": "Lying Barbell Reverse Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up by sitting on the end of a flat bench with the barbell or EZ-bar resting on your thighs.",
+    "Grip the bar with an overhand grip (palms facing down) with your hands about 8-12 inches apart.",
+    "Lay back on the bench and extend your arms out behind your head so that they're close to parallel to the floor. This is the starting position for the exercise.",
+    "Keeping your elbows and upper arms fixed in place, slowly lower the barbell behind your head.",
+    "Don't pause, and then extend your arms to bring the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Unlike some other exercises you should not pause when your arms are bent, this is basically resting at the bottom of the movement.",
+    "Keep the exercise flowing and control the weight.",
+    "Keep your elbows in and upper arms fixed during the set.",
+    "Use a very light weight at first."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784209?h=73d3a8aa7c&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

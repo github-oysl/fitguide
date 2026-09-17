@@ -1,0 +1,32 @@
+{
+  "id": "wide-grip-standing-barbell-curl",
+  "url": "https://www.muscleandstrength.com/exercises/wide-grip-standing-barbell-curl.html",
+  "title": "Wide Grip Standing Barbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Grasp a barbell with your hands at a wider than shoulder width, using an underhand grip (palms facing up).",
+    "Your feet should be firmly on the floor, about should width apart. If you prefer, you can place one foot back. This is the starting position.",
+    "Keeping your body fixed (do not swing!), slowly curl the weight up as far as possible.",
+    "Squeeze the biceps, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Do not swing the weight up by arching your back. This is cheating! Your body must remain fixed throughout the movement.",
+    "Keep your elbows in at the side and do not allow them to come forward when curling the weight up. Focus on keeping all movement in your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756794014?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

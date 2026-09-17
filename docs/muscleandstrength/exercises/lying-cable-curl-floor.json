@@ -1,0 +1,33 @@
+{
+  "id": "lying-cable-curl-floor",
+  "url": "https://www.muscleandstrength.com/exercises/lying-cable-curl-floor.html",
+  "title": "Lying Cable Curl (On Floor)",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by attaching a straight bar to a low pulley cable and selecting the weight you want to use.",
+    "Sit on the floor in front of the cable machine with your feet resting against it.",
+    "Grip the bar with an underhand grip at around shoulder width and lay back on the floor. Your body should be flat on the floor.",
+    "Keeping your upper arms on the floor, slowly curl the bar up as far as possible.",
+    "Squeeze the biceps, and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep your upper arms flat on the floor. Don't allow your elbows to come up as you curl the bar up.",
+    "Keep the rep timing slow and control the weight on the way down."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001517?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

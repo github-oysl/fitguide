@@ -1,0 +1,36 @@
+{
+  "id": "standing-cable-hamstring-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-cable-hamstring-curl.html",
+  "title": "Standing Cable Hamstring Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the standing cable hamstring curl by attaching an ankle strap to the low pulley of a cable machine and setting the weight on the stack.",
+    "Position a block or a step in front of the machine to stand on for a better range of motion.",
+    "Attach the strap to your left ankle and stand on the block with your right foot, allowing your left foot to hang off to the side.",
+    "Stand with a slight bend in your knee and grab onto the machine with both hands for stability. This is the starting position.",
+    "Bending at the knee, slowly lift your left ankle up behind you toward your buttocks.",
+    "Raise your foot as high as comfortably possible and pause for a moment squeezing your hamstrings.",
+    "Slowly lower the weight to the starting position and repeat for desired reps.",
+    "Repeat using your right leg"
+  ],
+  "tips": [
+    "Keep your body as still as possible throughout the movement, moving only at the knee joint of the working leg. Choose a weight that allows you to complete the movement without jerking.",
+    "Control the weight as you raise and lower it. Don't allow the weight to drop to the stack.",
+    "Squeeze your hamstrings and pause at the top of the movement for added intensity."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793229?h=381adf5cf1",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "reverse-grip-skullcrusher",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-grip-skullcrusher.html",
+  "title": "Reverse Grip Skull Crusher",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Sit on the end of a flat bench with a barbell on your thighs.",
+    "Grip the barbell with an underhand grip (palms facing up) with your hands about shoulder width apart.",
+    "Bring the bar up to your chest and lay down on your back.",
+    "Extend your arms straight up above your chest.",
+    "Keeping your elbows fixed in place and not pointing out, slowly lower the bar until it is about an inch from your forehead (hence the name skullcrusher!).",
+    "Pause, and then slowly extend your arms back to the starting position.",
+    "Do not lock your elbows out, and then repeat for desired reps."
+  ],
+  "tips": [
+    "This exercise is best when using an EZ bar because it's much easier on the wrists when using a reverse grip.",
+    "Keep your elbows in throughout the set and don't allow them to move forward or back as your raise the weight.",
+    "Keep your rep timing slow and control the weight on the way down."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784224?h=92cc854426&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

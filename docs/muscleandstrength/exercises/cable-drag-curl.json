@@ -1,0 +1,31 @@
+{
+  "id": "cable-drag-curl",
+  "url": "https://www.muscleandstrength.com/exercises/cable-drag-curl.html",
+  "title": "Cable Drag Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the cable drag curl by attaching a straight bar to the low pulley cable machine and selecting the weight you want to use from the stack.",
+    "Stand close to the machine and grasp the straight bar with an underhand grip (palms facing up).",
+    "Holding the bar around 1-2 inches from your body, pull the bar straight up keeping it as close as possible to your body without touching it.",
+    "Once you've raised the bar as far as possible, pause, and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Keep the movement slow and controlled."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001460?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

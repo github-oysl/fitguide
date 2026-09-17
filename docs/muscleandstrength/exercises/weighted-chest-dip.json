@@ -1,0 +1,34 @@
+{
+  "id": "weighted-chest-dip",
+  "url": "https://www.muscleandstrength.com/exercises/weighted-chest-dip.html",
+  "title": "Weighted Chest Dip",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Other",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "To set up, attach a weight belt to your waist and load the appropriate amount of weight.",
+    "Grasp the dip bars with your palms facing in. If you can adjust the width of the bars, adjust them to slightly outside shoulder width to emphasize the chest more in the exercise.",
+    "Jump up and take your bodyweight.",
+    "Cross your legs at the ankles and lean forward.",
+    "Keeping your elbows in, slowly lower your body until your shoulders are about level with your elbows.",
+    "Pause, and then push back up to the starting position.",
+    "Without locking out your elbows repeat the movement."
+  ],
+  "tips": [
+    "There's no need to dip down too far. Dipping down lower than when your elbows are level with your shoulders puts unnecessary strain on your shoulder joints.",
+    "It's important to lean to emphasize the chest in this movement. The more \"straight up\" your body is, the more the triceps will be involved."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783554?h=cb9d037b1d&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

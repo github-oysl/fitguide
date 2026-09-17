@@ -1,0 +1,35 @@
+{
+  "id": "seated-barbell-twist",
+  "url": "https://www.muscleandstrength.com/exercises/seated-barbell-twist.html",
+  "title": "Seated Barbell Twist",
+  "target_muscle": "Obliques",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "N/A",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs",
+  "overview": [],
+  "instructions": [
+    "Sit down on a flat bench with your feet around shoulder-width apart, planted firmly on the floor.",
+    "Hold a barbell across the back of your shoulders (not your neck), gripping it just outside shoulder-width.",
+    "Keep your chest tall and back straight, and engage your core for stability.",
+    "Slowly rotate your torso to one side, keeping your hips and legs still.",
+    "Pause briefly at the end of the twist, feeling the contraction in your obliques.",
+    "Return to center, then rotate to the alternate side.",
+    "Continue alternating sides for the desired number of reps."
+  ],
+  "tips": [
+    "Don't look from side to side. Keep your head facing forward.",
+    "Keep your abs tight throughout the whole set.",
+    "Keep your back straight."
+  ],
+  "video_url": "https://player.vimeo.com/video/877885279?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Obliques Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Obliques.jpg"
+    }
+  ]
+}

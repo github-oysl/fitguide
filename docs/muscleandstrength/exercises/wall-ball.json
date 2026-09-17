@@ -1,0 +1,36 @@
+{
+  "id": "wall-ball",
+  "url": "https://www.muscleandstrength.com/exercises/wall-ball",
+  "title": "Wall Ball",
+  "target_muscle": "Quads",
+  "exercise_type": "Plyometrics",
+  "equipment": "Medicine Ball",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Chest, Glutes, Hamstrings, Lower Back, Shoulders, Triceps, Upper Back",
+  "overview": [
+    "Wall balls are a variation of thepush pressand an exercise that works the entire body in an explosive fashion.Wall balls were made popular by Crossfit style WODs, but are also used in athletic populations looking to build explosive strength in an attempt to improve performance on their field of play."
+  ],
+  "instructions": [
+    "Setup in an athletic base position while holding a medicine ball at your chest with a soft bend in your arms and knees.",
+    "Squat to parallel by simultaneously bending the hips and knees.",
+    "Drive upwards to full extension and drive the ball overhead explosively.",
+    "Catch the med ball as it returns from the wall and repeat steps #2-3 for the desired number of repetitions."
+  ],
+  "tips": [
+    "You can use these drills as “fillers” in between your large compound movements or you can implement them within your warm up as a method of potentiating your central nervous system for heavier strength based work in your accompanying training session.",
+    "Keep the torso rigid and ensure some tension through the core to help transmit force out through the extremities.",
+    "Initially you may want to focus on pausing in between reps to ensure proper positioning but over time you can eventually progress to more rhythmic (i.e. back to back) repetitions.",
+    "If you are using a denser medicine ball which will react with “an equal and opposite reaction” then you may want to stand a little ways back from the wall to allow yourself time to react.However, if you’re using a more absorptive ball then you can stand closer and catch the ball as it comes directly off the wall.",
+    "However, if you’re using a more absorptive ball then you can stand closer and catch the ball as it comes directly off the wall."
+  ],
+  "video_url": "https://www.youtube.com/embed/TS-YN2GkPZw?rel=0",
+  "youtube_id": "TS-YN2GkPZw",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

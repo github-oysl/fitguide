@@ -1,0 +1,37 @@
+{
+  "id": "kettlebell-swing",
+  "url": "https://www.muscleandstrength.com/exercises/kettlebell-swing",
+  "title": "Kettlebell Swing",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Kettle Bells",
+  "mechanics": "Compound",
+  "force_type": "Hinge (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Adductors, Calves, Forearms, Glutes, Lats, Lower Back, Quads, Traps, Upper Back",
+  "overview": [
+    "The kettlebell swing is a total body movement that primarily works the muscles of the posterior chain, emphasizing the hamstring complex.The kettlebell swing is an excellent starting point for those learning the hip hinge movement pattern. From there one can progress to more advanced hip hinges such as thedeadlift.Regardless, the kettlebell swing is a great exercise to incorporate into yourworkout programfor general health purposes."
+  ],
+  "instructions": [
+    "Assume a hinged position with your knees slightly bent, both hands on the kettlebell handle, chin tucked, and weight centered over your foot.",
+    "Begin the movement by hiking the kettlebell between your legs and keeping your spine neutral.",
+    "Drive the kettlebell back to the starting position by extending the hips, pushing through the floor, and keeping the arms straight.",
+    "Repeat the movement for the desired number of repetitions."
+  ],
+  "tips": [
+    "The swing should be a fairly explosive and snappy movement, the point is to generate hip extension as rapidly as possible followed by a subsequent contraction.",
+    "Imagine you’re trying to hike a football between your legs as the kettlebell descends.",
+    "Your weight will obviously shift to your heels during the bottom portion of the exercise but you shouldn’t allow the toes to rise.",
+    "Your chin should follow your chest, don’t worry about looking up in the bottom of the movement.",
+    "Keep a soft bend in your knee and don’t allow your arches to collapse as you complete the movement.",
+    "Make sure you wrap your thumbs around the handle and don’t utilize a false grip."
+  ],
+  "video_url": "https://www.youtube.com/embed/wMBWFIn4ddg?rel=0",
+  "youtube_id": "wMBWFIn4ddg",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

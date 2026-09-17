@@ -1,0 +1,37 @@
+{
+  "id": "chain-fly",
+  "url": "https://www.muscleandstrength.com/exercises/chain-fly",
+  "title": "Chain Fly",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Chains",
+  "mechanics": "Isolation",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [
+    "The chain fly is a variation of thedumbbell chest flyand an exercise used to strengthen the muscles of the chest.The chain provides variable resistance and is heavier at the top of the movement than at the bottom portion. As each link raises from the ground, the exercise gets exponentially harder.Chain exercises, such as the chain fly, can be especially helpful because it allows you to use heavier weight at certain portions of the movement that you wouldn’t normally be able to use."
+  ],
+  "instructions": [
+    "Setup in a seated position on the end of a bench with a chain in each hand.",
+    "Lay back and press the chains to extension.",
+    "Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch.",
+    "Return to the starting position by flexing your pecs and bringing the chains together at chest height.",
+    "Slowly lower back to the starting position and repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Imagine you’re trying to hug a tree while completing the exercise.",
+    "Don’t squeeze the handles excessively tight as this can over recruit the forearms and biceps thereby reducing activation of the pecs.",
+    "Avoid touching or banging the chains together at peak contraction to keep constant tension on the intended muscle groups.",
+    "Always keep a slight bend in the elbows and never lower the weight to the point where you get any sort of pain and pressure at the front of the shoulder joint.",
+    "Ensure you maintain some tension in your abs and don’t allow your lower back to arch excessively."
+  ],
+  "video_url": "https://www.youtube.com/embed/zIsgT4H3QsA?rel=0",
+  "youtube_id": "zIsgT4H3QsA",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

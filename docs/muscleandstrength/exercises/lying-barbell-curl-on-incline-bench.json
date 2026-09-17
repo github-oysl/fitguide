@@ -1,0 +1,35 @@
+{
+  "id": "lying-barbell-curl-on-incline-bench",
+  "url": "https://www.muscleandstrength.com/exercises/lying-barbell-curl-on-incline-bench.html",
+  "title": "Lying Incline Bench Barbell Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set an incline bench at a 30-degree angle (If you do not have access to an incline bench you can prop up a straight bench).",
+    "Grab a barbell and place it at the end of the incline bench.",
+    "Lay on the bench with your chest against the padding. Your chest should be at the end of the bench.",
+    "Grasp the barbell with an underhand grip (palms facing up), with your hands about shoulder-width apart.",
+    "Keeping your eyes up and bending at the elbows, slowly curl the barbell up as far as possible.",
+    "Squeeze the biceps at the top of the movement, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "You should bend at the elbows only. Don't let your elbows come forward when curling the weight up.",
+    "Squeeze the biceps hard at the top of the movement for a count of 1-2 for best results.",
+    "Control the weight on the way down. Lower the bar slowly, not allowing the weight to drop down quickly."
+  ],
+  "video_url": "https://player.vimeo.com/video/756793850?badge=0&autopause=0&quality_selector=1&progress_bar=1&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

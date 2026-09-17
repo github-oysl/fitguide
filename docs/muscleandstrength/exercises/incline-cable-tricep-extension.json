@@ -1,0 +1,32 @@
+{
+  "id": "incline-cable-tricep-extension",
+  "url": "https://www.muscleandstrength.com/exercises/incline-cable-tricep-extension.html",
+  "title": "Incline Cable Tricep Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for this exercise by placing an incline bench in front of a cable machine. Attach a straight bar to the low pulley.",
+    "Make sure the incline bench is set to an angle of 30 degrees and is facing away from the pulley.",
+    "Grab the bar with an overhand grip at around shoulder width, sit on the bench with your back flat against the padding and raise the bar straight above your head taking the weight off the stack. This is the starting position.",
+    "Moving only at the elbows, slowly lower the bar back behind your head until your forearms are just past parallel to the floor.",
+    "Raise the bar to the starting position, pause briefly, and then repeat for desired reps."
+  ],
+  "tips": [
+    "Focus on moving the weight with your triceps, keeping control of the weight as you slowly lower the weight stack back to the starting position.",
+    "Keep your body as still as possible, moving only your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788230?h=30bb7c3720",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

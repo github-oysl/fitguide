@@ -1,0 +1,36 @@
+{
+  "id": "razor-curl",
+  "url": "https://www.muscleandstrength.com/exercises/razor-curl",
+  "title": "Razor Curl",
+  "target_muscle": "Hamstrings",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Calves, Glutes",
+  "overview": [
+    "The razor curl is a variation of theglute ham raiseand an exercise used to strengthen the muscles of the hamstrings.The razor curl is generally viewed as a way to progress to full glute ham raises.Glute ham raise variations are a great alternative to theleg curland an exercise that can help improvedeadliftandsquatstrength."
+  ],
+  "instructions": [
+    "Set up in a GHD with your knees bent, hips flexed, and torso parallel to the floor.",
+    "Extend the legs while maintaining the torso position.",
+    "Continue until your body is in a straight line and parallel to the floor.",
+    "Pull yourself back to the starting position using your hamstrings.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "You should feel this primarily through your glutes and hamstrings. If you’re getting a lower back pump then odds are, you’re dealing with a core/pelvis stability issue.If you find that you struggle with keeping a neutral spine then you can regress to something such asvalslide leg curlsor eccentric only GHRs.",
+    "If you find that you struggle with keeping a neutral spine then you can regress to something such asvalslide leg curlsor eccentric only GHRs.",
+    "Razor curls are typically used as a progression to GHRs so if you struggle to complete normal GHRs then you can use this variation which shortens the lever arm.",
+    "Refrain from locking out your knees at the bottom of the movement to keep tension through your hamstrings."
+  ],
+  "video_url": "https://www.youtube.com/embed/N1RvXL7uc4E?rel=0",
+  "youtube_id": "N1RvXL7uc4E",
+  "images": [
+    {
+      "alt": "Hamstrings Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Hamstrings.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-bench-press.html",
+  "title": "Smith Machine Bench Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up the smith machine bench press by placing a flat bench in the smith machine. Lower the bar and add the weight you want to use.",
+    "Lay back on the bench so that your middle chest is level with the bar.",
+    "Your feet should be firmly planted on the floor for support. Grasp the bar with hands wider than shoulder width.",
+    "Unrack the bar and slowly lower the weight down until the bar is about one inch off your chest.",
+    "Pause, then slowly raise the bar up as far as possible without locking your elbows.",
+    "Repeat this movement for desired reps."
+  ],
+  "tips": [
+    "Keep the rep timing slow and control the weight throughout the set.",
+    "Do not \"bounce\" the bar off your chest.",
+    "Don't lock your elbows out at the top of the movement.",
+    "Use a wider than shoulder-width grip so that the emphasis is placed on your chest and not front shoulder muscles."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783677?h=b20676578f&badge=0&autopause=0&player_id=0&app_id=58479/embed",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "standing-high-pulley-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html",
+  "title": "Standing High Pulley Cable Curl",
+  "target_muscle": "Biceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "For the standing high pulley cable curl, you'll need a cable machine with two high pulley cable attachments. Set up by attaching a single grip handle to each of the high pulley cables and selecting the weight you want to use on the stack.",
+    "Grip each of the cables with an underhand grip (palms facing up) and stand in the center with your arms outstretched. This is the starting position.",
+    "Keeping your upper arms and body fixed, curl the handles in towards your body as close as possible.",
+    "Pause, and then slowly lower the weight back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "It's very important that you keep your body and elbows fixed in place throughout the set. Do not move your elbows. Focus on only allowing your forearms to move.",
+    "This is an isolation exercise, so your focus should be on muscle contraction and stretch - not on the weight."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001551?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Biceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Biceps.jpg"
+    }
+  ]
+}

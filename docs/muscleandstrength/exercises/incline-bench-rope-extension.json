@@ -1,0 +1,33 @@
+{
+  "id": "incline-bench-rope-extension",
+  "url": "https://www.muscleandstrength.com/exercises/incline-bench-rope-extension.html",
+  "title": "Incline Cable Tricep Extension (Rope Extension)",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for this exercise by placing an incline bench in front of a cable machine. Attach a rope attachment to the low pulley.",
+    "Make sure the incline bench is set to an angle of 30 degrees and is facing away from the pulley.",
+    "Grasp the rope with a neutral grip, sit on the bench with your back flat against the padding, and raise the rope straight above your head taking the weight off the stack. This is the starting position.",
+    "Moving only at the elbows, slowly lower the rope back behind your head until your forearms are just past parallel to the floor.",
+    "Raise the rope to the starting position fully extending your arms, pause briefly, and then repeat for desired reps."
+  ],
+  "tips": [
+    "Focus on moving the weight with your triceps, keeping control of the weight as you slowly lower the weight stack back to the starting position.",
+    "Keep your body as still as possible, moving only your forearms.",
+    "Spreading the rope out to shoulder width at the peak of the movement will help to add a degree of difficulty."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788258?h=49e235600b",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

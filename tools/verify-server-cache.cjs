@@ -161,7 +161,7 @@ function decode(res) {
 
   check('非法方法与非法 Range 仍被拒绝', async () => {
     assert.equal((await request(handler, {method: 'POST', url: '/index.html'})).status, 405);
-    assert.equal((await request(handler, {url: '/assets/leg-press.mp4', headers: {range: 'bytes=999999-'}})).status, 416);
+    assert.equal((await request(handler, {url: '/assets/leg-press.mp4', headers: {range: 'bytes=99999999-'}})).status, 416);
   });
 
   let passed = 0, failed = 0;

@@ -1,0 +1,37 @@
+{
+  "id": "pec-dec",
+  "url": "https://www.muscleandstrength.com/exercises/pec-dec.html",
+  "title": "Pec Deck",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Machine",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders",
+  "overview": [
+    "The Pec Deck is a machine exercise designed to target the chest muscles, particularly the pectoralis major.The movement mimics the action of achest fly, isolating the chest muscles and helping to improve strength and muscle definition in the upper body.It's commonly used for bothbeginnersand advanced lifters to work the chest without involving the shoulders or triceps as much."
+  ],
+  "instructions": [
+    "Adjust the seat and set the height so your elbows are at chest level when sitting.",
+    "Place your arms on the pads or grips with elbows bent at 90 degrees.",
+    "Keep your feet flat on the floor for stability. This is the starting position.",
+    "Slowly bring your arms forward, squeezing your chest.",
+    "Briefly squeeze your chest at the peak of the movement.",
+    "Control the movement as you slowly return to the starting position. This is one rep.",
+    "Repeat for desired repetitions."
+  ],
+  "tips": [
+    "Don’t over-extend your range of motion. Stop when your arms are slightly wider than your shoulders to maintain tension on the chest.",
+    "Focus on your chest by squeezing your chest as you bring the pads together.",
+    "Keep elbows slightly bent and avoid locking your elbows to protect the joints."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008416?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

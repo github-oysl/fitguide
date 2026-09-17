@@ -1,0 +1,32 @@
+{
+  "id": "exercise-ball-dip",
+  "url": "https://www.muscleandstrength.com/exercises/exercise-ball-dip.html",
+  "title": "Exercise Ball Dip",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Exercise Ball",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Abs, Chest, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Sit on the exercise ball.",
+    "Place your hands on the ball on either side of your body.",
+    "Slowly step out with your feet until your buttocks are off the ball. This is the starting position for the exercise.",
+    "Keeping your body tight to avoid wobbling the ball, slowly dip down as far as possible.",
+    "Pause, and then raise your body back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "The exercise ball dip is a test of core strength. Keep your midsection tight throughout the movement to stop the ball from moving out from underneath you."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784418?h=35ca70b31b&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

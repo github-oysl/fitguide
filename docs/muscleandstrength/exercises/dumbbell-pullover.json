@@ -1,0 +1,37 @@
+{
+  "id": "dumbbell-pullover",
+  "url": "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html",
+  "title": "Dumbbell Pullover",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "Lats",
+  "overview": [
+    "A Dumbbell Pullover is an exercise that primarily targets the chest (pectorals) and lats (latissimus dorsi), while also engaging the triceps and core.This movement helps to improve upper body strength,flexibility,and muscle definition in both the chest and back.It can be performed as a chest or back-focused exercise depending on the angle and emphasis."
+  ],
+  "instructions": [
+    "Lie on a bench, with your upper back and shoulders supported, and feet flat on the floor.",
+    "Hold one dumbbell with both hands, palms pressed together, and arms extended straight above your chest. This is the starting position.",
+    "Slowly lower the dumbbell in an arc behind your head, keeping a slight bend in your elbows.",
+    "Feel a stretch in your chest and lats as the dumbbell lowers.",
+    "Bring the dumbbell back up to the starting position. This is one rep.",
+    "Perform the desired reps, focusing on control and muscle engagement."
+  ],
+  "tips": [
+    "Keep your core tight. Engage your core throughout the movement to protect your lower back.",
+    "Control the motion. Lower the dumbbell slowly to feel a stretch, and avoid jerking the weight.",
+    "Focus on your chest and lats. As you lift the dumbbell, focus on squeezing your chest and activating your lats.",
+    "Don’t lock your elbows; keep a small bend to reduce joint strain."
+  ],
+  "video_url": "https://player.vimeo.com/video/760008438?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

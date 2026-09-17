@@ -1,0 +1,35 @@
+{
+  "id": "wall-press-straight-leg-extension",
+  "url": "https://www.muscleandstrength.com/exercises/wall-press-straight-leg-extension",
+  "title": "Wall Press Straight Leg Extension",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [
+    "The wall press straight leg extension is a variation of thewall press 90/90 extensionand an exercise used to strengthen the muscles of the core through stabilization.The wall press straight leg extension is a more advanced variation of the wall press 90/90 extension exercise and can be used as a form of progression once simpler variations have been mastered."
+  ],
+  "instructions": [
+    "Setup in a supine position with your hips flexed, legs straight, and arms pressing overhead into a wall.",
+    "Lower one leg while you exhale.",
+    "Return back to the starting position and repeat on the opposite side.",
+    "Repeat for the desired number of total repetitions."
+  ],
+  "tips": [
+    "Do not hold your breath, you shouldn’t be using respiration to compensate for a lack of stability. Learn how to move while maintaining position without having to rely upon your breath.",
+    "Move slowly but methodically. The goal is control within space, not simply completion of repetitions.",
+    "Ensure that you exhale as the leg moves into extension. The goal is to keep the ribs down and prevent the lower back from hyperextending.",
+    "With all wall press variations, always start with the shortest lever first to make sure the lumbar spine stays neutral. In other words, utilize the heel tap then progress to the 90/90 extension and finally the straight leg version."
+  ],
+  "video_url": "https://www.youtube.com/embed/jJdAUTRTgKQ?rel=0",
+  "youtube_id": "jJdAUTRTgKQ",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

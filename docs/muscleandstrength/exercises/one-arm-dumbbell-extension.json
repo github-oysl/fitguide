@@ -1,0 +1,32 @@
+{
+  "id": "one-arm-dumbbell-extension",
+  "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-extension.html",
+  "title": "One-Arm Standing Dumbbell Extension",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Intermediate",
+  "secondary_muscles": "None",
+  "overview": [
+    "Get into the starting position for the standing one-arm dumbbell extension by grasping a dumbbell in your left hand and holding it above your head with your palm facing forward.",
+    "Your elbow should be slightly bent. You can use your right arm to stabilize your body.",
+    "Begin the movement by bending at the elbow only and slowly lowering the dumbbell behind your neck.",
+    "Once the dumbbell is down as far as possible, slowly raise it back to the starting position.",
+    "Do not lock your elbow out at the top of the movement, and then repeat for desired reps."
+  ],
+  "instructions": [
+    "Use a long range of motion and do not lock your elbow out at the top of the movement.",
+    "Keep your upper arms as still as possible, allowing your forearms to drive the movement."
+  ],
+  "tips": [],
+  "video_url": "https://player.vimeo.com/video/756783880?h=37f9e187d3&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

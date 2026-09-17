@@ -1,0 +1,35 @@
+{
+  "id": "cable-inner-chest-press",
+  "url": "https://www.muscleandstrength.com/exercises/cable-inner-chest-press.html",
+  "title": "Cable Inner Chest Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders",
+  "overview": [],
+  "instructions": [
+    "Adjust the pulleys to the highest point possible on both sides and attaching single grip handles.",
+    "Set your desired weight on the weight stacks and grasp each handle with your palms facing down.",
+    "Take a step forward.",
+    "With your arms slightly bent at the elbows, keep your chest up and your eyes facing forwards. This is the starting position for the exercise.",
+    "Rotating at the shoulders only and moving your arms in a circular motion, slowly bring the handles together in front of your body around waist high.",
+    "As you bring the handles together, straighten your arms and push down and outward while squeezing your inner chest.",
+    "Slowly lower the weight back to the starting position and repeat for desired reps."
+  ],
+  "tips": [
+    "Form is more important than weight in this exercise.",
+    "Focus on getting a good chest squeeze on the way down, and a good stretch on the way up.",
+    "Keep your elbows slightly bent throughout the movement, and do not change the angle of your arms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783850?h=7773a7eeaa&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "reverse-cable-curl",
+  "url": "https://www.muscleandstrength.com/exercises/reverse-cable-curl.html",
+  "title": "Reverse Grip Cable Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps",
+  "overview": [],
+  "instructions": [
+    "Set up for the exercise by attaching a straight or EZ bar to the lower pulley cable and selecting the weight you want to use on the stack.",
+    "Grasp the bar using a reverse (or overhand) grip with your hands no wider than shoulder-width apart.",
+    "Stand up straight with your elbows tucked in at your sides.",
+    "Take up any slack in the cable so the stack is raised. This is the starting position for the exercise.",
+    "To execute, keep your elbows in at your sides and slowly curl the bar up as far as possible.",
+    "Pause, and then slowly lower the bar back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Always use rep timing that allows you to control the weight.",
+    "Keep your body fixed throughout the set. Don't lean back as you curl up the bar.",
+    "Keep your wrists straight."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001760?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

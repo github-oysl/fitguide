@@ -1,0 +1,36 @@
+{
+  "id": "cable-internal-rotation",
+  "url": "https://www.muscleandstrength.com/exercises/cable-internal-rotation",
+  "title": "Cable Internal Rotation",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Cable",
+  "mechanics": "Isolation",
+  "force_type": "Push (Unilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Upper Back",
+  "overview": [
+    "The internal cable rotation exercise is a great prehab exercise to perform to promote rotator cuff health.Rotator cuffs are one of the more common injuries, especially as lifters get older. Performing prehab exercises such as internal cable rotations can help prevent injury and increase your longevity in the gym."
+  ],
+  "instructions": [
+    "Position a cable just above waist height and attach a handle.",
+    "Hinge from the elbow and bring the forearm up to 90 degrees while keeping the upper arm tight to the torso.",
+    "Internally rotate the shoulder by pulling the handle across your body towards your chest while ensuring the hand doesn’t drop.",
+    "Slowly lower the handle back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t worry about the weight, focus on the actual activation of the specific muscle groups.",
+    "Ensure the elbow doesn’t leave the torso and the hand doesn’t drop as you complete the movement.",
+    "Internal rotation is overused in most lifters due to high pressings volumes so this would be a poor choice if you’re already experiencing shoulder pain.",
+    "As you internally rotate at the shoulder, ensure the shoulder blade doesn’t move."
+  ],
+  "video_url": "https://www.youtube.com/embed/RpDuA5rUByk?rel=0",
+  "youtube_id": "RpDuA5rUByk",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "frog-squat",
+  "url": "https://www.muscleandstrength.com/exercises/frog-squat.html",
+  "title": "Frog Squat",
+  "target_muscle": "Quads",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Abs, Calves, Glutes, Hamstrings",
+  "overview": [],
+  "instructions": [
+    "Grab a dumbbell with both hands and rest it in front of you, between your legs.",
+    "Position your feet wider than shoulder-width, with toes pointing outward at a 45-degree angle.",
+    "Brace your core and maintain a straight back. This is the starting position.",
+    "Lower your hips towards the ground as far as possible or at least until your thighs are parallel with the floor by bending your knees, and keeping your chest up.",
+    "Push through your heels to return to standing, squeezing your glutes at the top. This is one rep.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "During the squat movement, your arms should be fully extended, holding the dumbbell down between your legs.",
+    "Maintain an upright chest and neutral spine—avoid rounding your back.",
+    "Move slowly and with control, focusing on proper form to avoid strain."
+  ],
+  "video_url": "https://player.vimeo.com/video/877881989?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

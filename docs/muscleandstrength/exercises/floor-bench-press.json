@@ -1,0 +1,31 @@
+{
+  "id": "floor-bench-press",
+  "url": "https://www.muscleandstrength.com/exercises/floor-bench-press.html",
+  "title": "Floor Press",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Barbell",
+  "mechanics": "Compound",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Shoulders, Triceps",
+  "overview": [],
+  "instructions": [
+    "Set up by placing a mat on the floor and loading up a barbell with the weight you want to use.",
+    "Sit on the floor with the barbell on your thighs. Grasp the barbell with a wider than shoulder-width overhand grip and lay back on the floor. Alternatively, lay back on the floor and have a training partner pass you the barbell.",
+    "Slowly lower the barbell down until your upper arms are almost resting on the floor.",
+    "Pause, then slowly raise the barbell back up without lockout out at the elbows.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "When lowering the bar you need to stopbeforeyour arms are resting on the floor. This keeps the stress on the pectoral muscles and doesn't allow you to rest mid-set."
+  ],
+  "video_url": "https://player.vimeo.com/video/756783643?h=4956e584eb&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}

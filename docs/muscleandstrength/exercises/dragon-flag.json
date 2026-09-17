@@ -1,0 +1,35 @@
+{
+  "id": "dragon-flag",
+  "url": "https://www.muscleandstrength.com/exercises/dragon-flag",
+  "title": "Dragon Flag",
+  "target_muscle": "Abs",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Isometric",
+  "experience_level": "Advanced",
+  "secondary_muscles": "None",
+  "overview": [
+    "The dragon flag is a variation of thelying leg raiseand an exercise used to strengthen the abdominal muscles.The dragon flag utilizes a slow and controlled eccentric to force the core to stabilize the spine and build core strength."
+  ],
+  "instructions": [
+    "Set up in a supine position on a bench with your hands grasping the bench overhead on either side of the bench.",
+    "Initiate the movement by thinking about moving through the belly button to slowly roll your body off the bench at the shoulders.",
+    "Raise your body to roughly 45 degrees and then slowly lower back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Start with reverse crunches and lying leg raises to progress into a dragon flag. If you still can’t complete a full dragon flag then work on just the eccentric portion - complete a leg raise until the hips are completely flexed and then drive your feet toward the ceiling until your body is in a straight line. Then lower back to the normal start position of a dragon flag and repeat.",
+    "Don’t pull excessively into the bench with your arms as this will place excess strain upon your cervical spine.",
+    "Fight the urge to overextend and allow your lower back to arch.",
+    "Squeeze your glutes and abs and focus on keeping a straight line from your ankles through your shoulders."
+  ],
+  "video_url": "https://www.youtube.com/embed/kaUqM0JSlGU?rel=0",
+  "youtube_id": "kaUqM0JSlGU",
+  "images": [
+    {
+      "alt": "Abs Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Abs.jpg"
+    }
+  ]
+}

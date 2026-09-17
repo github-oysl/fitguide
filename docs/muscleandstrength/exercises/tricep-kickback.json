@@ -1,0 +1,35 @@
+{
+  "id": "tricep-kickback",
+  "url": "https://www.muscleandstrength.com/exercises/tricep-kickback.html",
+  "title": "Dumbbell Tricep Kickback",
+  "target_muscle": "Triceps",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Push",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [],
+  "instructions": [
+    "Set up for the dumbbell tricep kickback by grabbing a flat bench and sitting a dumbbell on the left-hand side at one end.",
+    "Position yourself on the left side of the bench with your right knee and right hand resting on the bench.",
+    "Using a neutral grip, pick up the dumbbell with your left hand. Keep your back straight and look forward.",
+    "Tuck your left upper arm close to your torso and bend at the elbow, forming a 90-degree angle with your upper arm and forearm. This is the starting position.",
+    "Moving only at the elbow, raise the dumbbell behind you until your arm is fully extended.",
+    "Pause, and then lower the dumbbell back to the starting position.",
+    "Repeat this movement for desired reps and then repeat using your right arm."
+  ],
+  "tips": [
+    "Keep your head up and your eyes facing forwards, as this will keep your back straight.",
+    "Focus on moving the weight with your triceps, keeping control of the weight as you slowly lower the dumbbells back to the starting position.",
+    "Keep your body as still as possible, moving only your forearms."
+  ],
+  "video_url": "https://player.vimeo.com/video/756784100?h=648ecf05b8&badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Triceps Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Triceps.jpg"
+    }
+  ]
+}

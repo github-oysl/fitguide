@@ -1,0 +1,34 @@
+{
+  "id": "wide-grip-chin-up",
+  "url": "https://www.muscleandstrength.com/exercises/wide-grip-chin-up.html",
+  "title": "Wide Grip Chin Up",
+  "target_muscle": "Lats",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Middle Back, Shoulders",
+  "overview": [],
+  "instructions": [
+    "Set up for the wide grip chin up by grasping a pull-up bar with a wide underhand grip (palms facing you).",
+    "Take your feet off the floor and hang from the bar. This is the starting position.",
+    "Keeping your body straight and eyes up, slowly pull yourself up until your chin is above the bar.",
+    "Lower yourself back to the starting position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Use a full range of motion with every rep to get the most out of this exercise.",
+    "Go slowly and control your body on the way down.",
+    "Keep as still as possible - not allowing your body to swing.",
+    "Weight can be added for extra intensity."
+  ],
+  "video_url": "https://player.vimeo.com/video/756788596?h=98bbd51830",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Lats Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Lats.jpg"
+    }
+  ]
+}

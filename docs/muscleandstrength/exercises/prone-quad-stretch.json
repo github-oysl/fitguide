@@ -1,0 +1,36 @@
+{
+  "id": "prone-quad-stretch",
+  "url": "https://www.muscleandstrength.com/exercises/prone-quad-stretch",
+  "title": "Prone Quad Stretch",
+  "target_muscle": "Quads",
+  "exercise_type": "Stretching",
+  "equipment": "Bodyweight",
+  "mechanics": "Isolation",
+  "force_type": "Static Stretching",
+  "experience_level": "Beginner",
+  "secondary_muscles": "None",
+  "overview": [
+    "The prone quad stretching drill is a form of static stretching and an exercise used to alleviate tension in the quadriceps muscles.By alleviating tension in overactive muscle groups, you can increase your range of motion on specific exercises that incorporate that muscle group."
+  ],
+  "instructions": [
+    "In a prone position, keep the head relaxed and lift one leg toward your glutes.",
+    "Grab the foot with your ipsilateral hand and gently pull up to increase the stretch on the quad.",
+    "Keep the knee pointing straight down and hold for the desired number of repetitions or time.",
+    "Repeat steps 1-3 on the other leg."
+  ],
+  "tips": [
+    "Never stretch to the point of pain or discomfort which causes you to hold your breath. Holding the breath increases global tension and will only work against the effects of the stretch at hand.",
+    "Focus on keeping the knees together and not allowing the back to arch to optimize the stretch on the quad.",
+    "Try to squeeze the glute of the leg in flexion to keep the lower back neutral.",
+    "If you can’t reach back and grab your foot then considering using a towel or band wrapped around your foot and pulled over your shoulder to stretch the quads.",
+    "This is the first progression for stretching the quads, if this is easy, move to the half kneeling quad stretch."
+  ],
+  "video_url": "https://www.youtube.com/embed/AYN48iPmFpw?rel=0&showinfo=0",
+  "youtube_id": "AYN48iPmFpw",
+  "images": [
+    {
+      "alt": "Quads Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Quads.jpg"
+    }
+  ]
+}

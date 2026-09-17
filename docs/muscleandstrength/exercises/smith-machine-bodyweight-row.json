@@ -1,0 +1,35 @@
+{
+  "id": "smith-machine-bodyweight-row",
+  "url": "https://www.muscleandstrength.com/exercises/smith-machine-bodyweight-row.html",
+  "title": "Feet Elevated Inverted Row",
+  "target_muscle": "Upper Back",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps, Lats",
+  "overview": [],
+  "instructions": [
+    "Grab a flat bench and place it lengthways in front of the smith machine.",
+    "Adjust the height of the smith machine bar so that it's around 4ft off the floor.",
+    "Position yourself with your heels on the bench and hands grasping the smith machine bar with a slightly wider than shoulder-width grip.",
+    "Straighten your body out. This is the starting position.",
+    "Keeping your body straight, pull your upper body up to the bar.",
+    "Pause, and then lower yourself back to the start position.",
+    "Repeat for desired reps."
+  ],
+  "tips": [
+    "Position yourself so that when you pull up, the bar touches your middle chest. The bar should not be any higher/lower than that.",
+    "Keep your body straight, and don't let your midsection sag in the middle.",
+    "To increase the difficulty add some weight plates on top of your body!"
+  ],
+  "video_url": "https://player.vimeo.com/video/756788829?h=331b18579e",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Upper Back Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Upper-Back.jpg"
+    }
+  ]
+}

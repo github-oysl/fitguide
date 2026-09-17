@@ -1,0 +1,32 @@
+{
+  "id": "standing-one-arm-dumbbell-reverse-curl",
+  "url": "https://www.muscleandstrength.com/exercises/standing-one-arm-dumbbell-reverse-curl.html",
+  "title": "One-Arm Dumbbell Reverse Grip Curl",
+  "target_muscle": "Forearms",
+  "exercise_type": "Strength",
+  "equipment": "Dumbbell",
+  "mechanics": "Isolation",
+  "force_type": "Pull",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Biceps",
+  "overview": [],
+  "instructions": [
+    "Grab a dumbbell and stand up holding the dumbbell on your thigh with your palm facing you (reverse grip).",
+    "Take the weight off your body, so the forearms and biceps are contracted. This is the starting position for the exercise.",
+    "Keeping your elbow fixed in place and shoulders back, slowly curl the dumbbell up as far as possible.",
+    "Squeeze, and then slowly lower the dumbbell back to the starting position.",
+    "Repeat for desired reps and, then repeat with your opposite arm."
+  ],
+  "tips": [
+    "Do not \"swing\" as you curl the weight up.",
+    "Keep your elbows by your sides. Do not let them come forward as you curl the dumbbell up. This will bring your front shoulders into play, and you want to keep the emphasis on your forearms and biceps."
+  ],
+  "video_url": "https://player.vimeo.com/video/760001971?badge=0&autopause=0&player_id=0&app_id=58479",
+  "youtube_id": "",
+  "images": [
+    {
+      "alt": "Forearms Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Forearms.jpg"
+    }
+  ]
+}

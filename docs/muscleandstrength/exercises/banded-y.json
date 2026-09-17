@@ -1,0 +1,33 @@
+{
+  "id": "banded-y",
+  "url": "https://www.muscleandstrength.com/exercises/banded-y",
+  "title": "Banded Y's",
+  "target_muscle": "Shoulders",
+  "exercise_type": "Strength",
+  "equipment": "Bands",
+  "mechanics": "Isolation",
+  "force_type": "Pull (Bilateral)",
+  "experience_level": "Beginner",
+  "secondary_muscles": "Traps, Upper Back",
+  "overview": [
+    "The banded “Y” is an exercise used to target the muscles of the shoulder.The banded “Y” is primarily used as a prehab and warm up exercise. It utilizes bands to provide accommodating resistance, where more pressure is applied to the target muscle group the closer one gets to full contraction during the exercise."
+  ],
+  "instructions": [
+    "Assume a standing position with your arms directly in front of you holding a band with a neutral grip.",
+    "Inhale and reach directly overhead so that the arms form a Y with the rest of your body.",
+    "Slowly lower the band back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "tips": [
+    "Don’t allow your back to arch or head to jut forward as the arms move overhead.",
+    "If you still struggle with maintaining a neutral spinal position, consider using a half kneeling version of this exercise."
+  ],
+  "video_url": "https://www.youtube.com/embed/V6KE9P0Y5Z8?rel=0",
+  "youtube_id": "V6KE9P0Y5Z8",
+  "images": [
+    {
+      "alt": "Shoulders Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Shoulders.jpg"
+    }
+  ]
+}

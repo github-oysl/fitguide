@@ -1,0 +1,39 @@
+{
+  "id": "muscle-up",
+  "url": "https://www.muscleandstrength.com/exercises/muscle-up",
+  "title": "Muscle Up",
+  "target_muscle": "Chest",
+  "exercise_type": "Strength",
+  "equipment": "Bodyweight",
+  "mechanics": "Compound",
+  "force_type": "Push (Bilateral)",
+  "experience_level": "Advanced",
+  "secondary_muscles": "Abs, Biceps, Lats, Shoulders, Triceps, Upper Back",
+  "overview": [
+    "The muscle up is a hybrid exercise that combines apull upand a dip. It is used primarily to target the muscles of the chest, but will obviously hit the shoulders, lats, upper back, biceps, and triceps as well.Muscle ups are extremely difficult to perform and shouldn’t be attempted unless you have total body control when performing pull ups andstraight bar dips."
+  ],
+  "instructions": [
+    "Assume a hanging position from a pull bar with a false grip.",
+    "Pull yourself vertically and slightly behind the bar.",
+    "Once your momentum begins to slow and your chest is approaching the bar, transition from a pull up into a dip.",
+    "Finish the dip by pressing to extension and extending the elbows.",
+    "Reverse the movement by flipping the elbows and dropping back down into the pullup.",
+    "Slowly lower back to the starting position repeat for the desired number of repetitions on both sides."
+  ],
+  "tips": [
+    "You can perform muscle ups on rings or a straight bar.Technique utilized on rings will differ quite a bit compared to a straight bar so the cueing will need to modified.",
+    "Technique utilized on rings will differ quite a bit compared to a straight bar so the cueing will need to modified.",
+    "Ideally you should be able to perform 15 full dips and 15 pull ups using your bodyweight before attempting a muscle up.",
+    "Using a leg kick (aka a “kip”) may be necessary initially to help generate momentum to get your chest over the bar.",
+    "Muscle ups are an incredibly tough movement to master and will take quite a decent base level of strength and shoulder mobility to perform, don’t rush into them.",
+    "Keep the elbows in tight and imagine you’re trying to pull the bar down to your belly button."
+  ],
+  "video_url": "https://www.youtube.com/embed/OYxGWpYpxqE?rel=0",
+  "youtube_id": "OYxGWpYpxqE",
+  "images": [
+    {
+      "alt": "Chest Muscle Anatomy Diagram",
+      "url": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/taxonomy/exercises/muscle-groups/full/Chest.jpg"
+    }
+  ]
+}
