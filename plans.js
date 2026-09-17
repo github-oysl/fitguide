@@ -4,7 +4,7 @@
 // 数据只保存在浏览器 localStorage，不上传任何服务器（无后端、无云端存储）。
 (function () {
   'use strict';
-  const STORE_KEY = 'fitguide.checkin.v2';
+  const records = window.GYM_RECORDS;
 
   const PLANS = [
     {
@@ -161,24 +161,12 @@
   }
 
   // 打卡状态：{ plan, day, done: { [planId]: { [dayId]: { [exerciseId]: ['YYYY-MM-DD', ...] } } } }
-  function loadState() {
-    try {
-      const raw = JSON.parse(localStorage.getItem(STORE_KEY));
-      if (raw && typeof raw === 'object' && raw.plan && raw.day && raw.done) return { plan: raw.plan, day: raw.day, done: window.GYM_STATS.cleanDone(raw.done) };
-    } catch (error) { /* 损坏数据则回到默认 */ }
-    return { plan: PLANS[0].id, day: PLANS[0].days[0].id, done: {} };
-  }
-  const state = loadState();
-  function saveState() {
-    const status = document.getElementById('save-status');
-    try {
-      localStorage.setItem(STORE_KEY, JSON.stringify(state));
-      status.textContent = '打卡已保存到此浏览器';
-      return true;
-    } catch (error) {
-      status.textContent = '无法保存记录，请允许浏览器本地存储后重试';
-      return false;
-    }
+  let state = records.planState();
+  function reportSave(saved) {
+    const message = !records.readable('plans') ? '无法读取原有记录，未覆盖数据，请检查浏览器存储。' : saved ? '打卡已保存到此浏览器' : '无法保存记录，请允许浏览器本地存储后重试';
+    document.getElementById('save-status').textContent = message;
+    document.getElementById('plan-picker-status').textContent = saved ? '' : message;
+    return saved;
   }
   function currentPlan() { return PLANS.find(plan => plan.id === state.plan) || PLANS[0]; }
   function currentDay() { return currentPlan().days.find(day => day.id === state.day) || currentPlan().days[0]; }
@@ -203,34 +191,34 @@
     return !!view && !view.hidden;
   }
 
+  const picker = document.getElementById('plan-picker');
+  let draftPlan = state.plan, draftDay = state.day;
   function renderPlanTabs() {
-    planTabs.innerHTML = PLANS.map(plan =>
-      `<button type="button" data-plan="${plan.id}" aria-pressed="${plan.id === state.plan}"><b>${escape(plan.name)}</b><small>${escape(plan.tag)}</small></button>`
-    ).join('');
+    planTabs.innerHTML = PLANS.map(plan => '<button type="button" data-plan="' + plan.id + '" aria-pressed="' + (plan.id === draftPlan) + '"><b>' + escape(plan.name) + '</b><small>' + escape(plan.tag) + '</small></button>').join('');
   }
-
   function renderDayTabs() {
-    dayTabs.innerHTML = currentPlan().days.map(day =>
-      `<button type="button" data-day="${day.id}" aria-pressed="${day.id === state.day}">${escape(day.label)}<small>${escape(day.part)}</small></button>`
-    ).join('');
+    const plan = PLANS.find(item => item.id === draftPlan) || currentPlan();
+    dayTabs.innerHTML = plan.days.map(day => '<button type="button" data-day="' + day.id + '" aria-pressed="' + (day.id === draftDay) + '">' + escape(day.label) + '<small>' + escape(day.part) + '</small></button>').join('');
   }
-
-  // 标签是纯按钮列表：用事件委托绑定一次，避免每次重渲染都重建一批监听器。
-  planTabs.addEventListener('click', event => {
-    const button = event.target.closest('[data-plan]');
-    if (!button) return;
-    state.plan = button.dataset.plan;
-    const plan = currentPlan();
-    state.day = plan.id === 'single' ? 'chest' : plan.days[0].id;
-    saveState(); renderAll();
-    planTabs.querySelector(`[data-plan="${state.plan}"]`)?.focus({preventScroll: true});
+  document.getElementById('change-plan').addEventListener('click', () => {
+    draftPlan = currentPlan().id; draftDay = currentDay().id;
+    document.getElementById('plan-picker-status').textContent = '';
+    renderPlanTabs(); renderDayTabs(); picker.showModal();
   });
-
+  document.getElementById('close-plan-picker').addEventListener('click', () => picker.close());
+  picker.addEventListener('close', () => document.getElementById('change-plan').focus({preventScroll: true}));
+  planTabs.addEventListener('click', event => {
+    const button = event.target.closest('[data-plan]'); if (!button) return;
+    draftPlan = button.dataset.plan; draftDay = PLANS.find(plan => plan.id === draftPlan).days[0].id;
+    renderPlanTabs(); renderDayTabs(); planTabs.querySelector('[aria-pressed="true"]').focus();
+  });
   dayTabs.addEventListener('click', event => {
-    const button = event.target.closest('[data-day]');
-    if (!button) return;
-    state.day = button.dataset.day; saveState(); renderAll();
-    dayTabs.querySelector(`[data-day="${state.day}"]`)?.focus({preventScroll: true});
+    const button = event.target.closest('[data-day]'); if (!button) return;
+    draftDay = button.dataset.day; renderDayTabs(); dayTabs.querySelector('[aria-pressed="true"]').focus();
+  });
+  document.getElementById('confirm-plan').addEventListener('click', () => {
+    if (!reportSave(records.selectPlan(draftPlan, draftDay))) return;
+    state = records.planState(); renderAll(); picker.close();
   });
 
   function renderProgress() {
@@ -241,11 +229,8 @@
     const complete = total > 0 && finished === total ? ' · 今日全部完成' : '';
     planProgress.textContent = `本日打卡 ${finished} / ${total}${complete}`;
     planBar.style.width = total ? `${(finished / total) * 100}%` : '0%';
-    document.getElementById('today-completed').innerHTML = `${finished}<span> / ${total}</span>`;
-    document.getElementById('today-ring').style.setProperty('--progress', `${total ? finished / total * 100 : 0}%`);
     document.getElementById('today-plan-name').textContent = `${currentPlan().name} · ${day.label}`;
     document.getElementById('today-plan-subtitle').textContent = finished === total ? '今天的计划完成了，好好恢复。' : `${day.part} · ${total} 个动作`;
-    document.querySelector('.start-button').innerHTML = `${finished === total ? '查看今日训练' : finished ? '继续训练' : '开始训练'} <span aria-hidden="true">↗</span>`;
     document.getElementById('plan-reset').disabled = finished === 0;
   }
 
@@ -271,19 +256,14 @@
   }
 
   function toggleCheck(button) {
-    const done = doneMap(), id = button.dataset.check, t = today();
-    // 点一下：把今天日期加入该动作的日期列表；再点一下：移除今天（撤销今天这一勾）
-    const list = done[id] || (done[id] = []);
-    const at = list.indexOf(t);
-    if (at >= 0) list.splice(at, 1); else list.push(t);
-    const saved = saveState();
-    if (!saved) { if (at >= 0) list.splice(at, 0, t); else list.pop(); }
-    paintItem(button);
-    renderProgress();
+    const id = button.dataset.check, t = today();
+    const adding = !(doneMap()[id] || []).includes(t);
+    const saved = reportSave(records.toggle(currentPlan().id, currentDay().id, id, t));
+    state = records.planState();
+    paintItem(button); renderProgress();
     if (statsVisible()) renderHistory();
-    window.GYM_DASHBOARD.update(state.done);
     button.focus({preventScroll: true});
-    if (saved && at < 0) window.GYM_GIFT.checkin(t);
+    if (saved && adding) window.GYM_GIFT?.checkin(t);
   }
 
   // 打卡按钮与「怎么练」用委托绑定一次；列表重建不会叠加监听器。
@@ -347,34 +327,27 @@
     planNote.textContent = plan.note;
     planTip.innerHTML = `<b>${escape(day.label)} · ${escape(day.part)}</b> ${escape(day.tip)}`;
     renderPlanTabs(); renderDayTabs(); renderProgress(); renderItems(); renderHistory();
-    window.GYM_DASHBOARD.update(state.done);
   }
 
   document.getElementById('plan-reset').addEventListener('click', () => {
-    // 重置本日：只移除“今天”这一勾，历史记录里往日的数据不受影响
-    const done = doneMap(), t = today();
-    Object.values(done).forEach(list => {
-      const at = (list || []).indexOf(t);
-      if (at >= 0) list.splice(at, 1);
-    });
-    saveState();
-    // 计划与训练日没变，只需刷新勾选状态与进度，不必重建标签。
+    if (!reportSave(records.resetDay(currentPlan().id, currentDay().id, today()))) return;
+    state = records.planState();
     renderItems(); renderProgress(); renderHistory();
-    window.GYM_DASHBOARD.update(state.done);
   });
 
   // 切到统计视图时补建历史明细（默认视图下它是 hidden，无需提前渲染）。
-  window.addEventListener('hashchange', () => { if (statsVisible()) renderHistory(); });
+  window.addEventListener('viewchange', () => { if (statsVisible()) renderHistory(); });
 
   let renderedDate = today();
   function refreshDate() {
-    if (today() !== renderedDate) { renderedDate = today(); renderAll(); }
+    if (today() !== renderedDate) { renderedDate = today(); renderAll(); window.dispatchEvent(new Event('trainingdaychange')); }
   }
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshDate(); });
   setInterval(refreshDate, 30000);
-  window.addEventListener('storage', event => {
-    if (event.key !== STORE_KEY && event.key !== null) return;
-    Object.assign(state, loadState()); renderAll();
+  window.addEventListener('recordschange', event => {
+    if (event.detail.kind !== 'plans' || !event.detail.external) return;
+    state = records.planState(); renderAll();
   });
   renderAll();
+  if (!records.readable('plans')) reportSave(false);
 })();

@@ -14,9 +14,10 @@
     return items.filter(item => {
       if (state.category!=='all' && item.category!==state.category && !item.muscles.some(id=>muscles[id]?.[1]===state.category)) return false;
       if (state.muscle!=='all' && !item.muscles.includes(state.muscle) && !(state.muscle==='triceps'&&item.muscles.includes('triceps-long')) && !(state.muscle==='chest'&&item.muscles.includes('upper-chest'))) return false;
+      if (state.gymOnly && scope.GYM_SETTINGS && !scope.GYM_SETTINGS.canDo(item)) return false;
       if (state.only3D && !item.has3D) return false;
       if (state.equipment!=='all') {
-        const equipId = scope.GYM_SETTINGS?.EXERCISE_MAP?.[item.id] || item.equipmentId;
+        const equipId = scope.GYM_SETTINGS?.getEquipmentForExercise?.(item.id)?.id || item.equipmentId;
         const matches = (equipId && equipId === state.equipment) ||
           (item.equipment === state.equipment) ||
           (state.equipment === 'cable-station' && ['cable','pulldown','row'].includes(item.equipment));

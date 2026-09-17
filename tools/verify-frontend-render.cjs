@@ -35,9 +35,10 @@ const INSTRUMENT = () => {
 
 (async () => {
   const {chromium} = loadPlaywright();
-  const browser = await chromium.launch({args: ['--no-proxy-server', '--allow-file-access-from-files']});
+  const browser = await chromium.launch({...process.env.QA_CHROMIUM ? {executablePath: process.env.QA_CHROMIUM} : {}, args: ['--no-proxy-server', '--allow-file-access-from-files']});
   const page = await browser.newPage({viewport: {width: 1280, height: 900}});
   page.setDefaultTimeout(10000);
+  await page.route('**/teachers-day.*', route => route.fulfill({contentType: route.request().url().endsWith('.css') ? 'text/css' : 'application/javascript', body: route.request().url().endsWith('.css') ? '' : 'window.GYM_GIFT={checkin(){}};'}));
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
@@ -56,6 +57,7 @@ const INSTRUMENT = () => {
   const guard = setTimeout(() => { console.error('\n超时：用例执行超过 120 秒'); process.exit(2); }, 120000);
   guard.unref?.();
 
+  await page.clock.install({time: new Date('2026-09-08T12:00:00Z')});
   await page.goto(PAGE);
   await page.evaluate(() => localStorage.clear());
   await page.reload({waitUntil: 'load'});
@@ -75,8 +77,8 @@ const INSTRUMENT = () => {
     await page.waitForFunction(name => !document.getElementById(`view-${name}`).hidden, view);
   };
   const openAdvancedFilters = async () => {
-    if (!(await page.isVisible('#reset'))) await page.click('#advanced-label');
-    await page.waitForSelector('#reset', {state: 'visible'});
+    if (!(await page.isVisible('#muscle'))) await page.click('#advanced-label');
+    await page.waitForSelector('#muscle', {state: 'visible'});
   };
 
   await run('页面加载无脚本错误', async () => {
@@ -173,6 +175,7 @@ const INSTRUMENT = () => {
   });
 
   await run('概览卡片可点且不会重复叠加监听器', async () => {
+    await page.click('.stats-extra > summary');
     await page.click('[data-overview="month"]');
     assert.match(await page.textContent('#period-title'), /月/);
     await page.click('[data-overview="year"]');
@@ -203,8 +206,10 @@ const INSTRUMENT = () => {
 
   await run('训练日切换会整体重建（该重建时要重建）', async () => {
     await gotoView('today');
-    await page.evaluate(INSTRUMENT);
+    await page.click('#change-plan');
     await page.locator('#plan-days [data-day]').nth(1).click();
+    await page.evaluate(INSTRUMENT);
+    await page.click('#confirm-plan');
     const after = await page.evaluate(() => window.__rebuilds);
     assert.equal(after.tabs, 1, '切换训练日应重建训练日标签');
     assert.equal(after.items, 1, '切换训练日应重建动作列表');

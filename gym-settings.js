@@ -397,14 +397,16 @@
   }
 
   const config = load();
+  let committed = JSON.stringify(config), lastSaveSucceeded = true;
 
   function save() {
     try {
       localStorage.setItem(STORE_KEY, JSON.stringify(config));
+      committed = JSON.stringify(config); lastSaveSucceeded = true;
       try { window.dispatchEvent(new CustomEvent('gym-settings-changed', { detail: config })); } catch {}
       return true;
     }
-    catch { return false; }
+    catch { Object.assign(config, JSON.parse(committed)); lastSaveSucceeded = false; return false; }
   }
 
   // ── 供全局与动作库调用的公共 API ────────────────────────────
@@ -426,7 +428,7 @@
     setNote(id, note) {
       const t = (note || '').trim();
       if (t) config.notes[id] = t; else delete config.notes[id];
-      save();
+      return save();
     },
     EQUIPMENT_LIST: EQUIPMENT_DEFINITIONS,
     EXERCISE_MAP: EXERCISE_TO_EQUIPMENT_ID
@@ -467,9 +469,7 @@
 
     el.innerHTML = `
       <section class="settings-block">
-        <p class="eyebrow">MY GYM</p>
-        <h2>我的健身房</h2>
-        <p class="settings-hint">已自动载入基于现场实拍识别的器械配置与工位备注，可直接用于动作库筛选。</p>
+        <p class="settings-hint">选择这里有的器械，查找动作时就能只看适合自己的。</p>
         <label class="settings-field">
           健身房名称
           <input id="gym-name" type="text" value="${escape(config.name)}" placeholder="例如：常去健身房（实拍工位已识别）" maxlength="60">
@@ -479,9 +479,8 @@
       <section class="settings-block">
         <div class="equip-section-header">
           <div>
-            <p class="eyebrow">PHOTO AUDIT CONFIG</p>
-            <h2>器械配置（已匹配现场实拍）</h2>
-            <p class="settings-hint">依据 36 张实拍去重识别工位建立初始预设。在动作库中勾选「只看我的健身房」即可快速生效。</p>
+            <h2>这里有哪些器械</h2>
+            <p class="settings-hint">已载入初始器械配置，可按实际情况调整。</p>
           </div>
           <div class="equip-stats-pill" aria-live="polite">
             已选 <b>${stats.selectedEquips}</b> / ${stats.totalEquips} 台器械 · 可练 <b>${stats.availableExercisesCount}</b> / ${stats.totalExercises} 个动作
@@ -489,10 +488,10 @@
         </div>
 
         <div class="equip-toolbar">
-          <div class="equip-tabs" role="tablist" aria-label="器械分类">
-            <button type="button" role="tab" class="equip-tab${currentTab === 'all' ? ' is-active' : ''}" data-tab="all">全部器械 (${EQUIPMENT_DEFINITIONS.length})</button>
-            <button type="button" role="tab" class="equip-tab${currentTab === 'core' ? ' is-active' : ''}" data-tab="core">动作库核心 (14)</button>
-            <button type="button" role="tab" class="equip-tab${currentTab === 'extended' ? ' is-active' : ''}" data-tab="extended">实拍扩展工位 (8)</button>
+          <div class="equip-tabs" role="group" aria-label="器械分类">
+            <button type="button" aria-pressed="${currentTab === 'all'}" class="equip-tab${currentTab === 'all' ? ' is-active' : ''}" data-tab="all">全部器械 (${EQUIPMENT_DEFINITIONS.length})</button>
+            <button type="button" aria-pressed="${currentTab === 'core'}" class="equip-tab${currentTab === 'core' ? ' is-active' : ''}" data-tab="core">常用器械 (${EQUIPMENT_DEFINITIONS.filter(eq => !eq.isExtended).length})</button>
+            <button type="button" aria-pressed="${currentTab === 'extended'}" class="equip-tab${currentTab === 'extended' ? ' is-active' : ''}" data-tab="extended">其他器械 (${EQUIPMENT_DEFINITIONS.filter(eq => eq.isExtended).length})</button>
           </div>
           <div class="equip-quick-btns">
             <button type="button" id="btn-select-preset" class="btn-micro" title="恢复实拍照片识别的初始器械配置">恢复实拍识别</button>
@@ -510,42 +509,41 @@
               : (eq.isExtended ? '扩展实拍工位' : '暂无动作');
 
             return `
-              <label class="equip-card${isChecked ? ' is-on' : ''}" data-id="${eq.id}">
-                <input type="checkbox" data-equip="${eq.id}" ${isChecked ? 'checked' : ''}>
+              <div class="equip-card${isChecked ? ' is-on' : ''}" data-id="${eq.id}">
+                <input type="checkbox" id="equip-${eq.id}" aria-label="配备${escape(eq.name)}" data-equip="${eq.id}" ${isChecked ? 'checked' : ''}>
                 <div class="equip-thumb-wrap">
                   <img src="${escape(eq.image)}" alt="${escape(eq.name)}" loading="lazy" class="equip-thumb" onerror="if(this.src!=='${escape(eq.fallback)}'){this.src='${escape(eq.fallback)}';}else{this.style.opacity='0.3';}">
                   <span class="equip-badge">${escape(eq.code)}</span>
                 </div>
                 <div class="equip-card-info">
                   <div class="equip-card-top">
-                    <b class="equip-name">${escape(eq.name)}</b>
+                    <label class="equip-name" for="equip-${eq.id}">${escape(eq.name)}</label>
                     <span class="equip-status-tag">${isChecked ? '已配备' : '未配备'}</span>
                   </div>
-                  <span class="equip-sub">${escape(eq.en)}</span>
+                  <details class="equip-info"><summary>器械说明</summary><span class="equip-sub">${escape(eq.en)}</span>
                   <p class="equip-desc">${escape(eq.desc)}</p>
                   <div class="equip-photo-note"><small>实拍核对：${escape(eq.photoNote || '现场可见')}</small></div>
                   <div class="equip-card-footer">
                     <span class="equip-count-badge">${countText}</span>
                     ${matchedExs.length > 0 ? `<small class="equip-ex-preview">${escape(matchedExs.map(x => x.name).join('、'))}</small>` : ''}
-                  </div>
+                  </div></details>
                 </div>
-              </label>
+              </div>
             `;
           }).join('')}
         </div>
       </section>
 
       <section class="settings-block">
-        <p class="eyebrow">EQUIPMENT NOTES</p>
         <h2>器械与动作备注</h2>
-        <p class="settings-hint">已自动填入实拍工位识别出的操作要点。随时可补充座椅孔位、靠垫角度与起重配重。</p>
+        <p class="settings-hint">按器械展开，记录座椅档位、把手位置或自己的训练提示。</p>
         <div class="notes-list">
           ${EQUIPMENT_DEFINITIONS.map(eq => {
             const exs = (eq.exercises || []).map(id => exerciseMapById[id]).filter(Boolean);
             if (!exs.length) return '';
             const hasNotes = exs.some(i => config.notes[i.id]);
             return `
-              <details class="notes-group"${hasNotes ? ' open' : ''}>
+              <details class="notes-group">
                 <summary>
                   <span class="notes-group-title">
                     <img src="${escape(eq.image)}" class="notes-mini-thumb" alt="" onerror="this.src='${escape(eq.fallback)}'">
@@ -570,11 +568,10 @@
       </section>
 
       <section class="settings-block">
-        <p class="eyebrow">DATA MANAGEMENT</p>
         <h2>数据管理</h2>
         <div class="settings-actions-row">
           <button type="button" id="gym-reset-photos" class="btn-soft">恢复实拍识别预设</button>
-          <button type="button" id="gym-clear" class="reset">清空全部数据</button>
+          <button type="button" id="gym-clear" class="reset">清空健身房配置</button>
         </div>
         <p id="gym-status" class="settings-status" role="status">当前配置已保存至浏览器（本地存储），支持离线使用</p>
       </section>`;
@@ -618,7 +615,7 @@
         const tag = card.querySelector('.equip-status-tag');
         if (tag) tag.textContent = cb.checked ? '已配备' : '未配备';
       }
-      save();
+      if (!save()) { cb.checked = config.equipment[id] !== false; card?.classList.toggle('is-on', cb.checked); const tag = card?.querySelector('.equip-status-tag'); if (tag) tag.textContent = cb.checked ? '已配备' : '未配备'; }
       const stats = getStats();
       const pill = el.querySelector('.equip-stats-pill');
       if (pill) {
@@ -661,8 +658,9 @@
   function flash(msg) {
     const el = document.getElementById('gym-status');
     if (!el) return;
+    if (!lastSaveSucceeded) { el.textContent = '保存失败，配置未更改，请允许浏览器本地存储后重试。'; return; }
     el.textContent = msg || '已保存';
-    if (!msg) setTimeout(() => { if (el) el.textContent = '当前配置已保存至浏览器（本地存储），支持离线使用'; }, 2000);
+    if (!msg) setTimeout(() => { if (el && lastSaveSucceeded) el.textContent = '当前配置已保存至浏览器（本地存储），支持离线使用'; }, 2000);
   }
 
   // 初始渲染
@@ -671,7 +669,8 @@
   // 跨标签页同步更新
   window.addEventListener('storage', e => {
     if (e.key !== STORE_KEY && e.key !== null) return;
-    Object.assign(config, load());
+    Object.assign(config, load()); committed = JSON.stringify(config);
     render();
+    window.dispatchEvent(new CustomEvent('gym-settings-changed'));
   });
 })();

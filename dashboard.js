@@ -6,30 +6,7 @@
   // 格式化器复用同一个实例，避免每次渲染都重新构造 Intl 对象。
   const DATE_FORMAT = new Intl.DateTimeFormat('zh-CN', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'});
   const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  let done = {}, period = 'week', cursor = new Date(), selected = null;
-  function setMode(mode) {
-    for (const id of ['plans', 'free-activity']) document.getElementById(id).hidden = id !== mode;
-    document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
-  }
-  document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => {
-    setMode(button.dataset.mode); history.replaceState(null, '', `#${button.dataset.mode}`);
-  }));
-  function navigate() {
-    const hash = location.hash.slice(1);
-    const view = ['stats', 'library', 'settings'].includes(hash) ? hash : 'today';
-    document.querySelectorAll('.view').forEach(el => { el.hidden = el.id !== `view-${view}`; });
-    document.querySelectorAll('[data-view]').forEach(link => {
-      if (link.dataset.view === view) link.setAttribute('aria-current', 'page');
-      else link.removeAttribute('aria-current');
-    });
-    document.querySelectorAll('video').forEach(video => video.pause());
-    if (['plans', 'free-activity'].includes(hash)) { setMode(hash); const target = document.querySelector('.training-mode'); window.scrollTo({top:window.scrollY + target.getBoundingClientRect().top - 20, behavior:'instant'}); }
-    if (!['plans', 'main', 'free-activity'].includes(hash)) window.scrollTo({ top: 0, behavior: 'instant' });
-    // 统计视图刚显示出来时，补渲染切走期间攒下的变更。
-    flushIfVisible();
-  }
-  window.addEventListener('hashchange', navigate);
-
+  let period = 'week', cursor = new Date(), selected = null;
   function renderDay(date, dates, now, className = '') {
     const value = stats.key(date), count = dates.get(value)?.size || 0, future = value > stats.key(now);
     return `<button type="button" class="calendar-day ${className} ${count ? 'has-checkin' : ''} ${value === stats.key(now) ? 'is-today' : ''}" data-date="${value}" ${future ? 'disabled' : ''} aria-pressed="${selected === value}" aria-label="${value}，${future ? '尚未到来' : count ? `已完成 ${count} 项运动` : '无打卡'}"><span>${date.getDate()}</span><i aria-hidden="true">${count ? '✓' : ''}</i></button>`;
@@ -39,7 +16,11 @@
     root.hidden = !selected;
     if (!selected) { root.innerHTML = ''; return; }
     const ids = [...(dates.get(selected) || [])];
-    root.innerHTML = `<b>${escape(selected)} · ${ids.length ? `完成 ${ids.length} 项运动` : '没有打卡记录'}</b>${ids.length ? `<p>${ids.map(id => escape(byId.get(id)?.name || id)).join('、')}</p>` : '<p>休息也是训练的一部分。</p>'}`;
+    const activities = window.GYM_RECORDS.activities();
+    root.innerHTML = '<b>' + escape(selected) + ' · ' + (ids.length ? '完成 ' + ids.length + ' 项运动' : '没有打卡记录') + '</b>' + (ids.length ? '<ul class="day-records">' + ids.map(id => {
+      const activity = id.startsWith('activity:') ? activities.find(item => 'activity:' + item.id === id) : null;
+      return '<li><div><small>' + (activity ? '自由运动' : '计划训练') + '</small><p>' + escape(byId.get(id)?.name || id) + '</p></div>' + (activity ? '<button type="button" class="text-link" data-edit="' + escape(activity.id) + '">编辑</button>' : '') + '</li>';
+    }).join('') + '</ul>' : '<p>休息也是训练的一部分。</p><a class="text-link" href="#free-activity">补记一次运动 ↗</a>');
   }
 
   // 统计视图默认 hidden，重建日历/年柱的开销不该由「今日训练」页承担。
@@ -94,6 +75,7 @@
       }).join('')}</div>`;
     }
     document.getElementById('chart-caption').textContent = period === 'year' ? '柱高表示当月打卡天数占比 · 点击月份查看月历' : counts.days ? '绿色表示已打卡 · 点击日期查看当天运动' : '这段时间还没有打卡。记录运动后，这里会自动留下记录。';
+    document.getElementById('stats-empty-action').hidden = counts.days > 0;
     renderSelection(dates);
   }
 
@@ -115,10 +97,10 @@
   });
 
   function render() {
-    const activities = window.GYM_ACTIVITIES.list();
+    const now = new Date();
+    const {activities, dates} = window.GYM_RECORDS.snapshot(now);
     for (const id of byId.keys()) if (id.startsWith('activity:')) byId.delete(id);
     for (const r of activities) byId.set(`activity:${r.id}`, {name:`自由运动：${window.GYM_ACTIVITIES.description(r)}`});
-    const now = new Date(), dates = stats.aggregate(done, now, new Set(window.GYM_DATA.map(r => r.id)), activities);
     const currentKey = stats.key(now);
     renderTodayPanel(now, dates, currentKey);
     if (!statsVisible()) { statsDirty = true; return; }
@@ -132,8 +114,8 @@
   document.getElementById('period-prev').addEventListener('click', () => { cursor = stats.shift(period, cursor, -1); selected = null; render(); });
   document.getElementById('period-next').addEventListener('click', () => { cursor = stats.shift(period, cursor, 1); selected = null; render(); });
   document.getElementById('period-current').addEventListener('click', () => { cursor = new Date(); selected = null; render(); });
-  window.GYM_DASHBOARD = { update(value) { done = value; render(); } };
-  window.addEventListener('activitieschange', render);
-  // 放在最后：navigate() 会读 statsDirty，必须等声明执行完再首跑。
-  navigate();
+  window.addEventListener('recordschange', render);
+  window.addEventListener('trainingdaychange', render);
+  window.addEventListener('viewchange', flushIfVisible);
+  render();
 })();
