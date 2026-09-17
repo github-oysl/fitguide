@@ -6,11 +6,12 @@
   const items = [...window.GYM_DATA].sort((a,b) => (priority.indexOf(a.id)<0?99:priority.indexOf(a.id))-(priority.indexOf(b.id)<0?99:priority.indexOf(b.id)));
   // 页面文案里的动作数量一律取自动作库本身，不在 HTML 里写死，避免数据增删后文案失真。
   document.querySelectorAll('[data-exercise-count]').forEach(el => { el.textContent = String(items.length); });
-  const state = {category:'all', muscle:'all', equipment:'all', query:'', gymOnly:false, limit:8};
+  const state = {category:'all', muscle:'all', equipment:'all', query:'', gymOnly:false, only3D:false, limit:8};
   const root = document.getElementById('lessons');
   const dialog = document.getElementById('detail');
   const muscleSelect = document.getElementById('muscle');
   const gymOnlyCheckbox = document.getElementById('gym-only');
+  const filter3dCheckbox = document.getElementById('filter-3d');
   let activeVideo = null;
   let lastTrigger = null;
   const escape = value => String(value).replace(/[&<>"']/g, char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -30,20 +31,29 @@
   }, {threshold:0.05});
   document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseAll();});
   window.addEventListener('pagehide',pauseAll);
-  function mediaMarkup(item) {
+  function mediaMarkup(item, mode = 'auto') {
     if (item.externalVideo) return `<div class="media external-media"><div class="external-poster"><span class="external-mark">CARDIO</span><b>${escape(item.name)}</b><small>示范视频／动作图</small></div><a class="play external-play" href="${escape(item.video)}" target="_blank" rel="noopener noreferrer" aria-label="打开${escape(item.name)}示范视频"><span>▶</span> 播放示范</a></div>`;
-    return `<div class="media" data-media="${item.id}"><img src="assets/${item.id}.jpg" alt="${escape(item.name)}动作起始姿势" width="480" height="480" loading="lazy" decoding="async"><button class="play" type="button" aria-label="播放${escape(item.name)}本地动作演示"><span>▶</span> 播放动作</button></div>`;
+    const has3D = !!item.has3D;
+    const is3D = has3D && mode !== 'real';
+    const poster = is3D ? (item.cover3D || `assets/3d/${item.id}.jpg`) : `assets/${item.id}.jpg`;
+    const badge3d = has3D ? `<span class="media-badge-3d" title="包含 3D 动画解剖演示">✦ 3D</span>` : '';
+    const btnText = is3D ? '播放 3D 演示' : '播放动作';
+    return `<div class="media" data-media="${item.id}" data-mode="${is3D ? '3d' : 'real'}"><img src="${poster}" alt="${escape(item.name)}动作起始姿势" width="480" height="480" loading="lazy" decoding="async">${badge3d}<button class="play" type="button" aria-label="播放${escape(item.name)}${is3D ? ' 3D' : ''}动作演示"><span>▶</span> ${btnText}</button></div>`;
   }
   function bindMedia(container) {
     container.querySelectorAll('[data-media]').forEach(media=>{
       media.querySelector('button').addEventListener('click',async()=>{
         pauseAll();
         const id=media.dataset.media;
+        const item=items.find(item=>item.id===id);
+        const mode = media.dataset.mode || (item?.has3D ? '3d' : 'real');
+        const is3D = mode === '3d' && item?.has3D;
         const video=document.createElement('video');
         video.controls=true; video.playsInline=true; video.preload='none'; video.muted=true; video.loop=true;
-        video.poster=`assets/${id}.jpg`; video.setAttribute('aria-label','动作演示，可暂停或拖动进度');
-        // 用户开始观看后持续循环；首屏仍不下载视频，切换动作时暂停前一个。
-        video.src=`assets/${id}.mp4`;
+        video.poster=is3D ? (item.cover3D || `assets/3d/${id}.jpg`) : `assets/${id}.jpg`;
+        video.setAttribute('aria-label', is3D ? '3D解剖动作演示，可暂停或拖动进度' : '动作演示，可暂停或拖动进度');
+        // 用户开始观看后持续循环；优先使用 3D 解剖演示视频
+        video.src=is3D ? (item.video3D || `assets/3d/${id}.mp4`) : `assets/${id}.mp4`;
         video.addEventListener('play',()=>{
           if(activeVideo&&activeVideo!==video)activeVideo.pause();
           activeVideo=video;
@@ -51,7 +61,7 @@
         video.addEventListener('error',()=>{
           const item=items.find(item=>item.id===id);
           observer?.unobserve(video);
-          media.innerHTML=`<div class="media-error"><p>演示暂时无法播放</p><a href="assets/${id}.mp4" download>下载视频后打开</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">查看原站图解 ↗</a><small>中文步骤仍可正常阅读。</small></div>`;
+          media.innerHTML=`<div class="media-error"><p>演示暂时无法播放</p><a href="${video.src}" download>下载视频后打开</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">查看原站图解 ↗</a><small>中文步骤仍可正常阅读。</small></div>`;
         });
         media.replaceChildren(video); observer?.observe(video);
         try { await video.play(); } catch (error) {
@@ -87,6 +97,7 @@
     document.getElementById('search').value=state.query;
     document.getElementById('advanced-label').textContent=(state.equipment!=='all'||state.query.trim())?'器械与搜索 · 已设置筛选':'器械与搜索';
     if (gymOnlyCheckbox) gymOnlyCheckbox.checked = state.gymOnly;
+    if (filter3dCheckbox) filter3dCheckbox.checked = state.only3D;
   }
   function cardMarkup(item) {
     const equip = window.GYM_SETTINGS?.getEquipmentForExercise?.(item.id);
@@ -95,8 +106,9 @@
     const statusHtml = isEquipped
       ? `<span class="card-status-tag is-available" title="我的健身房已配备此器械工位">✓ 已配备</span>`
       : `<span class="card-status-tag is-missing" title="现场未配备该专机">未配备</span>`;
+    const tag3D = item.has3D ? `<span class="card-3d-badge" title="配有 3D 动画解剖教学演示">✦ 3D</span>` : '';
 
-    return `<article class="exercise-card" data-id="${item.id}">${mediaMarkup(item)}<div class="card-body"><div class="card-meta"><span class="card-equip-badge" title="${escape(equip?.name || equipTag)}">${escape(equipTag)}</span>${statusHtml}</div><h3>${escape(item.name)}</h3><p class="primary">${escape(item.primary)}</p><p class="cue">${escape(item.cue)}</p><p class="attachment">${escape(item.attachment)}</p><div class="card-bottom"><span>${escape(item.sets)}</span><button class="detail-button" data-detail="${item.id}" type="button" aria-label="查看${escape(item.name)}的分步指导">怎么练 ↗</button></div></div></article>`;
+    return `<article class="exercise-card" data-id="${item.id}">${mediaMarkup(item)}<div class="card-body"><div class="card-meta"><span class="card-equip-badge" title="${escape(equip?.name || equipTag)}">${escape(equipTag)}</span>${tag3D}${statusHtml}</div><h3>${escape(item.name)}</h3><p class="primary">${escape(item.primary)}</p><p class="cue">${escape(item.cue)}</p><p class="attachment">${escape(item.attachment)}</p><div class="card-bottom"><span>${escape(item.sets)}</span><button class="detail-button" data-detail="${item.id}" type="button" aria-label="查看${escape(item.name)}的分步指导">怎么练 ↗</button></div></div></article>`;
   }
   function render() {
     releaseMedia(root);
@@ -116,8 +128,33 @@
     pauseAll(); releaseMedia(document.getElementById('detail-content')); lastTrigger=trigger;
     const equip = window.GYM_SETTINGS?.getEquipmentForExercise(id);
     const headingEyebrow = equip ? `${equip.name} · ${item.attachment}` : item.attachment;
-    document.getElementById('detail-content').innerHTML=`<div class="detail-heading"><p class="eyebrow">${escape(headingEyebrow)}</p><h2 id="detail-title">${escape(item.name)}</h2><p class="detail-cue">${escape(item.cue)}</p></div><div class="detail-grid"><div><div class="detail-media">${mediaMarkup(item)}</div><p class="media-note media-credit">循环演示 · 无配音 · 可随时暂停<br>${escape(item.demoNote || '动作轨迹示例，器械外观可能不同。')}${item.mediaCredit ? `<br>示范来源：${escape(item.mediaCredit)}` : ''}</p><h3 class="quick-title">训练前先看</h3><div class="muscle-panel"><div><b>主要训练</b><p>${escape(item.primary)}</p></div><div><b>辅助参与</b><p>${escape(item.secondary)}</p></div></div><div class="prescription"><span><b>${escape(item.sets)}</b>${item.practiceNote ? '练习记录' : '参考组次'}</span><span><b>${escape(item.rest)}</b>${item.practiceNote ? '恢复方式' : '组间休息'}</span></div><p class="media-note practice-guidance">${escape(item.practiceNote || '从轻重量、2 组开始。发力时呼气，回程控制速度；停止前保留约 2 次规范动作的余力。')}</p></div><div class="instructions"><h3>${escape(item.instructionTitle || '调节 → 发力 → 还原')}</h3><ol>${item.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol><div class="mistake"><b>容易做错</b><p>${escape(item.mistake)}</p></div><div class="source-links"><a href="assets/${item.id}.mp4" download>↓ 下载动作演示</a><a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">${item.mediaCredit ? '示范来源 · ' + escape(item.mediaCredit) : '图解原文'} ↗</a>${(item.references || []).map(ref => `<a href="${escape(ref.url)}" target="_blank" rel="noopener noreferrer">${escape(ref.label)} ↗</a>`).join('')}${item.video?`<a href="${escape(item.video)}" target="_blank" rel="noopener noreferrer">英文讲解视频 ↗</a><small>${escape(item.videoNote)}</small>`:''}</div></div></div>`;
+    const switcherHtml = item.has3D ? `
+      <div class="video-mode-switcher" role="group" aria-label="演示视频切换">
+        <button type="button" class="mode-btn active" data-switch-mode="3d">✦ 3D动画教学</button>
+        <button type="button" class="mode-btn" data-switch-mode="real">真人实拍演示</button>
+      </div>` : '';
+    const downloadLinks = item.has3D
+      ? `<a href="${item.video3D}" download>↓ 下载 3D动画教学</a><a href="assets/${item.id}.mp4" download>↓ 下载真人动作演示</a>`
+      : `<a href="assets/${item.id}.mp4" download>↓ 下载动作演示</a>`;
+
+    document.getElementById('detail-content').innerHTML=`<div class="detail-heading"><p class="eyebrow">${escape(headingEyebrow)}</p><h2 id="detail-title">${escape(item.name)}</h2><p class="detail-cue">${escape(item.cue)}</p></div><div class="detail-grid"><div>${switcherHtml}<div class="detail-media">${mediaMarkup(item, '3d')}</div><p class="media-note media-credit">循环演示 · 无配音 · 可随时暂停<br>${escape(item.demoNote || '动作轨迹示例，器械外观可能不同。')}${item.mediaCredit ? `<br>示范来源：${escape(item.mediaCredit)}` : ''}</p><h3 class="quick-title">训练前先看</h3><div class="muscle-panel"><div><b>主要训练</b><p>${escape(item.primary)}</p></div><div><b>辅助参与</b><p>${escape(item.secondary)}</p></div></div><div class="prescription"><span><b>${escape(item.sets)}</b>${item.practiceNote ? '练习记录' : '参考组次'}</span><span><b>${escape(item.rest)}</b>${item.practiceNote ? '恢复方式' : '组间休息'}</span></div><p class="media-note practice-guidance">${escape(item.practiceNote || '从轻重量、2 组开始。发力时呼气，回程控制速度；停止前保留约 2 次规范动作的余力。')}</p></div><div class="instructions"><h3>${escape(item.instructionTitle || '调节 → 发力 → 还原')}</h3><ol>${item.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol><div class="mistake"><b>容易做错</b><p>${escape(item.mistake)}</p></div><div class="source-links">${downloadLinks}<a href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">${item.mediaCredit ? '示范来源 · ' + escape(item.mediaCredit) : '图解原文'} ↗</a>${(item.references || []).map(ref => `<a href="${escape(ref.url)}" target="_blank" rel="noopener noreferrer">${escape(ref.label)} ↗</a>`).join('')}${item.video?`<a href="${escape(item.video)}" target="_blank" rel="noopener noreferrer">英文讲解视频 ↗</a><small>${escape(item.videoNote)}</small>`:''}</div></div></div>`;
     bindMedia(document.getElementById('detail-content'));
+
+    if (item.has3D) {
+      document.querySelectorAll('#detail-content [data-switch-mode]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetMode = btn.dataset.switchMode;
+          document.querySelectorAll('#detail-content [data-switch-mode]').forEach(b => b.classList.toggle('active', b === btn));
+          const detailMedia = document.querySelector('#detail-content .detail-media');
+          if (!detailMedia) return;
+          releaseMedia(detailMedia);
+          detailMedia.innerHTML = mediaMarkup(item, targetMode);
+          bindMedia(detailMedia);
+          detailMedia.querySelector('.play')?.click();
+        });
+      });
+    }
+
     if (item) {
       const compareButton = document.createElement('button');
       compareButton.type = 'button'; compareButton.className = 'compare-entry';
@@ -178,7 +215,7 @@
     document.getElementById('detail-content').querySelector('.play')?.click();
   }
   function reset() {
-    Object.assign(state,{category:'all',muscle:'all',equipment:'all',query:'',gymOnly:false,limit:8});refreshMuscles();refreshEquipmentSelect();render();
+    Object.assign(state,{category:'all',muscle:'all',equipment:'all',query:'',gymOnly:false,only3D:false,limit:8});refreshMuscles();refreshEquipmentSelect();render();
   }
   document.getElementById('categories').innerHTML=Object.entries(categories).map(([id,label])=>`<button type="button" data-category="${id}" aria-pressed="${id==='all'}">${label}</button>`).join('');
   document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{
@@ -188,6 +225,7 @@
   document.getElementById('equipment').addEventListener('change',event=>{state.equipment=event.target.value;state.limit=8;render();});
   document.getElementById('search').addEventListener('input',event=>{state.query=event.target.value;state.limit=8;render();});
   if (gymOnlyCheckbox) gymOnlyCheckbox.addEventListener('change',()=>{state.gymOnly=gymOnlyCheckbox.checked;state.limit=8;render();});
+  if (filter3dCheckbox) filter3dCheckbox.addEventListener('change',()=>{state.only3D=filter3dCheckbox.checked;state.limit=8;render();});
   document.getElementById('reset').addEventListener('click',reset);
   document.getElementById('empty-reset').addEventListener('click',reset);
   document.getElementById('more').addEventListener('click',()=>{state.limit+=8;render();});
