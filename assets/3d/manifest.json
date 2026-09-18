@@ -1,332 +1,579 @@
 {
-  "cable-chest-fly": {
-    "gymId": "cable-chest-fly",
-    "source": "绳索夹胸.mp4",
-    "video": "assets/3d/cable-chest-fly.mp4",
-    "cover": "assets/3d/cable-chest-fly.jpg"
-  },
-  "cable-incline-chest-fly": {
-    "gymId": "cable-incline-chest-fly",
-    "source": "夹胸训练不同动作.mp4",
-    "video": "assets/3d/cable-incline-chest-fly.mp4",
-    "cover": "assets/3d/cable-incline-chest-fly.jpg"
-  },
-  "cable-standing-chest-press": {
-    "gymId": "cable-standing-chest-press",
-    "source": "绳索夹胸.mp4",
-    "video": "assets/3d/cable-standing-chest-press.mp4",
-    "cover": "assets/3d/cable-standing-chest-press.jpg"
-  },
-  "machine-chest-fly": {
-    "gymId": "machine-chest-fly",
-    "source": "坐姿夹胸.mp4",
-    "video": "assets/3d/machine-chest-fly.mp4",
-    "cover": "assets/3d/machine-chest-fly.jpg"
-  },
-  "machine-chest-press": {
-    "gymId": "machine-chest-press",
-    "source": "胸部动作合集.mp4",
-    "video": "assets/3d/machine-chest-press.mp4",
-    "cover": "assets/3d/machine-chest-press.jpg"
-  },
-  "barbell-bench-press": {
-    "gymId": "barbell-bench-press",
-    "source": "杠铃卧推.mp4",
-    "video": "assets/3d/barbell-bench-press.mp4",
-    "cover": "assets/3d/barbell-bench-press.jpg"
-  },
-  "dumbbell-bench-press": {
-    "gymId": "dumbbell-bench-press",
-    "source": "哑铃推胸.mp4",
-    "video": "assets/3d/dumbbell-bench-press.mp4",
-    "cover": "assets/3d/dumbbell-bench-press.jpg"
-  },
-  "plate-loaded-incline-chest-press": {
-    "gymId": "plate-loaded-incline-chest-press",
-    "source": "史密斯训练合集.mp4",
-    "video": "assets/3d/plate-loaded-incline-chest-press.mp4",
-    "cover": "assets/3d/plate-loaded-incline-chest-press.jpg"
-  },
-  "plate-loaded-lying-chest-press": {
-    "gymId": "plate-loaded-lying-chest-press",
-    "source": "杠铃卧推.mp4",
-    "video": "assets/3d/plate-loaded-lying-chest-press.mp4",
-    "cover": "assets/3d/plate-loaded-lying-chest-press.jpg"
-  },
-  "lat-pulldown-with-pronated-grip": {
-    "gymId": "lat-pulldown-with-pronated-grip",
-    "source": "高位下拉.mp4",
-    "video": "assets/3d/lat-pulldown-with-pronated-grip.mp4",
-    "cover": "assets/3d/lat-pulldown-with-pronated-grip.jpg"
-  },
-  "plate-loaded-lat-pulldown": {
-    "gymId": "plate-loaded-lat-pulldown",
-    "source": "高位下拉.mp4",
-    "video": "assets/3d/plate-loaded-lat-pulldown.mp4",
-    "cover": "assets/3d/plate-loaded-lat-pulldown.jpg"
-  },
-  "cable-row-seated-narrow-grip": {
-    "gymId": "cable-row-seated-narrow-grip",
-    "source": "坐姿划船.mp4",
-    "video": "assets/3d/cable-row-seated-narrow-grip.mp4",
-    "cover": "assets/3d/cable-row-seated-narrow-grip.jpg"
-  },
-  "seated-machine-row": {
-    "gymId": "seated-machine-row",
-    "source": "坐姿划船.mp4",
-    "video": "assets/3d/seated-machine-row.mp4",
-    "cover": "assets/3d/seated-machine-row.jpg"
-  },
-  "plate-loaded-seated-row": {
-    "gymId": "plate-loaded-seated-row",
-    "source": "坐姿划船.mp4",
-    "video": "assets/3d/plate-loaded-seated-row.mp4",
-    "cover": "assets/3d/plate-loaded-seated-row.jpg"
-  },
-  "cable-single-arm-row": {
-    "gymId": "cable-single-arm-row",
-    "source": "龙门架划船.mp4",
-    "video": "assets/3d/cable-single-arm-row.mp4",
-    "cover": "assets/3d/cable-single-arm-row.jpg"
+  "assisted-dip": {
+    "gymId": "assisted-dip",
+    "source": "双杠臂屈伸.mp4",
+    "status": "variant",
+    "video": "assets/3d/assisted-dip.mp4",
+    "cover": "assets/3d/assisted-dip.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ],
+    "note": "徒手双杠，非辅助机"
   },
   "assisted-pull-up": {
     "gymId": "assisted-pull-up",
     "source": "引体向上.mp4",
+    "status": "variant",
     "video": "assets/3d/assisted-pull-up.mp4",
-    "cover": "assets/3d/assisted-pull-up.jpg"
+    "cover": "assets/3d/assisted-pull-up.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ],
+    "note": "无辅助引体，非辅助机"
   },
-  "barbell-row": {
-    "gymId": "barbell-row",
-    "source": "划船握姿合集.mp4",
-    "video": "assets/3d/barbell-row.mp4",
-    "cover": "assets/3d/barbell-row.jpg"
-  },
-  "dumbbell-one-arm-row": {
-    "gymId": "dumbbell-one-arm-row",
-    "source": "哑铃俯身划船.mp4",
-    "video": "assets/3d/dumbbell-one-arm-row.mp4",
-    "cover": "assets/3d/dumbbell-one-arm-row.jpg"
-  },
-  "t-bar-row-unsupported": {
-    "gymId": "t-bar-row-unsupported",
-    "source": "T杆划船.mp4",
-    "video": "assets/3d/t-bar-row-unsupported.mp4",
-    "cover": "assets/3d/t-bar-row-unsupported.jpg"
-  },
-  "straight-arm-lat-pulldown": {
-    "gymId": "straight-arm-lat-pulldown",
-    "source": "背阔肌训练组合.mp4",
-    "video": "assets/3d/straight-arm-lat-pulldown.mp4",
-    "cover": "assets/3d/straight-arm-lat-pulldown.jpg"
-  },
-  "leg-press": {
-    "gymId": "leg-press",
-    "source": "腿举.mp4",
-    "video": "assets/3d/leg-press.mp4",
-    "cover": "assets/3d/leg-press.jpg"
-  },
-  "leg-extension-seated": {
-    "gymId": "leg-extension-seated",
-    "source": "坐姿腿屈伸.mp4",
-    "video": "assets/3d/leg-extension-seated.mp4",
-    "cover": "assets/3d/leg-extension-seated.jpg"
-  },
-  "leg-curl-seated": {
-    "gymId": "leg-curl-seated",
-    "source": "股二头肌弯举.mp4",
-    "video": "assets/3d/leg-curl-seated.mp4",
-    "cover": "assets/3d/leg-curl-seated.jpg"
-  },
-  "prone-leg-curl": {
-    "gymId": "prone-leg-curl",
-    "source": "股二头肌弯举.mp4",
-    "video": "assets/3d/prone-leg-curl.mp4",
-    "cover": "assets/3d/prone-leg-curl.jpg"
-  },
-  "barbell-squat": {
-    "gymId": "barbell-squat",
-    "source": "杠铃深蹲.mp4",
-    "video": "assets/3d/barbell-squat.mp4",
-    "cover": "assets/3d/barbell-squat.jpg"
-  },
-  "goblet-squat": {
-    "gymId": "goblet-squat",
-    "source": "哑铃深蹲.mp4",
-    "video": "assets/3d/goblet-squat.mp4",
-    "cover": "assets/3d/goblet-squat.jpg"
-  },
-  "barbell-romanian-deadlift": {
-    "gymId": "barbell-romanian-deadlift",
-    "source": "罗马尼亚硬拉.mp4",
-    "video": "assets/3d/barbell-romanian-deadlift.mp4",
-    "cover": "assets/3d/barbell-romanian-deadlift.jpg"
-  },
-  "dumbbell-rdl": {
-    "gymId": "dumbbell-rdl",
-    "source": "罗马尼亚硬拉.mp4",
-    "video": "assets/3d/dumbbell-rdl.mp4",
-    "cover": "assets/3d/dumbbell-rdl.jpg"
-  },
-  "glute-bridge": {
-    "gymId": "glute-bridge",
-    "source": "杠铃臀推.mp4",
-    "video": "assets/3d/glute-bridge.mp4",
-    "cover": "assets/3d/glute-bridge.jpg"
-  },
-  "roman-chair-hip-extension": {
-    "gymId": "roman-chair-hip-extension",
-    "source": "山羊挺背.mp4",
-    "video": "assets/3d/roman-chair-hip-extension.mp4",
-    "cover": "assets/3d/roman-chair-hip-extension.jpg"
-  },
-  "weighted-back-extension": {
-    "gymId": "weighted-back-extension",
-    "source": "山羊挺背.mp4",
-    "video": "assets/3d/weighted-back-extension.mp4",
-    "cover": "assets/3d/weighted-back-extension.jpg"
-  },
-  "reverse-hyper": {
-    "gymId": "reverse-hyper",
-    "source": "山羊挺背.mp4",
-    "video": "assets/3d/reverse-hyper.mp4",
-    "cover": "assets/3d/reverse-hyper.jpg"
-  },
-  "machine-glute-extension": {
-    "gymId": "machine-glute-extension",
-    "source": "臀部合集.mp4",
-    "video": "assets/3d/machine-glute-extension.mp4",
-    "cover": "assets/3d/machine-glute-extension.jpg"
-  },
-  "hip-abduction-machine": {
-    "gymId": "hip-abduction-machine",
-    "source": "臀部合集.mp4",
-    "video": "assets/3d/hip-abduction-machine.mp4",
-    "cover": "assets/3d/hip-abduction-machine.jpg"
-  },
-  "cable-hip-extension": {
-    "gymId": "cable-hip-extension",
-    "source": "T杆腿部训练.mp4",
-    "video": "assets/3d/cable-hip-extension.mp4",
-    "cover": "assets/3d/cable-hip-extension.jpg"
+  "barbell-bench-press": {
+    "gymId": "barbell-bench-press",
+    "source": "杠铃卧推.mp4",
+    "status": "ok",
+    "video": "assets/3d/barbell-bench-press.mp4",
+    "cover": "assets/3d/barbell-bench-press.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ]
   },
   "barbell-overhead-press": {
     "gymId": "barbell-overhead-press",
     "source": "杠铃推肩.mp4",
+    "status": "ok",
     "video": "assets/3d/barbell-overhead-press.mp4",
-    "cover": "assets/3d/barbell-overhead-press.jpg"
+    "cover": "assets/3d/barbell-overhead-press.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ]
   },
-  "machine-shoulder-press": {
-    "gymId": "machine-shoulder-press",
-    "source": "史密斯推肩.mp4",
-    "video": "assets/3d/machine-shoulder-press.mp4",
-    "cover": "assets/3d/machine-shoulder-press.jpg"
+  "barbell-romanian-deadlift": {
+    "gymId": "barbell-romanian-deadlift",
+    "source": "罗马尼亚硬拉.mp4",
+    "status": "unbound",
+    "video": "assets/3d/barbell-romanian-deadlift.mp4",
+    "cover": "assets/3d/barbell-romanian-deadlift.jpg",
+    "reason": "罗马尼亚硬拉.mp4 实际是哑铃 RDL"
   },
-  "dumbbell-lateral-raise": {
-    "gymId": "dumbbell-lateral-raise",
-    "source": "三角肌训练组合.mp4",
-    "video": "assets/3d/dumbbell-lateral-raise.mp4",
-    "cover": "assets/3d/dumbbell-lateral-raise.jpg"
+  "barbell-row": {
+    "gymId": "barbell-row",
+    "source": "背部训练合集.mp4",
+    "status": "ok",
+    "video": "assets/3d/barbell-row.mp4",
+    "cover": "assets/3d/barbell-row.jpg",
+    "trim": [
+      28.0,
+      36.0
+    ],
+    "note": "合集第二项杠铃俯身划船"
   },
-  "machine-reverse-fly": {
-    "gymId": "machine-reverse-fly",
-    "source": "三角肌训练组合.mp4",
-    "video": "assets/3d/machine-reverse-fly.mp4",
-    "cover": "assets/3d/machine-reverse-fly.jpg"
+  "barbell-squat": {
+    "gymId": "barbell-squat",
+    "source": "杠铃深蹲.mp4",
+    "status": "ok",
+    "video": "assets/3d/barbell-squat.mp4",
+    "cover": "assets/3d/barbell-squat.jpg",
+    "trim": [
+      19.0,
+      26.5
+    ]
   },
-  "face-pull": {
-    "gymId": "face-pull",
-    "source": "绳索面拉.mp4",
-    "video": "assets/3d/face-pull.mp4",
-    "cover": "assets/3d/face-pull.jpg"
-  },
-  "cable-lateral-raise": {
-    "gymId": "cable-lateral-raise",
-    "source": "肩部训练组合.mp4",
-    "video": "assets/3d/cable-lateral-raise.mp4",
-    "cover": "assets/3d/cable-lateral-raise.jpg"
-  },
-  "lateral-raise-machine": {
-    "gymId": "lateral-raise-machine",
-    "source": "三角肌训练组合.mp4",
-    "video": "assets/3d/lateral-raise-machine.mp4",
-    "cover": "assets/3d/lateral-raise-machine.jpg"
-  },
-  "reverse-cable-fly": {
-    "gymId": "reverse-cable-fly",
-    "source": "哑铃飞鸟.mp4",
-    "video": "assets/3d/reverse-cable-fly.mp4",
-    "cover": "assets/3d/reverse-cable-fly.jpg"
-  },
-  "cable-curl-with-bar": {
-    "gymId": "cable-curl-with-bar",
-    "source": "绳索二头弯举.mp4",
-    "video": "assets/3d/cable-curl-with-bar.mp4",
-    "cover": "assets/3d/cable-curl-with-bar.jpg"
-  },
-  "cable-curl-with-rope": {
-    "gymId": "cable-curl-with-rope",
-    "source": "绳索二头弯举.mp4",
-    "video": "assets/3d/cable-curl-with-rope.mp4",
-    "cover": "assets/3d/cable-curl-with-rope.jpg"
-  },
-  "dumbbell-curl": {
-    "gymId": "dumbbell-curl",
-    "source": "站姿二头弯举.mp4",
-    "video": "assets/3d/dumbbell-curl.mp4",
-    "cover": "assets/3d/dumbbell-curl.jpg"
-  },
-  "dumbbell-hammer-curl": {
-    "gymId": "dumbbell-hammer-curl",
-    "source": "二头弯举.mp4",
-    "video": "assets/3d/dumbbell-hammer-curl.mp4",
-    "cover": "assets/3d/dumbbell-hammer-curl.jpg"
-  },
-  "triceps-pushdown-with-rope": {
-    "gymId": "triceps-pushdown-with-rope",
-    "source": "绳索三头下压.mp4",
-    "video": "assets/3d/triceps-pushdown-with-rope.mp4",
-    "cover": "assets/3d/triceps-pushdown-with-rope.jpg"
-  },
-  "overhead-tricep-extension-lower-position": {
-    "gymId": "overhead-tricep-extension-lower-position",
-    "source": "绳索臂屈伸.mp4",
-    "video": "assets/3d/overhead-tricep-extension-lower-position.mp4",
-    "cover": "assets/3d/overhead-tricep-extension-lower-position.jpg"
-  },
-  "assisted-dip": {
-    "gymId": "assisted-dip",
-    "source": "双杠臂屈伸.mp4",
-    "video": "assets/3d/assisted-dip.mp4",
-    "cover": "assets/3d/assisted-dip.jpg"
-  },
-  "seated-dip-machine": {
-    "gymId": "seated-dip-machine",
-    "source": "徒手臂屈伸.mp4",
-    "video": "assets/3d/seated-dip-machine.mp4",
-    "cover": "assets/3d/seated-dip-machine.jpg"
+  "cable-chest-fly": {
+    "gymId": "cable-chest-fly",
+    "source": "绳索夹胸.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-chest-fly.mp4",
+    "cover": "assets/3d/cable-chest-fly.jpg",
+    "trim": [
+      20.0,
+      27.0
+    ],
+    "note": "4x12 循环段"
   },
   "cable-crunch": {
     "gymId": "cable-crunch",
     "source": "绳索卷腹.mp4",
+    "status": "ok",
     "video": "assets/3d/cable-crunch.mp4",
-    "cover": "assets/3d/cable-crunch.jpg"
+    "cover": "assets/3d/cable-crunch.jpg",
+    "trim": [
+      12.0,
+      20.0
+    ]
   },
-  "decline-bench-crunch": {
-    "gymId": "decline-bench-crunch",
-    "source": "仰卧卷腹.mp4",
-    "video": "assets/3d/decline-bench-crunch.mp4",
-    "cover": "assets/3d/decline-bench-crunch.jpg"
+  "cable-curl-with-bar": {
+    "gymId": "cable-curl-with-bar",
+    "source": "绳索二头弯举.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-curl-with-bar.mp4",
+    "cover": "assets/3d/cable-curl-with-bar.jpg",
+    "trim": [
+      6.0,
+      14.0
+    ],
+    "note": "直杆段"
   },
-  "plank": {
-    "gymId": "plank",
-    "source": "平板支撑.mp4",
-    "video": "assets/3d/plank.mp4",
-    "cover": "assets/3d/plank.jpg"
+  "cable-curl-with-rope": {
+    "gymId": "cable-curl-with-rope",
+    "source": "绳索二头弯举.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-curl-with-rope.mp4",
+    "cover": "assets/3d/cable-curl-with-rope.jpg",
+    "trim": [
+      24.0,
+      32.0
+    ],
+    "note": "绳附件段"
+  },
+  "cable-hip-extension": {
+    "gymId": "cable-hip-extension",
+    "source": "T杆腿部训练.mp4",
+    "status": "unbound",
+    "video": "assets/3d/cable-hip-extension.mp4",
+    "cover": "assets/3d/cable-hip-extension.jpg",
+    "reason": "T杆腿部训练.mp4 是 T 杆深蹲"
+  },
+  "cable-incline-chest-fly": {
+    "gymId": "cable-incline-chest-fly",
+    "source": "夹胸训练不同动作.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-incline-chest-fly.mp4",
+    "cover": "assets/3d/cable-incline-chest-fly.jpg",
+    "trim": [
+      30.0,
+      36.5
+    ],
+    "note": "上胸/低到高夹胸"
+  },
+  "cable-lateral-raise": {
+    "gymId": "cable-lateral-raise",
+    "source": "三角肌训练组合.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-lateral-raise.mp4",
+    "cover": "assets/3d/cable-lateral-raise.jpg",
+    "trim": [
+      36.0,
+      46.0
+    ],
+    "note": "单臂绳索侧平举"
+  },
+  "cable-row-seated-narrow-grip": {
+    "gymId": "cable-row-seated-narrow-grip",
+    "source": "坐姿划船.mp4",
+    "status": "ok",
+    "video": "assets/3d/cable-row-seated-narrow-grip.mp4",
+    "cover": "assets/3d/cable-row-seated-narrow-grip.jpg",
+    "trim": [
+      10.0,
+      20.0
+    ],
+    "note": "窄握/对握坐姿划船"
+  },
+  "cable-single-arm-row": {
+    "gymId": "cable-single-arm-row",
+    "source": "划船握姿合集.mp4",
+    "status": "variant",
+    "video": "assets/3d/cable-single-arm-row.mp4",
+    "cover": "assets/3d/cable-single-arm-row.jpg",
+    "trim": [
+      6.0,
+      12.0
+    ],
+    "note": "坐姿单手划船，非站姿"
+  },
+  "cable-standing-chest-press": {
+    "gymId": "cable-standing-chest-press",
+    "source": "绳索夹胸.mp4",
+    "status": "unbound",
+    "video": "assets/3d/cable-standing-chest-press.mp4",
+    "cover": "assets/3d/cable-standing-chest-press.jpg",
+    "reason": "绳索夹胸.mp4 不是推胸"
   },
   "dead-bug": {
     "gymId": "dead-bug",
     "source": "腹肌版训练.mp4",
+    "status": "unbound",
     "video": "assets/3d/dead-bug.mp4",
-    "cover": "assets/3d/dead-bug.jpg"
+    "cover": "assets/3d/dead-bug.jpg",
+    "reason": "腹肌版训练.mp4 是下斜仰卧起坐"
+  },
+  "decline-bench-crunch": {
+    "gymId": "decline-bench-crunch",
+    "source": "腹肌版训练.mp4",
+    "status": "ok",
+    "video": "assets/3d/decline-bench-crunch.mp4",
+    "cover": "assets/3d/decline-bench-crunch.jpg",
+    "trim": [
+      18.0,
+      25.0
+    ],
+    "note": "下斜仰卧起坐"
+  },
+  "dumbbell-bench-press": {
+    "gymId": "dumbbell-bench-press",
+    "source": "哑铃推胸.mp4",
+    "status": "ok",
+    "video": "assets/3d/dumbbell-bench-press.mp4",
+    "cover": "assets/3d/dumbbell-bench-press.jpg",
+    "trim": [
+      12.0,
+      19.0
+    ]
+  },
+  "dumbbell-curl": {
+    "gymId": "dumbbell-curl",
+    "source": "站姿二头弯举.mp4",
+    "status": "ok",
+    "video": "assets/3d/dumbbell-curl.mp4",
+    "cover": "assets/3d/dumbbell-curl.jpg",
+    "trim": [
+      10.0,
+      18.0
+    ]
+  },
+  "dumbbell-hammer-curl": {
+    "gymId": "dumbbell-hammer-curl",
+    "source": "二头弯举.mp4",
+    "status": "unbound",
+    "video": "assets/3d/dumbbell-hammer-curl.mp4",
+    "cover": "assets/3d/dumbbell-hammer-curl.jpg",
+    "reason": "二头弯举.mp4 是牧师凳弯举"
+  },
+  "dumbbell-lateral-raise": {
+    "gymId": "dumbbell-lateral-raise",
+    "source": "三角肌训练组合.mp4",
+    "status": "ok",
+    "video": "assets/3d/dumbbell-lateral-raise.mp4",
+    "cover": "assets/3d/dumbbell-lateral-raise.jpg",
+    "trim": [
+      22.0,
+      34.0
+    ],
+    "note": "哑铃侧平举正确循环"
+  },
+  "dumbbell-one-arm-row": {
+    "gymId": "dumbbell-one-arm-row",
+    "source": "哑铃俯身划船.mp4",
+    "status": "ok",
+    "video": "assets/3d/dumbbell-one-arm-row.mp4",
+    "cover": "assets/3d/dumbbell-one-arm-row.jpg",
+    "trim": [
+      11.0,
+      18.0
+    ]
+  },
+  "dumbbell-rdl": {
+    "gymId": "dumbbell-rdl",
+    "source": "罗马尼亚硬拉.mp4",
+    "status": "ok",
+    "video": "assets/3d/dumbbell-rdl.mp4",
+    "cover": "assets/3d/dumbbell-rdl.jpg",
+    "trim": [
+      28.0,
+      40.0
+    ],
+    "note": "该源其实是哑铃 RDL"
+  },
+  "face-pull": {
+    "gymId": "face-pull",
+    "source": "绳索面拉.mp4",
+    "status": "ok",
+    "video": "assets/3d/face-pull.mp4",
+    "cover": "assets/3d/face-pull.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ]
+  },
+  "glute-bridge": {
+    "gymId": "glute-bridge",
+    "source": "杠铃臀推.mp4",
+    "status": "variant",
+    "video": "assets/3d/glute-bridge.mp4",
+    "cover": "assets/3d/glute-bridge.jpg",
+    "trim": [
+      12.0,
+      20.0
+    ],
+    "note": "杠铃臀推靠凳，非地板臀桥"
+  },
+  "goblet-squat": {
+    "gymId": "goblet-squat",
+    "source": "哑铃深蹲.mp4",
+    "status": "ok",
+    "video": "assets/3d/goblet-squat.mp4",
+    "cover": "assets/3d/goblet-squat.jpg",
+    "trim": [
+      6.5,
+      14.0
+    ]
+  },
+  "hip-abduction-machine": {
+    "gymId": "hip-abduction-machine",
+    "source": "臀部合集.mp4",
+    "status": "ok",
+    "video": "assets/3d/hip-abduction-machine.mp4",
+    "cover": "assets/3d/hip-abduction-machine.jpg",
+    "trim": [
+      44.0,
+      51.5
+    ],
+    "note": "坐姿髋外展机收尾段"
+  },
+  "lat-pulldown-with-pronated-grip": {
+    "gymId": "lat-pulldown-with-pronated-grip",
+    "source": "高位下拉.mp4",
+    "status": "ok",
+    "video": "assets/3d/lat-pulldown-with-pronated-grip.mp4",
+    "cover": "assets/3d/lat-pulldown-with-pronated-grip.jpg",
+    "trim": [
+      10.0,
+      24.0
+    ],
+    "note": "正确下拉循环"
+  },
+  "lateral-raise-machine": {
+    "gymId": "lateral-raise-machine",
+    "source": "三角肌训练组合.mp4",
+    "status": "unbound",
+    "video": "assets/3d/lateral-raise-machine.mp4",
+    "cover": "assets/3d/lateral-raise-machine.jpg",
+    "reason": "合集中无固定侧平举机"
+  },
+  "leg-curl-seated": {
+    "gymId": "leg-curl-seated",
+    "source": "股二头肌弯举.mp4",
+    "status": "unbound",
+    "video": "assets/3d/leg-curl-seated.mp4",
+    "cover": "assets/3d/leg-curl-seated.jpg",
+    "reason": "股二头肌弯举.mp4 是俯卧"
+  },
+  "leg-extension-seated": {
+    "gymId": "leg-extension-seated",
+    "source": "坐姿腿屈伸.mp4",
+    "status": "ok",
+    "video": "assets/3d/leg-extension-seated.mp4",
+    "cover": "assets/3d/leg-extension-seated.jpg",
+    "trim": [
+      21.0,
+      28.5
+    ]
+  },
+  "leg-press": {
+    "gymId": "leg-press",
+    "source": "腿举.mp4",
+    "status": "ok",
+    "video": "assets/3d/leg-press.mp4",
+    "cover": "assets/3d/leg-press.jpg",
+    "trim": [
+      18.5,
+      25.5
+    ]
+  },
+  "machine-chest-fly": {
+    "gymId": "machine-chest-fly",
+    "source": "坐姿夹胸.mp4",
+    "status": "ok",
+    "video": "assets/3d/machine-chest-fly.mp4",
+    "cover": "assets/3d/machine-chest-fly.jpg",
+    "trim": [
+      17.0,
+      24.5
+    ]
+  },
+  "machine-chest-press": {
+    "gymId": "machine-chest-press",
+    "source": "胸部动作合集.mp4",
+    "status": "unbound",
+    "video": "assets/3d/machine-chest-press.mp4",
+    "cover": "assets/3d/machine-chest-press.jpg",
+    "reason": "胸部动作合集无坐姿推胸机"
+  },
+  "machine-glute-extension": {
+    "gymId": "machine-glute-extension",
+    "source": "臀部合集.mp4",
+    "status": "unbound",
+    "video": "assets/3d/machine-glute-extension.mp4",
+    "cover": "assets/3d/machine-glute-extension.jpg",
+    "reason": "臀部合集无后蹬机"
+  },
+  "machine-reverse-fly": {
+    "gymId": "machine-reverse-fly",
+    "source": "三角肌训练组合.mp4",
+    "status": "ok",
+    "video": "assets/3d/machine-reverse-fly.mp4",
+    "cover": "assets/3d/machine-reverse-fly.jpg",
+    "trim": [
+      4.0,
+      13.0
+    ],
+    "note": "蝴蝶机反向飞鸟"
+  },
+  "machine-shoulder-press": {
+    "gymId": "machine-shoulder-press",
+    "source": "三角肌训练组合.mp4",
+    "status": "ok",
+    "video": "assets/3d/machine-shoulder-press.mp4",
+    "cover": "assets/3d/machine-shoulder-press.jpg",
+    "trim": [
+      14.0,
+      21.5
+    ],
+    "note": "坐姿器械推肩，优于史密斯源"
+  },
+  "overhead-tricep-extension-lower-position": {
+    "gymId": "overhead-tricep-extension-lower-position",
+    "source": "绳索臂屈伸.mp4",
+    "status": "ok",
+    "video": "assets/3d/overhead-tricep-extension-lower-position.mp4",
+    "cover": "assets/3d/overhead-tricep-extension-lower-position.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ]
+  },
+  "plank": {
+    "gymId": "plank",
+    "source": "平板支撑.mp4",
+    "status": "ok",
+    "video": "assets/3d/plank.mp4",
+    "cover": "assets/3d/plank.jpg",
+    "trim": [
+      14.0,
+      22.0
+    ]
+  },
+  "plate-loaded-incline-chest-press": {
+    "gymId": "plate-loaded-incline-chest-press",
+    "source": "史密斯训练合集.mp4",
+    "status": "unbound",
+    "video": "assets/3d/plate-loaded-incline-chest-press.mp4",
+    "cover": "assets/3d/plate-loaded-incline-chest-press.jpg",
+    "reason": "史密斯训练合集不是挂片上斜推"
+  },
+  "plate-loaded-lat-pulldown": {
+    "gymId": "plate-loaded-lat-pulldown",
+    "source": "高位下拉.mp4",
+    "status": "unbound",
+    "video": "assets/3d/plate-loaded-lat-pulldown.mp4",
+    "cover": "assets/3d/plate-loaded-lat-pulldown.jpg",
+    "reason": "高位下拉.mp4 是绳索下拉"
+  },
+  "plate-loaded-lying-chest-press": {
+    "gymId": "plate-loaded-lying-chest-press",
+    "source": "杠铃卧推.mp4",
+    "status": "unbound",
+    "video": "assets/3d/plate-loaded-lying-chest-press.mp4",
+    "cover": "assets/3d/plate-loaded-lying-chest-press.jpg",
+    "reason": "杠铃卧推.mp4 不是挂片机"
+  },
+  "plate-loaded-seated-row": {
+    "gymId": "plate-loaded-seated-row",
+    "source": "坐姿划船.mp4",
+    "status": "unbound",
+    "video": "assets/3d/plate-loaded-seated-row.mp4",
+    "cover": "assets/3d/plate-loaded-seated-row.jpg",
+    "reason": "坐姿划船.mp4 是绳索划船"
+  },
+  "prone-leg-curl": {
+    "gymId": "prone-leg-curl",
+    "source": "股二头肌弯举.mp4",
+    "status": "ok",
+    "video": "assets/3d/prone-leg-curl.mp4",
+    "cover": "assets/3d/prone-leg-curl.jpg",
+    "trim": [
+      20.0,
+      30.5
+    ],
+    "note": "整段是俯卧弯举"
+  },
+  "reverse-cable-fly": {
+    "gymId": "reverse-cable-fly",
+    "source": "哑铃飞鸟.mp4",
+    "status": "unbound",
+    "video": "assets/3d/reverse-cable-fly.mp4",
+    "cover": "assets/3d/reverse-cable-fly.jpg",
+    "reason": "哑铃飞鸟.mp4 不是绳索"
+  },
+  "reverse-hyper": {
+    "gymId": "reverse-hyper",
+    "source": "山羊挺背.mp4",
+    "status": "unbound",
+    "video": "assets/3d/reverse-hyper.mp4",
+    "cover": "assets/3d/reverse-hyper.jpg",
+    "reason": "山羊挺背不是反向背伸机"
+  },
+  "roman-chair-hip-extension": {
+    "gymId": "roman-chair-hip-extension",
+    "source": "山羊挺背.mp4",
+    "status": "ok",
+    "video": "assets/3d/roman-chair-hip-extension.mp4",
+    "cover": "assets/3d/roman-chair-hip-extension.jpg",
+    "trim": [
+      12.0,
+      18.0
+    ],
+    "note": "罗马椅正确髋伸"
+  },
+  "seated-dip-machine": {
+    "gymId": "seated-dip-machine",
+    "source": "徒手臂屈伸.mp4",
+    "status": "unbound",
+    "video": "assets/3d/seated-dip-machine.mp4",
+    "cover": "assets/3d/seated-dip-machine.jpg",
+    "reason": "徒手臂屈伸是凳上臂屈伸"
+  },
+  "seated-machine-row": {
+    "gymId": "seated-machine-row",
+    "source": "坐姿划船.mp4",
+    "status": "unbound",
+    "video": "assets/3d/seated-machine-row.mp4",
+    "cover": "assets/3d/seated-machine-row.jpg",
+    "reason": "坐姿划船.mp4 是绳索不是固定胸托机"
+  },
+  "straight-arm-lat-pulldown": {
+    "gymId": "straight-arm-lat-pulldown",
+    "source": "背阔肌训练组合.mp4",
+    "status": "ok",
+    "video": "assets/3d/straight-arm-lat-pulldown.mp4",
+    "cover": "assets/3d/straight-arm-lat-pulldown.jpg",
+    "trim": [
+      40.0,
+      48.5
+    ],
+    "note": "直臂下压"
+  },
+  "t-bar-row-unsupported": {
+    "gymId": "t-bar-row-unsupported",
+    "source": "T杆划船.mp4",
+    "status": "ok",
+    "video": "assets/3d/t-bar-row-unsupported.mp4",
+    "cover": "assets/3d/t-bar-row-unsupported.jpg",
+    "trim": [
+      26.0,
+      33.0
+    ],
+    "note": "无胸托正确循环"
+  },
+  "triceps-pushdown-with-rope": {
+    "gymId": "triceps-pushdown-with-rope",
+    "source": "绳索三头下压.mp4",
+    "status": "ok",
+    "video": "assets/3d/triceps-pushdown-with-rope.mp4",
+    "cover": "assets/3d/triceps-pushdown-with-rope.jpg",
+    "trim": [
+      8.0,
+      16.0
+    ]
+  },
+  "weighted-back-extension": {
+    "gymId": "weighted-back-extension",
+    "source": "山羊挺背.mp4",
+    "status": "variant",
+    "video": "assets/3d/weighted-back-extension.mp4",
+    "cover": "assets/3d/weighted-back-extension.jpg",
+    "trim": [
+      22.0,
+      27.5
+    ],
+    "note": "罗马椅无配重画面"
   }
 }
