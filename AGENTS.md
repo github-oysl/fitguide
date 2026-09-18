@@ -30,7 +30,7 @@ Playwright 校验脚本（`node tools/verify-*.cjs`）需自备 `playwright`；`
 
 ## 素材与公开性
 
-仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`docs/muscleandstrength/media/`、`teachers-day.js`、`surprises/`（本地惊喜目录，含 `teachers-day-2026.css` 等私有内容）、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/*`（除 `*.jpg`）、`.workbuddy/`、`test-artifacts/`。
+仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`docs/muscleandstrength/media/`、`teachers-day.js`（旧彩蛋脚本，已由 `surprises/` 取代）、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/*`（除 `*.jpg`）、`.workbuddy/`、`test-artifacts/`。
 动作库素材（`assets/*.jpg|*.mp4`、`assets/3d/*`、`assets/equipment/*.jpg`）已纳入版本管理随仓库分发，保障开箱即用。3D / 真人示范是否可挂、裁切入点以 [`assets/media-map.json`](assets/media-map.json) 为准，说明见 [`docs/media-map.md`](docs/media-map.md)。
 
 动作数量一律数据驱动：HTML 用 `<span data-exercise-count>` 占位，`guide.js` 用 `window.GYM_DATA.length` 填充，**不要写死数字**。

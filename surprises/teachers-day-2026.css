@@ -1,0 +1,6 @@
+/* The gift uses the app's forest green, with a warm paper neutral for the letter. */
+#surprise-dialog {--paper:#faf6e9;--paper-line:#ddd9c7;--gift-muted:#69715e;width:min(760px,calc(100vw - 32px));max-height:calc(100dvh - 40px);margin:auto;border:0;border-radius:5px;background:var(--paper);color:var(--ink);box-shadow:0 24px 90px #14271b40;padding:0;}
+#surprise-dialog::backdrop {background:#172a21c9;backdrop-filter:blur(6px)}
+#surprise-dialog[open] {animation:gift-arrive .65s cubic-bezier(.2,.7,.2,1) both}
+.surprise-is-open {overflow:hidden}
+.gift-paper {padding:26px 46px 24px;background:var(--paper);position:relative}
