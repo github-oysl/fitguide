@@ -20,7 +20,7 @@
     root.innerHTML = '<b>' + escape(selected) + ' · ' + (ids.length ? '完成 ' + ids.length + ' 项运动' : '没有打卡记录') + '</b>' + (ids.length ? '<ul class="day-records">' + ids.map(id => {
       const activity = id.startsWith('activity:') ? activities.find(item => 'activity:' + item.id === id) : null;
       return '<li><div><small>' + (activity ? '自由运动' : '计划训练') + '</small><p>' + escape(byId.get(id)?.name || id) + '</p></div>' + (activity ? '<button type="button" class="text-link" data-edit="' + escape(activity.id) + '">编辑</button>' : '') + '</li>';
-    }).join('') + '</ul>' : '<p>休息也是训练的一部分。</p><a class="text-link" href="#free-activity">补记一次运动 ↗</a>');
+    }).join('') + '</ul>' : '<p>休息也是训练的一部分。</p><button type="button" class="text-link" data-open-activity>补记一次运动</button>');
   }
 
   // 统计视图默认 hidden，重建日历/年柱的开销不该由「今日训练」页承担。
@@ -34,6 +34,7 @@
   function renderTodayPanel(now, dates, currentKey) {
     const week = stats.range('week', now), weekCount = stats.summarize(dates, week).days;
     document.getElementById('today-date').textContent = DATE_FORMAT.format(now);
+    document.getElementById('streak-days').textContent = stats.currentStreak(dates, currentKey);
     document.getElementById('week-total').textContent = weekCount;
     document.getElementById('week-strip').innerHTML = weekdays.map((label, index) => {
       const value = stats.key(stats.addDays(week.start, index)), checked = dates.has(value);
