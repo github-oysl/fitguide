@@ -30,7 +30,7 @@ const context = {
   console
 };
 vm.createContext(context);
-for (const file of ['data.js', 'extra-data.js', 'activity-data.js', 'training.js']) {
+for (const file of ['data.js', 'extra-data.js', 'training.js']) {
   vm.runInContext(fs.readFileSync(path.join(ROOT, file), 'utf8'), context);
 }
 

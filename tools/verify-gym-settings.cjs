@@ -38,7 +38,7 @@ const context = {
 vm.createContext(context);
 
 // 加载动作数据
-for (const file of ['data.js', 'extra-data.js', 'activity-data.js']) {
+for (const file of ['data.js', 'extra-data.js']) {
   vm.runInContext(fs.readFileSync(path.join(ROOT, file), 'utf8'), context);
 }
 

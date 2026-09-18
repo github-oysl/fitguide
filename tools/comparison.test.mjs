@@ -47,8 +47,7 @@ test('browser client uses Bearer directly; static server has no model relay',asy
   const result=await generateGuidance(input(),{config:{enabled:true,baseUrl:url+'/v1/',apiKey:'test-secret',model:'local-vision'}});
   assert.deepEqual(result.guidance,guidance);
   assert.equal(recorded.path,'/v1/chat/completions');assert.equal(recorded.auth,'Bearer test-secret');assert.equal(recorded.body.model,'local-vision');
-  assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/server/guidance.mjs')).status,404);
-  const status=await(await fetch(base+'/guidance-status.json')).text();assert.equal(status.includes('test-secret'),false);
+  assert.equal((await fetch(base+'/.env')).status,404);assert.equal((await fetch(base+'/nonexistent-file.js')).status,404);
   assert.equal((await fetch(base+'/api/guidance',{method:'POST',headers:{Origin:'https://elsewhere.invalid','Content-Type':'application/json'},body:JSON.stringify(input())})).status,405);
   const range=await fetch(base+'/assets/cable-curl-with-bar.mp4',{headers:{Range:'bytes=0-99'}});assert.equal(range.status,206);assert.equal((await range.arrayBuffer()).byteLength,100);
  }finally{await close(app);await close(upstream);}

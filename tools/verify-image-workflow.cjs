@@ -135,7 +135,7 @@ function validateRepository(repoRoot = root) {
   const ctx = {window: {}};
   vm.createContext(ctx);
   const sourceById = {};
-  for (const f of ['data.js', 'extra-data.js', 'activity-data.js']) {
+  for (const f of ['data.js', 'extra-data.js']) {
     vm.runInContext(read(f), ctx);
     for (const a of ctx.window.GYM_DATA) sourceById[a.id] ??= f;
   }

@@ -12,13 +12,13 @@ node --test tools/comparison.test.mjs tools/checkin-stats.test.cjs   # 纯 Node 
 node --test tools/checkin-stats.test.cjs          # 只跑一个
 ```
 
-Playwright 校验脚本（`node tools/verify-*.cjs`、`tools/check-cardio-library.cjs`）需自备 `playwright`；`verify-frontend-render.cjs` 会自动从 `PLAYWRIGHT_ROOT`/仓库根/`cwd` 查找。无 lint/typecheck，改完跑相关 `tools/` 校验即可。
+Playwright 校验脚本（`node tools/verify-*.cjs`）需自备 `playwright`；`verify-frontend-render.cjs` 会自动从 `PLAYWRIGHT_ROOT`/仓库根/`cwd` 查找。无 lint/typecheck，改完跑相关 `tools/` 校验即可。
 
-**端口坑**：`verify-ui.cjs`、`verify-activities.cjs`、`check-cardio-library.cjs` 访问 `127.0.0.1:8765`，而 server 默认 8766 → 需 `PORT=8765 node server.mjs`（check-cardio 也认 `QA_URL`）。`build-reference.cjs` 默认 8766，可传 `QA_URL`。`verify-comparison/verify-custom-reference/verify-all-comparisons` 自起服务，需要 `assets/` 下真实视频。
+**端口坑**：`verify-ui.cjs`、`verify-activities.cjs` 访问 `127.0.0.1:8765`，而 server 默认 8766 → 需 `PORT=8765 node server.mjs`。`build-reference.cjs` 默认 8766，可传 `QA_URL`。`verify-comparison/verify-custom-reference/verify-all-comparisons` 自起服务，需要 `assets/` 下真实视频。
 
 ## 结构与入口
 
-- 根目录数据/逻辑：`data.js` + `extra-data.js` + `activity-data.js` 往 `window.GYM_DATA` 注入动作（当前 60 个）；`guide.js` 动作库与筛选；`plans.js` 计划打卡；`dashboard.js` 统计；`free-activity.js` 自由运动；`checkin-stats.js` 统计纯函数（`module.exports`，可被 Node require）。
+- 根目录数据/逻辑：`data.js` + `extra-data.js` 往 `window.GYM_DATA` 注入动作（当前 60 个）；`navigation.js` 视图与模式路由；`training-records.js` 训练与运动记录存储层（`window.GYM_RECORDS`）；`exercise-learning.js` 动作教学弹窗与媒体调度（`window.GYM_UI`）；`guide.js` 动作库与筛选；`plans.js` 计划打卡；`dashboard.js` 统计；`free-activity.js` 自由运动；`checkin-stats.js` 统计纯函数（`module.exports`，可被 Node require）。
 - `comparison/`：动作对比。`core.mjs` 指标计算、`exercises.mjs` 各动作配置、`pose-worker.mjs` Worker 内 MediaPipe、`video.mjs`、`guidance.mjs`（浏览器直连 OpenAI 兼容接口）、`ui.mjs`。
 - `vendor/mediapipe/`：本地 MediaPipe Tasks Vision（Apache-2.0）。
 - `tools/`：测试与 Playwright 校验脚本；`docs/equipment-review/`：器械复核文档；`assets/`：媒体素材。
@@ -30,14 +30,14 @@ Playwright 校验脚本（`node tools/verify-*.cjs`、`tools/check-cardio-librar
 
 ## 素材与公开性
 
-仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`docs/muscleandstrength/media/`、`teachers-day.js|css`、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/*`（除 `*.jpg`）、`.workbuddy/`、`test-artifacts/`。注意 `index.html` 引用了被忽略的 `teachers-day.css`。
+仓库是 **public**。以下均被 `.gitignore` 忽略，**不要假设其存在，也不要入库**：`docs/muscleandstrength/media/`、`teachers-day.js|css`、`docs/equipment-review/photo-audit/contact-*.jpg|detail-*.jpg`、`健身房器械图片/*`（除 `*.jpg`）、`.workbuddy/`、`test-artifacts/`。
 动作库素材（`assets/*.jpg|*.mp4`、`assets/equipment/*.jpg`）已纳入版本管理随仓库分发，保障开箱即用。
 
 动作数量一律数据驱动：HTML 用 `<span data-exercise-count>` 占位，`guide.js` 用 `window.GYM_DATA.length` 填充，**不要写死数字**。
 
 ## 样式约定
 
-- `style.css` 的 `:root` 是唯一令牌来源；`comparison/comparison.css`、`teachers-day.css` 复用令牌但独立加载。**改名令牌必须全仓 `grep var(--x)`**（曾漏改 `comparison.css`）。
+- `style.css` 的 `:root` 是唯一令牌来源；`comparison/comparison.css` 复用令牌但独立加载。**改名令牌必须全仓 `grep var(--x)`**。
 - 焦点环统一用双层 box-shadow（`!important`）；新增状态样式用 `border`/`background`，别用 `box-shadow`。
 - 字重只用 400/500/600/700（CJK 无 550/650/750），字号下限 11px。
 - `.media` 必须 `aspect-ratio: 1/1`（动作图全是正方形）；移动端不要给 `.media` 加 `max-height`，否则方图被 letterbox。

@@ -34,7 +34,7 @@ test('没有原始照片的检出仍能校验', t => {
     recursive: true,
     filter: source => fs.statSync(source).isDirectory() || /\.(md|json)$/.test(source)
   });
-  for (const file of ['data.js', 'extra-data.js', 'activity-data.js']) fs.copyFileSync(path.join(root, file), path.join(temp, file));
+  for (const file of ['data.js', 'extra-data.js']) fs.copyFileSync(path.join(root, file), path.join(temp, file));
   assert.equal(fs.existsSync(path.join(temp, '健身房器械图片')), false);
   assert.deepEqual(validateRepository(temp).errors, []);
 });

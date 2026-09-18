@@ -166,7 +166,7 @@
       shortName: '商用跑步机',
       en: 'Motorized Treadmill',
       image: 'assets/equipment/treadmill.jpg',
-      fallback: 'assets/treadmill-walk-jog.jpg',
+      fallback: 'assets/equipment/treadmill.jpg',
       desc: '商用跑步机与有氧专区，建议配合「自由运动」打卡记录快走、慢跑或爬坡',
       photoNote: '实拍照片 43、49 背景确认配备：成排商用跑步机，支持速度与电动坡度控制。',
       exercises: []
@@ -218,7 +218,7 @@
       shortName: '下斜腹肌凳',
       en: 'Decline Abdominal Bench',
       image: 'assets/equipment/decline_bench.jpg',
-      fallback: 'assets/home-crunch.jpg',
+      fallback: 'assets/decline-bench-crunch.jpg',
       desc: '腿部固定滚垫与下倾斜长凳面，加深躯干卷起阻力',
       photoNote: '实拍照片 24 确认配备：前景下斜靠垫与腿部圆柱固定垫。',
       exercises: ['decline-bench-crunch'],
