@@ -558,7 +558,8 @@
           30.89,
           39.89
         ],
-        "source": "docs/muscleandstrength/media/videos/dumbbell-curl.mp4"
+        "source": "docs/muscleandstrength/media/videos/dumbbell-curl.mp4",
+        "note": "源片是牧师凳弯举，不是站姿弯举"
       },
       "d3": {
         "path": "assets/3d/dumbbell-curl.mp4",

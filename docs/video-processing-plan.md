@@ -1,5 +1,7 @@
 # 动作视频处理方案
 
+> **2026-09-18 已执行裁切。** 资源与映射以 [`docs/media-map.md`](media-map.md) / [`assets/media-map.json`](../assets/media-map.json) 为准。本页保留问题分析和验收标准，供换源时对照。
+
 核对日期：2026-09-18。对象是动作详情里可切换的两路媒体：
 
 - **真人演示** `assets/{id}.mp4`（当前多为 Muscle & Strength 720p 讲解片）
