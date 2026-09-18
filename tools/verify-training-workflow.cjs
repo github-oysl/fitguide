@@ -5,7 +5,7 @@ const {chromium} = require('playwright');
   const browser = await chromium.launch({headless:true, ...(process.env.QA_CHROMIUM ? {executablePath:process.env.QA_CHROMIUM} : {})});
   const context = await browser.newContext({viewport:{width:390,height:844}});
   const page = await context.newPage(); const errors=[];
-  await context.route('**/teachers-day.*', route => route.fulfill({contentType:route.request().url().endsWith('.css')?'text/css':'application/javascript',body:route.request().url().endsWith('.css')?'':'window.GYM_GIFT={checkin(){}};'}));
+  await context.route('**/surprises/*.js', route => route.fulfill({contentType:'application/javascript',body:'/* 无惊喜 */'}));
   page.on('pageerror', error=>errors.push(error.message));
   await page.clock.install({time:new Date('2026-09-08T12:00:00Z')});
   const url=process.env.QA_URL || 'http://127.0.0.1:8765';
@@ -40,11 +40,13 @@ const {chromium} = require('playwright');
       await page.click('#close-plan-picker'); await failWrites(false);
       await page.click('#plan-reset'); assert.equal(await page.locator('[data-check]').first().getAttribute('aria-pressed'),'false');
     });
-    await check('自由运动 hash 能刷新恢复，浏览器返回也保持模式一致',async()=>{
-      await page.click('[data-mode="free-activity"]'); await page.locator('#free-activity').waitFor();
-      await page.reload(); assert.equal(await page.locator('#free-activity').isVisible(),true);
-      await view('library'); await page.goBack(); await page.locator('#free-activity').waitFor();
-      assert.equal(await page.locator('[data-mode="free-activity"]').getAttribute('aria-pressed'),'true');
+    await check('自由运动弹层刷新后重置为新建态',async()=>{
+      await page.click('#open-activity-dialog');
+      assert.equal(await page.locator('#activity-dialog').isVisible(),true);
+      await page.locator('[data-activity="跳绳"]').click();
+      await page.reload();
+      assert.equal(await page.locator('#activity-dialog').isVisible(),false);
+      assert.equal(await page.locator('[name=name]').inputValue(),'');
     });
     await check('搜索直接可用，教学弹窗切换媒体并正确回焦',async()=>{
       await view('library'); assert.equal(await page.locator('#search').isVisible(),true);

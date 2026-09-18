@@ -8,7 +8,7 @@ fs.mkdirSync(output, {recursive:true});
   const browser = await chromium.launch({headless:true, ...(process.env.QA_CHROMIUM ? {executablePath:process.env.QA_CHROMIUM} : {})});
   const context = await browser.newContext({viewport:{width:1440,height:1100},timezoneId:'America/New_York'});
   const page = await context.newPage();
-  await page.route('**/teachers-day.*', route => route.fulfill({contentType: route.request().url().endsWith('.css') ? 'text/css' : 'application/javascript', body: route.request().url().endsWith('.css') ? '' : 'window.GYM_GIFT={checkin(){}};'}));
+  await page.route('**/surprises/*.js', route => route.fulfill({contentType: 'application/javascript', body: '/* 无惊喜 */'}));
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   page.on('console', message => { if (['error','warning'].includes(message.type())) errors.push(message.text()); });

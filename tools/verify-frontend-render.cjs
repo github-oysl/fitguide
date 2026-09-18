@@ -38,10 +38,11 @@ const INSTRUMENT = () => {
   const browser = await chromium.launch({...process.env.QA_CHROMIUM ? {executablePath: process.env.QA_CHROMIUM} : {}, args: ['--no-proxy-server', '--allow-file-access-from-files']});
   const page = await browser.newPage({viewport: {width: 1280, height: 900}});
   page.setDefaultTimeout(10000);
-  await page.route('**/teachers-day.*', route => route.fulfill({contentType: route.request().url().endsWith('.css') ? 'text/css' : 'application/javascript', body: route.request().url().endsWith('.css') ? '' : 'window.GYM_GIFT={checkin(){}};'}));
+  // 惊喜探测脚本：缺失属预期（本地无 surprises/<date>.js），不当成页面错误。
+  await page.route('**/surprises/*.js', route => route.fulfill({contentType: 'application/javascript', body: '/* 无惊喜 */'}));
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('console', message => { if (message.type() === 'error' && !message.text().includes('Failed to load resource')) errors.push(message.text()); });
 
   const checks = [];
   const check = (name, fn) => checks.push([name, fn]);
@@ -61,15 +62,6 @@ const INSTRUMENT = () => {
   await page.goto(PAGE);
   await page.evaluate(() => localStorage.clear());
   await page.reload({waitUntil: 'load'});
-
-  // 本机可能挂着日期触发的教师节彩蛋（teachers-day.js 未随仓库分发）：
-  // 9 月 10 日首次打卡会 showModal 弹出模态框，从而挡住后续点击。
-  // 这里把它换成空实现，让用例只针对应用主体流程做断言。
-  const neutralizeGift = () => page.evaluate(() => {
-    window.GYM_GIFT = {checkin() {}};
-    document.getElementById('teachers-day-gift')?.close();
-  });
-  await neutralizeGift();
 
   // hashchange 是异步派发的：切视图后必须等视图真正显示，不能立刻断言。
   const gotoView = async view => {
@@ -106,7 +98,8 @@ const INSTRUMENT = () => {
 
   await run('筛选可切换且结果计数同步', async () => {
     await openAdvancedFilters();
-    await page.click('#reset');
+    // 无筛选时「清除筛选」保持隐藏（guide.js 的可见性约定），只在可见时点击兜底清态。
+    if (await page.isVisible('#reset')) await page.click('#reset');
     await page.click('[data-category="chest"]');
     const count = await page.locator('#lessons .exercise-card').count();
     assert.ok(count > 0 && count <= 8, `卡片数 ${count}`);
@@ -185,15 +178,14 @@ const INSTRUMENT = () => {
 
   await run('自由运动打卡仍能更新统计', async () => {
     await gotoView('today');
-    await page.click('[data-mode="free-activity"]');
+    await page.click('#open-activity-dialog');
     await page.fill('#activity-form input[name="name"]', '测试·户外快走');
     await page.fill('#activity-form input[name="date"]', await page.evaluate(() => new Date().toLocaleDateString('sv-SE')));
     await page.click('#activity-submit');
+    // 提交后弹层保持打开（可连续记录），切页面前先收起。
+    await page.click('#close-activity-dialog');
     await gotoView('stats');
     assert.ok((await page.textContent('#activity-records')).includes('测试·户外快走'));
-    // 切回「跟着计划练」，避免自由运动模式把计划面板留在 hidden 状态。
-    await gotoView('today');
-    await page.click('[data-mode="plans"]');
   });
 
   await run('动作详情弹窗可打开并带分步指导', async () => {
