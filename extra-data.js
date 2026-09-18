@@ -1145,5 +1145,7 @@
       ex.video3D = `assets/3d/${ex.id}.mp4`;
       ex.cover3D = `assets/3d/${ex.id}.jpg`;
     }
+    Object.freeze(ex);
   }
+  Object.freeze(window.GYM_DATA);
 })();

@@ -1,0 +1,19 @@
+{
+  "name": "FitGuide · 器械训练手册",
+  "short_name": "FitGuide",
+  "description": "结构化力量动作库、3D解剖动作教学与训练打卡",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7f3",
+  "theme_color": "#2c533e",
+  "icons": [
+    {
+      "src": "assets/fitguide-brand/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

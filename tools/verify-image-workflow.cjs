@@ -15,6 +15,7 @@ const placeholder = /<[^>\n]+>|\{\{[^}]+\}\}|\$\{|<公共|公共约束全文|同
 
 // 提取配置和角色，保持每个角色只属于它自己的变式。
 function parseVariants(text) {
+  text = String(text || '').replace(/\r\n/g, '\n');
   const section = text.split('## 三、图片提示词\n')[1]?.split('## 四、')[0] || '';
   return [...section.matchAll(/^### 配置 · ([a-z0-9-]+)\s*\n([\s\S]*?)(?=^### 配置 · |$(?![\s\S]))/gm)].map(([, id, body]) => ({
     id, body,
@@ -24,6 +25,7 @@ function parseVariants(text) {
 
 // 对单个动作执行纯文本检查，供命令行和隔离的回归用例共用。
 function validateAction(text, entry) {
+  text = String(text || '').replace(/\r\n/g, '\n');
   const errors = [];
   const fail = message => errors.push(`${entry.action_id}: ${message}`);
   if (!/^- 提示词版本：2\s*$/m.test(text)) fail('必须声明v2，旧稿不再放行');
@@ -121,7 +123,7 @@ function validateAction(text, entry) {
 
 // 通过公开目录核对媒体引用；校验可在无实拍的干净检出中运行。
 function validateRepository(repoRoot = root) {
-  const read = p => fs.readFileSync(path.join(repoRoot, p), 'utf8');
+  const read = p => fs.readFileSync(path.join(repoRoot, p), 'utf8').replace(/\r\n/g, '\n');
   const errors = [];
   for (const f of requiredDocs) if (!fs.existsSync(path.join(repoRoot, f))) errors.push('缺少文档：' + f);
   if (errors.length) return {errors};

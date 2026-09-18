@@ -7,7 +7,7 @@
 - 适配状态：blocked-evidence
 - 提示词状态：v2迁移完成（条件稿已填写；关键证据补齐前不可调用）
 - 图片状态：历史样图待复核；本轮未生成
-- 现有数据：`extra-data.js`
+- 现有数据：`data.js`
 - 资料核对日期：2026-09-12（实拍复核与提示词迁移；历史网络来源保留原访问日期）
 - 当前任务：仅修订提示词、核对证据和校验文档；暂不生成图片。
 - 规则：[自动流程](../../image-generation-workflow.md) · [计划](../../image-generation-plan.md) · [本轮核对报告](../../image-generation-audit.md)

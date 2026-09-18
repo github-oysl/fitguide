@@ -568,10 +568,14 @@
       </section>
 
       <section class="settings-block">
-        <h2>数据管理</h2>
+        <h2>数据管理与备份</h2>
+        <p class="settings-hint">数据仅保存在当前浏览器本地。建议定期导出备份，防止清理浏览器缓存或更换设备时记录丢失。</p>
         <div class="settings-actions-row">
-          <button type="button" id="gym-reset-photos" class="btn-soft">恢复实拍识别预设</button>
-          <button type="button" id="gym-clear" class="reset">清空健身房配置</button>
+          <button type="button" id="backup-export" class="btn-primary">导出备份 (JSON)</button>
+          <button type="button" id="backup-import" class="btn-soft">导入备份文件</button>
+          <input type="file" id="backup-file-input" accept=".json,application/json" hidden>
+          <button type="button" id="gym-reset-photos" class="btn-soft">恢复实拍预设</button>
+          <button type="button" id="gym-clear" class="reset">清空配置</button>
         </div>
         <p id="gym-status" class="settings-status" role="status">当前配置已保存至浏览器（本地存储），支持离线使用</p>
       </section>`;
@@ -652,6 +656,58 @@
       EQUIPMENT_DEFINITIONS.forEach(eq => { config.equipment[eq.id] = false; });
       config.notes = {};
       save(); render(); flash('已清空全部数据');
+    });
+
+    document.getElementById('backup-export')?.addEventListener('click', () => {
+      try {
+        const backup = {
+          version: 1,
+          exportedAt: new Date().toISOString(),
+          plans: JSON.parse(localStorage.getItem('fitguide.checkin.v2') || 'null'),
+          activities: JSON.parse(localStorage.getItem('fitguide.activities.v1') || 'null'),
+          gym: JSON.parse(localStorage.getItem('fitguide.gym.v1') || 'null'),
+          gymNotes: JSON.parse(localStorage.getItem('fitguide.gym.notes.v1') || 'null')
+        };
+        const blob = new Blob([JSON.stringify(backup, null, 2)], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `fitguide-backup-${new Date().toISOString().slice(0, 10)}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        flash('已成功导出备份文件');
+      } catch (err) {
+        flash('导出失败：' + err.message);
+      }
+    });
+
+    const fileInput = document.getElementById('backup-file-input');
+    document.getElementById('backup-import')?.addEventListener('click', () => {
+      fileInput?.click();
+    });
+    fileInput?.addEventListener('change', event => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          if (!data || typeof data !== 'object') throw new Error('无效的备份文件');
+          if (data.plans) localStorage.setItem('fitguide.checkin.v2', JSON.stringify(data.plans));
+          if (data.activities) localStorage.setItem('fitguide.activities.v1', JSON.stringify(data.activities));
+          if (data.gym) localStorage.setItem('fitguide.gym.v1', JSON.stringify(data.gym));
+          if (data.gymNotes) localStorage.setItem('fitguide.gym.notes.v1', JSON.stringify(data.gymNotes));
+          config = load();
+          window.dispatchEvent(new StorageEvent('storage', {key: null}));
+          render();
+          flash('备份导入成功，已恢复训练记录与器械配置！');
+        } catch (err) {
+          flash('导入失败：' + err.message);
+        } finally {
+          fileInput.value = '';
+        }
+      };
+      reader.readAsText(file);
     });
   }
 

@@ -668,6 +668,9 @@ h2 { font-size: var(--fs-xl); }
 .practice-note b { display: block; margin-bottom: 6px; color: var(--green-deep); }
 .practice-note p { margin: 8px 0 0; font-size: var(--fs-sm); color: var(--ink-2); }
 
+/* 弹窗打开时锁止背景滚动 */
+html:has(dialog[open]), body:has(dialog[open]) { overflow: hidden; }
+
 /* 动作指导弹窗 */
 dialog {
   width: min(920px, calc(100vw - 40px)); max-height: calc(100dvh - 40px);

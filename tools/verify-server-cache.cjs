@@ -75,7 +75,7 @@ function decode(res) {
   });
 
   check('全部文本资源可压缩且内容无损', async () => {
-    const files = ['index.html', 'style.css', 'plans.js', 'guide.js', 'navigation.js', 'training-records.js', 'exercise-learning.js', 'dashboard.js', 'data.js', 'extra-data.js', 'checkin-stats.js', 'training.js', 'free-activity.js', 'comparison/comparison.css'];
+    const files = ['index.html', 'style.css', 'plans.js', 'guide.js', 'navigation.js', 'training-records.js', 'exercise-learning.js', 'dashboard.js', 'data.js', 'extra-data.js', 'checkin-stats.js', 'training.js', 'free-activity.js', 'manifest.webmanifest', 'comparison/comparison.css'];
     for (const f of files) {
       const res = await request(handler, {url: `/${f}`, headers: {'accept-encoding': 'br,gzip'}});
       assert.equal(res.status, 200, f);

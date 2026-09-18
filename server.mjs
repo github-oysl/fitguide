@@ -5,12 +5,12 @@ import {gzipSync, brotliCompressSync, constants as zlibConstants} from 'node:zli
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url));
-const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.wasm':'application/wasm','.task':'application/octet-stream','.jpg':'image/jpeg','.mp4':'video/mp4','.txt':'text/plain; charset=utf-8'};
-const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','training.js','navigation.js','training-records.js','exercise-learning.js','guide.js','plans.js','checkin-stats.js','dashboard.js','free-activity.js','gym-settings.js','使用说明.txt']);
+const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.wasm':'application/wasm','.task':'application/octet-stream','.jpg':'image/jpeg','.mp4':'video/mp4','.txt':'text/plain; charset=utf-8'};
+const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','training.js','navigation.js','training-records.js','exercise-learning.js','guide.js','plans.js','checkin-stats.js','dashboard.js','free-activity.js','gym-settings.js','manifest.webmanifest','使用说明.txt']);
 const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
 
 // 只有文本类资源值得压缩：图片、视频本身已是压缩格式，再压只会白费 CPU。
-const COMPRESSIBLE=new Set(['.html','.js','.mjs','.css','.json','.txt']);
+const COMPRESSIBLE=new Set(['.html','.js','.mjs','.css','.json','.txt','.webmanifest']);
 // 低于此体积压缩收益不抵开销，直接原样返回。
 const COMPRESS_MIN_BYTES=1024;
 // 媒体体积大、改动少，给一段时间强缓存；文本每次用 ETag 校验，命中返回无正文的 304。

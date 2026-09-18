@@ -11,7 +11,7 @@ const catalog = JSON.parse(fs.readFileSync(path.join(dir, '_catalog.json'), 'utf
 
 // 从公开文档读取独立副本，修改测试输入不会改动工作区。
 function fixture(id = 'cable-row-seated-narrow-grip') {
-  return {text: fs.readFileSync(path.join(dir, id + '.md'), 'utf8'), entry: structuredClone(catalog.actions.find(a => a.action_id === id))};
+  return {text: fs.readFileSync(path.join(dir, id + '.md'), 'utf8').replace(/\r\n/g, '\n'), entry: structuredClone(catalog.actions.find(a => a.action_id === id))};
 }
 
 // 确认每个故意注入的错误被对应检查拒绝，而不是依赖无关失败。

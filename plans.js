@@ -206,6 +206,12 @@
     renderPlanTabs(); renderDayTabs(); picker.showModal();
   });
   document.getElementById('close-plan-picker').addEventListener('click', () => picker.close());
+  picker.addEventListener('click', event => {
+    if (event.target === picker) {
+      const r = picker.getBoundingClientRect();
+      if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) picker.close();
+    }
+  });
   picker.addEventListener('close', () => document.getElementById('change-plan').focus({preventScroll: true}));
   planTabs.addEventListener('click', event => {
     const button = event.target.closest('[data-plan]'); if (!button) return;
