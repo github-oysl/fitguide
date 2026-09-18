@@ -31,9 +31,11 @@ node server.mjs        # 需要 Node.js 20+
 - 无后端服务器、无云端同步、无用户追踪。清除浏览器缓存将清空打卡数据。
 - 动作对比姿态检测完全在浏览器本地计算；配置大模型接口后，请求由浏览器直连用户指定的接口，不经过本站。
 
-## 媒体素材
+## 媒体素材与版权声明
 
 动作库演示视频、封面图、3D 动画与器械参考图（位于 `assets/` 目录下）已随版本库分发，下载或克隆后即可离线完整使用。
+
+> **免责声明**：本项目所引用之动作示范素材部分来源仅供个人健身学习与教学交流参考，版权归原作者所有（StrengthLog、Muscle & Strength 等）。**如有侵权，请联系 1016157168@qq.com 删除**。
 
 ## 自动化测试
 
@@ -54,5 +56,5 @@ node tools/verify-3d-feature.cjs
 ## License
 
 代码以 [MIT](LICENSE) 许可发布。
-- 示范媒体素材版权归原作者所有（StrengthLog、Muscle & Strength 等）。
+- 示范媒体素材部分来源仅供学习交流，版权归原作者所有（StrengthLog、Muscle & Strength 等）；如有侵权，请联系 1016157168@qq.com 删除。
 - 姿态检测引擎：[Google MediaPipe](https://developers.google.com/mediapipe)（Apache-2.0，位于 `vendor/mediapipe/`）。
