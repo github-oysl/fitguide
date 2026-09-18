@@ -507,11 +507,11 @@ window.GYM_DATA = [
       "缓慢放下，手臂接近伸直即回到起点，不甩配重。"
     ],
     "mistake": "如果直杆让手腕不舒服，换曲杆或单手把手；不要折腕代替弯肘。",
-    "source": "https://www.muscleandstrength.com/exercises/cable-tricep-extension-with-v-bar.html",
+    "source": "https://www.muscleandstrength.com/exercises/cable-curl.html",
     "sets": "2–3 组 × 10–15 次",
     "rest": "60–90 秒",
     "localDemo": true,
-    "video": "https://www.muscleandstrength.com/exercises/cable-tricep-extension-with-v-bar.html",
+    "video": "https://www.muscleandstrength.com/exercises/cable-curl.html",
     "videoNote": "Muscle & Strength 动作讲解页，需要联网。",
     "mediaCredit": "Muscle & Strength",
     "demoNote": "Muscle & Strength 720p 动作循环示范；现场器械外观与握把可能略有差异。"
