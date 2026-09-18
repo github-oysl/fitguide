@@ -94,3 +94,25 @@ test('generic report retains exercise-specific units and tolerances in model pay
  const data=input();data.report.exerciseId='leg-press';data.report.templateVersion='exercise-projection-v1';data.report.metrics[1]={...data.report.metrics[1],label:'每次动作时长',unit:'秒',tolerance:1};
  const report=validateInput(data).report;assert.equal(report.exerciseId,'leg-press');assert.equal(report.metrics[1].tolerance,1);assert.equal(report.metrics[1].unit,'秒');
 });
+test('report input accepts and includes rich exercise context, cues, mistakes and 3D flag in LLM payload',()=>{
+ const data=input();
+ data.report.exerciseName='绳索二头弯举';
+ data.report.cue='上臂贴肋，掌心向上卷起。';
+ data.report.mistake='避免上臂大幅前移借力，躯干不要后仰。';
+ data.report.primary='肱二头肌';
+ data.report.steps=['站立握把，手肘贴住身侧','屈肘向上卷起至顶峰','受控沿原路还原'];
+ data.report.has3D=true;
+ const validated=validateInput(data).report;
+ assert.equal(validated.exerciseName,'绳索二头弯举');
+ assert.equal(validated.cue,'上臂贴肋，掌心向上卷起。');
+ assert.equal(validated.mistake,'避免上臂大幅前移借力，躯干不要后仰。');
+ assert.equal(validated.primary,'肱二头肌');
+ assert.deepEqual(validated.steps,['站立握把，手肘贴住身侧','屈肘向上卷起至顶峰','受控沿原路还原']);
+ assert.equal(validated.has3D,true);
+ const payload=buildRequest(data,{model:'test-model'});
+ const promptText=payload.messages[1].content[0].text;
+ assert.match(promptText,/动作名称：绳索二头弯举/);
+ assert.match(promptText,/动作执行步骤：/);
+ assert.match(promptText,/常见易错模式（重点排查）：避免上臂大幅前移借力/);
+ assert.match(promptText,/3D 解剖正误教学演示/);
+});

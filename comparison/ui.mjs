@@ -6,7 +6,19 @@ const escape=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const seconds=n=>`${n.toFixed(1)}s`;
 let customReference=null;
 let exercise={id:EXERCISE_ID,name:'直杆绳索弯举'},referenceCache=new Map();
-let dialog,trigger,source,report,template,controller,guidanceController,generation=0,enabled=false,mode='user';
+let dialog,trigger,source,report,template,controller,guidanceController,generation=0,enabled=false,mode='user',refMode='real';
+function setReferenceMode(value){
+  refMode=value;
+  document.querySelectorAll('[data-ref-mode]').forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.refMode===value)));
+  if(value==='3d'){
+    el('compare-reference-player').src=exercise.video3D||`assets/3d/${exercise.id}.mp4`;
+    el('reference-status').textContent='当前播放 3D 动画（含解剖视点与正误对照）；姿态对比算法始终以连续标准示范为基准。';
+  }else{
+    el('compare-reference-player').src=customReference||`assets/${exercise.id}.mp4`;
+    el('reference-status').textContent=customReference?`当前参考：自定义视频。需为同动作、同角度的 1–30 秒完整往返视频。`:'当前播放真人标准示范（姿态比对算法基准）。';
+  }
+  if(mode==='reference')setPlayback('reference');
+}
 function shell(){
   dialog=document.createElement('dialog');dialog.id='comparison-dialog';dialog.setAttribute('aria-labelledby','comparison-title');
   dialog.innerHTML=`<div class="dialog-top"><span>动作对比 · 试用</span><button type="button" id="compare-close" aria-label="关闭动作对比">×</button></div>
@@ -14,7 +26,7 @@ function shell(){
   <div class="capture-note"><b>让动作看得清</b><p>手机固定在身体侧面，肩、肘、腕、髋部完整入镜。只拍一个人，从手臂伸展开始，弯举后回到起点，录制 2–3 次。</p><small>1–30 秒 · 最大 50 MB · 视频在本地分析，不会自动上传</small></div>
   <details class="model-settings"><summary>模型设置（仅存此浏览器）</summary><p>浏览器直接请求所填接口；密钥保存在此浏览器，请仅在可信设备使用。接口须支持 CORS 和图片输入。</p><label><input id="model-enabled" type="checkbox">启用模型指导</label><label>接口基础地址<input id="model-url" type="url" placeholder="https://example.com/v1" autocomplete="off"></label><label>模型名称<input id="model-name" autocomplete="off"></label><label>API 密钥<input id="model-key" type="password" autocomplete="off"></label><label><input id="model-json" type="checkbox" checked>JSON 模式</label><button type="button" id="model-save">保存到此浏览器</button><button type="button" id="model-clear">清除配置与密钥</button><p id="model-status" role="status"></p></details><div class="compare-upload"><label class="upload-button" for="compare-file">选择我的视频<input id="compare-file" type="file" accept="video/mp4,video/webm,video/quicktime"></label><span id="compare-file-name">支持浏览器可播放的 MP4 / WebM</span></div>
   <div id="compare-player-wrap" hidden><div class="playback-tabs" role="group" aria-label="切换回放"><button type="button" data-playback="user" aria-pressed="true">我的动作</button><button type="button" data-playback="reference" aria-pressed="false">参考动作</button></div><video id="compare-player" controls playsinline preload="metadata" aria-label="动作回放"></video></div>
-  <div class="reference-preview"><label class="upload-button" for="compare-reference-file">替换参考视频（可选）<input id="compare-reference-file" type="file" accept="video/mp4,video/webm,video/quicktime"></label><p id="reference-status">内置示范识别不可靠时，可选择同角度、完整往返的参考视频，仅在本机使用。</p><h3>参考示范 · 可与我的视频分别暂停、拖动对照</h3><video id="compare-reference-player" controls playsinline preload="metadata" style="width:100%;max-height:260px"></video></div><div class="compare-actions"><button type="button" class="start-button" id="compare-analyze" disabled>开始分析</button><button type="button" class="text-link" id="compare-cancel" hidden>取消分析</button></div>
+  <div class="reference-preview"><div id="reference-mode-wrap" class="reference-mode-switcher" hidden role="group" aria-label="切换参考示范类型"><button type="button" data-ref-mode="real" aria-pressed="true">真人标准示范（算法基准）</button><button type="button" data-ref-mode="3d" aria-pressed="false">3D 动画正误演示</button></div><label class="upload-button" for="compare-reference-file">替换参考视频（可选）<input id="compare-reference-file" type="file" accept="video/mp4,video/webm,video/quicktime"></label><p id="reference-status">内置示范识别不可靠时，可选择同角度、完整往返的参考视频，仅在本机使用。</p><h3>参考示范 · 可与我的视频分别暂停、拖动对照</h3><video id="compare-reference-player" controls playsinline preload="metadata" style="width:100%;max-height:260px"></video></div><div class="compare-actions"><button type="button" class="start-button" id="compare-analyze" disabled>开始分析</button><button type="button" class="text-link" id="compare-cancel" hidden>取消分析</button></div>
   <div class="analysis-status" role="status" aria-live="polite"><p id="compare-status">选择视频后开始。结果只表示与参考示例的差异。</p><progress id="compare-progress" max="100" value="0" hidden aria-label="视频分析进度"></progress></div>
   <section id="compare-results" hidden><div class="section-heading"><h3>动作对比</h3><span id="compare-reps"></span></div><p class="comparison-disclaimer">试验性对比：当前阈值用于展示与单个参考示例的差异，尚未经过人群验证，不代表动作合格或不合格。</p><div id="compare-metrics"></div><div id="compare-segments"></div><div class="basic-guidance"><b>基础提示 <small>来自代码规则</small></b><ul id="compare-basic-tips"></ul></div>
   <section class="model-guidance" aria-labelledby="guidance-title"><div class="section-heading"><h3 id="guidance-title">进一步指导</h3><span id="guidance-badge">大模型未接入</span></div><p id="guidance-status" role="status" aria-live="polite">当前使用本地对比和基础提示。</p><button type="button" class="start-button" id="guidance-generate" hidden>发送关键帧并生成指导</button><button type="button" class="text-link" id="guidance-cancel" hidden>取消生成</button><div id="guidance-content"></div></section></section></div>`;
@@ -37,6 +49,7 @@ function shell(){
   document.getElementById('compare-analyze').onclick=startAnalysis;
   document.getElementById('compare-cancel').onclick=()=>controller?.abort();
   document.querySelectorAll('[data-playback]').forEach(button=>button.onclick=()=>setPlayback(button.dataset.playback));
+  document.querySelectorAll('[data-ref-mode]').forEach(button=>button.onclick=()=>setReferenceMode(button.dataset.refMode));
   document.getElementById('guidance-generate').onclick=requestGuidance;
   document.getElementById('guidance-cancel').onclick=()=>guidanceController?.abort();
 }
@@ -44,7 +57,9 @@ const el=id=>document.getElementById(id);
 function stop(){controller?.abort();guidanceController?.abort();controller=null;guidanceController=null;generation++;}
 function cleanup(){stop();if(customReference){URL.revokeObjectURL(customReference);customReference=null;referenceCache.delete(exercise.id);}el('compare-reference-player').pause();el('compare-reference-player').removeAttribute('src');el('compare-reference-player').load();const player=el('compare-player');player.pause();player.removeAttribute('src');player.load();if(source)URL.revokeObjectURL(source);source=null;report=null;trigger?.focus({preventScroll:true});}
 function setPlayback(value,time=0){
-  mode=value;const player=el('compare-player');player.pause();player.src=value==='reference'?(customReference||`assets/${exercise.id}.mp4`):source;
+  mode=value;const player=el('compare-player');player.pause();
+  const refSrc=refMode==='3d'?(exercise.video3D||`assets/3d/${exercise.id}.mp4`):(customReference||`assets/${exercise.id}.mp4`);
+  player.src=value==='reference'?refSrc:source;
   player.onloadedmetadata=()=>{player.currentTime=Math.min(time,Math.max(0,player.duration-.01));};
   document.querySelectorAll('[data-playback]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.playback===value)));
 }
@@ -108,7 +123,16 @@ async function requestGuidance(){
   const timeout=setTimeout(()=>guidanceController?.abort(new Error('timeout')),45000);
   try{
     const frames=await captureEvidence(source,report,{signal:guidanceController.signal});
-    const data=await generateGuidance({report,frames},{config:readConfig(),signal:guidanceController.signal});
+    const richReport={
+      ...report,
+      exerciseName:exercise.name,
+      cue:exercise.cue,
+      mistake:exercise.mistake,
+      primary:exercise.primary,
+      steps:exercise.steps,
+      has3D:!!exercise.has3D
+    };
+    const data=await generateGuidance({report:richReport,frames},{config:readConfig(),signal:guidanceController.signal});
     if(revision!==generation)return;
     if(data.status==='not_connected'){enabled=false;resetGuidance();return;}
     if(data.status!=='completed')throw new Error(data.message||'指导生成失败，请重试。');
@@ -140,11 +164,12 @@ function ensureStyles(){
 export async function openComparison(origin,item){
   if(item)exercise=item;
   if(!dialog){await ensureStyles();shell();}trigger=origin;stop();clearReport();
-  el('compare-reference-file').value='';el('reference-status').textContent='内置示范识别不可靠时，可选择同角度、完整往返的参考视频，仅在本机使用。';
+  el('compare-reference-file').value='';
+  if(el('reference-mode-wrap'))el('reference-mode-wrap').hidden=!exercise.has3D;
+  setReferenceMode('real');
   el('compare-file').value='';el('compare-file-name').textContent='支持浏览器可播放的 MP4 / WebM';el('compare-player-wrap').hidden=true;el('compare-analyze').disabled=true;el('compare-analyze').textContent='开始分析';el('compare-cancel').hidden=true;
   el('compare-status').textContent='选择视频后开始。结果只表示与参考示例的差异。';
   document.querySelectorAll('video').forEach(video=>video.pause());dialog.showModal();dialog.scrollTop=0;
-  el('compare-reference-player').src=`assets/${exercise.id}.mp4`;
   const profile=profileFor(exercise.id);
   dialog.querySelector('.comparison-lede').textContent=`${exercise.name} · ${profile.view}拍摄`;
   dialog.querySelector('.capture-note p').textContent=`固定手机，从${profile.view}拍摄，完整露出全身与活动关节，只拍一个人。按教学完成 2–3 次完整往返，尽量与参考示范的机位一致。`;
