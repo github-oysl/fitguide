@@ -53,3 +53,20 @@ test('free records reject invalid dates, duplicate IDs and invalid numeric field
   assert.equal(S.cleanActivities([good,good,null,{...good,id:'2',date:'2026-02-30'},{...good,id:'3',minutes:-1},{...good,id:'4',sets:1.5},{...good,id:'5',name:' '}]).length,1);
   assert.equal(S.aggregate({},S.parse('2026-09-07'),null,[good]).size,0);
 });
+test('current streak counts back from today, tolerating an unchecked today', () => {
+  const done = {p:{d:{a:['2026-09-06','2026-09-07','2026-09-08']}}};
+  const dates = S.aggregate(done, S.parse('2026-09-08'));
+  assert.equal(S.currentStreak(dates, '2026-09-08'), 3);
+  // 今天还没打卡：从昨天起算，仍是 3 天势头。
+  assert.equal(S.currentStreak(dates, '2026-09-09'), 3);
+  // 昨天断了一天：只剩最近这一段；今天未打卡时昨天仍算势头。
+  const gap = S.aggregate({p:{d:{a:['2026-09-08','2026-09-06']}}}, S.parse('2026-09-08'));
+  assert.equal(S.currentStreak(gap, '2026-09-08'), 1);
+  assert.equal(S.currentStreak(gap, '2026-09-09'), 1);
+  assert.equal(S.currentStreak(gap, '2026-09-10'), 0);
+  // 跨月、跨年与空数据。
+  const cross = S.aggregate({p:{d:{a:['2026-08-31','2026-09-01']}}}, S.parse('2026-09-01'));
+  assert.equal(S.currentStreak(cross, '2026-09-01'), 2);
+  assert.equal(S.currentStreak(S.aggregate({}), '2026-09-01'), 0);
+  assert.equal(S.currentStreak(null, 'bad-date'), 0);
+});

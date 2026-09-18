@@ -99,7 +99,16 @@
     }
     return best;
   }
-  const api = { key, parse, addDays, range, shift, cleanDone, cleanActivities, aggregate, summarize, longestStreak };
+  // 截至 todayKey（含）的当前连续打卡天数；当天还没打卡则从今天前一天往前数。
+  // 与 longestStreak 不同：它只看「离今天最近」的那一段，用于枢纽页的势头展示。
+  function currentStreak(dates, today) {
+    if (!dates || typeof today !== 'string' || !parse(today)) return 0;
+    let cursor = parse(today), count = 0;
+    if (!dates.get(today)?.size) cursor = addDays(cursor, -1);
+    while (dates.get(key(cursor))?.size) { count++; cursor = addDays(cursor, -1); }
+    return count;
+  }
+  const api = { key, parse, addDays, range, shift, cleanDone, cleanActivities, aggregate, summarize, longestStreak, currentStreak };
   scope.GYM_STATS = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window === 'undefined' ? globalThis : window);
