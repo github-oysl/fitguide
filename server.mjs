@@ -6,7 +6,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json','.wasm':'application/wasm','.task':'application/octet-stream','.jpg':'image/jpeg','.mp4':'video/mp4','.txt':'text/plain; charset=utf-8'};
-const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','training.js','navigation.js','training-records.js','exercise-learning.js','guide.js','plans.js','checkin-stats.js','dashboard.js','free-activity.js','gym-settings.js','manifest.webmanifest','使用说明.txt']);
+const publicFiles=new Set(['index.html','style.css','data.js','extra-data.js','training.js','navigation.js','training-records.js','exercise-learning.js','guide.js','plans.js','checkin-stats.js','dashboard.js','free-activity.js','gym-settings.js','surprise.js','manifest.webmanifest','使用说明.txt']);
 const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
 
 // 只有文本类资源值得压缩：图片、视频本身已是压缩格式，再压只会白费 CPU。
@@ -70,7 +70,7 @@ export function createApp(){
       const url=new URL(req.url,`http://${host}`);
       if(!['GET','HEAD'].includes(req.method))return json(res,405,{error:'Method not allowed'});
       let name;try{name=decodeURIComponent(url.pathname).replace(/^\//,'')||'index.html';}catch{return json(res,400,{error:'Bad path'});}
-      if(name.includes('\\')||name.split('/').some(s=>s==='..'||s.startsWith('.'))||(!publicFiles.has(name)&&!['assets/','comparison/','vendor/'].some(prefix=>name.startsWith(prefix))))return json(res,404,{error:'Not found'});
+      if(name.includes('\\')||name.split('/').some(s=>s==='..'||s.startsWith('.'))||(!publicFiles.has(name)&&!['assets/','comparison/','vendor/','surprises/'].some(prefix=>name.startsWith(prefix))))return json(res,404,{error:'Not found'});
       const file=path.resolve(root,name);
       if(!file.startsWith(root+path.sep))return json(res,404,{error:'Not found'});
       const info=await stat(file);if(!info.isFile())return json(res,404,{error:'Not found'});
