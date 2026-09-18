@@ -1,0 +1,1142 @@
+{
+  "cable-chest-fly": {
+    "frames": [
+      {
+        "time": 10.5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-chest-fly-1.jpg"
+      },
+      {
+        "time": 26.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-chest-fly-2.jpg"
+      },
+      {
+        "time": 41.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-chest-fly-3.jpg"
+      }
+    ]
+  },
+  "leg-press": {
+    "frames": [
+      {
+        "time": 5.1,
+        "phase": "下放起点",
+        "src": "assets/keyframes/leg-press-1.jpg"
+      },
+      {
+        "time": 12.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/leg-press-2.jpg"
+      },
+      {
+        "time": 20.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/leg-press-3.jpg"
+      }
+    ]
+  },
+  "leg-extension-seated": {
+    "frames": [
+      {
+        "time": 8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/leg-extension-seated-1.jpg"
+      },
+      {
+        "time": 20,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/leg-extension-seated-2.jpg"
+      },
+      {
+        "time": 32,
+        "phase": "回放终点",
+        "src": "assets/keyframes/leg-extension-seated-3.jpg"
+      }
+    ]
+  },
+  "leg-curl-seated": {
+    "frames": [
+      {
+        "time": 9.1,
+        "phase": "下放起点",
+        "src": "assets/keyframes/leg-curl-seated-1.jpg"
+      },
+      {
+        "time": 22.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/leg-curl-seated-2.jpg"
+      },
+      {
+        "time": 36.5,
+        "phase": "回放终点",
+        "src": "assets/keyframes/leg-curl-seated-3.jpg"
+      }
+    ]
+  },
+  "machine-chest-press": {
+    "frames": [
+      {
+        "time": 6.9,
+        "phase": "下放起点",
+        "src": "assets/keyframes/machine-chest-press-1.jpg"
+      },
+      {
+        "time": 17.3,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/machine-chest-press-2.jpg"
+      },
+      {
+        "time": 27.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/machine-chest-press-3.jpg"
+      }
+    ]
+  },
+  "machine-chest-fly": {
+    "frames": [
+      {
+        "time": 6.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/machine-chest-fly-1.jpg"
+      },
+      {
+        "time": 15.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/machine-chest-fly-2.jpg"
+      },
+      {
+        "time": 25.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/machine-chest-fly-3.jpg"
+      }
+    ]
+  },
+  "lat-pulldown-with-pronated-grip": {
+    "frames": [
+      {
+        "time": 7.9,
+        "phase": "下放起点",
+        "src": "assets/keyframes/lat-pulldown-with-pronated-grip-1.jpg"
+      },
+      {
+        "time": 19.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/lat-pulldown-with-pronated-grip-2.jpg"
+      },
+      {
+        "time": 31.5,
+        "phase": "回放终点",
+        "src": "assets/keyframes/lat-pulldown-with-pronated-grip-3.jpg"
+      }
+    ]
+  },
+  "cable-row-seated-narrow-grip": {
+    "frames": [
+      {
+        "time": 8.5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-row-seated-narrow-grip-1.jpg"
+      },
+      {
+        "time": 21.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-row-seated-narrow-grip-2.jpg"
+      },
+      {
+        "time": 33.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-row-seated-narrow-grip-3.jpg"
+      }
+    ]
+  },
+  "straight-arm-lat-pulldown": {
+    "frames": [
+      {
+        "time": 8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/straight-arm-lat-pulldown-1.jpg"
+      },
+      {
+        "time": 20,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/straight-arm-lat-pulldown-2.jpg"
+      },
+      {
+        "time": 32,
+        "phase": "回放终点",
+        "src": "assets/keyframes/straight-arm-lat-pulldown-3.jpg"
+      }
+    ]
+  },
+  "seated-machine-row": {
+    "frames": [
+      {
+        "time": 8.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/seated-machine-row-1.jpg"
+      },
+      {
+        "time": 22,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/seated-machine-row-2.jpg"
+      },
+      {
+        "time": 35.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/seated-machine-row-3.jpg"
+      }
+    ]
+  },
+  "cable-incline-chest-fly": {
+    "frames": [
+      {
+        "time": 10.5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-incline-chest-fly-1.jpg"
+      },
+      {
+        "time": 26.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-incline-chest-fly-2.jpg"
+      },
+      {
+        "time": 41.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-incline-chest-fly-3.jpg"
+      }
+    ]
+  },
+  "machine-shoulder-press": {
+    "frames": [
+      {
+        "time": 14.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/machine-shoulder-press-1.jpg"
+      },
+      {
+        "time": 18.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/machine-shoulder-press-2.jpg"
+      },
+      {
+        "time": 20.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/machine-shoulder-press-3.jpg"
+      }
+    ]
+  },
+  "cable-lateral-raise": {
+    "frames": [
+      {
+        "time": 6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-lateral-raise-1.jpg"
+      },
+      {
+        "time": 14.9,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-lateral-raise-2.jpg"
+      },
+      {
+        "time": 23.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-lateral-raise-3.jpg"
+      }
+    ]
+  },
+  "lateral-raise-machine": {
+    "frames": [
+      {
+        "time": 7.4,
+        "phase": "下放起点",
+        "src": "assets/keyframes/lateral-raise-machine-1.jpg"
+      },
+      {
+        "time": 9.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/lateral-raise-machine-2.jpg"
+      },
+      {
+        "time": 11.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/lateral-raise-machine-3.jpg"
+      }
+    ]
+  },
+  "face-pull": {
+    "frames": [
+      {
+        "time": 6.4,
+        "phase": "下放起点",
+        "src": "assets/keyframes/face-pull-1.jpg"
+      },
+      {
+        "time": 15.9,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/face-pull-2.jpg"
+      },
+      {
+        "time": 25.4,
+        "phase": "回放终点",
+        "src": "assets/keyframes/face-pull-3.jpg"
+      }
+    ]
+  },
+  "reverse-cable-fly": {
+    "frames": [
+      {
+        "time": 9.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/reverse-cable-fly-1.jpg"
+      },
+      {
+        "time": 24.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/reverse-cable-fly-2.jpg"
+      },
+      {
+        "time": 39.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/reverse-cable-fly-3.jpg"
+      }
+    ]
+  },
+  "cable-curl-with-bar": {
+    "frames": [
+      {
+        "time": 9.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-curl-with-bar-1.jpg"
+      },
+      {
+        "time": 10.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-curl-with-bar-2.jpg"
+      },
+      {
+        "time": 13,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-curl-with-bar-3.jpg"
+      }
+    ]
+  },
+  "cable-curl-with-rope": {
+    "frames": [
+      {
+        "time": 8.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-curl-with-rope-1.jpg"
+      },
+      {
+        "time": 20.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-curl-with-rope-2.jpg"
+      },
+      {
+        "time": 33.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-curl-with-rope-3.jpg"
+      }
+    ]
+  },
+  "triceps-pushdown-with-rope": {
+    "frames": [
+      {
+        "time": 8.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/triceps-pushdown-with-rope-1.jpg"
+      },
+      {
+        "time": 20.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/triceps-pushdown-with-rope-2.jpg"
+      },
+      {
+        "time": 32.7,
+        "phase": "回放终点",
+        "src": "assets/keyframes/triceps-pushdown-with-rope-3.jpg"
+      }
+    ]
+  },
+  "overhead-tricep-extension-lower-position": {
+    "frames": [
+      {
+        "time": 11.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/overhead-tricep-extension-lower-position-1.jpg"
+      },
+      {
+        "time": 28.1,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/overhead-tricep-extension-lower-position-2.jpg"
+      },
+      {
+        "time": 44.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/overhead-tricep-extension-lower-position-3.jpg"
+      }
+    ]
+  },
+  "cable-crunch": {
+    "frames": [
+      {
+        "time": 6.7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-crunch-1.jpg"
+      },
+      {
+        "time": 16.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-crunch-2.jpg"
+      },
+      {
+        "time": 26.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-crunch-3.jpg"
+      }
+    ]
+  },
+  "pallof-press": {
+    "frames": [
+      {
+        "time": 7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/pallof-press-1.jpg"
+      },
+      {
+        "time": 17.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/pallof-press-2.jpg"
+      },
+      {
+        "time": 27.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/pallof-press-3.jpg"
+      }
+    ]
+  },
+  "hip-abduction-machine": {
+    "frames": [
+      {
+        "time": 7.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/hip-abduction-machine-1.jpg"
+      },
+      {
+        "time": 18.3,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/hip-abduction-machine-2.jpg"
+      },
+      {
+        "time": 29.2,
+        "phase": "回放终点",
+        "src": "assets/keyframes/hip-abduction-machine-3.jpg"
+      }
+    ]
+  },
+  "calf-raise-in-leg-press": {
+    "frames": [
+      {
+        "time": 9.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/calf-raise-in-leg-press-1.jpg"
+      },
+      {
+        "time": 23.1,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/calf-raise-in-leg-press-2.jpg"
+      },
+      {
+        "time": 36.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/calf-raise-in-leg-press-3.jpg"
+      }
+    ]
+  },
+  "assisted-dip": {
+    "frames": [
+      {
+        "time": 7.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/assisted-dip-1.jpg"
+      },
+      {
+        "time": 18.9,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/assisted-dip-2.jpg"
+      },
+      {
+        "time": 30.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/assisted-dip-3.jpg"
+      }
+    ]
+  },
+  "assisted-pull-up": {
+    "frames": [
+      {
+        "time": 7.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/assisted-pull-up-1.jpg"
+      },
+      {
+        "time": 19.1,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/assisted-pull-up-2.jpg"
+      },
+      {
+        "time": 30.5,
+        "phase": "回放终点",
+        "src": "assets/keyframes/assisted-pull-up-3.jpg"
+      }
+    ]
+  },
+  "barbell-bench-press": {
+    "frames": [
+      {
+        "time": 9.9,
+        "phase": "下放起点",
+        "src": "assets/keyframes/barbell-bench-press-1.jpg"
+      },
+      {
+        "time": 24.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/barbell-bench-press-2.jpg"
+      },
+      {
+        "time": 39.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/barbell-bench-press-3.jpg"
+      }
+    ]
+  },
+  "barbell-overhead-press": {
+    "frames": [
+      {
+        "time": 8.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/barbell-overhead-press-1.jpg"
+      },
+      {
+        "time": 20.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/barbell-overhead-press-2.jpg"
+      },
+      {
+        "time": 32.7,
+        "phase": "回放终点",
+        "src": "assets/keyframes/barbell-overhead-press-3.jpg"
+      }
+    ]
+  },
+  "barbell-romanian-deadlift": {
+    "frames": [
+      {
+        "time": 9.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/barbell-romanian-deadlift-1.jpg"
+      },
+      {
+        "time": 23.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/barbell-romanian-deadlift-2.jpg"
+      },
+      {
+        "time": 37.2,
+        "phase": "回放终点",
+        "src": "assets/keyframes/barbell-romanian-deadlift-3.jpg"
+      }
+    ]
+  },
+  "barbell-row": {
+    "frames": [
+      {
+        "time": 8.2,
+        "phase": "下放起点",
+        "src": "assets/keyframes/barbell-row-1.jpg"
+      },
+      {
+        "time": 20.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/barbell-row-2.jpg"
+      },
+      {
+        "time": 32.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/barbell-row-3.jpg"
+      }
+    ]
+  },
+  "barbell-squat": {
+    "frames": [
+      {
+        "time": 7.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/barbell-squat-1.jpg"
+      },
+      {
+        "time": 19.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/barbell-squat-2.jpg"
+      },
+      {
+        "time": 31.2,
+        "phase": "回放终点",
+        "src": "assets/keyframes/barbell-squat-3.jpg"
+      }
+    ]
+  },
+  "cable-hip-extension": {
+    "frames": [
+      {
+        "time": 9.1,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-hip-extension-1.jpg"
+      },
+      {
+        "time": 22.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-hip-extension-2.jpg"
+      },
+      {
+        "time": 36.2,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-hip-extension-3.jpg"
+      }
+    ]
+  },
+  "cable-pull-through": {
+    "frames": [
+      {
+        "time": 7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-pull-through-1.jpg"
+      },
+      {
+        "time": 17.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-pull-through-2.jpg"
+      },
+      {
+        "time": 27.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-pull-through-3.jpg"
+      }
+    ]
+  },
+  "cable-single-arm-row": {
+    "frames": [
+      {
+        "time": 6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-single-arm-row-1.jpg"
+      },
+      {
+        "time": 14.9,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-single-arm-row-2.jpg"
+      },
+      {
+        "time": 23.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-single-arm-row-3.jpg"
+      }
+    ]
+  },
+  "cable-standing-chest-press": {
+    "frames": [
+      {
+        "time": 6.7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/cable-standing-chest-press-1.jpg"
+      },
+      {
+        "time": 16.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/cable-standing-chest-press-2.jpg"
+      },
+      {
+        "time": 26.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/cable-standing-chest-press-3.jpg"
+      }
+    ]
+  },
+  "dead-bug": {
+    "frames": [
+      {
+        "time": 8.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dead-bug-1.jpg"
+      },
+      {
+        "time": 20.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dead-bug-2.jpg"
+      },
+      {
+        "time": 33.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dead-bug-3.jpg"
+      }
+    ]
+  },
+  "decline-bench-crunch": {
+    "frames": [
+      {
+        "time": 7.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/decline-bench-crunch-1.jpg"
+      },
+      {
+        "time": 19.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/decline-bench-crunch-2.jpg"
+      },
+      {
+        "time": 31.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/decline-bench-crunch-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-bench-press": {
+    "frames": [
+      {
+        "time": 8.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-bench-press-1.jpg"
+      },
+      {
+        "time": 21.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-bench-press-2.jpg"
+      },
+      {
+        "time": 34.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-bench-press-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-curl": {
+    "frames": [
+      {
+        "time": 5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-curl-1.jpg"
+      },
+      {
+        "time": 7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-curl-2.jpg"
+      },
+      {
+        "time": 10.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-curl-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-hammer-curl": {
+    "frames": [
+      {
+        "time": 8.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-hammer-curl-1.jpg"
+      },
+      {
+        "time": 22,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-hammer-curl-2.jpg"
+      },
+      {
+        "time": 35.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-hammer-curl-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-lateral-raise": {
+    "frames": [
+      {
+        "time": 18.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-lateral-raise-1.jpg"
+      },
+      {
+        "time": 20.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-lateral-raise-2.jpg"
+      },
+      {
+        "time": 23,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-lateral-raise-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-one-arm-row": {
+    "frames": [
+      {
+        "time": 8.7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-one-arm-row-1.jpg"
+      },
+      {
+        "time": 21.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-one-arm-row-2.jpg"
+      },
+      {
+        "time": 34.7,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-one-arm-row-3.jpg"
+      }
+    ]
+  },
+  "dumbbell-rdl": {
+    "frames": [
+      {
+        "time": 9.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/dumbbell-rdl-1.jpg"
+      },
+      {
+        "time": 23.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/dumbbell-rdl-2.jpg"
+      },
+      {
+        "time": 37.2,
+        "phase": "回放终点",
+        "src": "assets/keyframes/dumbbell-rdl-3.jpg"
+      }
+    ]
+  },
+  "glute-bridge": {
+    "frames": [
+      {
+        "time": 7.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/glute-bridge-1.jpg"
+      },
+      {
+        "time": 19.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/glute-bridge-2.jpg"
+      },
+      {
+        "time": 31.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/glute-bridge-3.jpg"
+      }
+    ]
+  },
+  "goblet-squat": {
+    "frames": [
+      {
+        "time": 8.7,
+        "phase": "下放起点",
+        "src": "assets/keyframes/goblet-squat-1.jpg"
+      },
+      {
+        "time": 21.7,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/goblet-squat-2.jpg"
+      },
+      {
+        "time": 34.8,
+        "phase": "回放终点",
+        "src": "assets/keyframes/goblet-squat-3.jpg"
+      }
+    ]
+  },
+  "hack-squat": {
+    "frames": [
+      {
+        "time": 7.1,
+        "phase": "下放起点",
+        "src": "assets/keyframes/hack-squat-1.jpg"
+      },
+      {
+        "time": 17.8,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/hack-squat-2.jpg"
+      },
+      {
+        "time": 28.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/hack-squat-3.jpg"
+      }
+    ]
+  },
+  "hip-adduction-machine": {
+    "frames": [
+      {
+        "time": 7.4,
+        "phase": "下放起点",
+        "src": "assets/keyframes/hip-adduction-machine-1.jpg"
+      },
+      {
+        "time": 18.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/hip-adduction-machine-2.jpg"
+      },
+      {
+        "time": 29.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/hip-adduction-machine-3.jpg"
+      }
+    ]
+  },
+  "machine-glute-extension": {
+    "frames": [
+      {
+        "time": 4.1,
+        "phase": "下放起点",
+        "src": "assets/keyframes/machine-glute-extension-1.jpg"
+      },
+      {
+        "time": 10.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/machine-glute-extension-2.jpg"
+      },
+      {
+        "time": 16.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/machine-glute-extension-3.jpg"
+      }
+    ]
+  },
+  "machine-reverse-fly": {
+    "frames": [
+      {
+        "time": 6.9,
+        "phase": "下放起点",
+        "src": "assets/keyframes/machine-reverse-fly-1.jpg"
+      },
+      {
+        "time": 17.3,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/machine-reverse-fly-2.jpg"
+      },
+      {
+        "time": 27.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/machine-reverse-fly-3.jpg"
+      }
+    ]
+  },
+  "plank": {
+    "frames": [
+      {
+        "time": 4.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/plank-1.jpg"
+      },
+      {
+        "time": 11.9,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/plank-2.jpg"
+      },
+      {
+        "time": 19.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/plank-3.jpg"
+      }
+    ]
+  },
+  "plate-loaded-incline-chest-press": {
+    "frames": [
+      {
+        "time": 7.4,
+        "phase": "下放起点",
+        "src": "assets/keyframes/plate-loaded-incline-chest-press-1.jpg"
+      },
+      {
+        "time": 18.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/plate-loaded-incline-chest-press-2.jpg"
+      },
+      {
+        "time": 29.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/plate-loaded-incline-chest-press-3.jpg"
+      }
+    ]
+  },
+  "plate-loaded-lat-pulldown": {
+    "frames": [
+      {
+        "time": 7.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/plate-loaded-lat-pulldown-1.jpg"
+      },
+      {
+        "time": 18.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/plate-loaded-lat-pulldown-2.jpg"
+      },
+      {
+        "time": 29.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/plate-loaded-lat-pulldown-3.jpg"
+      }
+    ]
+  },
+  "plate-loaded-lying-chest-press": {
+    "frames": [
+      {
+        "time": 6.9,
+        "phase": "下放起点",
+        "src": "assets/keyframes/plate-loaded-lying-chest-press-1.jpg"
+      },
+      {
+        "time": 17.3,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/plate-loaded-lying-chest-press-2.jpg"
+      },
+      {
+        "time": 27.6,
+        "phase": "回放终点",
+        "src": "assets/keyframes/plate-loaded-lying-chest-press-3.jpg"
+      }
+    ]
+  },
+  "plate-loaded-seated-row": {
+    "frames": [
+      {
+        "time": 8.5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/plate-loaded-seated-row-1.jpg"
+      },
+      {
+        "time": 21.2,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/plate-loaded-seated-row-2.jpg"
+      },
+      {
+        "time": 33.9,
+        "phase": "回放终点",
+        "src": "assets/keyframes/plate-loaded-seated-row-3.jpg"
+      }
+    ]
+  },
+  "prone-leg-curl": {
+    "frames": [
+      {
+        "time": 9.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/prone-leg-curl-1.jpg"
+      },
+      {
+        "time": 24.6,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/prone-leg-curl-2.jpg"
+      },
+      {
+        "time": 39.3,
+        "phase": "回放终点",
+        "src": "assets/keyframes/prone-leg-curl-3.jpg"
+      }
+    ]
+  },
+  "reverse-hyper": {
+    "frames": [
+      {
+        "time": 9.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/reverse-hyper-1.jpg"
+      },
+      {
+        "time": 23.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/reverse-hyper-2.jpg"
+      },
+      {
+        "time": 37.4,
+        "phase": "回放终点",
+        "src": "assets/keyframes/reverse-hyper-3.jpg"
+      }
+    ]
+  },
+  "roman-chair-hip-extension": {
+    "frames": [
+      {
+        "time": 8.5,
+        "phase": "下放起点",
+        "src": "assets/keyframes/roman-chair-hip-extension-1.jpg"
+      },
+      {
+        "time": 21.3,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/roman-chair-hip-extension-2.jpg"
+      },
+      {
+        "time": 34.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/roman-chair-hip-extension-3.jpg"
+      }
+    ]
+  },
+  "seated-dip-machine": {
+    "frames": [
+      {
+        "time": 8.6,
+        "phase": "下放起点",
+        "src": "assets/keyframes/seated-dip-machine-1.jpg"
+      },
+      {
+        "time": 21.5,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/seated-dip-machine-2.jpg"
+      },
+      {
+        "time": 34.4,
+        "phase": "回放终点",
+        "src": "assets/keyframes/seated-dip-machine-3.jpg"
+      }
+    ]
+  },
+  "t-bar-row-unsupported": {
+    "frames": [
+      {
+        "time": 8.8,
+        "phase": "下放起点",
+        "src": "assets/keyframes/t-bar-row-unsupported-1.jpg"
+      },
+      {
+        "time": 22,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/t-bar-row-unsupported-2.jpg"
+      },
+      {
+        "time": 35.1,
+        "phase": "回放终点",
+        "src": "assets/keyframes/t-bar-row-unsupported-3.jpg"
+      }
+    ]
+  },
+  "weighted-back-extension": {
+    "frames": [
+      {
+        "time": 7.3,
+        "phase": "下放起点",
+        "src": "assets/keyframes/weighted-back-extension-1.jpg"
+      },
+      {
+        "time": 18.4,
+        "phase": "顶峰收缩",
+        "src": "assets/keyframes/weighted-back-extension-2.jpg"
+      },
+      {
+        "time": 29.4,
+        "phase": "回放终点",
+        "src": "assets/keyframes/weighted-back-extension-3.jpg"
+      }
+    ]
+  }
+}

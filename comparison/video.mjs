@@ -58,15 +58,18 @@ export async function extractPoses(source,{signal,onProgress=()=>{}}={}) {
     return {frames,duration:video.duration};
   } finally {signal?.removeEventListener('abort',abort);worker.terminate();fail(new DOMException('已结束','AbortError'));video.removeAttribute('src');video.load();}
 }
-export async function captureEvidence(source,report,{signal}={}) {
+export async function captureFrames(source,times,{signal}={}) {
   const video=await openVideo(source,signal);
   try {
-    const candidate=[...report.segments.filter(s=>s.differences.length),...report.segments];
-    const times=[...new Set(candidate.flatMap(s=>[s.start,s.peak,s.end]).map(t=>Math.round(t*10)/10))].slice(0,6).sort((a,b)=>a-b);
     const scale=Math.min(1,640/Math.max(video.videoWidth,video.videoHeight));
     const canvas=document.createElement('canvas');canvas.width=Math.round(video.videoWidth*scale);canvas.height=Math.round(video.videoHeight*scale);
     const context=canvas.getContext('2d'),frames=[];
     for(const time of times){await seek(video,time,signal);context.drawImage(video,0,0,canvas.width,canvas.height);frames.push({time,dataUrl:canvas.toDataURL('image/jpeg',.75)});}
     return frames;
   } finally {video.removeAttribute('src');video.load();}
+}
+export async function captureEvidence(source,report,{signal}={}) {
+  const candidate=[...report.segments.filter(s=>s.differences.length),...report.segments];
+  const times=[...new Set(candidate.flatMap(s=>[s.start,s.peak,s.end]).map(t=>Math.round(t*10)/10))].slice(0,6).sort((a,b)=>a-b);
+  return captureFrames(source,times,{signal});
 }

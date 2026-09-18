@@ -18,10 +18,9 @@ const path=require('node:path');
   await page.locator('#comparison-dialog').waitFor({state:'visible'});
   await page.screenshot({path:path.join(output,'comparison-upload-mobile.png')});
   await page.locator('#compare-file').setInputFiles('assets/cable-curl-with-bar.mp4');
-  await page.waitForFunction(()=>!document.getElementById('compare-analyze').disabled);
-  await page.locator('#compare-analyze').click();
+  // 选择视频后自动开始分析，无需点击按钮。
   await page.waitForFunction(()=>!document.getElementById('compare-results').hidden,{},{timeout:90000});
-  assert.match(await page.locator('#compare-reps').innerText(),/1 次/);
+  assert.match(await page.locator('#compare-reps').innerText(),/2 次/);
   assert.equal(await page.locator('.metric-status.similar').count(),3);
   assert.equal(await page.locator('#guidance-badge').innerText(),'大模型未接入');
   assert.equal(await page.locator('#guidance-generate').isVisible(),false);
@@ -34,14 +33,11 @@ const path=require('node:path');
   assert.match(await page.locator('#compare-player').getAttribute('src'),/assets/);
   // A static clip must not receive a fabricated result.
   await page.locator('#compare-file').setInputFiles('test-artifacts/static-curl.mp4');
-  await page.waitForFunction(()=>!document.getElementById('compare-analyze').disabled);
-  await page.locator('#compare-analyze').click();
   await page.waitForFunction(()=>document.getElementById('compare-status').textContent.includes('无法判断'),{},{timeout:90000});
   assert.equal(await page.locator('#compare-results').isVisible(),false);
   // Real cancellation and restart; closing frees the local blob URL.
   await page.locator('#compare-file').setInputFiles('assets/cable-curl-with-bar.mp4');
-  await page.waitForFunction(()=>!document.getElementById('compare-analyze').disabled);
-  await page.locator('#compare-analyze').click();await page.locator('#compare-cancel').click();
+  await page.locator('#compare-cancel').click();
   await page.waitForFunction(()=>document.getElementById('compare-status').textContent.includes('已取消'));
   await page.locator('#compare-close').click();
   await page.waitForFunction(()=>!document.getElementById('compare-player').getAttribute('src'));
@@ -51,16 +47,20 @@ const path=require('node:path');
   await page.evaluate(()=>localStorage.setItem('fitguide.model.v1',JSON.stringify({enabled:true,baseUrl:'https://model.example/v1',apiKey:'local-test-key',model:'test-vision'})));
   let calls=0;
   await page.route('https://model.example/v1/chat/completions',async route=>{
-   calls++;const request=route.request().postDataJSON();const images=request.messages[1].content.filter(x=>x.type==='image_url');assert.ok(images.length>=3&&images.length<=6);assert.equal(route.request().headers().authorization,'Bearer local-test-key');
+   calls++;const request=route.request().postDataJSON();const content=request.messages[1].content;
+   const images=content.filter(x=>x.type==='image_url');
+   const standard=content.filter(x=>x.type==='text'&&x.text.startsWith('标准示范'));
+   const mine=content.filter(x=>x.type==='text'&&x.text.startsWith('用户视频'));
+   assert.equal(standard.length,3);assert.ok(mine.length>=1&&mine.length<=6);assert.equal(images.length,standard.length+mine.length);
+   assert.equal(route.request().headers().authorization,'Bearer local-test-key');
    if(calls===1) return route.fulfill({status:502,json:{status:'error',message:'测试：模型服务暂不可用'}});
    return route.fulfill({json:{choices:[{finish_reason:'stop',message:{content:JSON.stringify({summary:'测试返回：动作与示例较接近。',tips:[{start:.4,end:1.2,metricId:'armDrift',observation:'观察到轻微上臂移动。',adjustment:'试着保持上臂稳定。'}],uncertainties:['关键帧不能反映全部回程。'],disagreements:[]})}}]}});
   });
   await page.locator('.compare-entry').click();
   await page.locator('#comparison-dialog').waitFor({state:'visible'});
   await page.locator('#compare-file').setInputFiles('assets/cable-curl-with-bar.mp4');
-  await page.waitForFunction(()=>!document.getElementById('compare-analyze').disabled);await page.locator('#compare-analyze').click();
-  await page.waitForFunction(()=>!document.getElementById('compare-results').hidden,{},{timeout:90000});
-  await page.locator('#guidance-generate').click();await page.waitForFunction(()=>document.getElementById('guidance-status').textContent.includes('请求失败'));
+  // 分析完成后自动生成指导（第一次 502），随后手动重试成功。
+  await page.waitForFunction(()=>document.getElementById('guidance-status').textContent.includes('502'),{},{timeout:120000});
   assert.equal(await page.locator('#guidance-generate').isEnabled(),true);
   await page.locator('#guidance-generate').click();await page.locator('.guidance-tip').waitFor();assert.equal(calls,2);
   await page.locator('[data-guidance-time]').click();

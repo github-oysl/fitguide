@@ -1,0 +1,1428 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-18",
+  "target": {
+    "realLoop": "6–12 秒无声循环，去掉标题卡与口播",
+    "d3Loop": "4–8 秒正确 3D 循环；合集中切不出则 unbound"
+  },
+  "counts": {
+    "exercises": 60,
+    "realTrimmed": 54,
+    "d3Bound": 38,
+    "d3Unbound": 22,
+    "realNeedsSource": 6
+  },
+  "exercises": {
+    "assisted-dip": {
+      "id": "assisted-dip",
+      "name": "辅助双杠臂屈伸",
+      "real": {
+        "path": "assets/assisted-dip.mp4",
+        "cover": "assets/assisted-dip.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          24.67,
+          33.67
+        ],
+        "source": "docs/muscleandstrength/media/videos/assisted-dip.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/assisted-dip.mp4",
+        "cover": "assets/3d/assisted-dip.jpg",
+        "status": "variant",
+        "duration": 8.0,
+        "sourceFile": "双杠臂屈伸.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ],
+        "note": "徒手双杠，非辅助机"
+      }
+    },
+    "assisted-pull-up": {
+      "id": "assisted-pull-up",
+      "name": "辅助引体向上",
+      "real": {
+        "path": "assets/assisted-pull-up.mp4",
+        "cover": "assets/assisted-pull-up.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          24.9,
+          33.9
+        ],
+        "source": "docs/muscleandstrength/media/videos/assisted-pull-up.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/assisted-pull-up.mp4",
+        "cover": "assets/3d/assisted-pull-up.jpg",
+        "status": "variant",
+        "duration": 8.0,
+        "sourceFile": "引体向上.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ],
+        "note": "无辅助引体，非辅助机"
+      }
+    },
+    "barbell-bench-press": {
+      "id": "barbell-bench-press",
+      "name": "杠铃卧推",
+      "real": {
+        "path": "assets/barbell-bench-press.mp4",
+        "cover": "assets/barbell-bench-press.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          36.3,
+          45.3
+        ],
+        "source": "docs/muscleandstrength/media/videos/barbell-bench-press.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/barbell-bench-press.mp4",
+        "cover": "assets/3d/barbell-bench-press.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "杠铃卧推.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ]
+      }
+    },
+    "barbell-overhead-press": {
+      "id": "barbell-overhead-press",
+      "name": "杠铃站姿推举",
+      "real": {
+        "path": "assets/barbell-overhead-press.mp4",
+        "cover": "assets/barbell-overhead-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          27.71,
+          36.71
+        ],
+        "source": "docs/muscleandstrength/media/videos/barbell-overhead-press.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/barbell-overhead-press.mp4",
+        "cover": "assets/3d/barbell-overhead-press.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "杠铃推肩.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ]
+      }
+    },
+    "barbell-romanian-deadlift": {
+      "id": "barbell-romanian-deadlift",
+      "name": "杠铃罗马尼亚硬拉",
+      "real": {
+        "path": "assets/barbell-romanian-deadlift.mp4",
+        "cover": "assets/barbell-romanian-deadlift.jpg",
+        "status": "replaced",
+        "duration": 9.01,
+        "trim": [
+          30.85,
+          39.85
+        ],
+        "source": "D:/CODE/fitguide/test-artifacts/media-process/dl/-m45n1_x32E.mp4",
+        "note": "换源",
+        "youtube": "-m45n1_x32E"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "罗马尼亚硬拉.mp4 实际是哑铃 RDL"
+      }
+    },
+    "barbell-row": {
+      "id": "barbell-row",
+      "name": "杠铃俯身划船",
+      "real": {
+        "path": "assets/barbell-row.mp4",
+        "cover": "assets/barbell-row.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          27.97,
+          36.97
+        ],
+        "source": "docs/muscleandstrength/media/videos/barbell-row.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/barbell-row.mp4",
+        "cover": "assets/3d/barbell-row.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "背部训练合集.mp4",
+        "trim": [
+          28.0,
+          36.0
+        ],
+        "note": "合集第二项杠铃俯身划船"
+      }
+    },
+    "barbell-squat": {
+      "id": "barbell-squat",
+      "name": "杠铃深蹲",
+      "real": {
+        "path": "assets/barbell-squat.mp4",
+        "cover": "assets/barbell-squat.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          25.84,
+          34.84
+        ],
+        "source": "docs/muscleandstrength/media/videos/barbell-squat.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/barbell-squat.mp4",
+        "cover": "assets/3d/barbell-squat.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "杠铃深蹲.mp4",
+        "trim": [
+          19.0,
+          26.5
+        ]
+      }
+    },
+    "cable-chest-fly": {
+      "id": "cable-chest-fly",
+      "name": "站姿绳索夹胸",
+      "real": {
+        "path": "assets/cable-chest-fly.mp4",
+        "cover": "assets/cable-chest-fly.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          39.16,
+          48.16
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-chest-fly.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-chest-fly.mp4",
+        "cover": "assets/3d/cable-chest-fly.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "绳索夹胸.mp4",
+        "trim": [
+          20.0,
+          27.0
+        ],
+        "note": "4x12 循环段"
+      }
+    },
+    "cable-crunch": {
+      "id": "cable-crunch",
+      "name": "跪姿绳索卷腹",
+      "real": {
+        "path": "assets/cable-crunch.mp4",
+        "cover": "assets/cable-crunch.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          20.42,
+          29.42
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-crunch.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-crunch.mp4",
+        "cover": "assets/3d/cable-crunch.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索卷腹.mp4",
+        "trim": [
+          12.0,
+          20.0
+        ]
+      }
+    },
+    "cable-curl-with-bar": {
+      "id": "cable-curl-with-bar",
+      "name": "直杆绳索弯举",
+      "real": {
+        "path": "assets/cable-curl-with-bar.mp4",
+        "cover": "assets/cable-curl-with-bar.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          33.03,
+          42.03
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-curl-with-bar.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-curl-with-bar.mp4",
+        "cover": "assets/3d/cable-curl-with-bar.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索二头弯举.mp4",
+        "trim": [
+          6.0,
+          14.0
+        ],
+        "note": "直杆段"
+      }
+    },
+    "cable-curl-with-rope": {
+      "id": "cable-curl-with-rope",
+      "name": "绳索锤式弯举",
+      "real": {
+        "path": "assets/cable-curl-with-rope.mp4",
+        "cover": "assets/cable-curl-with-rope.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          28.22,
+          37.22
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-curl-with-rope.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-curl-with-rope.mp4",
+        "cover": "assets/3d/cable-curl-with-rope.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索二头弯举.mp4",
+        "trim": [
+          24.0,
+          32.0
+        ],
+        "note": "绳附件段"
+      }
+    },
+    "cable-hip-extension": {
+      "id": "cable-hip-extension",
+      "name": "绳索髋伸展／后踢",
+      "real": {
+        "path": "assets/cable-hip-extension.mp4",
+        "cover": "assets/cable-hip-extension.jpg",
+        "status": "needs_source",
+        "duration": 45.3,
+        "note": "原片是跪姿绳索三头臂屈伸"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "T杆腿部训练.mp4 是 T 杆深蹲"
+      }
+    },
+    "cable-incline-chest-fly": {
+      "id": "cable-incline-chest-fly",
+      "name": "上斜绳索夹胸",
+      "real": {
+        "path": "assets/cable-incline-chest-fly.mp4",
+        "cover": "assets/cable-incline-chest-fly.jpg",
+        "status": "replaced",
+        "duration": 8.98,
+        "trim": [
+          27.81,
+          36.81
+        ],
+        "source": "D:/CODE/fitguide/test-artifacts/media-process/dl/8YjdqeIXPUQ.mp4",
+        "note": "原片与站姿夹胸相同",
+        "youtube": "8YjdqeIXPUQ"
+      },
+      "d3": {
+        "path": "assets/3d/cable-incline-chest-fly.mp4",
+        "cover": "assets/3d/cable-incline-chest-fly.jpg",
+        "status": "ok",
+        "duration": 6.5,
+        "sourceFile": "夹胸训练不同动作.mp4",
+        "trim": [
+          30.0,
+          36.5
+        ],
+        "note": "上胸/低到高夹胸"
+      }
+    },
+    "cable-lateral-raise": {
+      "id": "cable-lateral-raise",
+      "name": "单臂绳索侧平举",
+      "real": {
+        "path": "assets/cable-lateral-raise.mp4",
+        "cover": "assets/cable-lateral-raise.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          16.68,
+          25.68
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-lateral-raise.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-lateral-raise.mp4",
+        "cover": "assets/3d/cable-lateral-raise.jpg",
+        "status": "ok",
+        "duration": 10.0,
+        "sourceFile": "三角肌训练组合.mp4",
+        "trim": [
+          36.0,
+          46.0
+        ],
+        "note": "单臂绳索侧平举"
+      }
+    },
+    "cable-pull-through": {
+      "id": "cable-pull-through",
+      "name": "绳索胯下拉",
+      "real": {
+        "path": "assets/cable-pull-through.mp4",
+        "cover": "assets/cable-pull-through.jpg",
+        "status": "needs_source",
+        "duration": 34.78,
+        "note": "匹配记录指向后束飞鸟，整片不可当作胯下拉"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "无对应 3D 源"
+      }
+    },
+    "cable-row-seated-narrow-grip": {
+      "id": "cable-row-seated-narrow-grip",
+      "name": "窄握坐姿划船",
+      "real": {
+        "path": "assets/cable-row-seated-narrow-grip.mp4",
+        "cover": "assets/cable-row-seated-narrow-grip.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          29.22,
+          38.22
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-row-seated-narrow-grip.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/cable-row-seated-narrow-grip.mp4",
+        "cover": "assets/3d/cable-row-seated-narrow-grip.jpg",
+        "status": "ok",
+        "duration": 10.0,
+        "sourceFile": "坐姿划船.mp4",
+        "trim": [
+          10.0,
+          20.0
+        ],
+        "note": "窄握/对握坐姿划船"
+      }
+    },
+    "cable-single-arm-row": {
+      "id": "cable-single-arm-row",
+      "name": "站姿单臂绳索划船",
+      "real": {
+        "path": "assets/cable-single-arm-row.mp4",
+        "cover": "assets/cable-single-arm-row.jpg",
+        "status": "needs_source",
+        "duration": 29.88,
+        "note": "原片是单臂侧平举"
+      },
+      "d3": {
+        "path": "assets/3d/cable-single-arm-row.mp4",
+        "cover": "assets/3d/cable-single-arm-row.jpg",
+        "status": "variant",
+        "duration": 6.0,
+        "sourceFile": "划船握姿合集.mp4",
+        "trim": [
+          6.0,
+          12.0
+        ],
+        "note": "坐姿单手划船，非站姿"
+      }
+    },
+    "cable-standing-chest-press": {
+      "id": "cable-standing-chest-press",
+      "name": "站姿绳索推胸",
+      "real": {
+        "path": "assets/cable-standing-chest-press.mp4",
+        "cover": "assets/cable-standing-chest-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          20.26,
+          29.26
+        ],
+        "source": "docs/muscleandstrength/media/videos/cable-standing-chest-press.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "绳索夹胸.mp4 不是推胸"
+      }
+    },
+    "calf-raise-in-leg-press": {
+      "id": "calf-raise-in-leg-press",
+      "name": "腿举机提踵",
+      "real": {
+        "path": "assets/calf-raise-in-leg-press.mp4",
+        "cover": "assets/calf-raise-in-leg-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          32.98,
+          41.98
+        ],
+        "source": "docs/muscleandstrength/media/videos/calf-raise-in-leg-press.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "无对应 3D 源"
+      }
+    },
+    "dead-bug": {
+      "id": "dead-bug",
+      "name": "死虫式",
+      "real": {
+        "path": "assets/dead-bug.mp4",
+        "cover": "assets/dead-bug.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          28.2,
+          37.2
+        ],
+        "source": "docs/muscleandstrength/media/videos/dead-bug.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "腹肌版训练.mp4 是下斜仰卧起坐"
+      }
+    },
+    "decline-bench-crunch": {
+      "id": "decline-bench-crunch",
+      "name": "下斜凳卷腹",
+      "real": {
+        "path": "assets/decline-bench-crunch.mp4",
+        "cover": "assets/decline-bench-crunch.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          25.71,
+          34.71
+        ],
+        "source": "docs/muscleandstrength/media/videos/decline-bench-crunch.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/decline-bench-crunch.mp4",
+        "cover": "assets/3d/decline-bench-crunch.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "腹肌版训练.mp4",
+        "trim": [
+          18.0,
+          25.0
+        ],
+        "note": "下斜仰卧起坐"
+      }
+    },
+    "dumbbell-bench-press": {
+      "id": "dumbbell-bench-press",
+      "name": "哑铃卧推",
+      "real": {
+        "path": "assets/dumbbell-bench-press.mp4",
+        "cover": "assets/dumbbell-bench-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          30.01,
+          39.01
+        ],
+        "source": "docs/muscleandstrength/media/videos/dumbbell-bench-press.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/dumbbell-bench-press.mp4",
+        "cover": "assets/3d/dumbbell-bench-press.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "哑铃推胸.mp4",
+        "trim": [
+          12.0,
+          19.0
+        ]
+      }
+    },
+    "dumbbell-curl": {
+      "id": "dumbbell-curl",
+      "name": "哑铃弯举",
+      "real": {
+        "path": "assets/dumbbell-curl.mp4",
+        "cover": "assets/dumbbell-curl.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          30.89,
+          39.89
+        ],
+        "source": "docs/muscleandstrength/media/videos/dumbbell-curl.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/dumbbell-curl.mp4",
+        "cover": "assets/3d/dumbbell-curl.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "站姿二头弯举.mp4",
+        "trim": [
+          10.0,
+          18.0
+        ]
+      }
+    },
+    "dumbbell-hammer-curl": {
+      "id": "dumbbell-hammer-curl",
+      "name": "哑铃锤式弯举",
+      "real": {
+        "path": "assets/dumbbell-hammer-curl.mp4",
+        "cover": "assets/dumbbell-hammer-curl.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          30.89,
+          39.89
+        ],
+        "source": "docs/muscleandstrength/media/videos/dumbbell-hammer-curl.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "二头弯举.mp4 是牧师凳弯举"
+      }
+    },
+    "dumbbell-lateral-raise": {
+      "id": "dumbbell-lateral-raise",
+      "name": "哑铃侧平举",
+      "real": {
+        "path": "assets/dumbbell-lateral-raise.mp4",
+        "cover": "assets/dumbbell-lateral-raise.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          14.87,
+          23.87
+        ],
+        "source": "docs/muscleandstrength/media/videos/dumbbell-lateral-raise.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/dumbbell-lateral-raise.mp4",
+        "cover": "assets/3d/dumbbell-lateral-raise.jpg",
+        "status": "ok",
+        "duration": 12.0,
+        "sourceFile": "三角肌训练组合.mp4",
+        "trim": [
+          22.0,
+          34.0
+        ],
+        "note": "哑铃侧平举正确循环"
+      }
+    },
+    "dumbbell-one-arm-row": {
+      "id": "dumbbell-one-arm-row",
+      "name": "单臂哑铃划船",
+      "real": {
+        "path": "assets/dumbbell-one-arm-row.mp4",
+        "cover": "assets/dumbbell-one-arm-row.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          30.13,
+          39.13
+        ],
+        "source": "docs/muscleandstrength/media/videos/dumbbell-one-arm-row.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/dumbbell-one-arm-row.mp4",
+        "cover": "assets/3d/dumbbell-one-arm-row.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "哑铃俯身划船.mp4",
+        "trim": [
+          11.0,
+          18.0
+        ]
+      }
+    },
+    "dumbbell-rdl": {
+      "id": "dumbbell-rdl",
+      "name": "哑铃罗马尼亚硬拉",
+      "real": {
+        "path": "assets/dumbbell-rdl.mp4",
+        "cover": "assets/dumbbell-rdl.jpg",
+        "status": "needs_source",
+        "duration": 46.49,
+        "note": "原片与杠铃 RDL 相同"
+      },
+      "d3": {
+        "path": "assets/3d/dumbbell-rdl.mp4",
+        "cover": "assets/3d/dumbbell-rdl.jpg",
+        "status": "ok",
+        "duration": 12.0,
+        "sourceFile": "罗马尼亚硬拉.mp4",
+        "trim": [
+          28.0,
+          40.0
+        ],
+        "note": "该源其实是哑铃 RDL"
+      }
+    },
+    "face-pull": {
+      "id": "face-pull",
+      "name": "绳索面拉",
+      "real": {
+        "path": "assets/face-pull.mp4",
+        "cover": "assets/face-pull.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          18.56,
+          27.56
+        ],
+        "source": "docs/muscleandstrength/media/videos/face-pull.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/face-pull.mp4",
+        "cover": "assets/3d/face-pull.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索面拉.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ]
+      }
+    },
+    "glute-bridge": {
+      "id": "glute-bridge",
+      "name": "臀桥",
+      "real": {
+        "path": "assets/glute-bridge.mp4",
+        "cover": "assets/glute-bridge.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          25.72,
+          34.72
+        ],
+        "source": "docs/muscleandstrength/media/videos/glute-bridge.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/glute-bridge.mp4",
+        "cover": "assets/3d/glute-bridge.jpg",
+        "status": "variant",
+        "duration": 8.0,
+        "sourceFile": "杠铃臀推.mp4",
+        "trim": [
+          12.0,
+          20.0
+        ],
+        "note": "杠铃臀推靠凳，非地板臀桥"
+      }
+    },
+    "goblet-squat": {
+      "id": "goblet-squat",
+      "name": "高脚杯深蹲",
+      "real": {
+        "path": "assets/goblet-squat.mp4",
+        "cover": "assets/goblet-squat.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          30.29,
+          39.29
+        ],
+        "source": "docs/muscleandstrength/media/videos/goblet-squat.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/goblet-squat.mp4",
+        "cover": "assets/3d/goblet-squat.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "哑铃深蹲.mp4",
+        "trim": [
+          6.5,
+          14.0
+        ]
+      }
+    },
+    "hack-squat": {
+      "id": "hack-squat",
+      "name": "哈克深蹲",
+      "real": {
+        "path": "assets/hack-squat.mp4",
+        "cover": "assets/hack-squat.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          22.49,
+          31.49
+        ],
+        "source": "docs/muscleandstrength/media/videos/hack-squat.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "无对应 3D 源"
+      }
+    },
+    "hip-abduction-machine": {
+      "id": "hip-abduction-machine",
+      "name": "坐姿髋外展",
+      "real": {
+        "path": "assets/hip-abduction-machine.mp4",
+        "cover": "assets/hip-abduction-machine.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          23.32,
+          32.32
+        ],
+        "source": "docs/muscleandstrength/media/videos/hip-abduction-machine.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/hip-abduction-machine.mp4",
+        "cover": "assets/3d/hip-abduction-machine.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "臀部合集.mp4",
+        "trim": [
+          44.0,
+          51.5
+        ],
+        "note": "坐姿髋外展机收尾段"
+      }
+    },
+    "hip-adduction-machine": {
+      "id": "hip-adduction-machine",
+      "name": "坐姿髋内收",
+      "real": {
+        "path": "assets/hip-adduction-machine.mp4",
+        "cover": "assets/hip-adduction-machine.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          23.84,
+          32.84
+        ],
+        "source": "docs/muscleandstrength/media/videos/hip-adduction-machine.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "无对应 3D 源"
+      }
+    },
+    "lat-pulldown-with-pronated-grip": {
+      "id": "lat-pulldown-with-pronated-grip",
+      "name": "正握高位下拉",
+      "real": {
+        "path": "assets/lat-pulldown-with-pronated-grip.mp4",
+        "cover": "assets/lat-pulldown-with-pronated-grip.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          26.13,
+          35.13
+        ],
+        "source": "docs/muscleandstrength/media/videos/lat-pulldown-with-pronated-grip.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/lat-pulldown-with-pronated-grip.mp4",
+        "cover": "assets/3d/lat-pulldown-with-pronated-grip.jpg",
+        "status": "ok",
+        "duration": 14.0,
+        "sourceFile": "高位下拉.mp4",
+        "trim": [
+          10.0,
+          24.0
+        ],
+        "note": "正确下拉循环"
+      }
+    },
+    "lateral-raise-machine": {
+      "id": "lateral-raise-machine",
+      "name": "固定器械侧平举",
+      "real": {
+        "path": "assets/lateral-raise-machine.mp4",
+        "cover": "assets/lateral-raise-machine.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          9.5,
+          18.5
+        ],
+        "source": "docs/muscleandstrength/media/videos/lateral-raise-machine.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "合集中无固定侧平举机"
+      }
+    },
+    "leg-curl-seated": {
+      "id": "leg-curl-seated",
+      "name": "坐姿腿弯举",
+      "real": {
+        "path": "assets/leg-curl-seated.mp4",
+        "cover": "assets/leg-curl-seated.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          32.4,
+          41.4
+        ],
+        "source": "docs/muscleandstrength/media/videos/leg-curl-seated.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "股二头肌弯举.mp4 是俯卧"
+      }
+    },
+    "leg-extension-seated": {
+      "id": "leg-extension-seated",
+      "name": "坐姿腿屈伸",
+      "real": {
+        "path": "assets/leg-extension-seated.mp4",
+        "cover": "assets/leg-extension-seated.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          26.74,
+          35.74
+        ],
+        "source": "docs/muscleandstrength/media/videos/leg-extension-seated.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/leg-extension-seated.mp4",
+        "cover": "assets/3d/leg-extension-seated.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "坐姿腿屈伸.mp4",
+        "trim": [
+          21.0,
+          28.5
+        ]
+      }
+    },
+    "leg-press": {
+      "id": "leg-press",
+      "name": "腿举机",
+      "real": {
+        "path": "assets/leg-press.mp4",
+        "cover": "assets/leg-press.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          12.23,
+          21.23
+        ],
+        "source": "docs/muscleandstrength/media/videos/leg-press.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/leg-press.mp4",
+        "cover": "assets/3d/leg-press.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "腿举.mp4",
+        "trim": [
+          18.5,
+          25.5
+        ]
+      }
+    },
+    "machine-chest-fly": {
+      "id": "machine-chest-fly",
+      "name": "蝴蝶机夹胸",
+      "real": {
+        "path": "assets/machine-chest-fly.mp4",
+        "cover": "assets/machine-chest-fly.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          18.46,
+          27.46
+        ],
+        "source": "docs/muscleandstrength/media/videos/machine-chest-fly.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/machine-chest-fly.mp4",
+        "cover": "assets/3d/machine-chest-fly.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "坐姿夹胸.mp4",
+        "trim": [
+          17.0,
+          24.5
+        ]
+      }
+    },
+    "machine-chest-press": {
+      "id": "machine-chest-press",
+      "name": "坐姿推胸机",
+      "real": {
+        "path": "assets/machine-chest-press.mp4",
+        "cover": "assets/machine-chest-press.jpg",
+        "status": "needs_source",
+        "duration": 34.53,
+        "note": "原片是平卧挂片推胸"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "胸部动作合集无坐姿推胸机"
+      }
+    },
+    "machine-glute-extension": {
+      "id": "machine-glute-extension",
+      "name": "器械髋伸展／后蹬",
+      "real": {
+        "path": "assets/machine-glute-extension.mp4",
+        "cover": "assets/machine-glute-extension.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          10.13,
+          19.13
+        ],
+        "source": "docs/muscleandstrength/media/videos/machine-glute-extension.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "臀部合集无后蹬机"
+      }
+    },
+    "machine-reverse-fly": {
+      "id": "machine-reverse-fly",
+      "name": "器械反向飞鸟",
+      "real": {
+        "path": "assets/machine-reverse-fly.mp4",
+        "cover": "assets/machine-reverse-fly.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          21.3,
+          30.3
+        ],
+        "source": "docs/muscleandstrength/media/videos/machine-reverse-fly.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/machine-reverse-fly.mp4",
+        "cover": "assets/3d/machine-reverse-fly.jpg",
+        "status": "ok",
+        "duration": 9.0,
+        "sourceFile": "三角肌训练组合.mp4",
+        "trim": [
+          4.0,
+          13.0
+        ],
+        "note": "蝴蝶机反向飞鸟"
+      }
+    },
+    "machine-shoulder-press": {
+      "id": "machine-shoulder-press",
+      "name": "坐姿推肩机",
+      "real": {
+        "path": "assets/machine-shoulder-press.mp4",
+        "cover": "assets/machine-shoulder-press.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          16.64,
+          25.64
+        ],
+        "source": "docs/muscleandstrength/media/videos/machine-shoulder-press.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/machine-shoulder-press.mp4",
+        "cover": "assets/3d/machine-shoulder-press.jpg",
+        "status": "ok",
+        "duration": 7.5,
+        "sourceFile": "三角肌训练组合.mp4",
+        "trim": [
+          14.0,
+          21.5
+        ],
+        "note": "坐姿器械推肩，优于史密斯源"
+      }
+    },
+    "overhead-tricep-extension-lower-position": {
+      "id": "overhead-tricep-extension-lower-position",
+      "name": "低位绳索过顶臂屈伸",
+      "real": {
+        "path": "assets/overhead-tricep-extension-lower-position.mp4",
+        "cover": "assets/overhead-tricep-extension-lower-position.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          42.98,
+          51.98
+        ],
+        "source": "docs/muscleandstrength/media/videos/overhead-tricep-extension-lower-position.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/overhead-tricep-extension-lower-position.mp4",
+        "cover": "assets/3d/overhead-tricep-extension-lower-position.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索臂屈伸.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ]
+      }
+    },
+    "pallof-press": {
+      "id": "pallof-press",
+      "name": "Pallof 抗旋转推",
+      "real": {
+        "path": "assets/pallof-press.mp4",
+        "cover": "assets/pallof-press.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          21.68,
+          30.68
+        ],
+        "source": "docs/muscleandstrength/media/videos/pallof-press.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "无对应 3D 源"
+      }
+    },
+    "plank": {
+      "id": "plank",
+      "name": "平板支撑",
+      "real": {
+        "path": "assets/plank.mp4",
+        "cover": "assets/plank.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          10.62,
+          19.62
+        ],
+        "source": "docs/muscleandstrength/media/videos/plank.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/plank.mp4",
+        "cover": "assets/3d/plank.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "平板支撑.mp4",
+        "trim": [
+          14.0,
+          22.0
+        ]
+      }
+    },
+    "plate-loaded-incline-chest-press": {
+      "id": "plate-loaded-incline-chest-press",
+      "name": "挂片上斜推胸",
+      "real": {
+        "path": "assets/plate-loaded-incline-chest-press.mp4",
+        "cover": "assets/plate-loaded-incline-chest-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          23.74,
+          32.74
+        ],
+        "source": "docs/muscleandstrength/media/videos/plate-loaded-incline-chest-press.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "史密斯训练合集不是挂片上斜推"
+      }
+    },
+    "plate-loaded-lat-pulldown": {
+      "id": "plate-loaded-lat-pulldown",
+      "name": "挂片杠杆高位下拉",
+      "real": {
+        "path": "assets/plate-loaded-lat-pulldown.mp4",
+        "cover": "assets/plate-loaded-lat-pulldown.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          23.21,
+          32.21
+        ],
+        "source": "docs/muscleandstrength/media/videos/plate-loaded-lat-pulldown.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "高位下拉.mp4 是绳索下拉"
+      }
+    },
+    "plate-loaded-lying-chest-press": {
+      "id": "plate-loaded-lying-chest-press",
+      "name": "平卧挂片推胸",
+      "real": {
+        "path": "assets/plate-loaded-lying-chest-press.mp4",
+        "cover": "assets/plate-loaded-lying-chest-press.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          21.33,
+          30.33
+        ],
+        "source": "docs/muscleandstrength/media/videos/plate-loaded-lying-chest-press.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "杠铃卧推.mp4 不是挂片机"
+      }
+    },
+    "plate-loaded-seated-row": {
+      "id": "plate-loaded-seated-row",
+      "name": "挂片分动坐姿划船",
+      "real": {
+        "path": "assets/plate-loaded-seated-row.mp4",
+        "cover": "assets/plate-loaded-seated-row.jpg",
+        "status": "needs_source",
+        "duration": 42.42,
+        "note": "原片与窄握绳索划船相同"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "坐姿划船.mp4 是绳索划船"
+      }
+    },
+    "prone-leg-curl": {
+      "id": "prone-leg-curl",
+      "name": "俯卧腿弯举",
+      "real": {
+        "path": "assets/prone-leg-curl.mp4",
+        "cover": "assets/prone-leg-curl.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          35.97,
+          44.97
+        ],
+        "source": "docs/muscleandstrength/media/videos/prone-leg-curl.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/prone-leg-curl.mp4",
+        "cover": "assets/3d/prone-leg-curl.jpg",
+        "status": "ok",
+        "duration": 10.5,
+        "sourceFile": "股二头肌弯举.mp4",
+        "trim": [
+          20.0,
+          30.5
+        ],
+        "note": "整段是俯卧弯举"
+      }
+    },
+    "reverse-cable-fly": {
+      "id": "reverse-cable-fly",
+      "name": "绳索反向飞鸟",
+      "real": {
+        "path": "assets/reverse-cable-fly.mp4",
+        "cover": "assets/reverse-cable-fly.jpg",
+        "status": "trimmed",
+        "duration": 8.97,
+        "trim": [
+          35.97,
+          44.97
+        ],
+        "source": "docs/muscleandstrength/media/videos/reverse-cable-fly.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "哑铃飞鸟.mp4 不是绳索"
+      }
+    },
+    "reverse-hyper": {
+      "id": "reverse-hyper",
+      "name": "反向背伸展",
+      "real": {
+        "path": "assets/reverse-hyper.mp4",
+        "cover": "assets/reverse-hyper.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          33.52,
+          42.52
+        ],
+        "source": "docs/muscleandstrength/media/videos/reverse-hyper.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "山羊挺背不是反向背伸机"
+      }
+    },
+    "roman-chair-hip-extension": {
+      "id": "roman-chair-hip-extension",
+      "name": "罗马椅髋主导背伸展",
+      "real": {
+        "path": "assets/roman-chair-hip-extension.mp4",
+        "cover": "assets/roman-chair-hip-extension.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          29.47,
+          38.47
+        ],
+        "source": "docs/muscleandstrength/media/videos/roman-chair-hip-extension.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/roman-chair-hip-extension.mp4",
+        "cover": "assets/3d/roman-chair-hip-extension.jpg",
+        "status": "ok",
+        "duration": 6.0,
+        "sourceFile": "山羊挺背.mp4",
+        "trim": [
+          12.0,
+          18.0
+        ],
+        "note": "罗马椅正确髋伸"
+      }
+    },
+    "seated-dip-machine": {
+      "id": "seated-dip-machine",
+      "name": "坐姿臂屈伸／下压",
+      "real": {
+        "path": "assets/seated-dip-machine.mp4",
+        "cover": "assets/seated-dip-machine.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          29.76,
+          38.76
+        ],
+        "source": "docs/muscleandstrength/media/videos/seated-dip-machine.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "徒手臂屈伸是凳上臂屈伸"
+      }
+    },
+    "seated-machine-row": {
+      "id": "seated-machine-row",
+      "name": "坐姿固定划船",
+      "real": {
+        "path": "assets/seated-machine-row.mp4",
+        "cover": "assets/seated-machine-row.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          30.71,
+          39.71
+        ],
+        "source": "docs/muscleandstrength/media/videos/seated-machine-row.mp4"
+      },
+      "d3": {
+        "status": "unbound",
+        "reason": "坐姿划船.mp4 是绳索不是固定胸托机"
+      }
+    },
+    "straight-arm-lat-pulldown": {
+      "id": "straight-arm-lat-pulldown",
+      "name": "直臂下压",
+      "real": {
+        "path": "assets/straight-arm-lat-pulldown.mp4",
+        "cover": "assets/straight-arm-lat-pulldown.jpg",
+        "status": "trimmed",
+        "duration": 8.98,
+        "trim": [
+          26.83,
+          35.83
+        ],
+        "source": "docs/muscleandstrength/media/videos/straight-arm-lat-pulldown.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/straight-arm-lat-pulldown.mp4",
+        "cover": "assets/3d/straight-arm-lat-pulldown.jpg",
+        "status": "ok",
+        "duration": 8.5,
+        "sourceFile": "背阔肌训练组合.mp4",
+        "trim": [
+          40.0,
+          48.5
+        ],
+        "note": "直臂下压"
+      }
+    },
+    "t-bar-row-unsupported": {
+      "id": "t-bar-row-unsupported",
+      "name": "俯身 T 杠划船（无胸托）",
+      "real": {
+        "path": "assets/t-bar-row-unsupported.mp4",
+        "cover": "assets/t-bar-row-unsupported.jpg",
+        "status": "replaced",
+        "duration": 9.01,
+        "trim": [
+          30.15,
+          39.15
+        ],
+        "source": "D:/CODE/fitguide/test-artifacts/media-process/dl/gJSov9rHIf0.mp4",
+        "note": "原片是胸托划船机",
+        "youtube": "gJSov9rHIf0"
+      },
+      "d3": {
+        "path": "assets/3d/t-bar-row-unsupported.mp4",
+        "cover": "assets/3d/t-bar-row-unsupported.jpg",
+        "status": "ok",
+        "duration": 7.0,
+        "sourceFile": "T杆划船.mp4",
+        "trim": [
+          26.0,
+          33.0
+        ],
+        "note": "无胸托正确循环"
+      }
+    },
+    "triceps-pushdown-with-rope": {
+      "id": "triceps-pushdown-with-rope",
+      "name": "绳索下压",
+      "real": {
+        "path": "assets/triceps-pushdown-with-rope.mp4",
+        "cover": "assets/triceps-pushdown-with-rope.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          27.62,
+          36.62
+        ],
+        "source": "docs/muscleandstrength/media/videos/triceps-pushdown-with-rope.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/triceps-pushdown-with-rope.mp4",
+        "cover": "assets/3d/triceps-pushdown-with-rope.jpg",
+        "status": "ok",
+        "duration": 8.0,
+        "sourceFile": "绳索三头下压.mp4",
+        "trim": [
+          8.0,
+          16.0
+        ]
+      }
+    },
+    "weighted-back-extension": {
+      "id": "weighted-back-extension",
+      "name": "负重背伸展",
+      "real": {
+        "path": "assets/weighted-back-extension.mp4",
+        "cover": "assets/weighted-back-extension.jpg",
+        "status": "trimmed",
+        "duration": 9.01,
+        "trim": [
+          23.51,
+          32.51
+        ],
+        "source": "docs/muscleandstrength/media/videos/weighted-back-extension.mp4"
+      },
+      "d3": {
+        "path": "assets/3d/weighted-back-extension.mp4",
+        "cover": "assets/3d/weighted-back-extension.jpg",
+        "status": "variant",
+        "duration": 5.5,
+        "sourceFile": "山羊挺背.mp4",
+        "trim": [
+          22.0,
+          27.5
+        ],
+        "note": "罗马椅无配重画面"
+      }
+    }
+  }
+}

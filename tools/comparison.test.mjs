@@ -116,3 +116,25 @@ test('report input accepts and includes rich exercise context, cues, mistakes an
  assert.match(promptText,/常见易错模式（重点排查）：避免上臂大幅前移借力/);
  assert.match(promptText,/3D 解剖正误教学演示/);
 });
+test('reference keyframes are validated and sent before user frames with phase labels',()=>{
+ const data=input();
+ data.referenceFrames=[{time:1.2,phase:'下放起点',dataUrl:image},{time:2.4,phase:'顶峰收缩',dataUrl:image}];
+ const payload=buildRequest(data,{model:'vision-test'});
+ const content=payload.messages[1].content;
+ // 顺序：报告文本 → 标准示范帧（文案+图片）→ 用户帧（文案+图片）
+ assert.equal(content[1].text,'标准示范 · 下放起点（参考视频 1.20 秒）：');
+ assert.equal(content[2].type,'image_url');
+ assert.equal(content[3].text,'标准示范 · 顶峰收缩（参考视频 2.40 秒）：');
+ assert.equal(content[4].type,'image_url');
+ assert.match(content[5].text,/^用户视频 2\.00 秒：$/);
+ assert.equal(content[6].type,'image_url');
+ assert.match(payload.messages[0].content,/标准示范关键帧/);
+});
+test('reference keyframes reject external URLs, bad counts and oversized phases',()=>{
+ const url=input();url.referenceFrames=[{time:1,dataUrl:'https://example.com/private'}];assert.throws(()=>validateInput(url));
+ const empty=input();empty.referenceFrames=[];assert.throws(()=>validateInput(empty));
+ const many=input();many.referenceFrames=Array(7).fill({time:1,dataUrl:image});assert.throws(()=>validateInput(many));
+ const phase=input();phase.referenceFrames=[{time:1,dataUrl:image,phase:'x'.repeat(41)}];assert.throws(()=>validateInput(phase));
+ const noPhase=input();noPhase.referenceFrames=[{time:1,dataUrl:image}];
+ assert.match(buildRequest(noPhase,{model:'m'}).messages[1].content[1].text,/^标准示范 · 参考视频 1\.00 秒：$/);
+});

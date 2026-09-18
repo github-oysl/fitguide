@@ -17,6 +17,10 @@
 .reference-mode-switcher{display:flex;gap:6px;margin:0 0 12px;flex-wrap:wrap}
 .reference-mode-switcher button{background:var(--soft);padding:8px 14px;border-radius:9px;font-size:12px;border:1px solid var(--line);cursor:pointer}
 .reference-mode-switcher button[aria-pressed=true]{background:var(--green);color:var(--surface);border-color:var(--green)}
+.reference-details{margin:14px 0;border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.reference-details summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.reference-details[open] summary{margin-bottom:10px}
+.reference-details .reference-preview h3{font-size:13px;color:var(--muted);font-weight:500}
 #compare-player{width:100%;max-height:380px;background:var(--bg);border-radius:12px;display:block}
 .compare-actions{display:flex;gap:22px;align-items:baseline}
 .compare-actions .start-button,.model-guidance .start-button{border:0;margin-top:18px}

@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');
 const fs=require('node:fs');
 (async()=>{
- const browser=await chromium.launch({headless:true,executablePath:process.env.QA_CHROMIUM});
+ const browser=await chromium.launch({headless:true,executablePath:process.env.QA_CHROMIUM,channel:process.env.QA_CHROMIUM?undefined:'chrome'});
  try {
   const page=await browser.newPage();
   page.on('console',m=>console.log(m.type(),m.text().slice(0,350)));
