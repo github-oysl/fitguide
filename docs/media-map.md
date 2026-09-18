@@ -129,6 +129,14 @@ variant 表示器械或体位是近亲（例如辅助引体用了无辅助引体
 - `seated-dip-machine` 坐姿臂屈伸／下压 — 徒手臂屈伸是凳上臂屈伸
 - `seated-machine-row` 坐姿固定划船 — 坐姿划船.mp4 是绳索不是固定胸托机
 
+## 对比关键帧
+
+`comparison/reference-keyframes.json` 与 `assets/keyframes/{id}-1|2|3.jpg` 已按裁切后的真人视频重生（约 22% / 50% / 78% 三帧）。旧清单里大量时刻超过 9 秒新片长，指导请求会截到片尾同一帧，必须随视频一起更新。
+
+`comparison/curl-reference.json` 是直杆绳索弯举的侧视姿态模板。用新 9 秒循环重建时未识别到完整弯举往返，**暂未覆盖**；对比算法仍用该模板作数值基准，画面示范已是新循环。
+
+重生命令：`node tools/rebuild-keyframes.cjs`
+
 ## 处理脚本
 
 ```bash

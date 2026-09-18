@@ -1119,25 +1119,23 @@
 ];
   window.GYM_DATA.push(...extendedExercises);
 
-  // 3D 动画解剖教学映射：有 3D 资源的动作优先挂载 3D 演示路径与标记
+  // 3D 开关与 assets/media-map.json 的 d3.status=ok|variant 对齐；unbound 不挂 3D。
   const GYM_3D_SET = new Set([
-    'cable-chest-fly', 'cable-incline-chest-fly', 'cable-standing-chest-press',
-    'machine-chest-fly', 'machine-chest-press', 'barbell-bench-press',
-    'dumbbell-bench-press', 'plate-loaded-incline-chest-press', 'plate-loaded-lying-chest-press',
-    'lat-pulldown-with-pronated-grip', 'plate-loaded-lat-pulldown', 'cable-row-seated-narrow-grip',
-    'seated-machine-row', 'plate-loaded-seated-row', 'cable-single-arm-row',
+    'cable-chest-fly', 'cable-incline-chest-fly', 'machine-chest-fly',
+    'barbell-bench-press', 'dumbbell-bench-press',
+    'lat-pulldown-with-pronated-grip', 'cable-row-seated-narrow-grip', 'cable-single-arm-row',
     'assisted-pull-up', 'barbell-row', 'dumbbell-one-arm-row',
     't-bar-row-unsupported', 'straight-arm-lat-pulldown',
-    'leg-press', 'leg-extension-seated', 'leg-curl-seated', 'prone-leg-curl',
-    'barbell-squat', 'goblet-squat', 'barbell-romanian-deadlift', 'dumbbell-rdl',
+    'leg-press', 'leg-extension-seated', 'prone-leg-curl',
+    'barbell-squat', 'goblet-squat', 'dumbbell-rdl',
     'glute-bridge', 'roman-chair-hip-extension', 'weighted-back-extension',
-    'reverse-hyper', 'machine-glute-extension', 'hip-abduction-machine', 'cable-hip-extension',
+    'hip-abduction-machine',
     'barbell-overhead-press', 'machine-shoulder-press', 'dumbbell-lateral-raise',
-    'machine-reverse-fly', 'face-pull', 'cable-lateral-raise', 'lateral-raise-machine', 'reverse-cable-fly',
-    'cable-curl-with-bar', 'cable-curl-with-rope', 'dumbbell-curl', 'dumbbell-hammer-curl',
+    'machine-reverse-fly', 'face-pull', 'cable-lateral-raise',
+    'cable-curl-with-bar', 'cable-curl-with-rope', 'dumbbell-curl',
     'triceps-pushdown-with-rope', 'overhead-tricep-extension-lower-position',
-    'assisted-dip', 'seated-dip-machine',
-    'cable-crunch', 'decline-bench-crunch', 'plank', 'dead-bug'
+    'assisted-dip',
+    'cable-crunch', 'decline-bench-crunch', 'plank'
   ]);
   for (const ex of window.GYM_DATA) {
     if (GYM_3D_SET.has(ex.id)) {
