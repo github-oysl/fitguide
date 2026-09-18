@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-ui-ux": {
+      "source": "overseek944/frontend-ui-ux-skill",
+      "sourceType": "github",
+      "computedHash": "d2d20c7a408f60eae2ff12746dcd92c9947baf5945783434cccb1f51f1ec4537"
+    }
+  }
+}
